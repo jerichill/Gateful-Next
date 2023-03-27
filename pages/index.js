@@ -62,7 +62,7 @@ const Home = (props) => {
                     <br></br>
                   </a>
                   <a
-                    href="https://zfrmz.com/Gr8PYjUEt4H6nbyV12zf"
+                    href="https://zfrmz.com/rx3JdEWcoSQTM5p7RaoY"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link"
@@ -117,7 +117,7 @@ closeButton.addEventListener("click", function() {
               powerful Web3-connected community without writing any code.
             </p>
             <a
-              href="https://zfrmz.com/Gr8PYjUEt4H6nbyV12zf"
+              href="https://zfrmz.com/rx3JdEWcoSQTM5p7RaoY"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link1"
@@ -384,7 +384,7 @@ closeButton.addEventListener("click", function() {
             ></ActiveUsers>
           </div>
           <a
-            href="https://zfrmz.com/Gr8PYjUEt4H6nbyV12zf"
+            href="https://zfrmz.com/rx3JdEWcoSQTM5p7RaoY"
             target="_blank"
             rel="noreferrer noopener"
             className="home-link2"
