@@ -38,7 +38,7 @@ const Home = (props) => {
               <nav className="home-centered">
                 <div className="home-left">
                   <img
-                    alt="pastedImage"
+                    alt="Welcome to Gateful"
                     src="/playground_assets/gateful-logo-wht-200h.png"
                     className="home-logo"
                   />
@@ -163,8 +163,9 @@ closeButton.addEventListener("click", function() {
                 <span> trust Gateful to help them #BUIDL faster.</span>
               </h2>
               <img
-                alt="image"
+                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
                 src="/playground_assets/brands-200h.png"
+                loading="eager"
                 className="home-image"
               />
             </div>
@@ -255,8 +256,9 @@ closeButton.addEventListener("click", function() {
             <div className="home-centered-container">
               <div className="home-image-container">
                 <img
-                  alt="pastedImage"
+                  alt="Manage on-chain access control with Gateful "
                   src="/playground_assets/2xscreen-1300w.png"
+                  loading="eager"
                   className="home-cards-image"
                 />
               </div>
@@ -281,8 +283,8 @@ closeButton.addEventListener("click", function() {
                 </div>
                 <div className="home-category1">
                   <img
-                    alt="image"
-                    src="/playground_assets/2xnetworks-1100w.png"
+                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
+                    src="/playground_assets/2xblockchains-1100w.png"
                     className="home-image1"
                   />
                 </div>
@@ -348,12 +350,13 @@ closeButton.addEventListener("click", function() {
             <ActiveUsers
               Caption="React"
               Statistic="React"
+              image_alt=" "
               image_src="/playground_assets/2xreact-200h.png"
               rootClassName="active-users-root-class-name"
             ></ActiveUsers>
             <div className="home-active-users metrics">
               <img
-                alt="image"
+                alt=" "
                 src="/playground_assets/2xangular-800h.png"
                 className="home-image2"
               />
@@ -362,18 +365,21 @@ closeButton.addEventListener("click", function() {
             <ActiveUsers
               Caption="Next.js"
               Statistic="Next.js"
+              image_alt=" "
               image_src="/playground_assets/2xnext-200h.png"
               rootClassName="active-users-root-class-name1"
             ></ActiveUsers>
             <ActiveUsers
               Caption="Vue.js"
               Statistic="Vue.js"
+              image_alt=" "
               image_src="/playground_assets/2xvue-200h.png"
               rootClassName="active-users-root-class-name2"
             ></ActiveUsers>
             <ActiveUsers
               Caption="PHP/HTML5"
               Statistic="PHP"
+              image_alt=" "
               image_src="/playground_assets/2xphp-200h.png"
             ></ActiveUsers>
           </div>
@@ -423,7 +429,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="home-quote-container">
           <img
-            alt="image"
+            alt=" "
             src="/playground_assets/2xquote-200h.png"
             className="home-avatar"
           />
@@ -1733,7 +1739,12 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sevenunits);
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/quotebg-1500w.png');
+            background-image: linear-gradient(
+                90deg,
+                rgba(0, 0, 0, 0.4) 2%,
+                rgba(0, 0, 0, 0.4) 100%
+              ),
+              url('/playground_assets/quotebg-1500w.png');
           }
           .home-avatar {
             width: 275px;
@@ -1763,7 +1774,7 @@ Here's what the above is doing:
             flex-direction: row;
           }
           .home-quote1 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             width: 100%;
             font-size: 24px;
             max-width: 800px;
