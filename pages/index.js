@@ -160,7 +160,7 @@ closeButton.addEventListener("click", function() {
                   />
                 </span>
                 <span className="home-text017">creators</span>
-                <span> trust Gateful to help them #BUIDL faster.</span>
+                <span> trust Gateful.</span>
               </h2>
               <img
                 alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
