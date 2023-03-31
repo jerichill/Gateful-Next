@@ -43,6 +43,15 @@ const ActiveUsers = (props) => {
             .active-users-root-class-name2 {
               margin-bottom: var(--dl-space-space-unit);
             }
+            .active-users-root-class-name3 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .active-users-root-class-name4 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .active-users-root-class-name5 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
           }
           @media (max-width: 767px) {
             .active-users-text {
