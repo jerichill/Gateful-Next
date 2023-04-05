@@ -1,6 +1,6 @@
 import "./style.css";
 import React, { useState } from "react";
-import checkAuth from "../public/js/turbovirtual.js";
+import checkAuth from "../public/js/gateful.js";
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
 
