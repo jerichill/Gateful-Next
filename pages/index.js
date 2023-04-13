@@ -348,7 +348,7 @@ closeButton.addEventListener("click", function() {
           </h2>
           <div className="home-container5">
             <ActiveUsers
-              Caption="React"
+              Name="React"
               Statistic="React"
               image_alt=" "
               image_src="/playground_assets/2xreact-200h.png"
@@ -363,21 +363,21 @@ closeButton.addEventListener("click", function() {
               <span className="home-text045">Angular</span>
             </div>
             <ActiveUsers
-              Caption="Next.js"
+              Name="Next.js"
               Statistic="Next.js"
               image_alt=" "
               image_src="/playground_assets/2xnext-200h.png"
               rootClassName="active-users-root-class-name1"
             ></ActiveUsers>
             <ActiveUsers
-              Caption="Vue.js"
+              Name="Vue.js"
               Statistic="Vue.js"
               image_alt=" "
               image_src="/playground_assets/2xvue-200h.png"
               rootClassName="active-users-root-class-name2"
             ></ActiveUsers>
             <ActiveUsers
-              Caption="PHP/HTML5"
+              Name="PHP/HTML5"
               Statistic="PHP"
               image_alt=" "
               image_src="/playground_assets/2xphp-200h.png"
@@ -1619,11 +1619,11 @@ Here's what the above is doing:
           }
           .home-active-users {
             position: relative;
+            align-self: center;
           }
           .home-image2 {
-            width: 90px;
+            width: 100px;
             object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
           }
           .home-text045 {
             color: var(--dl-color-gray-black);

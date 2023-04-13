@@ -13,7 +13,7 @@ const ActiveUsers = (props) => {
           src={props.image_src}
           className="active-users-image"
         />
-        <span className="active-users-text">{props.Caption}</span>
+        <h3 className="active-users-text">{props.Name}</h3>
       </div>
       <style jsx>
         {`
@@ -21,7 +21,8 @@ const ActiveUsers = (props) => {
             position: relative;
           }
           .active-users-image {
-            width: 100px;
+            width: 120px;
+            height: auto;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -29,7 +30,6 @@ const ActiveUsers = (props) => {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
-            margin-top: 13px;
             font-weight: 600;
           }
 
@@ -72,14 +72,16 @@ const ActiveUsers = (props) => {
 
 ActiveUsers.defaultProps = {
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  Caption: 'Caption',
+  Name: 'Jane Doe',
+  Title: 'Founder',
   rootClassName: '',
   image_alt: 'image',
 }
 
 ActiveUsers.propTypes = {
   image_src: PropTypes.string,
-  Caption: PropTypes.string,
+  Name: PropTypes.string,
+  Title: PropTypes.string,
   rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
 }

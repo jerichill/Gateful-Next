@@ -6,13 +6,13 @@ import DangerousHTML from 'dangerous-html/react'
 import YouTube from '../components/you-tube'
 import Testimonal from '../components/testimonal'
 
-const Demo = (props) => {
+const About = (props) => {
   return (
     <>
-      <div className="demo-container">
+      <div className="about-container">
         <Head>
           <title>
-            Demo - Gateful | Token Gating Platform | Token Gate Your Website
+            About - Gateful | Token Gating Platform | Token Gate Your Website
           </title>
           <meta
             name="description"
@@ -20,7 +20,7 @@ const Demo = (props) => {
           />
           <meta
             property="og:title"
-            content="Demo - Gateful | Token Gating Platform | Token Gate Your Website"
+            content="About - Gateful | Token Gating Platform | Token Gate Your Website"
           />
           <meta
             property="og:description"
@@ -31,31 +31,31 @@ const Demo = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="demo-hero">
-          <div className="demo-menu">
-            <div id="navigation" className="demo-desktop-navigation">
-              <nav className="demo-centered">
-                <div className="demo-left">
+        <section id="header" className="about-hero">
+          <div className="about-menu">
+            <div id="navigation" className="about-desktop-navigation">
+              <nav className="about-centered">
+                <div className="about-left">
                   <img
                     alt="Welcome to Gateful"
                     src="/playground_assets/gateful-logo-wht-200h.png"
-                    className="demo-logo"
+                    className="about-logo"
                   />
-                  <div className="demo-links">
+                  <div className="about-links">
                     <span className="Link">Solutions</span>
                     <span className="Link">How it works</span>
                     <span className="Link">Prices</span>
                   </div>
                 </div>
-                <div className="demo-right">
-                  <svg viewBox="0 0 1024 1024" className="demo-icon">
+                <div className="about-right">
+                  <svg viewBox="0 0 1024 1024" className="about-icon">
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
                   <a
                     href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="demo-sign-in Link"
+                    className="about-sign-in Link"
                   >
                     <span>Book a Demo</span>
                     <br></br>
@@ -64,13 +64,13 @@ const Demo = (props) => {
                     href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="demo-link"
+                    className="about-link"
                   >
-                    <div className="demo-get-started">
-                      <svg viewBox="0 0 1024 1024" className="demo-icon02">
+                    <div className="about-get-started">
+                      <svg viewBox="0 0 1024 1024" className="about-icon02">
                         <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                       </svg>
-                      <span className="demo-text005">
+                      <span className="about-text005">
                         <span>Early access</span>
                         <br></br>
                       </span>
@@ -106,14 +106,14 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="demo-header">
-            <h1 className="demo-text008">Welcome, ETH Holders</h1>
-            <p className="demo-text009">Shop exclusive merchandise.</p>
+          <header className="about-header">
+            <h1 className="about-text008">About</h1>
+            <p className="about-text009">Learn more about Gateful.</p>
           </header>
         </section>
-        <section className="demo-features">
-          <div className="demo-title">
-            <span className="demo-text010">
+        <section className="about-features">
+          <div className="about-title">
+            <span className="about-text010">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -125,7 +125,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="demo-text014">
+            <span className="about-text014">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -137,41 +137,41 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="demo-cards">
-            <div className="demo-container1">
+          <div className="about-cards">
+            <div className="about-container1">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="demo-icon04"
+                  className="about-icon04"
                 />
-                <span className="demo-text017">Schedule</span>
-                <span className="demo-text018">
+                <span className="about-text017">Schedule</span>
+                <span className="about-text018">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="demo-publish card">
+              <div className="about-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="demo-icon05"
+                  className="about-icon05"
                 />
-                <span className="demo-text019">Publish</span>
-                <span className="demo-text020">
+                <span className="about-text019">Publish</span>
+                <span className="about-text020">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="demo-container2">
-              <div className="card demo-analyze">
+            <div className="about-container2">
+              <div className="card about-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="demo-icon06"
+                  className="about-icon06"
                 />
-                <span className="demo-text021">Analyze</span>
-                <span className="demo-text022">
+                <span className="about-text021">Analyze</span>
+                <span className="about-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -180,10 +180,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="demo-icon07"
+                  className="about-icon07"
                 />
-                <span className="demo-text023">Get leads</span>
-                <span className="demo-text024">
+                <span className="about-text023">Get leads</span>
+                <span className="about-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -191,112 +191,180 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="demo-banners">
-          <div className="demo-banner-advanced-analytics">
-            <div className="demo-centered-container">
-              <div className="demo-image-container">
+        <section className="about-banners">
+          <div className="about-banner-advanced-analytics">
+            <div className="about-centered-container">
+              <div className="about-image-container">
                 <img
                   alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/merch-500w.png"
+                  src="/playground_assets/comment-1300w.png"
                   loading="eager"
-                  className="demo-cards-image"
+                  className="about-cards-image"
                 />
               </div>
-              <div className="demo-right1">
-                <h2 className="demo-text025 title">
-                  Exclusive Stay Rich T-Shirt
-                </h2>
-                <div className="demo-category">
-                  <span className="demo-text026">
-                    <span className="demo-text027">
-                      Look great in our stay rich t-shirt created exclusively
-                      for ETH token holders. Made from 100% organic cotton, this
-                      shirt will keep you looking fresh all day.
+              <div className="about-right1">
+                <h2 className="about-text025 title">What is Gateful?</h2>
+                <div className="about-category">
+                  <span className="about-text026">
+                    <span>
+                      Gateful is a platform that provides an easy way to add
+                      Web3 Token Gating functionality to your website or web
+                      application. With Gateful, you can transform your project
+                      into a powerful Web3-connected community without writing
+                      any code. The platform integrates with major blockchain
+                      networks, allowing you to create on-chain conditions
+                      unique to your audience and requirements. Gateful&apos;s
+                      simple interface allows you to create multiple token gates
+                      within the same digital experience.
                     </span>
                     <br></br>
                     <br></br>
-                    <span className="demo-text030">1 ETH</span>
+                    <span>
+                      Top brands, developers, and creators trust Gateful for its
+                      on-chain access control and token gating script
+                      management. The platform is backed by OpenMedium, Inc. and
+                      TekSun, Inc. and aims to transform millions of legacy
+                      digital experiences into engaging Web3 consumer
+                      touch-points.
+                    </span>
+                    <br></br>
+                    <br></br>
+                    <span>
+                      If you&apos;re looking to add Web3 Token Gating
+                      functionality to your website or web application, Gateful
+                      is the easiest way to do so.
+                    </span>
                     <br></br>
                   </span>
                 </div>
-                <div className="demo-category1">
-                  <button className="demo-button button">Buy Now</button>
+              </div>
+            </div>
+            <div className="about-centered-container1">
+              <div className="about-right2">
+                <h2 className="about-text035 title">
+                  <span>Management Team</span>
+                  <br></br>
+                </h2>
+                <span className="about-text038">
+                  <span>
+                    Gateful is backed and delivered by experienced Founders and
+                    Technologists.
+                  </span>
+                  <br></br>
+                </span>
+                <div className="about-category1">
+                  <div className="about-active-users metrics">
+                    <img
+                      alt="image"
+                      src="/playground_assets/headshot2022bpng-300w.png"
+                      className="about-image"
+                    />
+                    <h3 className="about-text041">J. Eric Hill</h3>
+                    <span>OpenMedium, Inc.</span>
+                  </div>
+                  <div className="about-active-users1 metrics">
+                    <img
+                      alt="image"
+                      src="/playground_assets/sv-300h.jpeg"
+                      className="about-image1"
+                    />
+                    <h3 className="about-text042">Sherwood Vane</h3>
+                    <span>Sherwood X</span>
+                  </div>
+                  <div className="about-active-users2 metrics">
+                    <img
+                      alt="image"
+                      src="/playground_assets/bk-300h.png"
+                      className="about-image2"
+                    />
+                    <h3 className="about-text043">Brijesh Kamani</h3>
+                    <span>TekSun, Inc.</span>
+                  </div>
+                  <div className="about-active-users3 metrics">
+                    <img
+                      alt="image"
+                      src="/playground_assets/bj-300h.png"
+                      className="about-image3"
+                    />
+                    <h3 className="about-text044">Brijesh Jagani</h3>
+                    <span>TekSun, Inc.</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="demo-banner-manage">
-            <div className="demo-container3">
-              <div className="demo-left1">
+          <div className="about-banner-manage">
+            <div className="about-container3">
+              <div className="about-left1">
                 <span className="sub-title">Content Management</span>
-                <span className="demo-text033 title">
+                <span className="about-text046 title">
                   Manage all your platforms in just one place.
                 </span>
-                <span className="demo-text034">
+                <span className="about-text047">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="demo-get-started1 template-button">
-                  <span className="demo-text035">Get started</span>
+                <div className="about-get-started1 template-button">
+                  <span className="about-text048">Get started</span>
                 </div>
               </div>
-              <div className="demo-image-container1">
+              <div className="about-image-container1">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="demo-cards-image1"
+                  className="about-cards-image1"
                 />
               </div>
             </div>
           </div>
-          <div className="demo-banner">
-            <div className="demo-container4">
-              <div className="demo-left2">
-                <span className="demo-text036">Improve Scheduling</span>
-                <h2 className="demo-text037 title">
+          <div className="about-banner">
+            <div className="about-container4">
+              <div className="about-left2">
+                <span className="about-text049">Improve Scheduling</span>
+                <h2 className="about-text050 title">
                   Powerful scheduler that saves you time
                 </h2>
-                <span className="demo-text038">
+                <span className="about-text051">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="demo-get-started2 template-button">
-                  <span className="demo-text039">Get started</span>
+                <div className="about-get-started2 template-button">
+                  <span className="about-text052">Get started</span>
                 </div>
               </div>
-              <div className="demo-image-container2">
+              <div className="about-image-container2">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="demo-cards-image2"
+                  className="about-cards-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="demo-integrations">
-          <div className="demo-centered-container1">
-            <div className="demo-heading">
+        <section className="about-integrations">
+          <div className="about-centered-container2">
+            <div className="about-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="demo-text042">
+              <span className="about-text055">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="demo-pills-container">
-              <div className="demo-pills">
-                <div className="demo-container5">
+            <div className="about-pills-container">
+              <div className="about-pills">
+                <div className="about-container5">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="demo-container6">
+                <div className="about-container6">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -306,17 +374,17 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="demo-how-it-works">
-          <div className="demo-centered-container2">
-            <div className="demo-heading1">
-              <span className="demo-text043">How it works</span>
-              <span className="demo-text044 title">
+        <section className="about-how-it-works">
+          <div className="about-centered-container3">
+            <div className="about-heading1">
+              <span className="about-text056">How it works</span>
+              <span className="about-text057 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="demo-category2">
-              <div className="demo-headng">
-                <span className="demo-text045">
+            <div className="about-category2">
+              <div className="about-headng">
+                <span className="about-text058">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -324,28 +392,28 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="demo-text046">
+                <span className="about-text059">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="demo-get-started3 template-button">
-                  <span className="demo-text047">Get started</span>
+                <div className="about-get-started3 template-button">
+                  <span className="about-text060">Get started</span>
                 </div>
               </div>
-              <div className="demo-container7">
+              <div className="about-container7">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="demo-pasted-image"
+                  className="about-pasted-image"
                 />
               </div>
             </div>
-            <div className="demo-row">
-              <div className="demo-category3">
-                <div className="demo-headng1">
-                  <span className="demo-text048">2 — Act</span>
-                  <span className="demo-text049">
+            <div className="about-row">
+              <div className="about-category3">
+                <div className="about-headng1">
+                  <span className="about-text061">2 — Act</span>
+                  <span className="about-text062">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -354,13 +422,13 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="demo-pasted-image1"
+                  className="about-pasted-image1"
                 />
               </div>
-              <div className="demo-category4">
-                <div className="demo-headng2">
-                  <span className="demo-text050">2 — Act</span>
-                  <span className="demo-text051">
+              <div className="about-category4">
+                <div className="about-headng2">
+                  <span className="about-text063">2 — Act</span>
+                  <span className="about-text064">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -369,184 +437,184 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="demo-pasted-image2"
+                  className="about-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="demo-pricing">
-          <div className="demo-centered-container3">
-            <div className="demo-heading2">
-              <span className="demo-text052 title">
+        <section className="about-pricing">
+          <div className="about-centered-container4">
+            <div className="about-heading2">
+              <span className="about-text065 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="demo-text053">
+              <span className="about-text066">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="demo-selection">
-                <span className="demo-text054">Monthly</span>
-                <span className="demo-text055">Yearly</span>
+              <div className="about-selection">
+                <span className="about-text067">Monthly</span>
+                <span className="about-text068">Yearly</span>
               </div>
             </div>
-            <div className="demo-cards1">
-              <div className="demo-card">
-                <span className="demo-text056">Free</span>
-                <span className="demo-text057">
+            <div className="about-cards1">
+              <div className="about-card">
+                <span className="about-text069">Free</span>
+                <span className="about-text070">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="demo-get-started4 template-button">
-                  <span className="demo-text058">Start for free</span>
+                <div className="about-get-started4 template-button">
+                  <span className="about-text071">Start for free</span>
                 </div>
-                <span className="demo-text059">What&apos;s included</span>
-                <div className="demo-bullet-points">
-                  <div className="demo-point">
+                <span className="about-text072">What&apos;s included</span>
+                <div className="about-bullet-points">
+                  <div className="about-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon08"
+                      className="about-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text060">
+                    <span className="about-text073">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point01">
+                  <div className="about-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon10"
+                      className="about-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text061">
+                    <span className="about-text074">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="demo-card1">
-                <span className="demo-text062">Pay as you go</span>
-                <span className="demo-text063">
+              <div className="about-card1">
+                <span className="about-text075">Pay as you go</span>
+                <span className="about-text076">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="demo-get-started5 template-button">
-                  <span className="demo-text067">
+                <div className="about-get-started5 template-button">
+                  <span className="about-text080">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="demo-text070">What&apos;s included</span>
-                <div className="demo-bullet-points1">
-                  <div className="demo-point02">
+                <span className="about-text083">What&apos;s included</span>
+                <div className="about-bullet-points1">
+                  <div className="about-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon12"
+                      className="about-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text071">
+                    <span className="about-text084">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point03">
+                  <div className="about-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon14"
+                      className="about-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text072">
+                    <span className="about-text085">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point04">
+                  <div className="about-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon16"
+                      className="about-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text073">
+                    <span className="about-text086">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point05">
+                  <div className="about-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon18"
+                      className="about-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text074">
+                    <span className="about-text087">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="demo-card2">
-                <span className="demo-text075">Enterprise</span>
-                <span className="demo-text076">
+              <div className="about-card2">
+                <span className="about-text088">Enterprise</span>
+                <span className="about-text089">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="demo-get-started6 template-button">
-                  <span className="demo-text079">
+                <div className="about-get-started6 template-button">
+                  <span className="about-text092">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="demo-text082">What&apos;s included</span>
-                <div className="demo-bullet-points2">
-                  <div className="demo-point06">
+                <span className="about-text095">What&apos;s included</span>
+                <div className="about-bullet-points2">
+                  <div className="about-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon20"
+                      className="about-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text083">
+                    <span className="about-text096">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point07">
+                  <div className="about-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon22"
+                      className="about-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text084">
+                    <span className="about-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point08">
+                  <div className="about-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon24"
+                      className="about-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text085">
+                    <span className="about-text098">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point09">
+                  <div className="about-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon26"
+                      className="about-icon26"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="demo-text086">
+                    <span className="about-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -555,15 +623,15 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="demo-testimonals">
-          <div className="demo-left3">
-            <span className="demo-text087">Testimonals</span>
-            <span className="demo-text088 title">
+        <section className="about-testimonals">
+          <div className="about-left3">
+            <span className="about-text100">Testimonals</span>
+            <span className="about-text101 title">
               What people say about Active
             </span>
           </div>
-          <div className="demo-right2">
-            <div className="demo-column">
+          <div className="about-right3">
+            <div className="about-column">
               <Testimonal
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -587,7 +655,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></Testimonal>
             </div>
-            <div className="demo-column1">
+            <div className="about-column1">
               <Testimonal
                 From="Handsly"
                 Name="William McPau"
@@ -614,180 +682,106 @@ closeButton.addEventListener("click", function() {
               ></Testimonal>
             </div>
           </div>
-          <span className="demo-text089">
+          <span className="about-text102">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="demo-action-bar">
-          <div className="demo-action">
-            <div className="demo-heading3">
-              <span className="demo-text092 title">
+        <section className="about-action-bar">
+          <div className="about-action">
+            <div className="about-heading3">
+              <span className="about-text105 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="demo-text096">
+              <span className="about-text109">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="demo-get-started7 template-button">
-                <span className="demo-text097">
+              <div className="about-get-started7 template-button">
+                <span className="about-text110">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="demo-images">
+            <div className="about-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="demo-image"
+                className="about-image4"
               />
             </div>
           </div>
         </section>
-        <section className="demo-faq">
-          <div className="demo-heading4">
-            <span className="demo-text100 title">
-              Frequently asked questions
-            </span>
-            <span className="demo-text101">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
+        <section className="about-faq">
+          <div className="about-heading4">
+            <h2 className="about-text113">Frequently asked questions</h2>
           </div>
-          <div className="demo-accordion">
+          <div className="about-accordion">
             <div data-faq="closed" className="accordionContainer">
-              <div className="demo-header1">
-                <span className="demo-text102">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
+              <div className="about-header1">
+                <h3 className="about-text114">
+                  Does Gateful have a token or cryptocurrency?
+                </h3>
               </div>
               <div className="accordionContent">
-                <span className="demo-text103">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <span className="about-text115">
+                  No, Gateful does not offer a token or cryptocurrency at this
+                  time.
                 </span>
               </div>
             </div>
             <div className="accordionContainer">
-              <div className="demo-header2">
-                <span className="demo-text104">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
+              <div className="about-header2">
+                <h3 className="about-text116">How much does Gateful cost?</h3>
               </div>
               <div className="accordionContent">
-                <span className="demo-text105">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <span className="about-text117">
+                  Currently, Gateful is in private beta and accepting new
+                  clients for custom integrations. We are working on our SaaS
+                  self-service platform and pricing model. Check back soon for
+                  updates.
                 </span>
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
-              <div className="demo-header3">
-                <span className="demo-text106">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
+              <div className="about-header3">
+                <h3 className="about-text118">What can I token gate?</h3>
               </div>
               <div className="accordionContent">
-                <span className="demo-text107">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <span className="about-text119">
+                  Gateful can be used to token gate any non-sensitive content
+                  hosted on the internet and accessible to users through a web
+                  browser. Please review our Terms of Use located at
+                  openmedium.biz/legal/ for additional information about
+                  sensitive content policies.
                 </span>
               </div>
             </div>
             <div data-faq="closed" className="accordionContainer">
-              <div className="demo-header4">
-                <span className="demo-text108">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
+              <div className="about-header4">
+                <h3 className="about-text120">
+                  Can Gateful be used to replace authentication services for
+                  website customer accounts?
+                </h3>
               </div>
               <div className="accordionContent">
-                <span className="demo-text109">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="demo-header5">
-                <span className="demo-text110">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="demo-text111">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <span className="about-text121">
+                  <span>
+                    No, Gateful should not be used to create and manage customer
+                    account access. Gateful provides a simple way to verify
+                    token ownership so you can create exclusive content
+                    experiences or promotional offers for token holders. Gateful
+                    verifies ownership of a token to &quot;unlock content&quot;.
+                  </span>
+                  <br></br>
+                  <br></br>
+                  <span>
+                    Gateful should not be used to protect sensitive data
+                    including but not limited to payments, user account data,
+                    and related customer account functionalities.
+                  </span>
                 </span>
               </div>
             </div>
@@ -849,17 +843,17 @@ Here's what the above is doing:
             ></DangerousHTML>
           </div>
         </section>
-        <footer className="demo-footer">
-          <div className="demo-top">
+        <footer className="about-footer">
+          <div className="about-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="demo-image1"
+              className="about-image5"
             />
-            <span className="demo-text112">
+            <span className="about-text126">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="demo-text113">
+            <span className="about-text127">
               <span>
                 Built by
                 <span
@@ -872,7 +866,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link1"
+                className="about-link1"
               >
                 OpenMedium, Inc
               </a>
@@ -889,12 +883,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link2"
+                className="about-link2"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="demo-text116">
+            <span className="about-text130">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -902,7 +896,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link3"
+                className="about-link3"
               >
                 Legal
               </a>
@@ -912,7 +906,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .demo-container {
+          .about-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -920,7 +914,7 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .demo-hero {
+          .about-hero {
             width: 100%;
             height: auto;
             display: flex;
@@ -939,19 +933,19 @@ Here's what the above is doing:
               url('/playground_assets/fractal%20image%209-1500w.png');
             background-position: top left, center;
           }
-          .demo-menu {
+          .about-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-desktop-navigation {
+          .about-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-centered {
+          .about-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -963,7 +957,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .demo-left {
+          .about-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -971,11 +965,11 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .demo-logo {
+          .about-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-links {
+          .about-links {
             display: none;
             align-items: center;
             margin-left: 33px;
@@ -983,7 +977,7 @@ Here's what the above is doing:
             border-width: 1px;
             flex-direction: row;
           }
-          .demo-right {
+          .about-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -991,22 +985,22 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-icon {
+          .about-icon {
             fill: var(--dl-color-gray-white);
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .demo-sign-in {
+          .about-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .demo-link {
+          .about-link {
             display: contents;
           }
-          .demo-get-started {
+          .about-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1022,21 +1016,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .demo-get-started:hover {
+          .about-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .demo-icon02 {
+          .about-icon02 {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .demo-text005 {
+          .about-text005 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .demo-header {
+          .about-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1045,7 +1039,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .demo-text008 {
+          .about-text008 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1053,7 +1047,7 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .demo-text009 {
+          .about-text009 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -1061,7 +1055,7 @@ Here's what the above is doing:
             text-align: center;
             line-height: 30px;
           }
-          .demo-features {
+          .about-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1073,25 +1067,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .demo-title {
+          .about-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-text010 {
+          .about-text010 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .demo-text014 {
+          .about-text014 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .demo-cards {
+          .about-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1099,7 +1093,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .demo-container1 {
+          .about-container1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1107,40 +1101,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .demo-icon04 {
+          .about-icon04 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text017 {
+          .about-text017 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text018 {
+          .about-text018 {
             line-height: 24px;
           }
-          .demo-publish {
+          .about-publish {
             height: initial;
           }
-          .demo-icon05 {
+          .about-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text019 {
+          .about-text019 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text020 {
+          .about-text020 {
             line-height: 24px;
           }
-          .demo-container2 {
+          .about-container2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1148,112 +1142,230 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .demo-icon06 {
+          .about-icon06 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text021 {
+          .about-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .demo-text022 {
+          .about-text022 {
             line-height: 24px;
           }
-          .demo-icon07 {
+          .about-icon07 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text023 {
+          .about-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text024 {
+          .about-text024 {
             line-height: 24px;
           }
-          .demo-banners {
+          .about-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-banner-advanced-analytics {
+          .about-banner-advanced-analytics {
             width: 100%;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-sixunits);
             padding-left: var(--dl-space-space-sixunits);
             padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
+            flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
-          .demo-centered-container {
+          .about-centered-container {
+            width: 100%;
+            display: flex;
+            max-width: 1280px;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-sixunits);
+            justify-content: center;
+          }
+          .about-image-container {
+            flex: 1;
+            height: auto;
+            display: flex;
+            justify-content: center;
+          }
+          .about-cards-image {
+            width: 100%;
+            height: auto;
+            box-shadow: 5px 5px 0px 1px #dbfe87;
+            object-fit: contain;
+            border-radius: 20px;
+          }
+          .about-right1 {
+            flex: 1;
+            display: flex;
+            margin-left: var(--dl-space-space-fourunits);
+            flex-direction: column;
+          }
+          .about-text025 {
+            font-size: 30px;
+            text-align: left;
+            margin-bottom: 0px;
+          }
+          .about-category {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .about-text026 {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 0px;
+          }
+          .about-centered-container1 {
             width: 100%;
             display: flex;
             max-width: 1280px;
             align-items: center;
             justify-content: center;
           }
-          .demo-image-container {
+          .about-right2 {
             flex: 1;
             display: flex;
-            justify-content: center;
-          }
-          .demo-cards-image {
-            width: 433px;
-            height: 589px;
-            object-fit: contain;
+            box-shadow: 5px 5px 0px 1px #03b5aa;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-primary-500);
+            border-width: 2px;
             border-radius: 20px;
-          }
-          .demo-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
-          .demo-text025 {
+          .about-text035 {
             font-size: 30px;
+            align-self: center;
             text-align: left;
             margin-bottom: 0px;
           }
-          .demo-category {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-          }
-          .demo-text026 {
+          .about-text038 {
             color: rgb(0, 0, 0);
             font-size: 18px;
+            align-self: center;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .demo-text030 {
-            font-size: 25px;
-            font-style: normal;
-            font-weight: 700;
-          }
-          .demo-category1 {
+          .about-category1 {
             display: flex;
+            align-self: center;
+            margin-top: var(--dl-space-space-twounits);
             align-items: flex-start;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
-            justify-content: flex-start;
           }
-          .demo-button {
-            font-size: 20px;
+          .about-active-users {
+            position: relative;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .about-image {
+            width: 260px;
+            height: 260px;
+            background: white;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text041 {
+            color: var(--dl-color-gray-black);
+            font-size: 22px;
             font-style: normal;
-            font-weight: 700;
+            margin-top: 13px;
+            font-weight: 600;
+            margin-bottom: 13px;
           }
-          .demo-banner-manage {
+          .about-active-users1 {
+            position: relative;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .about-image1 {
+            width: 260px;
+            height: 260px;
+            background: white;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text042 {
+            color: var(--dl-color-gray-black);
+            font-size: 22px;
+            font-style: normal;
+            margin-top: 13px;
+            font-weight: 600;
+            margin-bottom: 13px;
+          }
+          .about-active-users2 {
+            position: relative;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .about-image2 {
+            width: 260px;
+            height: 260px;
+            background: white;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text043 {
+            color: var(--dl-color-gray-black);
+            font-size: 22px;
+            font-style: normal;
+            margin-top: 13px;
+            font-weight: 600;
+            margin-bottom: 13px;
+          }
+          .about-active-users3 {
+            position: relative;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .about-image3 {
+            width: 260px;
+            height: 260px;
+            background: white;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text044 {
+            color: var(--dl-color-gray-black);
+            font-size: 22px;
+            font-style: normal;
+            margin-top: 13px;
+            font-weight: 600;
+            margin-bottom: 13px;
+          }
+          .about-banner-manage {
             width: 100%;
             display: none;
             align-items: center;
@@ -1264,7 +1376,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .demo-container3 {
+          .about-container3 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1272,7 +1384,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .demo-left1 {
+          .about-left1 {
             flex: 1;
             width: 100%;
             display: flex;
@@ -1280,28 +1392,28 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .demo-text033 {
+          .about-text046 {
             text-align: left;
           }
-          .demo-text034 {
+          .about-text047 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .demo-get-started1 {
+          .about-get-started1 {
             transition: 0.3s;
             margin-bottom: 0;
           }
-          .demo-get-started1:hover {
+          .about-get-started1:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text035 {
+          .about-text048 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-image-container1 {
+          .about-image-container1 {
             flex: 1;
             width: 100%;
             height: 100%;
@@ -1310,13 +1422,13 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .demo-cards-image1 {
+          .about-cards-image1 {
             width: 100%;
             height: 100%;
             object-fit: contain;
             user-select: none;
           }
-          .demo-banner {
+          .about-banner {
             width: 100%;
             display: none;
             align-items: center;
@@ -1327,7 +1439,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .demo-container4 {
+          .about-container4 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1335,53 +1447,53 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .demo-left2 {
+          .about-left2 {
             flex: 1;
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .demo-text036 {
+          .about-text049 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text037 {
+          .about-text050 {
             text-align: left;
           }
-          .demo-text038 {
+          .about-text051 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .demo-get-started2 {
+          .about-get-started2 {
             transition: 0.3s;
             margin-bottom: 0;
           }
-          .demo-get-started2:hover {
+          .about-get-started2:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text039 {
+          .about-text052 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-image-container2 {
+          .about-image-container2 {
             flex: 1;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .demo-cards-image2 {
+          .about-cards-image2 {
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .demo-integrations {
+          .about-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1390,7 +1502,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .demo-centered-container1 {
+          .about-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1398,24 +1510,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .demo-heading {
+          .about-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-text042 {
+          .about-text055 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .demo-pills-container {
+          .about-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .demo-pills {
+          .about-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1424,14 +1536,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .demo-container5 {
+          .about-container5 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .demo-container6 {
+          .about-container6 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1439,7 +1551,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .demo-how-it-works {
+          .about-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1450,7 +1562,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .demo-centered-container2 {
+          .about-centered-container3 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1459,22 +1571,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .demo-heading1 {
+          .about-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .demo-text043 {
+          .about-text056 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text044 {
+          .about-text057 {
             color: var(--dl-color-gray-white);
           }
-          .demo-category2 {
+          .about-category2 {
             color: white;
             width: 100%;
             display: flex;
@@ -1485,7 +1597,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .demo-headng {
+          .about-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1495,49 +1607,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .demo-text045 {
+          .about-text058 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text046 {
+          .about-text059 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .demo-get-started3 {
+          .about-get-started3 {
             margin-bottom: 0px;
           }
-          .demo-get-started3:hover {
+          .about-get-started3:hover {
             color: black;
             background-color: #ffffff;
           }
-          .demo-text047 {
+          .about-text060 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-container7 {
+          .about-container7 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .demo-pasted-image {
+          .about-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .demo-row {
+          .about-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .demo-category3 {
+          .about-category3 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1549,7 +1661,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .demo-headng1 {
+          .about-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1559,21 +1671,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .demo-text048 {
+          .about-text061 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text049 {
+          .about-text062 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .demo-pasted-image1 {
+          .about-pasted-image1 {
             width: 100%;
           }
-          .demo-category4 {
+          .about-category4 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1585,7 +1697,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .demo-headng2 {
+          .about-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1595,22 +1707,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .demo-text050 {
+          .about-text063 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text051 {
+          .about-text064 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .demo-pasted-image2 {
+          .about-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .demo-pricing {
+          .about-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1622,7 +1734,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .demo-centered-container3 {
+          .about-centered-container4 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1630,30 +1742,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .demo-heading2 {
+          .about-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .demo-text052 {
+          .about-text065 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .demo-text053 {
+          .about-text066 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .demo-selection {
+          .about-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .demo-text054 {
+          .about-text067 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1664,7 +1776,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .demo-text055 {
+          .about-text068 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1675,7 +1787,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .demo-cards1 {
+          .about-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1685,7 +1797,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .demo-card {
+          .about-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1699,77 +1811,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .demo-text056 {
+          .about-text069 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text057 {
+          .about-text070 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .demo-get-started4 {
+          .about-get-started4 {
             transition: 0.3s;
           }
-          .demo-get-started4:hover {
+          .about-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text058 {
+          .about-text071 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .demo-text059 {
+          .about-text072 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-bullet-points {
+          .about-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .demo-point {
+          .about-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon08 {
+          .about-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text060 {
+          .about-text073 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point01 {
+          .about-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon10 {
+          .about-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text061 {
+          .about-text074 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-card1 {
+          .about-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1784,111 +1896,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .demo-text062 {
+          .about-text075 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text063 {
+          .about-text076 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .demo-get-started5 {
+          .about-get-started5 {
             transition: 0.3s;
           }
-          .demo-get-started5:hover {
+          .about-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text067 {
+          .about-text080 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .demo-text070 {
+          .about-text083 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-bullet-points1 {
+          .about-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .demo-point02 {
+          .about-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon12 {
+          .about-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text071 {
+          .about-text084 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point03 {
+          .about-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon14 {
+          .about-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text072 {
+          .about-text085 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point04 {
+          .about-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon16 {
+          .about-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text073 {
+          .about-text086 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point05 {
+          .about-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon18 {
+          .about-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text074 {
+          .about-text087 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-card2 {
+          .about-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1902,33 +2014,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .demo-text075 {
+          .about-text088 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text076 {
+          .about-text089 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .demo-get-started6 {
+          .about-get-started6 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .demo-get-started6:hover {
+          .about-get-started6:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text079 {
+          .about-text092 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-text082 {
+          .about-text095 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1936,84 +2048,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-bullet-points2 {
+          .about-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .demo-point06 {
+          .about-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon20 {
+          .about-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text083 {
+          .about-text096 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point07 {
+          .about-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon22 {
+          .about-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text084 {
+          .about-text097 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point08 {
+          .about-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon24 {
+          .about-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text085 {
+          .about-text098 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point09 {
+          .about-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon26 {
+          .about-icon26 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text086 {
+          .about-text099 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-testimonals {
+          .about-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2023,7 +2135,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .demo-left3 {
+          .about-left3 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2031,35 +2143,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .demo-text087 {
+          .about-text100 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text088 {
+          .about-text101 {
             text-align: left;
           }
-          .demo-right2 {
+          .about-right3 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .demo-column {
+          .about-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .demo-column1 {
+          .about-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .demo-text089 {
+          .about-text102 {
             cursor: pointer;
             display: none;
           }
-          .demo-action-bar {
+          .about-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2067,7 +2179,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .demo-action {
+          .about-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2077,7 +2189,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .demo-heading3 {
+          .about-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2086,156 +2198,137 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .demo-text092 {
+          .about-text105 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .demo-text096 {
+          .about-text109 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .demo-get-started7 {
+          .about-get-started7 {
             margin-bottom: 0px;
           }
-          .demo-text097 {
+          .about-text110 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-images {
+          .about-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .demo-image {
+          .about-image4 {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .demo-faq {
+          .about-faq {
             width: 100%;
-            display: none;
             padding: 120px;
             align-items: center;
             flex-direction: column;
             padding-bottom: 120px;
             justify-content: center;
-            background-color: #eff0f2;
+            background-color: var(--dl-color-primary-bg);
           }
-          .demo-heading4 {
+          .about-heading4 {
             width: 100%;
             display: flex;
             align-items: center;
             user-select: none;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .demo-text100 {
+          .about-text113 {
+            font-size: 30px;
             text-align: center;
+            font-family: Urbanist;
+            font-weight: 700;
+            line-height: 1.15;
+            text-transform: none;
+            text-decoration: none;
           }
-          .demo-text101 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .demo-accordion {
+          .about-accordion {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
-            max-width: 1200px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .demo-header1 {
+          .about-header1 {
             width: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .demo-text102 {
+          .about-text114 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text103 {
+          .about-text115 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
           }
-          .demo-header2 {
+          .about-header2 {
             width: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .demo-text104 {
+          .about-text116 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text105 {
+          .about-text117 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
           }
-          .demo-header3 {
+          .about-header3 {
             width: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .demo-text106 {
+          .about-text118 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text107 {
+          .about-text119 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
           }
-          .demo-header4 {
+          .about-header4 {
             width: 100%;
             display: flex;
             justify-content: space-between;
           }
-          .demo-text108 {
+          .about-text120 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text109 {
+          .about-text121 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
           }
-          .demo-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .demo-text110 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .demo-text111 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .demo-footer {
+          .about-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
@@ -2248,7 +2341,7 @@ Here's what the above is doing:
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .demo-top {
+          .about-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2256,162 +2349,169 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .demo-image1 {
+          .about-image5 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text112 {
+          .about-text126 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text113 {
+          .about-text127 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .demo-link1 {
+          .about-link1 {
             text-decoration: underline;
           }
-          .demo-link2 {
+          .about-link2 {
             text-decoration: underline;
           }
-          .demo-text116 {
+          .about-text130 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .demo-link3 {
+          .about-link3 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .demo-hero {
+            .about-hero {
               height: auto;
             }
           }
           @media (max-width: 991px) {
-            .demo-hero {
+            .about-hero {
               height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-desktop-navigation {
+            .about-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-centered {
+            .about-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .demo-left {
+            .about-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .demo-links {
+            .about-links {
               display: none;
             }
-            .demo-header {
+            .about-header {
               width: 100%;
               max-width: 1200px;
             }
-            .demo-features {
+            .about-features {
               padding-top: 260px;
             }
-            .demo-title {
+            .about-title {
               width: 100%;
               max-width: 1200px;
             }
-            .demo-text010 {
+            .about-text010 {
               font-size: 36px;
               line-height: 40px;
             }
-            .demo-text014 {
+            .about-text014 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .demo-cards {
+            .about-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .demo-text018 {
+            .about-text018 {
               line-height: 21px;
             }
-            .demo-text020 {
+            .about-text020 {
               line-height: 21px;
             }
-            .demo-text022 {
+            .about-text022 {
               line-height: 21px;
             }
-            .demo-text023 {
+            .about-text023 {
               font-size: 24px;
             }
-            .demo-text024 {
+            .about-text024 {
               line-height: 21px;
             }
-            .demo-banner-advanced-analytics {
+            .about-banner-advanced-analytics {
               padding-top: var(--dl-space-space-sixunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .demo-text025 {
+            .about-text025 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-banner-manage {
+            .about-text035 {
+              line-height: 1.25em;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .about-category1 {
+              flex-direction: column;
+            }
+            .about-banner-manage {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-left1 {
+            .about-left1 {
               margin-right: var(--dl-space-space-threeunits);
             }
-            .demo-cards-image1 {
+            .about-cards-image1 {
               width: 360px;
             }
-            .demo-container6 {
+            .about-container6 {
               margin-left: 0px;
             }
-            .demo-category2 {
+            .about-category2 {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .demo-headng {
+            .about-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .demo-container7 {
+            .about-container7 {
               width: 100%;
             }
-            .demo-pasted-image {
+            .about-pasted-image {
               height: auto;
             }
-            .demo-headng1 {
+            .about-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .demo-headng2 {
+            .about-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .demo-text053 {
+            .about-text066 {
               width: 100%;
               max-width: 600px;
             }
-            .demo-cards1 {
+            .about-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .demo-card {
+            .about-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2419,453 +2519,487 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-text057 {
+            .about-text070 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text059 {
+            .about-text072 {
               font-size: 16px;
             }
-            .demo-card1 {
+            .about-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .demo-card2 {
+            .about-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .demo-testimonals {
+            .about-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .demo-left3 {
+            .about-left3 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .demo-text088 {
+            .about-text101 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-right2 {
+            .about-right3 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .demo-column {
+            .about-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-column1 {
+            .about-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-action {
+            .about-action {
               flex-direction: column;
             }
-            .demo-heading3 {
+            .about-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text092 {
+            .about-text105 {
               font-size: 36px;
               line-height: 36px;
             }
-            .demo-accordion {
+            .about-accordion {
               width: 100%;
               max-width: 1200px;
             }
-            .demo-footer {
+            .about-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .demo-top {
+            .about-top {
               flex-direction: column;
             }
-            .demo-text116 {
+            .about-text130 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .demo-hero {
+            .about-hero {
               height: auto;
               position: relative;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .demo-desktop-navigation {
+            .about-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .demo-centered {
+            .about-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .demo-left {
+            .about-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .demo-right {
+            .about-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .demo-sign-in {
+            .about-sign-in {
               display: flex;
             }
-            .demo-get-started {
+            .about-get-started {
               display: flex;
             }
-            .demo-header {
+            .about-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .demo-text008 {
+            .about-text008 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .demo-text009 {
+            .about-text009 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .demo-features {
+            .about-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text010 {
+            .about-text010 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .demo-container1 {
+            .about-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .demo-text017 {
+            .about-text017 {
               font-size: 24px;
             }
-            .demo-text018 {
+            .about-text018 {
               font-size: 14px;
             }
-            .demo-publish {
+            .about-publish {
               margin-left: 0px;
             }
-            .demo-text019 {
+            .about-text019 {
               font-size: 24px;
             }
-            .demo-text020 {
+            .about-text020 {
               font-size: 14px;
             }
-            .demo-container2 {
+            .about-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .demo-analyze {
+            .about-analyze {
               margin-right: 0px;
             }
-            .demo-text021 {
+            .about-text021 {
               font-size: 24px;
             }
-            .demo-text022 {
+            .about-text022 {
               font-size: 14px;
             }
-            .demo-text024 {
+            .about-text024 {
               font-size: 14px;
             }
-            .demo-banner-advanced-analytics {
+            .about-banner-advanced-analytics {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .demo-centered-container {
+            .about-centered-container {
               flex-direction: column-reverse;
             }
-            .demo-right1 {
+            .about-right1 {
               margin-left: 0px;
             }
-            .demo-text025 {
+            .about-text025 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text026 {
+            .about-text026 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .demo-text027 {
+            .about-centered-container1 {
+              flex-direction: column-reverse;
+            }
+            .about-right2 {
+              margin-left: 0px;
+            }
+            .about-text035 {
+              font-size: 28px;
+              align-self: center;
+              text-align: left;
+              line-height: 26px;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .about-text038 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .demo-category1 {
-              align-self: center;
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
+            .about-text041 {
+              font-size: 14px;
             }
-            .demo-banner-manage {
+            .about-text042 {
+              font-size: 14px;
+            }
+            .about-text043 {
+              font-size: 14px;
+            }
+            .about-text044 {
+              font-size: 14px;
+            }
+            .about-banner-manage {
               padding-top: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-container3 {
+            .about-container3 {
               flex-direction: column;
             }
-            .demo-left1 {
+            .about-left1 {
               margin-right: 0px;
             }
-            .demo-text033 {
+            .about-text046 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .demo-text034 {
+            .about-text047 {
               line-height: 24px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text035 {
+            .about-text048 {
               font-size: 16px;
             }
-            .demo-image-container1 {
+            .about-image-container1 {
               justify-content: center;
             }
-            .demo-cards-image1 {
+            .about-cards-image1 {
               margin-top: var(--dl-space-space-threeunits);
             }
-            .demo-banner {
+            .about-banner {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-container4 {
+            .about-container4 {
               flex-direction: column;
             }
-            .demo-left2 {
+            .about-left2 {
               margin-right: 0px;
             }
-            .demo-integrations {
+            .about-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-text042 {
+            .about-text055 {
               line-height: 24px;
             }
-            .demo-pills {
+            .about-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-how-it-works {
+            .about-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-heading1 {
+            .about-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text044 {
+            .about-text057 {
               margin-bottom: 0px;
             }
-            .demo-headng {
+            .about-headng {
               padding-bottom: 0px;
             }
-            .demo-get-started3 {
+            .about-get-started3 {
               display: none;
             }
-            .demo-container7 {
+            .about-container7 {
               width: 100%;
             }
-            .demo-row {
+            .about-row {
               height: auto;
               flex-direction: column;
             }
-            .demo-pricing {
+            .about-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .demo-card {
+            .about-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text056 {
+            .about-text069 {
               font-size: 28px;
             }
-            .demo-card1 {
+            .about-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text062 {
+            .about-text075 {
               font-size: 28px;
             }
-            .demo-card2 {
+            .about-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text075 {
+            .about-text088 {
               font-size: 28px;
             }
-            .demo-testimonals {
+            .about-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .demo-right2 {
+            .about-right3 {
               width: 100%;
               flex-direction: column;
             }
-            .demo-column1 {
+            .about-column1 {
               display: none;
             }
-            .demo-text089 {
+            .about-text102 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .demo-action-bar {
+            .about-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-action {
+            .about-action {
               align-items: center;
             }
-            .demo-heading3 {
+            .about-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text092 {
+            .about-text105 {
               font-size: 28px;
               text-align: left;
             }
-            .demo-text097 {
+            .about-text110 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .demo-images {
+            .about-images {
               justify-content: center;
             }
-            .demo-image {
+            .about-image4 {
               width: 100%;
             }
-            .demo-faq {
+            .about-faq {
               padding: var(--dl-space-space-fourunits);
             }
-            .demo-heading4 {
+            .about-heading4 {
               width: 100%;
             }
-            .demo-text100 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .demo-text101 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .demo-footer {
+            .about-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .demo-image1 {
+            .about-image5 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .demo-hero {
+            .about-hero {
               height: auto;
             }
-            .demo-centered {
+            .about-centered {
               justify-content: center;
             }
-            .demo-logo {
+            .about-logo {
               width: 180px;
             }
-            .demo-icon {
+            .about-icon {
               display: none;
             }
-            .demo-sign-in {
+            .about-sign-in {
               display: none;
             }
-            .demo-get-started {
+            .about-get-started {
               display: none;
             }
-            .demo-text009 {
+            .about-text009 {
               color: #eee9fe;
             }
-            .demo-features {
+            .about-features {
               padding-top: 200px;
             }
-            .demo-cards {
+            .about-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-container1 {
+            .about-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-container2 {
+            .about-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .demo-analyze {
+            .about-analyze {
               margin-bottom: 0px;
             }
-            .demo-right1 {
+            .about-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .demo-text025 {
+            .about-text025 {
               align-self: center;
               text-align: center;
             }
-            .demo-text034 {
+            .about-right2 {
+              margin-top: var(--dl-space-space-twounits);
+            }
+            .about-text035 {
+              align-self: center;
+              text-align: center;
+            }
+            .about-text041 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
+            .about-text042 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
+            .about-text043 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
+            .about-text044 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
+            .about-text047 {
               line-height: 24px;
             }
-            .demo-cards-image1 {
+            .about-cards-image1 {
               width: 100%;
               margin-top: var(--dl-space-space-twounits);
             }
-            .demo-category2 {
+            .about-category2 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .demo-pricing {
+            .about-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-get-started6 {
+            .about-get-started6 {
               background-color: var(--dl-color-gray-white);
             }
-            .demo-testimonals {
+            .about-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-action-bar {
+            .about-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-footer {
+            .about-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .demo-text112 {
+            .about-text126 {
               text-align: center;
             }
           }
@@ -2875,4 +3009,4 @@ Here's what the above is doing:
   )
 }
 
-export default Demo
+export default About
