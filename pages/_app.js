@@ -36,3 +36,4 @@ return (
       {displayPages && <Component {...pageProps} />}
     </>
   );
+}
