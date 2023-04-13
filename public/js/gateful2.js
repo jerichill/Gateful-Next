@@ -1,4 +1,4 @@
-   // Next js Project steps
+// Next js Project steps
 // How to use it :-
 // Step 1: Create a js folder in public (public/js)
 // Step 2: Create gateful2.js file (src/js/gateful2.js file (public/js/gateful2.js file (src/js/gateful2.js)
@@ -320,5 +320,3 @@
       }
     }
   }
-
-  
