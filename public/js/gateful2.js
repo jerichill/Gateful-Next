@@ -361,7 +361,7 @@
  
    
   //default function call like checkAuth(),checkAuth2()
-  checkAuth2();
+  //checkAuth2();
 
   //dynamic create Page for Gateful Authorization Page function using DOM method
   export default async function  checkAuth2() {
