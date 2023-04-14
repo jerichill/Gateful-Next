@@ -48,7 +48,7 @@
   checkAuth2();
 
   //dynamic create Page for Gateful Authorization Page function using DOM method
-  export default async function  checkAuth2() {
+  export default async function checkAuth2() {
     if (window.location.href =="https://gateful.io/etherfelis") {
       const jwt2 = await sessionStorage.getItem("jwt2");
       let verified, header, payload;
