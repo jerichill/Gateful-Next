@@ -8,15 +8,14 @@ import Head from "next/head";
 
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
 
-  // Gateful protocol global code implemantetion start
-  // if multiple checkAuth function is there than call in check function like, 
+   // Gateful protocol global code implementation code start
+  //  if multiple checkAuth function is there then call it in result, result2 multiple time and in if condition as well call result and result2  
   const router = useRouter();
   const [displayPages, setDisplayPages] = useState(false);
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
 
-    checkAuth
     if (result,result2) {
       setDisplayPages(true);
     }
@@ -27,7 +26,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     check();
   }, [router.asPath]);
 
-  // Gateful protocol global code implemantetion end
+  // Gateful protocol global code implementation end
 
 React.useEffect(() => import("@lottiefiles/lottie-player"));
 
