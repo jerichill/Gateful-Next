@@ -1,4 +1,4 @@
-// Next js Project steps
+   // Next js Project steps
 // How to use it :-
 // Step 1: Create a js folder in public (public/js)
 // Step 2: Create gateful.js file (src/js/gateful.js file (public/js/gateful.js file (src/js/gateful.js)
@@ -80,7 +80,7 @@
   
         let gatefulGatedImg = document.createElement("img");
         gatefulGatedImg.src =
-        "https://app.gateful.io/backend/images/gateful-logo-blk.png";
+        "https://app.gateful.io/backend/images/gateful-logo-blk1681446798.png";
   
         gatefulGatedImg.style.maxWidth = "300px";
         gatefulGatedImg.style.maxHeight = "70px";
@@ -308,3 +308,5 @@
       }
     }
   }
+
+  
