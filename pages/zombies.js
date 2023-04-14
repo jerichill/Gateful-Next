@@ -12,7 +12,7 @@ const Demo = (props) => {
       <div className="demo-container">
         <Head>
           <title>
-            Demo - Gateful | Token Gating Platform | Token Gate Your Website
+            Zombies Demo - Gateful | Token Gating Platform | Token Gate Your Website
           </title>
           <meta
             name="description"
@@ -209,8 +209,8 @@ closeButton.addEventListener("click", function() {
                 <div className="demo-category">
                   <span className="demo-text026">
                     <span className="demo-text027">
-                      Look great in our stay rich t-shirt created exclusively
-                      for ETH token holders. Made from 100% organic cotton, this
+                      Look great in our Zombies t-shirt created exclusively
+                      for Zombie NFT holders. Made from 100% organic cotton, this
                       shirt will keep you looking fresh all day.
                     </span>
                     <br></br>
