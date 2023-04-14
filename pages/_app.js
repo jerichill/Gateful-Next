@@ -11,8 +11,11 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const router = useRouter();
   const [displayPages, setDisplayPages] = useState(false);
   const check = async () => {
-    const result = await checkAuth2();
-    if (result) {
+    const result = await checkAuth();
+    const result2 = await checkAuth2();
+
+    checkAuth
+    if (result,result2) {
       setDisplayPages(true);
     }
   };
