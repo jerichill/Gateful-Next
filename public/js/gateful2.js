@@ -1,23 +1,25 @@
 // Next js Project steps
 // How to use it :-
 // Step 1: Create a js folder in public (public/js)
-// Step 2: Create gateful2.js file (src/js/gateful2.js file (public/js/gateful2.js file (src/js/gateful2.js)
-// Step 3: Generated script put in the gateful2.js file (src/js/gateful2.js file
+// Step 2: Create gateful2.js file (public/js/gateful2.js) 
+// Step 3: Copy generated script and paste into the gateful2.js file (public/js/gateful2.js)
 // Step 5: Declare checkAuth2 function and call that function in useEffect() on route change function in _app.js file like,
 
 // Import checkAuth2 method in _app.js file
-// import checkAuth2 from "../public/js/gateful2.js file (src/js/gateful2.js";
+// import checkAuth2 from "../public/js/gateful2.js" file (public/js/gateful2.js)
 // import { useRouter } from "next/dist/client/router";
 
 // Put the code in app Function
 /*     
-  // Gateful protocol global code implemantetion start
-  // if multiple checkAuth function is there than call in check function like, 
+  // Gateful protocol global code implementation code start
+  //  if multiple checkAuth function is there then import it and call it in result,result2 multiple time and in if condition as well call result and result2 
   const router = useRouter();
   const [displayPages, setDisplayPages] = useState(false);
   const check = async () => {
-    const result = await checkAuth2();
-    if (result) {
+    const result2 = await checkAuth2();
+    // If You have more then one script then call all function and write function as per generated script
+    // ex: const result = await checkAuth();
+    if (result2) {
       setDisplayPages(true);
     }
   };
@@ -27,12 +29,12 @@
     check();
   }, [router.asPath]);
 
-  // Gateful protocol global code implemantetion end
+  // Gateful protocol global code implementation code end
 
           
-            also add condition for {displayPages && <component or pages for app which is called> }
+            also add condition for { displayPages && <component or pages for app which is called> }
             */
-// Step 6: Add script in _app.js for Access LIT methods in Head tag( import head tag if not present in _app.js file and like import Head from "next/head";  )
+// Step 6: Add script in _app.js for Access LIT methods in Head tag ( import head tag if not present in _app.js file and like import Head from "next/head";  )
       // import Head from "next/head";
 /*  
               <Head>
@@ -70,40 +72,38 @@
         const mainPageUnlock = document.createElement("div");
   
         mainPageUnlock.style.display = "flex";
-        mainPageUnlock.style.justifyContent = "flex-start";
+        mainPageUnlock.style.justifyContent = "center";
         mainPageUnlock.style.alignItems = "center";
         mainPageUnlock.style.flexDirection = "column";
         mainPageUnlock.style.height = "100vh";
         mainPageUnlock.style.fontFamily = 'Urbanist';
         mainPageUnlock.style.background =
-          "linear-gradient(to bottom, #FFFFFF 50%, #F5F5F5 50%)";
+          "#FFFFFF";
   
         let gatefulGatedImg = document.createElement("img");
         gatefulGatedImg.src =
-          "https://tekdev.teksun.com/litprotocol/images/gateful-logo-blk1681457453.png";
+        "https://app.gateful.io/backend/images/gateful-logo-blk1681457453.png";
   
-        gatefulGatedImg.style.maxWidth = "240px";
-        gatefulGatedImg.style.maxHeight = "80px";
-        gatefulGatedImg.style.margin = "50px 0px 60px";
+        gatefulGatedImg.style.maxWidth = "300px";
+        gatefulGatedImg.style.maxHeight = "70px";
+        gatefulGatedImg.style.margin = "0px 0px 60px";
         gatefulGatedImg.style.fontFamily = 'Urbanist';
   
         const gatefulHeader = document.createElement("div");
-        gatefulHeader.innerHTML = "This Page is Token Gated Demo Gated";
+        gatefulHeader.innerHTML = "Token Gated Demo";
   
         gatefulHeader.style.display = "flex";
         gatefulHeader.style.justifyContent = "center";
         gatefulHeader.style.alignItems = "center";
         gatefulHeader.style.gap = "10px";
-        gatefulHeader.style.fontSize = "32px";
+        gatefulHeader.style.fontSize = "40px";
         gatefulHeader.style.color = "#000000";
-        gatefulHeader.style.marginBottom = "6px";
+        gatefulHeader.style.marginBottom = "0px";
         gatefulHeader.style.cursor = "default";
         gatefulHeader.style.textAlign = "center";
         gatefulHeader.style.padding = "0 2rem";
         gatefulHeader.style.fontFamily = 'Urbanist';
-
-  
-        gatefulHeader.style.fontWeight = "600";
+        gatefulHeader.style.fontWeight = "700";
   
         const gatefulGatedDiv = document.createElement("div");
   
@@ -127,39 +127,35 @@
         gatefulMainHeader.style.alignItems = "center";
         gatefulMainHeader.style.flexDirection = "column";
         gatefulMainHeader.style.color = "#0A0A0A";
-        gatefulMainHeader.style.fontSize = "20px";
-        gatefulMainHeader.style.marginBottom = "0.2rem";
+        gatefulMainHeader.style.fontSize = "18px";
+        gatefulMainHeader.style.marginTop = "10px";
         gatefulMainHeader.style.textAlign = "center";
         gatefulMainHeader.style.cursor = "default";
         gatefulMainHeader.style.padding = "0 2rem";
-        gatefulMainHeader.style.maxWidth = "1080px";
+        gatefulMainHeader.style.maxWidth = "920px";
         gatefulMainHeader.style.fontFamily = 'Urbanist';
-
+        gatefulMainHeader.style.fontWeight = "500";
   
-        let gatefulChainImg = document.createElement("img");
-        gatefulChainImg.src = "https://tekdev.teksun.com/litprotocol/images/on_chain@2x.png";
-  
-        gatefulChainImg.style.maxWidth = "295px";
-        gatefulChainImg.style.height = "auto";
-        gatefulChainImg.style.margin = "25px 0px";
-        gatefulChainImg.style.fontFamily = 'Urbanist';
+        
 
   
         const gatefulChainConditionPara = document.createElement("p");
-        gatefulChainConditionPara.innerHTML = "To access this page, you must have ethereum Chain in your wallet.";
+        gatefulChainConditionPara.innerHTML = "Network: ethereum";
   
         gatefulChainConditionPara.style.display = "flex";
         gatefulChainConditionPara.style.justifyContent = "center";
         gatefulChainConditionPara.style.alignItems = "center";
         gatefulChainConditionPara.style.flexDirection = "column";
-        gatefulChainConditionPara.style.color = "#03B5AA";
-        gatefulChainConditionPara.style.fontSize = "40px";
+        gatefulChainConditionPara.style.color = "#252192";
+        gatefulChainConditionPara.style.fontSize = "18px";
         gatefulChainConditionPara.style.textAlign = "center";
-        gatefulChainConditionPara.style.fontWeight = "700";
-        gatefulChainConditionPara.style.marginTop = "16px";
+        gatefulChainConditionPara.style.fontWeight = "600";
+        gatefulChainConditionPara.style.marginTop = "60px";
         gatefulChainConditionPara.style.cursor = "default";
         gatefulChainConditionPara.style.padding = "0 2rem";
         gatefulChainConditionPara.style.fontFamily = 'Urbanist';
+        gatefulChainConditionPara.style.textTransform = 'capitalize';
+
 
   
         const verifyBtn = document.createElement("button");
@@ -167,25 +163,25 @@
         verifyBtn.style.display = "flex";
         verifyBtn.style.justifyContent = "center";
         verifyBtn.style.alignItems = "center";
-        verifyBtn.style.maxWidth = "310px";
+        verifyBtn.style.maxWidth = "220px";
         verifyBtn.style.width = "100%";
         verifyBtn.style.minHeight = "44px";
-        verifyBtn.style.border = "1px solid #03B5AA";
-        verifyBtn.style.background = "#03B5AA";
+        verifyBtn.style.border = "1px solid #DB2763";
+        verifyBtn.style.background = "#DB2763";
         verifyBtn.style.color = "#ffffff";
         verifyBtn.style.borderRadius = "6px";
-        verifyBtn.style.fontSize = "16px";
-        verifyBtn.style.marginTop = "16px";
+        verifyBtn.style.fontSize = "18px";
+        verifyBtn.style.marginTop = "12px";
         verifyBtn.style.cursor = "pointer";
         verifyBtn.style.fontFamily = 'Urbanist';
+        verifyBtn.style.fontWeight = '700';
+
 
   
         mainPageUnlock.appendChild(gatefulGatedImg);
         mainPageUnlock.appendChild(gatefulGatedDiv);
         mainPageUnlock.appendChild(gatefulHeader);
         mainPageUnlock.appendChild(gatefulMainHeader);
-        // mainPageUnlock.appendChild(gatefulSubMainHeader);
-        mainPageUnlock.appendChild(gatefulChainImg);
         mainPageUnlock.appendChild(gatefulChainConditionPara);
         mainPageUnlock.appendChild(verifyBtn);
   
@@ -206,31 +202,27 @@
         gatefulPolicyWrapper.style.fontFamily = 'Urbanist';
   
 
-        const gatefulPolicyStart = document.createElement("span");
-        gatefulPolicyStart.innerHTML = "**";
-  
-        gatefulPolicyStart.style.color = "#d10202";
-        gatefulPolicyStart.style.fontSize = "14px";
-        gatefulPolicyStart.style.marginTop = "16px";
-        gatefulPolicyStart.style.cursor = "default";
-        gatefulPolicyStart.style.fontFamily = 'Urbanist';
 
-  
         const gatefulPolicyMidText = document.createElement("span");
-        gatefulPolicyMidText.innerHTML ="Privacy Policy"
+        gatefulPolicyMidText.innerHTML ="We use cookies to optimize your experience."
         // "We use cookies to optimize your experience By continuing. you agree to our";
   
         gatefulPolicyMidText.style.color = "#000000";
         gatefulPolicyMidText.style.fontSize = "14px";
-        gatefulPolicyMidText.style.marginTop = "16px";
+        gatefulPolicyMidText.style.marginTop = "40px";
         gatefulPolicyMidText.style.cursor = "default";
         gatefulPolicyMidText.style.fontFamily = 'Urbanist';
+        gatefulPolicyMidText.style.display = 'flex';
+        gatefulPolicyMidText.style.flexDirection = 'column';
+        gatefulPolicyMidText.style.lineHeight = '3px';
+        gatefulPolicyMidText.style.fontWeight = "500";
+
 
   
         const gatefulPolicyText = document.createElement("a");
         gatefulPolicyText.setAttribute("href", "https://www.openmedium.biz/legal/");
         gatefulPolicyText.setAttribute("target", "_blank");
-        gatefulPolicyText.innerHTML = "https://www.openmedium.biz/legal/";
+        gatefulPolicyText.innerHTML = "Privacy Policy";
 
   
         gatefulPolicyText.style.color = "#000000";
@@ -239,12 +231,10 @@
         gatefulPolicyText.style.marginTop = "16px";
         gatefulPolicyText.style.textDecoration = "underline";
         gatefulPolicyText.style.fontFamily = 'Urbanist';
-
   
         mainPageUnlock.appendChild(gatefulPolicyWrapper);
-  
-        gatefulPolicyWrapper.appendChild(gatefulPolicyStart);
-        gatefulPolicyStart.appendChild(gatefulPolicyMidText);
+
+        gatefulPolicyWrapper.appendChild(gatefulPolicyMidText);
   
         gatefulPolicyMidText.appendChild(gatefulPolicyText);
   
