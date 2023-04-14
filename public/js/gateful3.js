@@ -82,7 +82,7 @@
   
         let gatefulGatedImg = document.createElement("img");
         gatefulGatedImg.src =
-        "https://app.gateful.io/backend/images/gateful-logo-blk1681457453.png";
+        "https://assets.website-files.com/624141216034a627653a119d/624141216034a6f48b3a11c3_Zombie-Collective-Logo.png";
   
         gatefulGatedImg.style.maxWidth = "300px";
         gatefulGatedImg.style.maxHeight = "70px";
