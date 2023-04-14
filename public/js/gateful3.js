@@ -90,7 +90,7 @@
         gatefulGatedImg.style.fontFamily = 'Urbanist';
   
         const gatefulHeader = document.createElement("div");
-        gatefulHeader.innerHTML = "Token Gated Demo";
+        gatefulHeader.innerHTML = "Exclusive Zombies Community Content";
   
         gatefulHeader.style.display = "flex";
         gatefulHeader.style.justifyContent = "center";
@@ -117,7 +117,7 @@
   
         const gatefulMainHeader = document.createElement("p");
         gatefulMainHeader.innerHTML =
-          "Please verify ownership in your wallet to continue";
+          "Please verify ownership of at least 1 Zombie to continue.";
   
         const gatefulSubMainHeader = document.createElement("p");
         gatefulSubMainHeader.innerHTML = "";
