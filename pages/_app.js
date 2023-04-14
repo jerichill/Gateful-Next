@@ -2,6 +2,7 @@ import "./style.css";
 import React, { useState } from "react";
 import checkAuth from "../public/js/gateful.js";
 import checkAuth2 from "../public/js/gateful2.js";
+import checkAuth2 from "../public/js/gateful3.js";
 
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
@@ -15,6 +16,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
+    const result3 = await checkAuth3();
 
     if (result,result2) {
       setDisplayPages(true);
