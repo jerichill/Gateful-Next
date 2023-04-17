@@ -324,31 +324,43 @@ closeButton.addEventListener("click", function() {
             </h2>
             <div className="token-gating-for-nextjs-blog">
               <div className="token-gating-for-nextjs-container3">
-                <BlogPostCardFinal
-                  title="Token Gating Platforms: Revolutionizing Web3 Content Monetization and Access Control"
-                  image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYxfHx3ZWIzfGVufDB8fHx8MTY4MTc0Mjk4OA&amp;ixlib=rb-4.0.3&amp;w=1500"
-                  description="Token Gating Platforms have emerged as a groundbreaking technology for content monetization and access control solutions. These platforms are becoming increasingly popular among creators, developers, and brands alike, as they offer a new and dynamic way of rewarding and engaging with their audience."
-                  rootClassName="rootClassName8"
-                  className="token-gating-for-nextjs-component"
-                ></BlogPostCardFinal>
+                <Link href="/about-token-gating-platforms">
+                  <a className="token-gating-for-nextjs-link08">
+                    <BlogPostCardFinal
+                      title="Token Gating Platforms: Revolutionizing Web3 Content Monetization and Access Control"
+                      image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYxfHx3ZWIzfGVufDB8fHx8MTY4MTc0Mjk4OA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                      description="Token Gating Platforms have emerged as a groundbreaking technology for content monetization and access control solutions. These platforms are becoming increasingly popular among creators, developers, and brands alike, as they offer a new and dynamic way of rewarding and engaging with their audience."
+                      rootClassName="rootClassName8"
+                      className="token-gating-for-nextjs-component"
+                    ></BlogPostCardFinal>
+                  </a>
+                </Link>
               </div>
               <div className="token-gating-for-nextjs-container4">
-                <BlogPostCardFinal
-                  title="Embracing the Future of Web3:  An Introduction to NFT Token Gating"
-                  image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNzQzMzY0&amp;ixlib=rb-4.0.3&amp;w=1500"
-                  description='The world of digital assets and blockchain technology is evolving at a rapid pace. With the advent of non-fungible tokens (NFTs) and their increasing popularity, a new concept known as "token gating" has emerged. This white paper aims to introduce the concept of NFT token gating, its benefits, and potential use case examples that can revolutionize various industries.'
-                  rootClassName="rootClassName9"
-                  className="token-gating-for-nextjs-component1"
-                ></BlogPostCardFinal>
+                <Link href="/an-introduction-to-nft-token-gating">
+                  <a className="token-gating-for-nextjs-link09">
+                    <BlogPostCardFinal
+                      title="Embracing the Future of Web3:  An Introduction to NFT Token Gating"
+                      image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNzQzMzY0&amp;ixlib=rb-4.0.3&amp;w=1500"
+                      description='The world of digital assets and blockchain technology is evolving at a rapid pace. With the advent of non-fungible tokens (NFTs) and their increasing popularity, a new concept known as "token gating" has emerged. This white paper aims to introduce the concept of NFT token gating, its benefits, and potential use case examples that can revolutionize various industries.'
+                      rootClassName="rootClassName9"
+                      className="token-gating-for-nextjs-component1"
+                    ></BlogPostCardFinal>
+                  </a>
+                </Link>
               </div>
               <div className="token-gating-for-nextjs-container5">
-                <BlogPostCardFinal
-                  title="Unlocking a Token Gate: The Signature Request Explained"
-                  image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNzQzNDM3&amp;ixlib=rb-4.0.3&amp;w=1500"
-                  description="As the world of online communities and digital content continues to grow, creators and platforms are seeking new ways to protect access, validate users, and promote exclusivity. Enter token gating, a novel approach to ensuring only qualified individuals gain entry to specific online spaces. In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process. Let's start by understanding what token gating is and how it works."
-                  rootClassName="rootClassName10"
-                  className="token-gating-for-nextjs-component2"
-                ></BlogPostCardFinal>
+                <Link href="/unlock-token-gate-signature-request">
+                  <a className="token-gating-for-nextjs-link10">
+                    <BlogPostCardFinal
+                      title="Unlocking a Token Gate: The Signature Request Explained"
+                      image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNzQzNDM3&amp;ixlib=rb-4.0.3&amp;w=1500"
+                      description="As the world of online communities and digital content continues to grow, creators and platforms are seeking new ways to protect access, validate users, and promote exclusivity. Enter token gating, a novel approach to ensuring only qualified individuals gain entry to specific online spaces. In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process. Let's start by understanding what token gating is and how it works."
+                      rootClassName="rootClassName10"
+                      className="token-gating-for-nextjs-component2"
+                    ></BlogPostCardFinal>
+                  </a>
+                </Link>
               </div>
             </div>
           </section>
@@ -377,7 +389,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link08"
+                className="token-gating-for-nextjs-link11"
               >
                 OpenMedium, Inc
               </a>
@@ -394,7 +406,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link09"
+                className="token-gating-for-nextjs-link12"
               >
                 TekSun, Inc.
               </a>
@@ -407,7 +419,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link10"
+                className="token-gating-for-nextjs-link13"
               >
                 Legal
               </a>
@@ -892,6 +904,9 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
+          .token-gating-for-nextjs-link08 {
+            display: contents;
+          }
           .token-gating-for-nextjs-component {
             text-decoration: none;
           }
@@ -901,6 +916,9 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
+          .token-gating-for-nextjs-link09 {
+            display: contents;
+          }
           .token-gating-for-nextjs-component1 {
             text-decoration: none;
           }
@@ -908,6 +926,9 @@ closeButton.addEventListener("click", function() {
             display: flex;
             align-items: center;
             justify-content: space-between;
+          }
+          .token-gating-for-nextjs-link10 {
+            display: contents;
           }
           .token-gating-for-nextjs-component2 {
             text-decoration: none;
@@ -952,10 +973,10 @@ closeButton.addEventListener("click", function() {
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-for-nextjs-link08 {
+          .token-gating-for-nextjs-link11 {
             text-decoration: underline;
           }
-          .token-gating-for-nextjs-link09 {
+          .token-gating-for-nextjs-link12 {
             text-decoration: underline;
           }
           .token-gating-for-nextjs-text41 {
@@ -964,7 +985,7 @@ closeButton.addEventListener("click", function() {
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-for-nextjs-link10 {
+          .token-gating-for-nextjs-link13 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {

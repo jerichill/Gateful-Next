@@ -2832,7 +2832,6 @@ Here's what the above is doing:
             }
             .home-right1 {
               margin-left: 0px;
-              padding-top: var(--dl-space-space-oneandhalfunits);
             }
             .home-text035 {
               font-size: 28px;

@@ -2641,7 +2641,6 @@ closeButton.addEventListener("click", function() {
               margin-bottom: 0px;
             }
             .about-token-gating-platforms-blog {
-              margin-top: 0px;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
