@@ -393,24 +393,21 @@ closeButton.addEventListener("click", function() {
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
             </span>
-            <a
-              href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="token-gating-for-digital-marketing-link5"
-            >
-              <div className="token-gating-for-digital-marketing-get-started1">
-                <svg
-                  viewBox="0 0 1024 1024"
-                  className="token-gating-for-digital-marketing-icon06"
-                >
-                  <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                </svg>
-                <span className="token-gating-for-digital-marketing-text056">
-                  Book a Demo
-                </span>
-              </div>
-            </a>
+            <Link href="/book-a-demo">
+              <a className="token-gating-for-digital-marketing-link5">
+                <div className="token-gating-for-digital-marketing-get-started1">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="token-gating-for-digital-marketing-icon06"
+                  >
+                    <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                  </svg>
+                  <span className="token-gating-for-digital-marketing-text056">
+                    Book a Demo
+                  </span>
+                </div>
+              </a>
+            </Link>
           </div>
         </section>
         <section className="token-gating-for-digital-marketing-integrations">
