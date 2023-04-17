@@ -4,80 +4,93 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-import Frameworks from '../components/frameworks'
 import YouTube from '../components/you-tube'
-import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
 
-const Home = (props) => {
+const AnIntroductionToNFTTokenGating = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="an-introduction-to-nf-token-gating-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>
+            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+          </title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="home-hero">
-          <div className="home-menu">
-            <div id="navigation" className="home-desktop-navigation">
-              <nav className="home-centered">
-                <div className="home-left">
+        <section
+          id="header"
+          className="an-introduction-to-nf-token-gating-hero"
+        >
+          <div className="an-introduction-to-nf-token-gating-menu">
+            <div
+              id="navigation"
+              className="an-introduction-to-nf-token-gating-desktop-navigation"
+            >
+              <nav className="an-introduction-to-nf-token-gating-centered">
+                <div className="an-introduction-to-nf-token-gating-left">
                   <Link href="/">
-                    <a className="home-link">
+                    <a className="an-introduction-to-nf-token-gating-link">
                       <img
                         alt="Welcome to Gateful"
                         src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="home-logo"
+                        className="an-introduction-to-nf-token-gating-logo"
                       />
                     </a>
                   </Link>
-                  <div className="home-links">
+                  <div className="an-introduction-to-nf-token-gating-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link1 Link">Platform</a>
+                      <a className="an-introduction-to-nf-token-gating-link1 Link">
+                        Platform
+                      </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link2 Link">Solutions</a>
+                      <a className="an-introduction-to-nf-token-gating-link2 Link">
+                        Solutions
+                      </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link3 Link">
+                      <a className="an-introduction-to-nf-token-gating-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="home-right">
+                <div className="an-introduction-to-nf-token-gating-right">
                   <a
                     href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-sign-in Link"
+                    className="an-introduction-to-nf-token-gating-sign-in Link"
                   >
                     <span>Login</span>
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link4">
-                      <div className="home-get-started">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <a className="an-introduction-to-nf-token-gating-link4">
+                      <div className="an-introduction-to-nf-token-gating-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="an-introduction-to-nf-token-gating-icon"
+                        >
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                         </svg>
-                        <span className="home-text004">
+                        <span className="an-introduction-to-nf-token-gating-text004">
                           <span>Book a Demo</span>
                           <br></br>
                         </span>
@@ -114,73 +127,30 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="home-header">
-            <h1 className="home-text007">
-              The Easiest Way to Create Token Gated Digital Experiences
+          <header className="an-introduction-to-nf-token-gating-header">
+            <h1 className="an-introduction-to-nf-token-gating-text007">
+              An Introduction to NFT Token Gating
             </h1>
-            <p className="home-text008">
-              Gateful makes it easy to add Web3 Token Gating functionality to
-              your website or web application. Transform your project into a
-              powerful Web3-connected community without writing any code.
+            <p className="an-introduction-to-nf-token-gating-text008">
+              Embracing the Future of Web3
             </p>
-            <a
-              href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link5"
-            >
-              <div className="home-get-started1">
-                <svg viewBox="0 0 1024 1024" className="home-icon02">
-                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                </svg>
-                <span className="home-text009">Early access</span>
-              </div>
-            </a>
-          </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <h2 className="home-text010">
-                <span>
-                  Top
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text012">brands</span>
-                <span>
-                  ,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text014">developers</span>
-                <span>
-                  , and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text016">creators</span>
-                <span> trust Gateful.</span>
-              </h2>
+            <div className="an-introduction-to-nf-token-gating-profile">
               <img
-                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
-                src="/playground_assets/brands-200h.png"
-                loading="eager"
-                className="home-image"
+                alt="profile"
+                src="/playground_assets/headshot2022bpng-200w.png"
+                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
+                className="an-introduction-to-nf-token-gating-image"
               />
+              <span className="an-introduction-to-nf-token-gating-text009">
+                <span>J. Eric Hill</span>
+                <br></br>
+              </span>
             </div>
-          </div>
+          </header>
         </section>
-        <section className="home-features">
-          <div className="home-title">
-            <span className="home-text018">
+        <section className="an-introduction-to-nf-token-gating-features">
+          <div className="an-introduction-to-nf-token-gating-title">
+            <span className="an-introduction-to-nf-token-gating-text012">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -192,7 +162,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="home-text022">
+            <span className="an-introduction-to-nf-token-gating-text016">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -204,41 +174,47 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="home-cards">
-            <div className="home-container1">
+          <div className="an-introduction-to-nf-token-gating-cards">
+            <div className="an-introduction-to-nf-token-gating-container1">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="home-icon04"
+                  className="an-introduction-to-nf-token-gating-icon02"
                 />
-                <span className="home-text025">Schedule</span>
-                <span className="home-text026">
+                <span className="an-introduction-to-nf-token-gating-text019">
+                  Schedule
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text020">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="home-publish card">
+              <div className="an-introduction-to-nf-token-gating-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="home-icon05"
+                  className="an-introduction-to-nf-token-gating-icon03"
                 />
-                <span className="home-text027">Publish</span>
-                <span className="home-text028">
+                <span className="an-introduction-to-nf-token-gating-text021">
+                  Publish
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="home-container2">
-              <div className="card home-analyze">
+            <div className="an-introduction-to-nf-token-gating-container2">
+              <div className="card an-introduction-to-nf-token-gating-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="home-icon06"
+                  className="an-introduction-to-nf-token-gating-icon04"
                 />
-                <span className="home-text029">Analyze</span>
-                <span className="home-text030">
+                <span className="an-introduction-to-nf-token-gating-text023">
+                  Analyze
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -247,10 +223,12 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="home-icon07"
+                  className="an-introduction-to-nf-token-gating-icon05"
                 />
-                <span className="home-text031">Get leads</span>
-                <span className="home-text032">
+                <span className="an-introduction-to-nf-token-gating-text025">
+                  Get leads
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,119 +236,226 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners">
-          <div className="home-banner-advanced-analytics">
-            <div className="home-centered-container">
-              <div className="home-image-container">
-                <img
-                  alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/2xscreen-1300w.png"
-                  loading="eager"
-                  className="home-cards-image"
+        <section className="an-introduction-to-nf-token-gating-banners">
+          <div className="an-introduction-to-nf-token-gating-blog">
+            <h2 className="an-introduction-to-nf-token-gating-text027">
+              The world of digital assets and blockchain technology is evolving
+              at a rapid pace. With the advent of non-fungible tokens (NFTs) and
+              their increasing popularity, a new concept known as &quot;token
+              gating&quot; has emerged.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </h2>
+            <span className="an-introduction-to-nf-token-gating-text028">
+              <span>
+                The world of digital assets has experienced exponential growth
+                in recent years, with non-fungible tokens (NFTs) gaining
+                significant traction. As the NFT market expands, innovative
+                applications and strategies have emerged to maximize the
+                potential of these digital assets. One such strategy is NFT
+                token gating, a concept that holds the promise of
+                revolutionizing the way digital content is owned, accessed, and
+                monetized.
+              </span>
+              <br></br>
+            </span>
+            <h2 className="an-introduction-to-nf-token-gating-text031">
+              What is NFT Token Gating?
+            </h2>
+            <span className="an-introduction-to-nf-token-gating-text032">
+              <span>
+                NFT token gating refers to the process of restricting access to
+                digital content or services based on the ownership of specific
+                NFTs. This method allows creators to grant exclusive access to
+                their work or experiences to individuals who possess a
+                particular NFT, essentially creating a digital &quot;key&quot;
+                for unlocking gated content.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                Token gating enables creators to monetize their work while
+                ensuring a sense of exclusivity and scarcity for consumers. By
+                gating content behind NFTs, creators can foster a dedicated
+                community of fans who have a vested interest in the long-term
+                value of the content.
+              </span>
+            </span>
+            <h2 className="an-introduction-to-nf-token-gating-text037">
+              Benefits of NFT Token Gating
+            </h2>
+            <h3 className="an-introduction-to-nf-token-gating-text038">
+              There are several benefits associated with NFT token gating, which
+              include:
+            </h3>
+            <span className="an-introduction-to-nf-token-gating-text039">
+              <span className="an-introduction-to-nf-token-gating-text040">
+                Monetization and revenue generation:
+              </span>
+              <span>
+                {' '}
+                Token gating allows creators to monetize their work in unique
+                and innovative ways. By offering exclusive access to content or
+                experiences, creators can generate revenue from their fanbase.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text044">
+                Exclusivity and scarcity:
+              </span>
+              <span>
+                {' '}
+                NFT token gating creates a sense of exclusivity and scarcity for
+                digital content, driving up its value and attracting collectors
+                and enthusiasts.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text048">
+                Community building:
+              </span>
+              <span>
+                {' '}
+                Token gating can foster a dedicated community of fans who share
+                a common interest in the creator&apos;s work, providing a
+                platform for networking, collaboration, and engagement.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text052">
+                Flexibility and control:
+              </span>
+              <span>
+                {' '}
+                Creators have complete control over the access and distribution
+                of their content, enabling them to experiment with various
+                monetization strategies and audience engagement techniques.
+              </span>
+              <br></br>
+            </span>
+            <h2 className="an-introduction-to-nf-token-gating-text055">
+              Use Case Examples for NFT Token Gating
+            </h2>
+            <span className="an-introduction-to-nf-token-gating-text056">
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
                 />
-              </div>
-              <div className="home-right1">
-                <h2 className="home-text033 title">
-                  On-chain access control, simplified
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </h2>
-                <div className="home-category">
-                  <span className="home-text034">
-                    Add Web3 Token Gating functionality to your existing website
-                    or web application without writing code. Our integration
-                    with LIT Protocol allows you to create multiple token gates
-                    within the same experience. Create on-chain conditions
-                    unique to your audience and requirements. Integrate with
-                    major blockchain networks.
-                  </span>
-                </div>
-                <div className="home-category1">
-                  <img
-                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
-                    src="/playground_assets/2xblockchains-1100w.png"
-                    className="home-image1"
-                  />
-                </div>
-              </div>
-            </div>
+              </span>
+              <span className="an-introduction-to-nf-token-gating-text058">
+                Exclusive content access:
+              </span>
+              <span>
+                {' '}
+                Musicians can release limited-edition NFTs that grant holders
+                access to unreleased tracks, behind-the-scenes footage, or
+                personalized experiences such as virtual concerts.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text062">
+                Gaming:
+              </span>
+              <span>
+                {' '}
+                Game developers can use NFT token gating to grant access to
+                exclusive in-game items, characters, or levels, enhancing the
+                player experience and adding value to the gaming ecosystem.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text066">
+                Virtual events:
+              </span>
+              <span>
+                {' '}
+                Event organizers can sell NFT tickets that grant holders access
+                to exclusive virtual events, such as conferences, seminars, or
+                workshops.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="an-introduction-to-nf-token-gating-text070">
+                Digital art exhibitions:
+              </span>
+              <span>
+                {' '}
+                Artists can create digital galleries where NFT holders are
+                granted access to view and purchase exclusive artworks or attend
+                virtual openings.
+              </span>
+            </span>
+            <h2 className="an-introduction-to-nf-token-gating-text072">
+              NFT token gating is revolutionizing the way NFT creators monetize
+              their collections and engage with their token holders.
+            </h2>
+            <span className="an-introduction-to-nf-token-gating-text073">
+              NFT token gating is an innovative concept that has the potential
+              to revolutionize the way creators monetize and distribute their
+              digital content. By harnessing the power of NFTs and token gating,
+              creators can generate new revenue streams, foster dedicated
+              communities, and redefine the value of digital assets in the
+              modern age. As the market for NFTs continues to expand, it is
+              essential for businesses and individuals to explore the
+              possibilities and applications of NFT token gating.
+            </span>
           </div>
-          <div className="home-banner-manage">
-            <div className="home-container3">
-              <div className="home-left1">
-                <span className="sub-title">Content Management</span>
-                <span className="home-text036 title">
-                  Manage all your platforms in just one place.
+          <div className="an-introduction-to-nf-token-gating-blog1">
+            <h2 className="an-introduction-to-nf-token-gating-text074">
+              Gateful is the easiest way to token gate any website or web
+              application.
+            </h2>
+            <span className="an-introduction-to-nf-token-gating-text075">
+              If you&apos;re looking to add Web3 Token Gating functionality to
+              your website or web application and do not know where to start,
+              contact our Web3 implementation team for a demo.
+            </span>
+            <a
+              href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="an-introduction-to-nf-token-gating-link5"
+            >
+              <div className="an-introduction-to-nf-token-gating-get-started1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="an-introduction-to-nf-token-gating-icon06"
+                >
+                  <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                </svg>
+                <span className="an-introduction-to-nf-token-gating-text076">
+                  Book a Demo
                 </span>
-                <span className="home-text037">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started2 template-button">
-                  <span className="home-text038">Get started</span>
-                </div>
               </div>
-              <div className="home-image-container1">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="home-cards-image1"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="home-banner">
-            <div className="home-container4">
-              <div className="home-left2">
-                <span className="home-text039">Improve Scheduling</span>
-                <h2 className="home-text040 title">
-                  Powerful scheduler that saves you time
-                </h2>
-                <span className="home-text041">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container2">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="home-cards-image2"
-                />
-              </div>
-            </div>
+            </a>
           </div>
         </section>
-        <Frameworks></Frameworks>
-        <section className="home-integrations">
-          <div className="home-centered-container1">
-            <div className="home-heading">
+        <section className="an-introduction-to-nf-token-gating-integrations">
+          <div className="an-introduction-to-nf-token-gating-centered-container">
+            <div className="an-introduction-to-nf-token-gating-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="home-text045">
+              <span className="an-introduction-to-nf-token-gating-text079">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="home-pills-container">
-              <div className="home-pills">
-                <div className="home-container5">
+            <div className="an-introduction-to-nf-token-gating-pills-container">
+              <div className="an-introduction-to-nf-token-gating-pills">
+                <div className="an-introduction-to-nf-token-gating-container3">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="home-container6">
+                <div className="an-introduction-to-nf-token-gating-container4">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -380,18 +465,19 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <Testimonial></Testimonial>
-        <section className="home-how-it-works">
-          <div className="home-centered-container2">
-            <div className="home-heading1">
-              <span className="home-text046">How it works</span>
-              <span className="home-text047 title">
+        <section className="an-introduction-to-nf-token-gating-how-it-works">
+          <div className="an-introduction-to-nf-token-gating-centered-container1">
+            <div className="an-introduction-to-nf-token-gating-heading1">
+              <span className="an-introduction-to-nf-token-gating-text080">
+                How it works
+              </span>
+              <span className="an-introduction-to-nf-token-gating-text081 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="home-category2">
-              <div className="home-headng">
-                <span className="home-text048">
+            <div className="an-introduction-to-nf-token-gating-category">
+              <div className="an-introduction-to-nf-token-gating-headng">
+                <span className="an-introduction-to-nf-token-gating-text082">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -399,28 +485,32 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="home-text049">
+                <span className="an-introduction-to-nf-token-gating-text083">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="home-get-started4 template-button">
-                  <span className="home-text050">Get started</span>
+                <div className="an-introduction-to-nf-token-gating-get-started2 template-button">
+                  <span className="an-introduction-to-nf-token-gating-text084">
+                    Get started
+                  </span>
                 </div>
               </div>
-              <div className="home-container7">
+              <div className="an-introduction-to-nf-token-gating-container5">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="home-pasted-image"
+                  className="an-introduction-to-nf-token-gating-pasted-image"
                 />
               </div>
             </div>
-            <div className="home-row">
-              <div className="home-category3">
-                <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
-                  <span className="home-text052">
+            <div className="an-introduction-to-nf-token-gating-row">
+              <div className="an-introduction-to-nf-token-gating-category1">
+                <div className="an-introduction-to-nf-token-gating-headng1">
+                  <span className="an-introduction-to-nf-token-gating-text085">
+                    2 — Act
+                  </span>
+                  <span className="an-introduction-to-nf-token-gating-text086">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -429,13 +519,15 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="home-pasted-image1"
+                  className="an-introduction-to-nf-token-gating-pasted-image1"
                 />
               </div>
-              <div className="home-category4">
-                <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
-                  <span className="home-text054">
+              <div className="an-introduction-to-nf-token-gating-category2">
+                <div className="an-introduction-to-nf-token-gating-headng2">
+                  <span className="an-introduction-to-nf-token-gating-text087">
+                    2 — Act
+                  </span>
+                  <span className="an-introduction-to-nf-token-gating-text088">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -444,184 +536,202 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="home-pasted-image2"
+                  className="an-introduction-to-nf-token-gating-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="home-pricing">
-          <div className="home-centered-container3">
-            <div className="home-heading2">
-              <span className="home-text055 title">
+        <section className="an-introduction-to-nf-token-gating-pricing">
+          <div className="an-introduction-to-nf-token-gating-centered-container2">
+            <div className="an-introduction-to-nf-token-gating-heading2">
+              <span className="an-introduction-to-nf-token-gating-text089 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="home-text056">
+              <span className="an-introduction-to-nf-token-gating-text090">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="home-selection">
-                <span className="home-text057">Monthly</span>
-                <span className="home-text058">Yearly</span>
+              <div className="an-introduction-to-nf-token-gating-selection">
+                <span className="an-introduction-to-nf-token-gating-text091">
+                  Monthly
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text092">
+                  Yearly
+                </span>
               </div>
             </div>
-            <div className="home-cards1">
-              <div className="home-card">
-                <span className="home-text059">Free</span>
-                <span className="home-text060">
+            <div className="an-introduction-to-nf-token-gating-cards1">
+              <div className="an-introduction-to-nf-token-gating-card">
+                <span className="an-introduction-to-nf-token-gating-text093">
+                  Free
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text094">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started5 template-button">
-                  <span className="home-text061">Start for free</span>
+                <div className="an-introduction-to-nf-token-gating-get-started3 template-button">
+                  <span className="an-introduction-to-nf-token-gating-text095">
+                    Start for free
+                  </span>
                 </div>
-                <span className="home-text062">What&apos;s included</span>
-                <div className="home-bullet-points">
-                  <div className="home-point">
+                <span className="an-introduction-to-nf-token-gating-text096">
+                  What&apos;s included
+                </span>
+                <div className="an-introduction-to-nf-token-gating-bullet-points">
+                  <div className="an-introduction-to-nf-token-gating-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon08"
+                      className="an-introduction-to-nf-token-gating-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text063">
+                    <span className="an-introduction-to-nf-token-gating-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point01">
+                  <div className="an-introduction-to-nf-token-gating-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon10"
+                      className="an-introduction-to-nf-token-gating-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text064">
+                    <span className="an-introduction-to-nf-token-gating-text098">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card1">
-                <span className="home-text065">Pay as you go</span>
-                <span className="home-text066">
+              <div className="an-introduction-to-nf-token-gating-card1">
+                <span className="an-introduction-to-nf-token-gating-text099">
+                  Pay as you go
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text100">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="home-get-started6 template-button">
-                  <span className="home-text070">
+                <div className="an-introduction-to-nf-token-gating-get-started4 template-button">
+                  <span className="an-introduction-to-nf-token-gating-text104">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text073">What&apos;s included</span>
-                <div className="home-bullet-points1">
-                  <div className="home-point02">
+                <span className="an-introduction-to-nf-token-gating-text107">
+                  What&apos;s included
+                </span>
+                <div className="an-introduction-to-nf-token-gating-bullet-points1">
+                  <div className="an-introduction-to-nf-token-gating-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon12"
+                      className="an-introduction-to-nf-token-gating-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text074">
+                    <span className="an-introduction-to-nf-token-gating-text108">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point03">
+                  <div className="an-introduction-to-nf-token-gating-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon14"
+                      className="an-introduction-to-nf-token-gating-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text075">
+                    <span className="an-introduction-to-nf-token-gating-text109">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point04">
+                  <div className="an-introduction-to-nf-token-gating-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon16"
+                      className="an-introduction-to-nf-token-gating-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text076">
+                    <span className="an-introduction-to-nf-token-gating-text110">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point05">
+                  <div className="an-introduction-to-nf-token-gating-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon18"
+                      className="an-introduction-to-nf-token-gating-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text077">
+                    <span className="an-introduction-to-nf-token-gating-text111">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card2">
-                <span className="home-text078">Enterprise</span>
-                <span className="home-text079">
+              <div className="an-introduction-to-nf-token-gating-card2">
+                <span className="an-introduction-to-nf-token-gating-text112">
+                  Enterprise
+                </span>
+                <span className="an-introduction-to-nf-token-gating-text113">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="home-get-started7 template-button">
-                  <span className="home-text082">
+                <div className="an-introduction-to-nf-token-gating-get-started5 template-button">
+                  <span className="an-introduction-to-nf-token-gating-text116">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text085">What&apos;s included</span>
-                <div className="home-bullet-points2">
-                  <div className="home-point06">
+                <span className="an-introduction-to-nf-token-gating-text119">
+                  What&apos;s included
+                </span>
+                <div className="an-introduction-to-nf-token-gating-bullet-points2">
+                  <div className="an-introduction-to-nf-token-gating-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon20"
+                      className="an-introduction-to-nf-token-gating-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text086">
+                    <span className="an-introduction-to-nf-token-gating-text120">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point07">
+                  <div className="an-introduction-to-nf-token-gating-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon22"
+                      className="an-introduction-to-nf-token-gating-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text087">
+                    <span className="an-introduction-to-nf-token-gating-text121">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point08">
+                  <div className="an-introduction-to-nf-token-gating-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="an-introduction-to-nf-token-gating-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text088">
+                    <span className="an-introduction-to-nf-token-gating-text122">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point09">
+                  <div className="an-introduction-to-nf-token-gating-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="an-introduction-to-nf-token-gating-icon26"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text089">
+                    <span className="an-introduction-to-nf-token-gating-text123">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -630,15 +740,17 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-testimonals">
-          <div className="home-left3">
-            <span className="home-text090">Testimonals</span>
-            <span className="home-text091 title">
+        <section className="an-introduction-to-nf-token-gating-testimonals">
+          <div className="an-introduction-to-nf-token-gating-left1">
+            <span className="an-introduction-to-nf-token-gating-text124">
+              Testimonals
+            </span>
+            <span className="an-introduction-to-nf-token-gating-text125 title">
               What people say about Active
             </span>
           </div>
-          <div className="home-right2">
-            <div className="home-column">
+          <div className="an-introduction-to-nf-token-gating-right1">
+            <div className="an-introduction-to-nf-token-gating-column">
               <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -662,7 +774,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></TestimonalBLurb>
             </div>
-            <div className="home-column1">
+            <div className="an-introduction-to-nf-token-gating-column1">
               <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
@@ -689,252 +801,49 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="home-text092">
+          <span className="an-introduction-to-nf-token-gating-text126">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="home-action-bar">
-          <div className="home-action">
-            <div className="home-heading3">
-              <span className="home-text095 title">
+        <section className="an-introduction-to-nf-token-gating-action-bar">
+          <div className="an-introduction-to-nf-token-gating-action">
+            <div className="an-introduction-to-nf-token-gating-heading3">
+              <span className="an-introduction-to-nf-token-gating-text129 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="home-text099">
+              <span className="an-introduction-to-nf-token-gating-text133">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="home-get-started8 template-button">
-                <span className="home-text100">
+              <div className="an-introduction-to-nf-token-gating-get-started6 template-button">
+                <span className="an-introduction-to-nf-token-gating-text134">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="home-images">
+            <div className="an-introduction-to-nf-token-gating-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image2"
+                className="an-introduction-to-nf-token-gating-image1"
               />
             </div>
           </div>
         </section>
-        <section className="home-faq">
-          <div className="home-heading4">
-            <span className="home-text103 title">
-              Frequently asked questions
-            </span>
-            <span className="home-text104">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
-          </div>
-          <div className="home-accordion">
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
-                <span className="home-text105">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="accordionContainer">
-              <div className="home-header2">
-                <span className="home-text107">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text108">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
-                <span className="home-text109">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text110">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text111">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text112">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
-                <span className="home-text113">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text114">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <DangerousHTML
-              html={`<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll(".accordionContainer"); // All accordion containers
-const accordionContents = document.querySelectorAll(".accordionContent"); // All accordion content
-const accordionIcons = document.querySelectorAll(".accordionIcon"); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = "none"; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener("click", () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = "none"; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains("accordion-open")) { // Checks if this container has class "accordion-open"
-            accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open"
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open" from all containers
-            });
-
-            accordionContainer.classList.add("accordion-open"); // Adds class "accordion-open" to this container
-            accordionContents[index].style.display = "flex"; // Shows accordion content
-            accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class "accordion-open"
-            - If it does, it removes class "accordion-open"
-            - If it doesn't, it:
-                - Removes class "accordion-open" from all containers
-                - Adds class "accordion-open" to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>`}
-            ></DangerousHTML>
-          </div>
-        </section>
-        <footer className="home-footer">
-          <div className="home-top">
+        <footer className="an-introduction-to-nf-token-gating-footer">
+          <div className="an-introduction-to-nf-token-gating-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
+              className="an-introduction-to-nf-token-gating-image2"
             />
-            <span className="home-text115">
+            <span className="an-introduction-to-nf-token-gating-text137">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="home-text116">
+            <span className="an-introduction-to-nf-token-gating-text138">
               <span>
                 Built by
                 <span
@@ -947,7 +856,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link6"
+                className="an-introduction-to-nf-token-gating-link6"
               >
                 OpenMedium, Inc
               </a>
@@ -964,12 +873,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link7"
+                className="an-introduction-to-nf-token-gating-link7"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="home-text119">
+            <span className="an-introduction-to-nf-token-gating-text141">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -977,7 +886,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link8"
+                className="an-introduction-to-nf-token-gating-link8"
               >
                 Legal
               </a>
@@ -987,7 +896,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .home-container {
+          .an-introduction-to-nf-token-gating-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -995,9 +904,9 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .home-hero {
+          .an-introduction-to-nf-token-gating-hero {
             width: 100%;
-            height: 716px;
+            height: auto;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1008,25 +917,25 @@ Here's what the above is doing:
             background-image: linear-gradient(
                 135deg,
                 rgba(16, 138, 130, 0.75) 0%,
-                rgba(18, 16, 74, 0.8) 50%,
+                rgba(18, 16, 74, 0.91) 50%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
-              url('/playground_assets/fractal%20image%209-1500w.png');
+              url('https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNTkxNTQy&ixlib=rb-4.0.3&w=1500');
             background-position: top left, center;
           }
-          .home-menu {
+          .an-introduction-to-nf-token-gating-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-desktop-navigation {
+          .an-introduction-to-nf-token-gating-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-centered {
+          .an-introduction-to-nf-token-gating-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -1038,7 +947,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-left {
+          .an-introduction-to-nf-token-gating-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1046,35 +955,35 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .home-link {
+          .an-introduction-to-nf-token-gating-link {
             display: contents;
           }
-          .home-logo {
+          .an-introduction-to-nf-token-gating-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .home-links {
+          .an-introduction-to-nf-token-gating-links {
             align-items: center;
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link1 {
+          .an-introduction-to-nf-token-gating-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link2 {
+          .an-introduction-to-nf-token-gating-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link3 {
+          .an-introduction-to-nf-token-gating-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-right {
+          .an-introduction-to-nf-token-gating-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1082,16 +991,16 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-sign-in {
+          .an-introduction-to-nf-token-gating-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link4 {
+          .an-introduction-to-nf-token-gating-link4 {
             display: contents;
           }
-          .home-get-started {
+          .an-introduction-to-nf-token-gating-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1107,21 +1016,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .home-get-started:hover {
+          .an-introduction-to-nf-token-gating-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .home-icon {
+          .an-introduction-to-nf-token-gating-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text004 {
+          .an-introduction-to-nf-token-gating-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .home-header {
+          .an-introduction-to-nf-token-gating-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1130,7 +1039,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text007 {
+          .an-introduction-to-nf-token-gating-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1138,95 +1047,34 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-text008 {
+          .an-introduction-to-nf-token-gating-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
-            font-size: 20px;
+            font-size: 24px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-link5 {
-            display: contents;
-          }
-          .home-get-started1 {
-            color: white;
-            cursor: pointer;
+          .an-introduction-to-nf-token-gating-profile {
             display: flex;
-            box-shadow: 5px 5px 0px 1px #db2763;
-            margin-top: 40px;
-            transition: 0.3s;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 10px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-unit);
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-primary-700);
-          }
-          .home-get-started1:hover {
-            color: black;
-            background-color: #ffffff;
-          }
-          .home-icon02 {
-            fill: var(--dl-color-primary-100);
-            width: 20px;
-            height: 20px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
-          .home-text009 {
-            color: var(--dl-color-primary-100);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-dashboard-preview {
-            width: 100%;
-            height: 182px;
-            display: flex;
-            z-index: 1;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-outline {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            border-color: var(--dl-color-primary-100);
-            border-width: 2px;
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 20px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-text010 {
-            color: var(--dl-color-primary-100);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text012 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text014 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text016 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-image {
-            width: 90%;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            object-fit: cover;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-features {
+          .an-introduction-to-nf-token-gating-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .an-introduction-to-nf-token-gating-text009 {
+            color: var(--dl-color-gray-white);
+            font-size: 20px;
+            font-weight: 300;
+            margin-left: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1238,25 +1086,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
+          .an-introduction-to-nf-token-gating-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text018 {
+          .an-introduction-to-nf-token-gating-text012 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .home-text022 {
+          .an-introduction-to-nf-token-gating-text016 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-cards {
+          .an-introduction-to-nf-token-gating-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1264,7 +1112,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .home-container1 {
+          .an-introduction-to-nf-token-gating-container1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1272,40 +1120,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-icon04 {
+          .an-introduction-to-nf-token-gating-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text025 {
+          .an-introduction-to-nf-token-gating-text019 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text026 {
+          .an-introduction-to-nf-token-gating-text020 {
             line-height: 24px;
           }
-          .home-publish {
+          .an-introduction-to-nf-token-gating-publish {
             height: initial;
           }
-          .home-icon05 {
+          .an-introduction-to-nf-token-gating-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text027 {
+          .an-introduction-to-nf-token-gating-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text028 {
+          .an-introduction-to-nf-token-gating-text022 {
             line-height: 24px;
           }
-          .home-container2 {
+          .an-introduction-to-nf-token-gating-container2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1313,234 +1161,189 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .home-icon06 {
+          .an-introduction-to-nf-token-gating-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text029 {
+          .an-introduction-to-nf-token-gating-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .home-text030 {
+          .an-introduction-to-nf-token-gating-text024 {
             line-height: 24px;
           }
-          .home-icon07 {
+          .an-introduction-to-nf-token-gating-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text031 {
+          .an-introduction-to-nf-token-gating-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text032 {
+          .an-introduction-to-nf-token-gating-text026 {
             line-height: 24px;
           }
-          .home-banners {
+          .an-introduction-to-nf-token-gating-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-advanced-analytics {
+          .an-introduction-to-nf-token-gating-blog {
             width: 100%;
             display: flex;
+            max-width: 900px;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .an-introduction-to-nf-token-gating-text027 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text028 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-text031 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text032 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-text037 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text038 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text039 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-text040 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text044 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text048 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text052 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text055 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text056 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-text058 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text062 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text066 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text070 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text072 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text073 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-blog1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            max-width: 900px;
+            box-shadow: 5px 5px 0px 1px #dbfe87;
             align-items: center;
-            padding-top: 180px;
-            padding-left: var(--dl-space-space-sixunits);
-            padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
+            border-color: var(--dl-color-primary-700);
+            border-width: 1px;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+            justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .home-centered-container {
-            width: 100%;
+          .an-introduction-to-nf-token-gating-text074 {
+            text-align: center;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text075 {
+            font-size: 19px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-link5 {
+            display: contents;
+          }
+          .an-introduction-to-nf-token-gating-get-started1 {
+            color: white;
+            cursor: pointer;
             display: flex;
-            max-width: 1280px;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-image-container {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-          }
-          .home-cards-image {
-            width: 100%;
-            height: 100%;
-            box-shadow: 5px 5px 0px 1px #dbfe87;
-            object-fit: contain;
-            border-radius: 20px;
-          }
-          .home-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text033 {
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 0px;
-          }
-          .home-category {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-          }
-          .home-text034 {
-            color: rgb(0, 0, 0);
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 0px;
-          }
-          .home-category1 {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image1 {
-            width: 80%;
-            object-fit: cover;
-          }
-          .home-banner-manage {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container3 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-left1 {
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text036 {
-            text-align: left;
-          }
-          .home-text037 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started2 {
+            box-shadow: 5px 5px 0px 1px #db2763;
             transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started2:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text038 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container1 {
-            flex: 1;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-cards-image1 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            user-select: none;
-          }
-          .home-banner {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container4 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-left2 {
-            flex: 1;
-            display: flex;
             align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: 10px;
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-primary-700);
           }
-          .home-text039 {
-            color: rgb(82, 40, 245);
-            font-style: normal;
-            font-weight: 600;
-            margin-bottom: 24px;
+          .an-introduction-to-nf-token-gating-get-started1:hover {
+            color: black;
+            background-color: #ffffff;
           }
-          .home-text040 {
-            text-align: left;
+          .an-introduction-to-nf-token-gating-icon06 {
+            fill: var(--dl-color-primary-100);
+            width: 20px;
+            height: 20px;
+            margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text041 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started3 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started3:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text042 {
+          .an-introduction-to-nf-token-gating-text076 {
+            color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-image-container2 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-cards-image2 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-          }
-          .home-integrations {
+          .an-introduction-to-nf-token-gating-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1549,7 +1352,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .home-centered-container1 {
+          .an-introduction-to-nf-token-gating-centered-container {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1557,24 +1360,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading {
+          .an-introduction-to-nf-token-gating-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text045 {
+          .an-introduction-to-nf-token-gating-text079 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-pills-container {
+          .an-introduction-to-nf-token-gating-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-pills {
+          .an-introduction-to-nf-token-gating-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1583,14 +1386,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-container5 {
+          .an-introduction-to-nf-token-gating-container3 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container6 {
+          .an-introduction-to-nf-token-gating-container4 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1598,7 +1401,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-how-it-works {
+          .an-introduction-to-nf-token-gating-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1609,7 +1412,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .home-centered-container2 {
+          .an-introduction-to-nf-token-gating-centered-container1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1618,22 +1421,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-heading1 {
+          .an-introduction-to-nf-token-gating-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text046 {
+          .an-introduction-to-nf-token-gating-text080 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text047 {
+          .an-introduction-to-nf-token-gating-text081 {
             color: var(--dl-color-gray-white);
           }
-          .home-category2 {
+          .an-introduction-to-nf-token-gating-category {
             color: white;
             width: 100%;
             display: flex;
@@ -1644,7 +1447,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .home-headng {
+          .an-introduction-to-nf-token-gating-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1654,49 +1457,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text048 {
+          .an-introduction-to-nf-token-gating-text082 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text049 {
+          .an-introduction-to-nf-token-gating-text083 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .home-get-started4 {
+          .an-introduction-to-nf-token-gating-get-started2 {
             margin-bottom: 0px;
           }
-          .home-get-started4:hover {
+          .an-introduction-to-nf-token-gating-get-started2:hover {
             color: black;
             background-color: #ffffff;
           }
-          .home-text050 {
+          .an-introduction-to-nf-token-gating-text084 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-container7 {
+          .an-introduction-to-nf-token-gating-container5 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .home-pasted-image {
+          .an-introduction-to-nf-token-gating-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .home-row {
+          .an-introduction-to-nf-token-gating-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .home-category3 {
+          .an-introduction-to-nf-token-gating-category1 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1708,7 +1511,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .home-headng1 {
+          .an-introduction-to-nf-token-gating-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1718,21 +1521,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text051 {
+          .an-introduction-to-nf-token-gating-text085 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text052 {
+          .an-introduction-to-nf-token-gating-text086 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .home-pasted-image1 {
+          .an-introduction-to-nf-token-gating-pasted-image1 {
             width: 100%;
           }
-          .home-category4 {
+          .an-introduction-to-nf-token-gating-category2 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1744,7 +1547,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .home-headng2 {
+          .an-introduction-to-nf-token-gating-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1754,22 +1557,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text053 {
+          .an-introduction-to-nf-token-gating-text087 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text054 {
+          .an-introduction-to-nf-token-gating-text088 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .home-pasted-image2 {
+          .an-introduction-to-nf-token-gating-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .home-pricing {
+          .an-introduction-to-nf-token-gating-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1781,7 +1584,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .home-centered-container3 {
+          .an-introduction-to-nf-token-gating-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1789,30 +1592,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading2 {
+          .an-introduction-to-nf-token-gating-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text055 {
+          .an-introduction-to-nf-token-gating-text089 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .home-text056 {
+          .an-introduction-to-nf-token-gating-text090 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-selection {
+          .an-introduction-to-nf-token-gating-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-text057 {
+          .an-introduction-to-nf-token-gating-text091 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1823,7 +1626,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-text058 {
+          .an-introduction-to-nf-token-gating-text092 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1834,7 +1637,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .an-introduction-to-nf-token-gating-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1844,7 +1647,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-card {
+          .an-introduction-to-nf-token-gating-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1858,77 +1661,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text059 {
+          .an-introduction-to-nf-token-gating-text093 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text060 {
+          .an-introduction-to-nf-token-gating-text094 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started5 {
+          .an-introduction-to-nf-token-gating-get-started3 {
             transition: 0.3s;
           }
-          .home-get-started5:hover {
+          .an-introduction-to-nf-token-gating-get-started3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text061 {
+          .an-introduction-to-nf-token-gating-text095 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text062 {
+          .an-introduction-to-nf-token-gating-text096 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points {
+          .an-introduction-to-nf-token-gating-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point {
+          .an-introduction-to-nf-token-gating-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon08 {
+          .an-introduction-to-nf-token-gating-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text063 {
+          .an-introduction-to-nf-token-gating-text097 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point01 {
+          .an-introduction-to-nf-token-gating-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon10 {
+          .an-introduction-to-nf-token-gating-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text064 {
+          .an-introduction-to-nf-token-gating-text098 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card1 {
+          .an-introduction-to-nf-token-gating-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1943,111 +1746,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text065 {
+          .an-introduction-to-nf-token-gating-text099 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text066 {
+          .an-introduction-to-nf-token-gating-text100 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started6 {
+          .an-introduction-to-nf-token-gating-get-started4 {
             transition: 0.3s;
           }
-          .home-get-started6:hover {
+          .an-introduction-to-nf-token-gating-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text070 {
+          .an-introduction-to-nf-token-gating-text104 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text073 {
+          .an-introduction-to-nf-token-gating-text107 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points1 {
+          .an-introduction-to-nf-token-gating-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point02 {
+          .an-introduction-to-nf-token-gating-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon12 {
+          .an-introduction-to-nf-token-gating-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text074 {
+          .an-introduction-to-nf-token-gating-text108 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point03 {
+          .an-introduction-to-nf-token-gating-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon14 {
+          .an-introduction-to-nf-token-gating-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text075 {
+          .an-introduction-to-nf-token-gating-text109 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point04 {
+          .an-introduction-to-nf-token-gating-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon16 {
+          .an-introduction-to-nf-token-gating-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text076 {
+          .an-introduction-to-nf-token-gating-text110 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point05 {
+          .an-introduction-to-nf-token-gating-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon18 {
+          .an-introduction-to-nf-token-gating-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text077 {
+          .an-introduction-to-nf-token-gating-text111 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card2 {
+          .an-introduction-to-nf-token-gating-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -2061,33 +1864,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text078 {
+          .an-introduction-to-nf-token-gating-text112 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text079 {
+          .an-introduction-to-nf-token-gating-text113 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started7 {
+          .an-introduction-to-nf-token-gating-get-started5 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .home-get-started7:hover {
+          .an-introduction-to-nf-token-gating-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text082 {
+          .an-introduction-to-nf-token-gating-text116 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text085 {
+          .an-introduction-to-nf-token-gating-text119 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2095,84 +1898,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points2 {
+          .an-introduction-to-nf-token-gating-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point06 {
+          .an-introduction-to-nf-token-gating-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon20 {
+          .an-introduction-to-nf-token-gating-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text086 {
+          .an-introduction-to-nf-token-gating-text120 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point07 {
+          .an-introduction-to-nf-token-gating-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon22 {
+          .an-introduction-to-nf-token-gating-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text087 {
+          .an-introduction-to-nf-token-gating-text121 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point08 {
+          .an-introduction-to-nf-token-gating-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon24 {
+          .an-introduction-to-nf-token-gating-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text088 {
+          .an-introduction-to-nf-token-gating-text122 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point09 {
+          .an-introduction-to-nf-token-gating-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon26 {
+          .an-introduction-to-nf-token-gating-icon26 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text089 {
+          .an-introduction-to-nf-token-gating-text123 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-testimonals {
+          .an-introduction-to-nf-token-gating-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2182,7 +1985,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .home-left3 {
+          .an-introduction-to-nf-token-gating-left1 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2190,35 +1993,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text090 {
+          .an-introduction-to-nf-token-gating-text124 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text091 {
+          .an-introduction-to-nf-token-gating-text125 {
             text-align: left;
           }
-          .home-right2 {
+          .an-introduction-to-nf-token-gating-right1 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .home-column {
+          .an-introduction-to-nf-token-gating-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-column1 {
+          .an-introduction-to-nf-token-gating-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-text092 {
+          .an-introduction-to-nf-token-gating-text126 {
             cursor: pointer;
             display: none;
           }
-          .home-action-bar {
+          .an-introduction-to-nf-token-gating-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2226,7 +2029,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-action {
+          .an-introduction-to-nf-token-gating-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2236,7 +2039,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .home-heading3 {
+          .an-introduction-to-nf-token-gating-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2245,164 +2048,48 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text095 {
+          .an-introduction-to-nf-token-gating-text129 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text099 {
+          .an-introduction-to-nf-token-gating-text133 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-get-started8 {
+          .an-introduction-to-nf-token-gating-get-started6 {
             margin-bottom: 0px;
           }
-          .home-text100 {
+          .an-introduction-to-nf-token-gating-text134 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-images {
+          .an-introduction-to-nf-token-gating-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image2 {
+          .an-introduction-to-nf-token-gating-image1 {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .home-faq {
-            width: 100%;
-            display: none;
-            padding: 120px;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: #eff0f2;
-          }
-          .home-heading4 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            user-select: none;
-            flex-direction: column;
-          }
-          .home-text103 {
-            text-align: center;
-          }
-          .home-text104 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text105 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text106 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header2 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text107 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text108 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header3 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text109 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text110 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text111 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text112 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text113 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text114 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-footer {
+          .an-introduction-to-nf-token-gating-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
-          .home-top {
+          .an-introduction-to-nf-token-gating-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2410,171 +2097,140 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-image3 {
+          .an-introduction-to-nf-token-gating-image2 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text115 {
+          .an-introduction-to-nf-token-gating-text137 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text116 {
+          .an-introduction-to-nf-token-gating-text138 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-link6 {
+          .an-introduction-to-nf-token-gating-link6 {
             text-decoration: underline;
           }
-          .home-link7 {
+          .an-introduction-to-nf-token-gating-link7 {
             text-decoration: underline;
           }
-          .home-text119 {
+          .an-introduction-to-nf-token-gating-text141 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .home-link8 {
+          .an-introduction-to-nf-token-gating-link8 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 788px;
+            .an-introduction-to-nf-token-gating-hero {
+              height: auto;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 660px;
+            .an-introduction-to-nf-token-gating-hero {
+              height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-desktop-navigation {
+            .an-introduction-to-nf-token-gating-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-centered {
+            .an-introduction-to-nf-token-gating-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .home-left {
+            .an-introduction-to-nf-token-gating-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .home-links {
+            .an-introduction-to-nf-token-gating-links {
               display: none;
             }
-            .home-header {
+            .an-introduction-to-nf-token-gating-header {
               width: 100%;
               max-width: 1200px;
             }
-            .home-outline {
-              width: auto;
-            }
-            .home-text010 {
-              font-size: 22px;
-            }
-            .home-image {
-              width: 100%;
-            }
-            .home-features {
+            .an-introduction-to-nf-token-gating-features {
               padding-top: 260px;
             }
-            .home-title {
+            .an-introduction-to-nf-token-gating-title {
               width: 100%;
               max-width: 1200px;
             }
-            .home-text018 {
+            .an-introduction-to-nf-token-gating-text012 {
               font-size: 36px;
               line-height: 40px;
             }
-            .home-text022 {
+            .an-introduction-to-nf-token-gating-text016 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .home-cards {
+            .an-introduction-to-nf-token-gating-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .home-text026 {
+            .an-introduction-to-nf-token-gating-text020 {
               line-height: 21px;
             }
-            .home-text028 {
+            .an-introduction-to-nf-token-gating-text022 {
               line-height: 21px;
             }
-            .home-text030 {
+            .an-introduction-to-nf-token-gating-text024 {
               line-height: 21px;
             }
-            .home-text031 {
+            .an-introduction-to-nf-token-gating-text025 {
               font-size: 24px;
             }
-            .home-text032 {
+            .an-introduction-to-nf-token-gating-text026 {
               line-height: 21px;
             }
-            .home-banner-advanced-analytics {
-              padding-top: var(--dl-space-space-sixunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-sixunits);
-            }
-            .home-text033 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-left1 {
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .home-cards-image1 {
-              width: 360px;
-            }
-            .home-container6 {
+            .an-introduction-to-nf-token-gating-container4 {
               margin-left: 0px;
             }
-            .home-category2 {
+            .an-introduction-to-nf-token-gating-category {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .home-headng {
+            .an-introduction-to-nf-token-gating-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .home-container7 {
+            .an-introduction-to-nf-token-gating-container5 {
               width: 100%;
             }
-            .home-pasted-image {
+            .an-introduction-to-nf-token-gating-pasted-image {
               height: auto;
             }
-            .home-headng1 {
+            .an-introduction-to-nf-token-gating-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-headng2 {
+            .an-introduction-to-nf-token-gating-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text056 {
+            .an-introduction-to-nf-token-gating-text090 {
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .an-introduction-to-nf-token-gating-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .home-card {
+            .an-introduction-to-nf-token-gating-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2582,478 +2238,375 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text060 {
+            .an-introduction-to-nf-token-gating-text094 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-text062 {
+            .an-introduction-to-nf-token-gating-text096 {
               font-size: 16px;
             }
-            .home-card1 {
+            .an-introduction-to-nf-token-gating-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-card2 {
+            .an-introduction-to-nf-token-gating-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-testimonals {
+            .an-introduction-to-nf-token-gating-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .home-left3 {
+            .an-introduction-to-nf-token-gating-left1 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text091 {
+            .an-introduction-to-nf-token-gating-text125 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-right2 {
+            .an-introduction-to-nf-token-gating-right1 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .home-column {
+            .an-introduction-to-nf-token-gating-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-column1 {
+            .an-introduction-to-nf-token-gating-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action {
+            .an-introduction-to-nf-token-gating-action {
               flex-direction: column;
             }
-            .home-heading3 {
+            .an-introduction-to-nf-token-gating-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .an-introduction-to-nf-token-gating-text129 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-accordion {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-footer {
+            .an-introduction-to-nf-token-gating-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .home-top {
+            .an-introduction-to-nf-token-gating-top {
               flex-direction: column;
             }
-            .home-text119 {
+            .an-introduction-to-nf-token-gating-text141 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              height: 578px;
+            .an-introduction-to-nf-token-gating-hero {
+              height: auto;
               position: relative;
-              padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .home-desktop-navigation {
+            .an-introduction-to-nf-token-gating-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-centered {
+            .an-introduction-to-nf-token-gating-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-left {
+            .an-introduction-to-nf-token-gating-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-right {
+            .an-introduction-to-nf-token-gating-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .home-sign-in {
+            .an-introduction-to-nf-token-gating-sign-in {
               display: flex;
             }
-            .home-get-started {
+            .an-introduction-to-nf-token-gating-get-started {
               display: flex;
             }
-            .home-header {
+            .an-introduction-to-nf-token-gating-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .home-text007 {
+            .an-introduction-to-nf-token-gating-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .home-text008 {
+            .an-introduction-to-nf-token-gating-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-            }
-            .home-outline {
-              border-width: 2px;
-              border-radius: 35px;
-            }
-            .home-text010 {
-              font-size: 18px;
-              text-align: center;
-            }
-            .home-image {
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-features {
+            .an-introduction-to-nf-token-gating-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text018 {
+            .an-introduction-to-nf-token-gating-text012 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .home-container1 {
+            .an-introduction-to-nf-token-gating-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-text025 {
+            .an-introduction-to-nf-token-gating-text019 {
               font-size: 24px;
             }
-            .home-text026 {
+            .an-introduction-to-nf-token-gating-text020 {
               font-size: 14px;
             }
-            .home-publish {
+            .an-introduction-to-nf-token-gating-publish {
               margin-left: 0px;
             }
-            .home-text027 {
+            .an-introduction-to-nf-token-gating-text021 {
               font-size: 24px;
             }
-            .home-text028 {
+            .an-introduction-to-nf-token-gating-text022 {
               font-size: 14px;
             }
-            .home-container2 {
+            .an-introduction-to-nf-token-gating-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-analyze {
+            .an-introduction-to-nf-token-gating-analyze {
               margin-right: 0px;
             }
-            .home-text029 {
+            .an-introduction-to-nf-token-gating-text023 {
               font-size: 24px;
             }
-            .home-text030 {
+            .an-introduction-to-nf-token-gating-text024 {
               font-size: 14px;
             }
-            .home-text032 {
+            .an-introduction-to-nf-token-gating-text026 {
               font-size: 14px;
             }
-            .home-banner-advanced-analytics {
-              padding-bottom: var(--dl-space-space-twounits);
+            .an-introduction-to-nf-token-gating-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-centered-container {
-              flex-direction: column-reverse;
+            .an-introduction-to-nf-token-gating-blog1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-right1 {
-              margin-left: 0px;
+            .an-introduction-to-nf-token-gating-get-started1 {
+              margin-top: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              font-size: 28px;
-              align-self: center;
-              text-align: left;
-              line-height: 26px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text034 {
-              align-self: center;
-              text-align: center;
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-category1 {
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-container3 {
-              flex-direction: column;
-            }
-            .home-left1 {
-              margin-right: 0px;
-            }
-            .home-text036 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-text037 {
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text038 {
-              font-size: 16px;
-            }
-            .home-image-container1 {
-              justify-content: center;
-            }
-            .home-cards-image1 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .home-banner {
+            .an-introduction-to-nf-token-gating-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-container4 {
-              flex-direction: column;
-            }
-            .home-left2 {
-              margin-right: 0px;
-            }
-            .home-integrations {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-text045 {
+            .an-introduction-to-nf-token-gating-text079 {
               line-height: 24px;
             }
-            .home-pills {
+            .an-introduction-to-nf-token-gating-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-how-it-works {
+            .an-introduction-to-nf-token-gating-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-heading1 {
+            .an-introduction-to-nf-token-gating-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text047 {
+            .an-introduction-to-nf-token-gating-text081 {
               margin-bottom: 0px;
             }
-            .home-headng {
+            .an-introduction-to-nf-token-gating-headng {
               padding-bottom: 0px;
             }
-            .home-get-started4 {
+            .an-introduction-to-nf-token-gating-get-started2 {
               display: none;
             }
-            .home-container7 {
+            .an-introduction-to-nf-token-gating-container5 {
               width: 100%;
             }
-            .home-row {
+            .an-introduction-to-nf-token-gating-row {
               height: auto;
               flex-direction: column;
             }
-            .home-pricing {
+            .an-introduction-to-nf-token-gating-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-card {
+            .an-introduction-to-nf-token-gating-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text059 {
+            .an-introduction-to-nf-token-gating-text093 {
               font-size: 28px;
             }
-            .home-card1 {
+            .an-introduction-to-nf-token-gating-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text065 {
+            .an-introduction-to-nf-token-gating-text099 {
               font-size: 28px;
             }
-            .home-card2 {
+            .an-introduction-to-nf-token-gating-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text078 {
+            .an-introduction-to-nf-token-gating-text112 {
               font-size: 28px;
             }
-            .home-testimonals {
+            .an-introduction-to-nf-token-gating-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .home-right2 {
+            .an-introduction-to-nf-token-gating-right1 {
               width: 100%;
               flex-direction: column;
             }
-            .home-column1 {
+            .an-introduction-to-nf-token-gating-column1 {
               display: none;
             }
-            .home-text092 {
+            .an-introduction-to-nf-token-gating-text126 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .home-action-bar {
+            .an-introduction-to-nf-token-gating-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-action {
+            .an-introduction-to-nf-token-gating-action {
               align-items: center;
             }
-            .home-heading3 {
+            .an-introduction-to-nf-token-gating-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .an-introduction-to-nf-token-gating-text129 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text100 {
+            .an-introduction-to-nf-token-gating-text134 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-images {
+            .an-introduction-to-nf-token-gating-images {
               justify-content: center;
             }
-            .home-image2 {
+            .an-introduction-to-nf-token-gating-image1 {
               width: 100%;
             }
-            .home-faq {
-              padding: var(--dl-space-space-fourunits);
-            }
-            .home-heading4 {
-              width: 100%;
-            }
-            .home-text103 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .home-text104 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-footer {
+            .an-introduction-to-nf-token-gating-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-image3 {
+            .an-introduction-to-nf-token-gating-image2 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              height: 600px;
-              padding-bottom: 160px;
+            .an-introduction-to-nf-token-gating-hero {
+              height: auto;
             }
-            .home-centered {
+            .an-introduction-to-nf-token-gating-centered {
               justify-content: center;
             }
-            .home-logo {
+            .an-introduction-to-nf-token-gating-logo {
               width: 180px;
             }
-            .home-sign-in {
+            .an-introduction-to-nf-token-gating-sign-in {
               display: none;
             }
-            .home-get-started {
+            .an-introduction-to-nf-token-gating-get-started {
               display: none;
             }
-            .home-icon {
+            .an-introduction-to-nf-token-gating-icon {
               display: none;
             }
-            .home-text008 {
+            .an-introduction-to-nf-token-gating-text008 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              background-color: var(--dl-color-primary-700);
-            }
-            .home-dashboard-preview {
-              top: 500px;
-            }
-            .home-text010 {
-              font-size: 16px;
-            }
-            .home-image {
-              display: none;
-            }
-            .home-features {
+            .an-introduction-to-nf-token-gating-features {
               padding-top: 200px;
             }
-            .home-cards {
+            .an-introduction-to-nf-token-gating-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container1 {
+            .an-introduction-to-nf-token-gating-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .an-introduction-to-nf-token-gating-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .home-analyze {
+            .an-introduction-to-nf-token-gating-analyze {
               margin-bottom: 0px;
             }
-            .home-right1 {
-              margin-top: var(--dl-space-space-twounits);
+            .an-introduction-to-nf-token-gating-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              align-self: center;
-              text-align: center;
+            .an-introduction-to-nf-token-gating-blog1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text037 {
-              line-height: 24px;
+            .an-introduction-to-nf-token-gating-get-started1 {
+              background-color: var(--dl-color-primary-700);
             }
-            .home-cards-image1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-category2 {
+            .an-introduction-to-nf-token-gating-category {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-pricing {
+            .an-introduction-to-nf-token-gating-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-get-started7 {
+            .an-introduction-to-nf-token-gating-get-started5 {
               background-color: var(--dl-color-gray-white);
             }
-            .home-testimonals {
+            .an-introduction-to-nf-token-gating-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action-bar {
+            .an-introduction-to-nf-token-gating-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-footer {
+            .an-introduction-to-nf-token-gating-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text115 {
+            .an-introduction-to-nf-token-gating-text137 {
               text-align: center;
             }
           }
@@ -3063,4 +2616,4 @@ Here's what the above is doing:
   )
 }
 
-export default Home
+export default AnIntroductionToNFTTokenGating

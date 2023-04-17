@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
 import YouTube from '../components/you-tube'
-import Testimonal from '../components/testimonal'
+import TestimonalBLurb from '../components/testimonal-b-lurb'
 
 const Demo = (props) => {
   return (
@@ -36,46 +37,53 @@ const Demo = (props) => {
             <div id="navigation" className="demo-desktop-navigation">
               <nav className="demo-centered">
                 <div className="demo-left">
-                  <img
-                    alt="Welcome to Gateful"
-                    src="/playground_assets/gateful-logo-wht-200h.png"
-                    className="demo-logo"
-                  />
+                  <Link href="/">
+                    <a className="demo-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="demo-logo"
+                      />
+                    </a>
+                  </Link>
                   <div className="demo-links">
-                    <span className="Link">Solutions</span>
-                    <span className="Link">How it works</span>
-                    <span className="Link">Prices</span>
+                    <Link href="/token-gating-platform">
+                      <a className="demo-link1 Link">Platform</a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="demo-link2 Link">Solutions</a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="demo-link3 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="demo-right">
-                  <svg viewBox="0 0 1024 1024" className="demo-icon">
-                    <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                  </svg>
                   <a
-                    href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+                    href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="demo-sign-in Link"
                   >
-                    <span>Book a Demo</span>
+                    <span>Login</span>
                     <br></br>
                   </a>
-                  <a
-                    href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="demo-link"
-                  >
-                    <div className="demo-get-started">
-                      <svg viewBox="0 0 1024 1024" className="demo-icon02">
-                        <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                      </svg>
-                      <span className="demo-text005">
-                        <span>Early access</span>
-                        <br></br>
-                      </span>
-                    </div>
-                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="demo-link4">
+                      <div className="demo-get-started">
+                        <svg viewBox="0 0 1024 1024" className="demo-icon">
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="demo-text004">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
                 </div>
               </nav>
             </div>
@@ -107,13 +115,13 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="demo-header">
-            <h1 className="demo-text008">Welcome, ETH Holders</h1>
-            <p className="demo-text009">Shop exclusive merchandise.</p>
+            <h1 className="demo-text007">Welcome, ETH Holders</h1>
+            <p className="demo-text008">Shop exclusive merchandise.</p>
           </header>
         </section>
         <section className="demo-features">
           <div className="demo-title">
-            <span className="demo-text010">
+            <span className="demo-text009">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -125,7 +133,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="demo-text014">
+            <span className="demo-text013">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -143,10 +151,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="demo-icon04"
+                  className="demo-icon02"
                 />
-                <span className="demo-text017">Schedule</span>
-                <span className="demo-text018">
+                <span className="demo-text016">Schedule</span>
+                <span className="demo-text017">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -155,10 +163,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="demo-icon05"
+                  className="demo-icon03"
                 />
-                <span className="demo-text019">Publish</span>
-                <span className="demo-text020">
+                <span className="demo-text018">Publish</span>
+                <span className="demo-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -168,10 +176,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="demo-icon06"
+                  className="demo-icon04"
                 />
-                <span className="demo-text021">Analyze</span>
-                <span className="demo-text022">
+                <span className="demo-text020">Analyze</span>
+                <span className="demo-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -180,10 +188,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="demo-icon07"
+                  className="demo-icon05"
                 />
-                <span className="demo-text023">Get leads</span>
-                <span className="demo-text024">
+                <span className="demo-text022">Get leads</span>
+                <span className="demo-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -203,19 +211,19 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="demo-right1">
-                <h2 className="demo-text025 title">
+                <h2 className="demo-text024 title">
                   Exclusive Stay Rich T-Shirt
                 </h2>
                 <div className="demo-category">
-                  <span className="demo-text026">
-                    <span className="demo-text027">
+                  <span className="demo-text025">
+                    <span className="demo-text026">
                       Look great in our stay rich t-shirt created exclusively
                       for ETH token holders. Made from 100% organic cotton, this
                       shirt will keep you looking fresh all day.
                     </span>
                     <br></br>
                     <br></br>
-                    <span className="demo-text030">1 ETH</span>
+                    <span className="demo-text029">1 ETH</span>
                     <br></br>
                   </span>
                 </div>
@@ -229,16 +237,16 @@ closeButton.addEventListener("click", function() {
             <div className="demo-container3">
               <div className="demo-left1">
                 <span className="sub-title">Content Management</span>
-                <span className="demo-text033 title">
+                <span className="demo-text032 title">
                   Manage all your platforms in just one place.
                 </span>
-                <span className="demo-text034">
+                <span className="demo-text033">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="demo-get-started1 template-button">
-                  <span className="demo-text035">Get started</span>
+                  <span className="demo-text034">Get started</span>
                 </div>
               </div>
               <div className="demo-image-container1">
@@ -253,17 +261,17 @@ closeButton.addEventListener("click", function() {
           <div className="demo-banner">
             <div className="demo-container4">
               <div className="demo-left2">
-                <span className="demo-text036">Improve Scheduling</span>
-                <h2 className="demo-text037 title">
+                <span className="demo-text035">Improve Scheduling</span>
+                <h2 className="demo-text036 title">
                   Powerful scheduler that saves you time
                 </h2>
-                <span className="demo-text038">
+                <span className="demo-text037">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="demo-get-started2 template-button">
-                  <span className="demo-text039">Get started</span>
+                  <span className="demo-text038">Get started</span>
                 </div>
               </div>
               <div className="demo-image-container2">
@@ -283,7 +291,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="demo-text042">
+              <span className="demo-text041">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -309,14 +317,14 @@ closeButton.addEventListener("click", function() {
         <section className="demo-how-it-works">
           <div className="demo-centered-container2">
             <div className="demo-heading1">
-              <span className="demo-text043">How it works</span>
-              <span className="demo-text044 title">
+              <span className="demo-text042">How it works</span>
+              <span className="demo-text043 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="demo-category2">
               <div className="demo-headng">
-                <span className="demo-text045">
+                <span className="demo-text044">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -324,13 +332,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="demo-text046">
+                <span className="demo-text045">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="demo-get-started3 template-button">
-                  <span className="demo-text047">Get started</span>
+                  <span className="demo-text046">Get started</span>
                 </div>
               </div>
               <div className="demo-container7">
@@ -344,8 +352,8 @@ closeButton.addEventListener("click", function() {
             <div className="demo-row">
               <div className="demo-category3">
                 <div className="demo-headng1">
-                  <span className="demo-text048">2 — Act</span>
-                  <span className="demo-text049">
+                  <span className="demo-text047">2 — Act</span>
+                  <span className="demo-text048">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -359,8 +367,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="demo-category4">
                 <div className="demo-headng2">
-                  <span className="demo-text050">2 — Act</span>
-                  <span className="demo-text051">
+                  <span className="demo-text049">2 — Act</span>
+                  <span className="demo-text050">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -378,31 +386,42 @@ closeButton.addEventListener("click", function() {
         <section className="demo-pricing">
           <div className="demo-centered-container3">
             <div className="demo-heading2">
-              <span className="demo-text052 title">
+              <span className="demo-text051 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="demo-text053">
+              <span className="demo-text052">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="demo-selection">
-                <span className="demo-text054">Monthly</span>
-                <span className="demo-text055">Yearly</span>
+                <span className="demo-text053">Monthly</span>
+                <span className="demo-text054">Yearly</span>
               </div>
             </div>
             <div className="demo-cards1">
               <div className="demo-card">
-                <span className="demo-text056">Free</span>
-                <span className="demo-text057">
+                <span className="demo-text055">Free</span>
+                <span className="demo-text056">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="demo-get-started4 template-button">
-                  <span className="demo-text058">Start for free</span>
+                  <span className="demo-text057">Start for free</span>
                 </div>
-                <span className="demo-text059">What&apos;s included</span>
+                <span className="demo-text058">What&apos;s included</span>
                 <div className="demo-bullet-points">
                   <div className="demo-point">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="demo-icon06"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="demo-text059">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="demo-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon08"
@@ -413,22 +432,11 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point01">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon10"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="demo-text061">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
               <div className="demo-card1">
-                <span className="demo-text062">Pay as you go</span>
-                <span className="demo-text063">
+                <span className="demo-text061">Pay as you go</span>
+                <span className="demo-text062">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -436,14 +444,25 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="demo-get-started5 template-button">
-                  <span className="demo-text067">
+                  <span className="demo-text066">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="demo-text070">What&apos;s included</span>
+                <span className="demo-text069">What&apos;s included</span>
                 <div className="demo-bullet-points1">
                   <div className="demo-point02">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="demo-icon10"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="demo-text070">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="demo-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon12"
@@ -454,7 +473,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point03">
+                  <div className="demo-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon14"
@@ -465,7 +484,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point04">
+                  <div className="demo-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon16"
@@ -476,22 +495,11 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point05">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon18"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="demo-text074">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
               <div className="demo-card2">
-                <span className="demo-text075">Enterprise</span>
-                <span className="demo-text076">
+                <span className="demo-text074">Enterprise</span>
+                <span className="demo-text075">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -499,14 +507,25 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="demo-get-started6 template-button">
-                  <span className="demo-text079">
+                  <span className="demo-text078">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="demo-text082">What&apos;s included</span>
+                <span className="demo-text081">What&apos;s included</span>
                 <div className="demo-bullet-points2">
                   <div className="demo-point06">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="demo-icon18"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="demo-text082">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="demo-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon20"
@@ -517,7 +536,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point07">
+                  <div className="demo-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon22"
@@ -528,7 +547,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point08">
+                  <div className="demo-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="demo-icon24"
@@ -539,17 +558,6 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="demo-point09">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="demo-icon26"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="demo-text086">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
             </div>
@@ -557,64 +565,64 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="demo-testimonals">
           <div className="demo-left3">
-            <span className="demo-text087">Testimonals</span>
-            <span className="demo-text088 title">
+            <span className="demo-text086">Testimonals</span>
+            <span className="demo-text087 title">
               What people say about Active
             </span>
           </div>
           <div className="demo-right2">
             <div className="demo-column">
-              <Testimonal
+              <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Social Club"
                 Name="Jessica Smith"
                 Quote="“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.\u2028 Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”"
                 Avatar_src="/playground_assets/image312912-mvsg-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="BeMe"
                 Name="Logan Boy"
                 Quote="“Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..”"
                 Avatar_src="/playground_assets/image502912-6wy-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Hello W."
                 Name="Laraine Summers"
                 Quote="“Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.”"
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
-              ></Testimonal>
+              ></TestimonalBLurb>
             </div>
             <div className="demo-column1">
-              <Testimonal
+              <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
                 Quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”'
                 Avatar_src="/playground_assets/image572912-0d3-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Share"
                 Name="Mariah Mae"
                 Quote="“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”"
                 Avatar_src="/playground_assets/image632913-swij-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Gather"
                 Name="John Finati"
                 Quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”'
                 Avatar_src="/playground_assets/image102913-x4z8-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Zigo"
                 Name="Mary Pau"
                 Quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ”'
                 Avatar_src="/playground_assets/image562913-ycff-200h.png"
-              ></Testimonal>
+              ></TestimonalBLurb>
             </div>
           </div>
-          <span className="demo-text089">
+          <span className="demo-text088">
             <span>Show more</span>
             <br></br>
           </span>
@@ -622,16 +630,16 @@ closeButton.addEventListener("click", function() {
         <section className="demo-action-bar">
           <div className="demo-action">
             <div className="demo-heading3">
-              <span className="demo-text092 title">
+              <span className="demo-text091 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="demo-text096">
+              <span className="demo-text095">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="demo-get-started7 template-button">
-                <span className="demo-text097">
+                <span className="demo-text096">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -648,10 +656,10 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="demo-faq">
           <div className="demo-heading4">
-            <span className="demo-text100 title">
+            <span className="demo-text099 title">
               Frequently asked questions
             </span>
-            <span className="demo-text101">
+            <span className="demo-text100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
             </span>
@@ -659,7 +667,7 @@ closeButton.addEventListener("click", function() {
           <div className="demo-accordion">
             <div data-faq="closed" className="accordionContainer">
               <div className="demo-header1">
-                <span className="demo-text102">
+                <span className="demo-text101">
                   — What is sit amet, consectetur adipiscing elit, sed do?
                   <span
                     dangerouslySetInnerHTML={{
@@ -672,7 +680,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="demo-text103">
+                <span className="demo-text102">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -687,7 +695,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="accordionContainer">
               <div className="demo-header2">
-                <span className="demo-text104">
+                <span className="demo-text103">
                   — Why is dolore magna aliqua excepteur sint
                 </span>
                 <svg viewBox="0 0 1024 1024" className="accordionIcon">
@@ -695,7 +703,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="demo-text105">
+                <span className="demo-text104">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -710,7 +718,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="demo-header3">
-                <span className="demo-text106">
+                <span className="demo-text105">
                   — Is excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum?
                   <span
@@ -724,7 +732,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="demo-text107">
+                <span className="demo-text106">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -739,7 +747,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="demo-header4">
-                <span className="demo-text108">
+                <span className="demo-text107">
                   — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
                   enim ipsam voluptatem quia voluptas sit aspernatur aut odit
                   aut fugit, sed quia consequuntur magni
@@ -754,7 +762,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="demo-text109">
+                <span className="demo-text108">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -769,7 +777,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="demo-header5">
-                <span className="demo-text110">
+                <span className="demo-text109">
                   — Is minim veniam quis nostrud exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo consequat.
                 </span>
@@ -778,7 +786,7 @@ closeButton.addEventListener("click", function() {
                 </svg>
               </div>
               <div className="accordionContent">
-                <span className="demo-text111">
+                <span className="demo-text110">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -856,10 +864,10 @@ Here's what the above is doing:
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="demo-image1"
             />
-            <span className="demo-text112">
+            <span className="demo-text111">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="demo-text113">
+            <span className="demo-text112">
               <span>
                 Built by
                 <span
@@ -872,7 +880,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link1"
+                className="demo-link5"
               >
                 OpenMedium, Inc
               </a>
@@ -889,12 +897,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link2"
+                className="demo-link6"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="demo-text116">
+            <span className="demo-text115">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -902,7 +910,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="demo-link3"
+                className="demo-link7"
               >
                 Legal
               </a>
@@ -971,17 +979,33 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
+          .demo-link {
+            display: contents;
+          }
           .demo-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
+            text-decoration: none;
           }
           .demo-links {
-            display: none;
             align-items: center;
             margin-left: 33px;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             flex-direction: row;
+          }
+          .demo-link1 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .demo-link2 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .demo-link3 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
           }
           .demo-right {
             height: 100%;
@@ -991,19 +1015,13 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-icon {
-            fill: var(--dl-color-gray-white);
-            width: 24px;
-            height: 24px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
           .demo-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .demo-link {
+          .demo-link4 {
             display: contents;
           }
           .demo-get-started {
@@ -1025,13 +1043,13 @@ Here's what the above is doing:
           .demo-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .demo-icon02 {
+          .demo-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .demo-text005 {
+          .demo-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
@@ -1045,7 +1063,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .demo-text008 {
+          .demo-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1053,7 +1071,7 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .demo-text009 {
+          .demo-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -1078,14 +1096,14 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .demo-text010 {
+          .demo-text009 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .demo-text014 {
+          .demo-text013 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1107,37 +1125,37 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .demo-icon04 {
+          .demo-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text017 {
+          .demo-text016 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text018 {
+          .demo-text017 {
             line-height: 24px;
           }
           .demo-publish {
             height: initial;
           }
-          .demo-icon05 {
+          .demo-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text019 {
+          .demo-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text020 {
+          .demo-text019 {
             line-height: 24px;
           }
           .demo-container2 {
@@ -1148,34 +1166,34 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .demo-icon06 {
+          .demo-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text021 {
+          .demo-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .demo-text022 {
+          .demo-text021 {
             line-height: 24px;
           }
-          .demo-icon07 {
+          .demo-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text023 {
+          .demo-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text024 {
+          .demo-text023 {
             line-height: 24px;
           }
           .demo-banners {
@@ -1220,7 +1238,7 @@ Here's what the above is doing:
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .demo-text025 {
+          .demo-text024 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -1231,13 +1249,13 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .demo-text026 {
+          .demo-text025 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .demo-text030 {
+          .demo-text029 {
             font-size: 25px;
             font-style: normal;
             font-weight: 700;
@@ -1280,10 +1298,10 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .demo-text033 {
+          .demo-text032 {
             text-align: left;
           }
-          .demo-text034 {
+          .demo-text033 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1296,7 +1314,7 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text035 {
+          .demo-text034 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1342,16 +1360,16 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .demo-text036 {
+          .demo-text035 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text037 {
+          .demo-text036 {
             text-align: left;
           }
-          .demo-text038 {
+          .demo-text037 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1364,7 +1382,7 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text039 {
+          .demo-text038 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1403,7 +1421,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .demo-text042 {
+          .demo-text041 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1465,13 +1483,13 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .demo-text043 {
+          .demo-text042 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text044 {
+          .demo-text043 {
             color: var(--dl-color-gray-white);
           }
           .demo-category2 {
@@ -1495,13 +1513,13 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .demo-text045 {
+          .demo-text044 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text046 {
+          .demo-text045 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1513,7 +1531,7 @@ Here's what the above is doing:
             color: black;
             background-color: #ffffff;
           }
-          .demo-text047 {
+          .demo-text046 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1559,14 +1577,14 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .demo-text048 {
+          .demo-text047 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text049 {
+          .demo-text048 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1595,14 +1613,14 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .demo-text050 {
+          .demo-text049 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .demo-text051 {
+          .demo-text050 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1636,11 +1654,11 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .demo-text052 {
+          .demo-text051 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .demo-text053 {
+          .demo-text052 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1653,7 +1671,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .demo-text054 {
+          .demo-text053 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1664,7 +1682,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .demo-text055 {
+          .demo-text054 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1699,13 +1717,13 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .demo-text056 {
+          .demo-text055 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text057 {
+          .demo-text056 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1717,13 +1735,13 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text058 {
+          .demo-text057 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .demo-text059 {
+          .demo-text058 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1741,12 +1759,12 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon08 {
+          .demo-icon06 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text060 {
+          .demo-text059 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1758,12 +1776,12 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .demo-icon10 {
+          .demo-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .demo-text061 {
+          .demo-text060 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1784,13 +1802,13 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .demo-text062 {
+          .demo-text061 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text063 {
+          .demo-text062 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1802,13 +1820,13 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text067 {
+          .demo-text066 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .demo-text070 {
+          .demo-text069 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1826,6 +1844,23 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
+          .demo-icon10 {
+            fill: #5228f5;
+            width: 8px;
+            height: 8px;
+          }
+          .demo-text070 {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: var(--dl-space-space-halfunit);
+          }
+          .demo-point03 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+          }
           .demo-icon12 {
             fill: #5228f5;
             width: 8px;
@@ -1837,7 +1872,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point03 {
+          .demo-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1854,7 +1889,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point04 {
+          .demo-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1866,23 +1901,6 @@ Here's what the above is doing:
             height: 8px;
           }
           .demo-text073 {
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            margin-left: var(--dl-space-space-halfunit);
-          }
-          .demo-point05 {
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-          }
-          .demo-icon18 {
-            fill: #5228f5;
-            width: 8px;
-            height: 8px;
-          }
-          .demo-text074 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1902,14 +1920,14 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .demo-text075 {
+          .demo-text074 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .demo-text076 {
+          .demo-text075 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1923,12 +1941,12 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .demo-text079 {
+          .demo-text078 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .demo-text082 {
+          .demo-text081 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1947,6 +1965,24 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
+          .demo-icon18 {
+            fill: #5228f5;
+            width: 8px;
+            height: 8px;
+          }
+          .demo-text082 {
+            color: #ffffff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: var(--dl-space-space-halfunit);
+          }
+          .demo-point07 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+          }
           .demo-icon20 {
             fill: #5228f5;
             width: 8px;
@@ -1959,7 +1995,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point07 {
+          .demo-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1977,7 +2013,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .demo-point08 {
+          .demo-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1989,24 +2025,6 @@ Here's what the above is doing:
             height: 8px;
           }
           .demo-text085 {
-            color: #ffffff;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            margin-left: var(--dl-space-space-halfunit);
-          }
-          .demo-point09 {
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-          }
-          .demo-icon26 {
-            fill: #5228f5;
-            width: 8px;
-            height: 8px;
-          }
-          .demo-text086 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -2031,13 +2049,13 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .demo-text087 {
+          .demo-text086 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .demo-text088 {
+          .demo-text087 {
             text-align: left;
           }
           .demo-right2 {
@@ -2055,7 +2073,7 @@ Here's what the above is doing:
             display: flex;
             flex-direction: column;
           }
-          .demo-text089 {
+          .demo-text088 {
             cursor: pointer;
             display: none;
           }
@@ -2086,11 +2104,11 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .demo-text092 {
+          .demo-text091 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .demo-text096 {
+          .demo-text095 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2098,7 +2116,7 @@ Here's what the above is doing:
           .demo-get-started7 {
             margin-bottom: 0px;
           }
-          .demo-text097 {
+          .demo-text096 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2131,10 +2149,10 @@ Here's what the above is doing:
             user-select: none;
             flex-direction: column;
           }
-          .demo-text100 {
+          .demo-text099 {
             text-align: center;
           }
-          .demo-text101 {
+          .demo-text100 {
             color: rgb(0, 0, 0);
             width: 100%;
             max-width: 600px;
@@ -2155,14 +2173,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .demo-text102 {
+          .demo-text101 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text103 {
+          .demo-text102 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2172,14 +2190,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .demo-text104 {
+          .demo-text103 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text105 {
+          .demo-text104 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2189,14 +2207,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .demo-text106 {
+          .demo-text105 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text107 {
+          .demo-text106 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2206,14 +2224,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .demo-text108 {
+          .demo-text107 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text109 {
+          .demo-text108 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2223,14 +2241,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .demo-text110 {
+          .demo-text109 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .demo-text111 {
+          .demo-text110 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2261,33 +2279,33 @@ Here's what the above is doing:
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text112 {
+          .demo-text111 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .demo-text113 {
+          .demo-text112 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .demo-link1 {
+          .demo-link5 {
             text-decoration: underline;
           }
-          .demo-link2 {
+          .demo-link6 {
             text-decoration: underline;
           }
-          .demo-text116 {
+          .demo-text115 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .demo-link3 {
+          .demo-link7 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -2327,11 +2345,11 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .demo-text010 {
+            .demo-text009 {
               font-size: 36px;
               line-height: 40px;
             }
-            .demo-text014 {
+            .demo-text013 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2339,19 +2357,19 @@ Here's what the above is doing:
             .demo-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .demo-text018 {
+            .demo-text017 {
               line-height: 21px;
             }
-            .demo-text020 {
+            .demo-text019 {
+              line-height: 21px;
+            }
+            .demo-text021 {
               line-height: 21px;
             }
             .demo-text022 {
-              line-height: 21px;
-            }
-            .demo-text023 {
               font-size: 24px;
             }
-            .demo-text024 {
+            .demo-text023 {
               line-height: 21px;
             }
             .demo-banner-advanced-analytics {
@@ -2360,7 +2378,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .demo-text025 {
+            .demo-text024 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -2403,7 +2421,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .demo-text053 {
+            .demo-text052 {
               width: 100%;
               max-width: 600px;
             }
@@ -2419,11 +2437,11 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-text057 {
+            .demo-text056 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text059 {
+            .demo-text058 {
               font-size: 16px;
             }
             .demo-card1 {
@@ -2443,7 +2461,7 @@ Here's what the above is doing:
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .demo-text088 {
+            .demo-text087 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2468,7 +2486,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text092 {
+            .demo-text091 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2482,7 +2500,7 @@ Here's what the above is doing:
             .demo-top {
               flex-direction: column;
             }
-            .demo-text116 {
+            .demo-text115 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2519,14 +2537,14 @@ Here's what the above is doing:
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .demo-text008 {
+            .demo-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .demo-text009 {
+            .demo-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2537,7 +2555,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text010 {
+            .demo-text009 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2548,19 +2566,19 @@ Here's what the above is doing:
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .demo-text017 {
+            .demo-text016 {
               font-size: 24px;
             }
-            .demo-text018 {
+            .demo-text017 {
               font-size: 14px;
             }
             .demo-publish {
               margin-left: 0px;
             }
-            .demo-text019 {
+            .demo-text018 {
               font-size: 24px;
             }
-            .demo-text020 {
+            .demo-text019 {
               font-size: 14px;
             }
             .demo-container2 {
@@ -2570,13 +2588,13 @@ Here's what the above is doing:
             .demo-analyze {
               margin-right: 0px;
             }
-            .demo-text021 {
+            .demo-text020 {
               font-size: 24px;
             }
-            .demo-text022 {
+            .demo-text021 {
               font-size: 14px;
             }
-            .demo-text024 {
+            .demo-text023 {
               font-size: 14px;
             }
             .demo-banner-advanced-analytics {
@@ -2588,20 +2606,20 @@ Here's what the above is doing:
             .demo-right1 {
               margin-left: 0px;
             }
-            .demo-text025 {
+            .demo-text024 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text026 {
+            .demo-text025 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .demo-text027 {
+            .demo-text026 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -2622,14 +2640,14 @@ Here's what the above is doing:
             .demo-left1 {
               margin-right: 0px;
             }
-            .demo-text033 {
+            .demo-text032 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .demo-text034 {
+            .demo-text033 {
               line-height: 24px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text035 {
+            .demo-text034 {
               font-size: 16px;
             }
             .demo-image-container1 {
@@ -2656,7 +2674,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .demo-text042 {
+            .demo-text041 {
               line-height: 24px;
             }
             .demo-pills {
@@ -2671,7 +2689,7 @@ Here's what the above is doing:
             .demo-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text044 {
+            .demo-text043 {
               margin-bottom: 0px;
             }
             .demo-headng {
@@ -2695,7 +2713,7 @@ Here's what the above is doing:
             .demo-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .demo-text056 {
+            .demo-text055 {
               font-size: 28px;
             }
             .demo-card1 {
@@ -2704,7 +2722,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text062 {
+            .demo-text061 {
               font-size: 28px;
             }
             .demo-card2 {
@@ -2712,7 +2730,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-text075 {
+            .demo-text074 {
               font-size: 28px;
             }
             .demo-testimonals {
@@ -2727,7 +2745,7 @@ Here's what the above is doing:
             .demo-column1 {
               display: none;
             }
-            .demo-text089 {
+            .demo-text088 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2747,11 +2765,11 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .demo-text092 {
+            .demo-text091 {
               font-size: 28px;
               text-align: left;
             }
-            .demo-text097 {
+            .demo-text096 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2769,11 +2787,11 @@ Here's what the above is doing:
             .demo-heading4 {
               width: 100%;
             }
-            .demo-text100 {
+            .demo-text099 {
               font-size: 36px;
               line-height: 36px;
             }
-            .demo-text101 {
+            .demo-text100 {
               width: 100%;
               max-width: 600p;
               margin-bottom: var(--dl-space-space-threeunits);
@@ -2797,16 +2815,16 @@ Here's what the above is doing:
             .demo-logo {
               width: 180px;
             }
-            .demo-icon {
-              display: none;
-            }
             .demo-sign-in {
               display: none;
             }
             .demo-get-started {
               display: none;
             }
-            .demo-text009 {
+            .demo-icon {
+              display: none;
+            }
+            .demo-text008 {
               color: #eee9fe;
             }
             .demo-features {
@@ -2830,11 +2848,11 @@ Here's what the above is doing:
             .demo-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .demo-text025 {
+            .demo-text024 {
               align-self: center;
               text-align: center;
             }
-            .demo-text034 {
+            .demo-text033 {
               line-height: 24px;
             }
             .demo-cards-image1 {
@@ -2865,7 +2883,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .demo-text112 {
+            .demo-text111 {
               text-align: center;
             }
           }

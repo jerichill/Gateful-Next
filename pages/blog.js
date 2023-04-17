@@ -4,80 +4,79 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-import Frameworks from '../components/frameworks'
+import BlogPostCard2 from '../components/blog-post-card2'
 import YouTube from '../components/you-tube'
-import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
 
-const Home = (props) => {
+const Blog = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="blog-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>Gateful Blog | Learn about Web3 and Token Gating</title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Read Web3 articles and blogs from the team at Gateful- the easiest way to token gate your website or web application."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Gateful Blog | Learn about Web3 and Token Gating"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Read Web3 articles and blogs from the team at Gateful- the easiest way to token gate your website or web application."
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="home-hero">
-          <div className="home-menu">
-            <div id="navigation" className="home-desktop-navigation">
-              <nav className="home-centered">
-                <div className="home-left">
+        <section id="header" className="blog-hero">
+          <div className="blog-menu">
+            <div id="navigation" className="blog-desktop-navigation">
+              <nav className="blog-centered">
+                <div className="blog-left">
                   <Link href="/">
-                    <a className="home-link">
+                    <a className="blog-link">
                       <img
                         alt="Welcome to Gateful"
                         src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="home-logo"
+                        className="blog-logo"
                       />
                     </a>
                   </Link>
-                  <div className="home-links">
+                  <div className="blog-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link1 Link">Platform</a>
+                      <a className="blog-link01 Link">Platform</a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link2 Link">Solutions</a>
+                      <a className="blog-link02 Link">Solutions</a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link3 Link">
+                      <a className="blog-link03 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="home-right">
+                <div className="blog-right">
                   <a
                     href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-sign-in Link"
+                    className="blog-sign-in Link"
                   >
                     <span>Login</span>
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link4">
-                      <div className="home-get-started">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <a className="blog-link04">
+                      <div className="blog-get-started">
+                        <svg viewBox="0 0 1024 1024" className="blog-icon">
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                         </svg>
-                        <span className="home-text004">
+                        <span className="blog-text04">
                           <span>Book a Demo</span>
                           <br></br>
                         </span>
@@ -114,73 +113,16 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="home-header">
-            <h1 className="home-text007">
-              The Easiest Way to Create Token Gated Digital Experiences
-            </h1>
-            <p className="home-text008">
-              Gateful makes it easy to add Web3 Token Gating functionality to
-              your website or web application. Transform your project into a
-              powerful Web3-connected community without writing any code.
+          <header className="blog-header">
+            <h1 className="blog-text07">Blog</h1>
+            <p className="blog-text08">
+              Learn more about Web3 and Token Gating.
             </p>
-            <a
-              href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link5"
-            >
-              <div className="home-get-started1">
-                <svg viewBox="0 0 1024 1024" className="home-icon02">
-                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                </svg>
-                <span className="home-text009">Early access</span>
-              </div>
-            </a>
           </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <h2 className="home-text010">
-                <span>
-                  Top
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text012">brands</span>
-                <span>
-                  ,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text014">developers</span>
-                <span>
-                  , and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text016">creators</span>
-                <span> trust Gateful.</span>
-              </h2>
-              <img
-                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
-                src="/playground_assets/brands-200h.png"
-                loading="eager"
-                className="home-image"
-              />
-            </div>
-          </div>
         </section>
-        <section className="home-features">
-          <div className="home-title">
-            <span className="home-text018">
+        <section className="blog-features">
+          <div className="blog-title">
+            <span className="blog-text09">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -192,7 +134,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="home-text022">
+            <span className="blog-text13">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -204,41 +146,41 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="home-cards">
-            <div className="home-container1">
+          <div className="blog-cards">
+            <div className="blog-container01">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="home-icon04"
+                  className="blog-icon02"
                 />
-                <span className="home-text025">Schedule</span>
-                <span className="home-text026">
+                <span className="blog-text16">Schedule</span>
+                <span className="blog-text17">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="home-publish card">
+              <div className="blog-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="home-icon05"
+                  className="blog-icon03"
                 />
-                <span className="home-text027">Publish</span>
-                <span className="home-text028">
+                <span className="blog-text18">Publish</span>
+                <span className="blog-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="home-container2">
-              <div className="card home-analyze">
+            <div className="blog-container02">
+              <div className="card blog-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="home-icon06"
+                  className="blog-icon04"
                 />
-                <span className="home-text029">Analyze</span>
-                <span className="home-text030">
+                <span className="blog-text20">Analyze</span>
+                <span className="blog-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -247,10 +189,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="home-icon07"
+                  className="blog-icon05"
                 />
-                <span className="home-text031">Get leads</span>
-                <span className="home-text032">
+                <span className="blog-text22">Get leads</span>
+                <span className="blog-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,119 +200,115 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners">
-          <div className="home-banner-advanced-analytics">
-            <div className="home-centered-container">
-              <div className="home-image-container">
-                <img
-                  alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/2xscreen-1300w.png"
-                  loading="eager"
-                  className="home-cards-image"
-                />
-              </div>
-              <div className="home-right1">
-                <h2 className="home-text033 title">
-                  On-chain access control, simplified
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </h2>
-                <div className="home-category">
-                  <span className="home-text034">
-                    Add Web3 Token Gating functionality to your existing website
-                    or web application without writing code. Our integration
-                    with LIT Protocol allows you to create multiple token gates
-                    within the same experience. Create on-chain conditions
-                    unique to your audience and requirements. Integrate with
-                    major blockchain networks.
-                  </span>
-                </div>
-                <div className="home-category1">
-                  <img
-                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
-                    src="/playground_assets/2xblockchains-1100w.png"
-                    className="home-image1"
-                  />
-                </div>
-              </div>
+        <section className="blog-banners">
+          <div className="blog-blog">
+            <div className="blog-container03">
+              <Link href="/about-token-gating-platforms">
+                <a className="blog-link05">
+                  <BlogPostCard2
+                    title="Token Gating Platforms: Revolutionizing Content Monetization and Access Control"
+                    image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDY2fHx3ZWIzfGVufDB8fHx8MTY4MTU5MTQzOA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="Token Gating Platforms have emerged as a groundbreaking solution in the world of content monetization and access control. These platforms are becoming increasingly popular among creators, influencers, and businesses alike, as they offer a new and dynamic way of rewarding and engaging with their audience. In this article, we will delve into the concept of token gating, explore its benefits, and examine how it is transforming the digital landscape."
+                    profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName3"
+                    className="blog-component"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
             </div>
-          </div>
-          <div className="home-banner-manage">
-            <div className="home-container3">
-              <div className="home-left1">
-                <span className="sub-title">Content Management</span>
-                <span className="home-text036 title">
-                  Manage all your platforms in just one place.
-                </span>
-                <span className="home-text037">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started2 template-button">
-                  <span className="home-text038">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container1">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="home-cards-image1"
-                />
-              </div>
+            <div className="blog-container04">
+              <Link href="/an-introduction-to-nft-token-gating">
+                <a className="blog-link06">
+                  <BlogPostCard2
+                    title="Embracing the Future of Web3: An Introduction to NFT Token Gating"
+                    image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNTkxNTQy&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description='The world of digital assets and blockchain technology is evolving at a rapid pace. With the advent of non-fungible tokens (NFTs) and their increasing popularity, a new concept known as "token gating" has emerged. This white paper aims to introduce the concept of NFT token gating, its benefits, and potential use case examples that can revolutionize various industries.'
+                    profile_src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName"
+                    className="blog-component01"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
             </div>
-          </div>
-          <div className="home-banner">
-            <div className="home-container4">
-              <div className="home-left2">
-                <span className="home-text039">Improve Scheduling</span>
-                <h2 className="home-text040 title">
-                  Powerful scheduler that saves you time
-                </h2>
-                <span className="home-text041">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container2">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="home-cards-image2"
-                />
-              </div>
+            <div className="blog-container05">
+              <Link href="/token-gating-for-digital-marketing">
+                <a className="blog-link07">
+                  <BlogPostCard2
+                    title="Integrate Token Gating Into Your Digital Marketing Campaigns: Target Cryptocurrency Holders"
+                    image_src="https://images.unsplash.com/photo-1639475377520-b256a5d204b1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1fHxjcnlwdG98ZW58MHx8fHwxNjgxNTkxNzg3&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="Launching a marketing campaign targeting cryptocurrency holders using token gating involves a series of strategic steps. Token gating is a technique that grants access to exclusive content or experiences only to individuals who hold a certain number of tokens or a specific type of token. This approach can be highly effective in reaching the desired audience and driving engagement."
+                    profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName2"
+                    className="blog-component02"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
+            </div>
+            <div className="blog-container06">
+              <Link href="/web3-and-user-adoption">
+                <a className="blog-link08">
+                  <BlogPostCard2
+                    title="A Look at Web3 and User Adoption"
+                    image_src="https://images.unsplash.com/photo-1639322537523-abaea1ca9f9c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHdlYjN8ZW58MHx8fHwxNjgxNTkxNDEz&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="This article explores the concept of Web3, a decentralized and user-centric vision of the internet, and examines how users are adopting this new technology. By understanding the fundamentals of Web3 and the strategies being employed to promote its adoption, businesses and individuals can better navigate and capitalize on the opportunities presented by this innovative shift in the digital landscape."
+                    profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName6"
+                    className="blog-component03"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
+            </div>
+            <div className="blog-container07">
+              <Link href="/unlock-token-gate-signature-request">
+                <a className="blog-link09">
+                  <BlogPostCard2
+                    title="Unlocking a Token Gate: The Signature Request Explained"
+                    image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNjEyOTc1&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="As the world of online communities and digital content continues to grow, creators and platforms are seeking new ways to protect access, validate users, and promote exclusivity. Enter token gating, a novel approach to ensuring only qualified individuals gain entry to specific online spaces. In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process. Let's start by understanding what token gating is and how it works."
+                    profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName9"
+                    className="blog-component04"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
+            </div>
+            <div className="blog-container08">
+              <Link href="/steps-to-launch-nft-collection">
+                <a className="blog-link10">
+                  <BlogPostCard2
+                    title="Helpful Tips to Launch Your New NFT Collection"
+                    image_src="https://images.unsplash.com/photo-1651130535340-e02c63a43a0a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxvcGVuc2VhfGVufDB8fHx8MTY4MTYxNDMyOQ&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="Launching an NFT collection can be a complex process that involves several steps, from conceptualizing your collection to marketing it to potential buyers and collectors. It requires a deep understanding of blockchain technology, smart contracts, and digital assets, as well as a strong sense of creativity and innovation to stand out in a crowded market. This article outlines the high-level steps to take to launch your NFT collection."
+                    profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                    rootClassName="rootClassName10"
+                    className="blog-component05"
+                  ></BlogPostCard2>
+                </a>
+              </Link>
             </div>
           </div>
         </section>
-        <Frameworks></Frameworks>
-        <section className="home-integrations">
-          <div className="home-centered-container1">
-            <div className="home-heading">
+        <section className="blog-integrations">
+          <div className="blog-centered-container">
+            <div className="blog-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="home-text045">
+              <span className="blog-text26">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="home-pills-container">
-              <div className="home-pills">
-                <div className="home-container5">
+            <div className="blog-pills-container">
+              <div className="blog-pills">
+                <div className="blog-container09">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="home-container6">
+                <div className="blog-container10">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -380,18 +318,17 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <Testimonial></Testimonial>
-        <section className="home-how-it-works">
-          <div className="home-centered-container2">
-            <div className="home-heading1">
-              <span className="home-text046">How it works</span>
-              <span className="home-text047 title">
+        <section className="blog-how-it-works">
+          <div className="blog-centered-container1">
+            <div className="blog-heading1">
+              <span className="blog-text27">How it works</span>
+              <span className="blog-text28 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="home-category2">
-              <div className="home-headng">
-                <span className="home-text048">
+            <div className="blog-category">
+              <div className="blog-headng">
+                <span className="blog-text29">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -399,28 +336,28 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="home-text049">
+                <span className="blog-text30">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="home-get-started4 template-button">
-                  <span className="home-text050">Get started</span>
+                <div className="blog-get-started1 template-button">
+                  <span className="blog-text31">Get started</span>
                 </div>
               </div>
-              <div className="home-container7">
+              <div className="blog-container11">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="home-pasted-image"
+                  className="blog-pasted-image"
                 />
               </div>
             </div>
-            <div className="home-row">
-              <div className="home-category3">
-                <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
-                  <span className="home-text052">
+            <div className="blog-row">
+              <div className="blog-category1">
+                <div className="blog-headng1">
+                  <span className="blog-text32">2 — Act</span>
+                  <span className="blog-text33">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -429,13 +366,13 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="home-pasted-image1"
+                  className="blog-pasted-image1"
                 />
               </div>
-              <div className="home-category4">
-                <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
-                  <span className="home-text054">
+              <div className="blog-category2">
+                <div className="blog-headng2">
+                  <span className="blog-text34">2 — Act</span>
+                  <span className="blog-text35">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -444,184 +381,184 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="home-pasted-image2"
+                  className="blog-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="home-pricing">
-          <div className="home-centered-container3">
-            <div className="home-heading2">
-              <span className="home-text055 title">
+        <section className="blog-pricing">
+          <div className="blog-centered-container2">
+            <div className="blog-heading2">
+              <span className="blog-text36 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="home-text056">
+              <span className="blog-text37">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="home-selection">
-                <span className="home-text057">Monthly</span>
-                <span className="home-text058">Yearly</span>
+              <div className="blog-selection">
+                <span className="blog-text38">Monthly</span>
+                <span className="blog-text39">Yearly</span>
               </div>
             </div>
-            <div className="home-cards1">
-              <div className="home-card">
-                <span className="home-text059">Free</span>
-                <span className="home-text060">
+            <div className="blog-cards1">
+              <div className="blog-card">
+                <span className="blog-text40">Free</span>
+                <span className="blog-text41">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started5 template-button">
-                  <span className="home-text061">Start for free</span>
+                <div className="blog-get-started2 template-button">
+                  <span className="blog-text42">Start for free</span>
                 </div>
-                <span className="home-text062">What&apos;s included</span>
-                <div className="home-bullet-points">
-                  <div className="home-point">
+                <span className="blog-text43">What&apos;s included</span>
+                <div className="blog-bullet-points">
+                  <div className="blog-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon08"
+                      className="blog-icon06"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text063">
+                    <span className="blog-text44">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point01">
+                  <div className="blog-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon10"
+                      className="blog-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text064">
+                    <span className="blog-text45">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card1">
-                <span className="home-text065">Pay as you go</span>
-                <span className="home-text066">
+              <div className="blog-card1">
+                <span className="blog-text46">Pay as you go</span>
+                <span className="blog-text47">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="home-get-started6 template-button">
-                  <span className="home-text070">
+                <div className="blog-get-started3 template-button">
+                  <span className="blog-text51">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text073">What&apos;s included</span>
-                <div className="home-bullet-points1">
-                  <div className="home-point02">
+                <span className="blog-text54">What&apos;s included</span>
+                <div className="blog-bullet-points1">
+                  <div className="blog-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon12"
+                      className="blog-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text074">
+                    <span className="blog-text55">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point03">
+                  <div className="blog-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon14"
+                      className="blog-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text075">
+                    <span className="blog-text56">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point04">
+                  <div className="blog-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon16"
+                      className="blog-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text076">
+                    <span className="blog-text57">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point05">
+                  <div className="blog-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon18"
+                      className="blog-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text077">
+                    <span className="blog-text58">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card2">
-                <span className="home-text078">Enterprise</span>
-                <span className="home-text079">
+              <div className="blog-card2">
+                <span className="blog-text59">Enterprise</span>
+                <span className="blog-text60">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="home-get-started7 template-button">
-                  <span className="home-text082">
+                <div className="blog-get-started4 template-button">
+                  <span className="blog-text63">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text085">What&apos;s included</span>
-                <div className="home-bullet-points2">
-                  <div className="home-point06">
+                <span className="blog-text66">What&apos;s included</span>
+                <div className="blog-bullet-points2">
+                  <div className="blog-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon20"
+                      className="blog-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text086">
+                    <span className="blog-text67">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point07">
+                  <div className="blog-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon22"
+                      className="blog-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text087">
+                    <span className="blog-text68">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point08">
+                  <div className="blog-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="blog-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text088">
+                    <span className="blog-text69">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point09">
+                  <div className="blog-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="blog-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text089">
+                    <span className="blog-text70">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -630,15 +567,15 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-testimonals">
-          <div className="home-left3">
-            <span className="home-text090">Testimonals</span>
-            <span className="home-text091 title">
+        <section className="blog-testimonals">
+          <div className="blog-left1">
+            <span className="blog-text71">Testimonals</span>
+            <span className="blog-text72 title">
               What people say about Active
             </span>
           </div>
-          <div className="home-right2">
-            <div className="home-column">
+          <div className="blog-right1">
+            <div className="blog-column">
               <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -662,7 +599,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></TestimonalBLurb>
             </div>
-            <div className="home-column1">
+            <div className="blog-column1">
               <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
@@ -689,252 +626,49 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="home-text092">
+          <span className="blog-text73">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="home-action-bar">
-          <div className="home-action">
-            <div className="home-heading3">
-              <span className="home-text095 title">
+        <section className="blog-action-bar">
+          <div className="blog-action">
+            <div className="blog-heading3">
+              <span className="blog-text76 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="home-text099">
+              <span className="blog-text80">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="home-get-started8 template-button">
-                <span className="home-text100">
+              <div className="blog-get-started5 template-button">
+                <span className="blog-text81">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="home-images">
+            <div className="blog-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image2"
+                className="blog-image"
               />
             </div>
           </div>
         </section>
-        <section className="home-faq">
-          <div className="home-heading4">
-            <span className="home-text103 title">
-              Frequently asked questions
-            </span>
-            <span className="home-text104">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
-          </div>
-          <div className="home-accordion">
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
-                <span className="home-text105">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="accordionContainer">
-              <div className="home-header2">
-                <span className="home-text107">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text108">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
-                <span className="home-text109">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text110">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text111">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text112">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
-                <span className="home-text113">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text114">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <DangerousHTML
-              html={`<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll(".accordionContainer"); // All accordion containers
-const accordionContents = document.querySelectorAll(".accordionContent"); // All accordion content
-const accordionIcons = document.querySelectorAll(".accordionIcon"); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = "none"; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener("click", () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = "none"; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains("accordion-open")) { // Checks if this container has class "accordion-open"
-            accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open"
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open" from all containers
-            });
-
-            accordionContainer.classList.add("accordion-open"); // Adds class "accordion-open" to this container
-            accordionContents[index].style.display = "flex"; // Shows accordion content
-            accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class "accordion-open"
-            - If it does, it removes class "accordion-open"
-            - If it doesn't, it:
-                - Removes class "accordion-open" from all containers
-                - Adds class "accordion-open" to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>`}
-            ></DangerousHTML>
-          </div>
-        </section>
-        <footer className="home-footer">
-          <div className="home-top">
+        <footer className="blog-footer">
+          <div className="blog-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
+              className="blog-image1"
             />
-            <span className="home-text115">
+            <span className="blog-text84">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="home-text116">
+            <span className="blog-text85">
               <span>
                 Built by
                 <span
@@ -947,7 +681,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link6"
+                className="blog-link11"
               >
                 OpenMedium, Inc
               </a>
@@ -964,12 +698,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link7"
+                className="blog-link12"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="home-text119">
+            <span className="blog-text88">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -977,7 +711,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link8"
+                className="blog-link13"
               >
                 Legal
               </a>
@@ -987,7 +721,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .home-container {
+          .blog-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -995,9 +729,9 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .home-hero {
+          .blog-hero {
             width: 100%;
-            height: 716px;
+            height: auto;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1014,19 +748,19 @@ Here's what the above is doing:
               url('/playground_assets/fractal%20image%209-1500w.png');
             background-position: top left, center;
           }
-          .home-menu {
+          .blog-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-desktop-navigation {
+          .blog-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-centered {
+          .blog-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -1038,7 +772,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-left {
+          .blog-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1046,35 +780,35 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .home-link {
+          .blog-link {
             display: contents;
           }
-          .home-logo {
+          .blog-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .home-links {
+          .blog-links {
             align-items: center;
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link1 {
+          .blog-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link2 {
+          .blog-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link3 {
+          .blog-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-right {
+          .blog-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1082,16 +816,16 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-sign-in {
+          .blog-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link4 {
+          .blog-link04 {
             display: contents;
           }
-          .home-get-started {
+          .blog-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1107,21 +841,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .home-get-started:hover {
+          .blog-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .home-icon {
+          .blog-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text004 {
+          .blog-text04 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .home-header {
+          .blog-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1130,7 +864,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text007 {
+          .blog-text07 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1138,7 +872,7 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-text008 {
+          .blog-text08 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -1146,87 +880,7 @@ Here's what the above is doing:
             text-align: center;
             line-height: 30px;
           }
-          .home-link5 {
-            display: contents;
-          }
-          .home-get-started1 {
-            color: white;
-            cursor: pointer;
-            display: flex;
-            box-shadow: 5px 5px 0px 1px #db2763;
-            margin-top: 40px;
-            transition: 0.3s;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 10px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-unit);
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-primary-700);
-          }
-          .home-get-started1:hover {
-            color: black;
-            background-color: #ffffff;
-          }
-          .home-icon02 {
-            fill: var(--dl-color-primary-100);
-            width: 20px;
-            height: 20px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
-          .home-text009 {
-            color: var(--dl-color-primary-100);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-dashboard-preview {
-            width: 100%;
-            height: 182px;
-            display: flex;
-            z-index: 1;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-outline {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            border-color: var(--dl-color-primary-100);
-            border-width: 2px;
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 20px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-text010 {
-            color: var(--dl-color-primary-100);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text012 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text014 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text016 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-image {
-            width: 90%;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            object-fit: cover;
-          }
-          .home-features {
+          .blog-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1238,25 +892,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
+          .blog-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text018 {
+          .blog-text09 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .home-text022 {
+          .blog-text13 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-cards {
+          .blog-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1264,7 +918,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .home-container1 {
+          .blog-container01 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1272,40 +926,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-icon04 {
+          .blog-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text025 {
+          .blog-text16 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text026 {
+          .blog-text17 {
             line-height: 24px;
           }
-          .home-publish {
+          .blog-publish {
             height: initial;
           }
-          .home-icon05 {
+          .blog-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text027 {
+          .blog-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text028 {
+          .blog-text19 {
             line-height: 24px;
           }
-          .home-container2 {
+          .blog-container02 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1313,234 +967,131 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .home-icon06 {
+          .blog-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text029 {
+          .blog-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .home-text030 {
+          .blog-text21 {
             line-height: 24px;
           }
-          .home-icon07 {
+          .blog-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text031 {
+          .blog-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text032 {
+          .blog-text23 {
             line-height: 24px;
           }
-          .home-banners {
+          .blog-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-advanced-analytics {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: 180px;
-            padding-left: var(--dl-space-space-sixunits);
-            padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-centered-container {
+          .blog-blog {
             width: 100%;
             display: flex;
             max-width: 1280px;
+            margin-top: var(--dl-space-space-sixunits);
             align-items: center;
-            justify-content: center;
-          }
-          .home-image-container {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-          }
-          .home-cards-image {
-            width: 100%;
-            height: 100%;
-            box-shadow: 5px 5px 0px 1px #dbfe87;
-            object-fit: contain;
-            border-radius: 20px;
-          }
-          .home-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
+            margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: column;
+            justify-content: space-between;
           }
-          .home-text033 {
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 0px;
-          }
-          .home-category {
+          .blog-container03 {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
-          }
-          .home-text034 {
-            color: rgb(0, 0, 0);
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 0px;
-          }
-          .home-category1 {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image1 {
-            width: 80%;
-            object-fit: cover;
-          }
-          .home-banner-manage {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container3 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
             justify-content: space-between;
           }
-          .home-left1 {
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
+          .blog-link05 {
+            display: contents;
           }
-          .home-text036 {
-            text-align: left;
+          .blog-component {
+            text-decoration: none;
           }
-          .home-text037 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started2 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started2:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text038 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container1 {
-            flex: 1;
-            width: 100%;
-            height: 100%;
+          .blog-container04 {
             display: flex;
             align-items: center;
-            flex-direction: row;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
             justify-content: space-between;
           }
-          .home-cards-image1 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            user-select: none;
+          .blog-link06 {
+            display: contents;
           }
-          .home-banner {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
+          .blog-component01 {
+            text-decoration: none;
           }
-          .home-container4 {
-            width: 100%;
+          .blog-container05 {
             display: flex;
-            max-width: 1200px;
             align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-left2 {
-            flex: 1;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
+            justify-content: space-between;
           }
-          .home-text039 {
-            color: rgb(82, 40, 245);
-            font-style: normal;
-            font-weight: 600;
-            margin-bottom: 24px;
+          .blog-link07 {
+            display: contents;
           }
-          .home-text040 {
-            text-align: left;
+          .blog-component02 {
+            text-decoration: none;
           }
-          .home-text041 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started3 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started3:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text042 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container2 {
-            flex: 1;
+          .blog-container06 {
             display: flex;
             align-items: center;
-            flex-direction: row;
-            justify-content: center;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
           }
-          .home-cards-image2 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
+          .blog-link08 {
+            display: contents;
           }
-          .home-integrations {
+          .blog-component03 {
+            text-decoration: none;
+          }
+          .blog-container07 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .blog-link09 {
+            display: contents;
+          }
+          .blog-component04 {
+            text-decoration: none;
+          }
+          .blog-container08 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .blog-link10 {
+            display: contents;
+          }
+          .blog-component05 {
+            text-decoration: none;
+          }
+          .blog-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1549,7 +1100,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .home-centered-container1 {
+          .blog-centered-container {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1557,24 +1108,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading {
+          .blog-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text045 {
+          .blog-text26 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-pills-container {
+          .blog-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-pills {
+          .blog-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1583,14 +1134,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-container5 {
+          .blog-container09 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container6 {
+          .blog-container10 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1598,7 +1149,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-how-it-works {
+          .blog-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1609,7 +1160,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .home-centered-container2 {
+          .blog-centered-container1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1618,22 +1169,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-heading1 {
+          .blog-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text046 {
+          .blog-text27 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text047 {
+          .blog-text28 {
             color: var(--dl-color-gray-white);
           }
-          .home-category2 {
+          .blog-category {
             color: white;
             width: 100%;
             display: flex;
@@ -1644,7 +1195,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .home-headng {
+          .blog-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1654,49 +1205,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text048 {
+          .blog-text29 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text049 {
+          .blog-text30 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .home-get-started4 {
+          .blog-get-started1 {
             margin-bottom: 0px;
           }
-          .home-get-started4:hover {
+          .blog-get-started1:hover {
             color: black;
             background-color: #ffffff;
           }
-          .home-text050 {
+          .blog-text31 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-container7 {
+          .blog-container11 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .home-pasted-image {
+          .blog-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .home-row {
+          .blog-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .home-category3 {
+          .blog-category1 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1708,7 +1259,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .home-headng1 {
+          .blog-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1718,21 +1269,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text051 {
+          .blog-text32 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text052 {
+          .blog-text33 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .home-pasted-image1 {
+          .blog-pasted-image1 {
             width: 100%;
           }
-          .home-category4 {
+          .blog-category2 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1744,7 +1295,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .home-headng2 {
+          .blog-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1754,22 +1305,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text053 {
+          .blog-text34 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text054 {
+          .blog-text35 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .home-pasted-image2 {
+          .blog-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .home-pricing {
+          .blog-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1781,7 +1332,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .home-centered-container3 {
+          .blog-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1789,30 +1340,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading2 {
+          .blog-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text055 {
+          .blog-text36 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .home-text056 {
+          .blog-text37 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-selection {
+          .blog-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-text057 {
+          .blog-text38 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1823,7 +1374,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-text058 {
+          .blog-text39 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1834,7 +1385,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .blog-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1844,7 +1395,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-card {
+          .blog-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1858,77 +1409,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text059 {
+          .blog-text40 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text060 {
+          .blog-text41 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started5 {
+          .blog-get-started2 {
             transition: 0.3s;
           }
-          .home-get-started5:hover {
+          .blog-get-started2:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text061 {
+          .blog-text42 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text062 {
+          .blog-text43 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points {
+          .blog-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point {
+          .blog-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon08 {
+          .blog-icon06 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text063 {
+          .blog-text44 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point01 {
+          .blog-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon10 {
+          .blog-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text064 {
+          .blog-text45 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card1 {
+          .blog-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1943,111 +1494,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text065 {
+          .blog-text46 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text066 {
+          .blog-text47 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started6 {
+          .blog-get-started3 {
             transition: 0.3s;
           }
-          .home-get-started6:hover {
+          .blog-get-started3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text070 {
+          .blog-text51 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text073 {
+          .blog-text54 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points1 {
+          .blog-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point02 {
+          .blog-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon12 {
+          .blog-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text074 {
+          .blog-text55 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point03 {
+          .blog-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon14 {
+          .blog-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text075 {
+          .blog-text56 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point04 {
+          .blog-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon16 {
+          .blog-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text076 {
+          .blog-text57 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point05 {
+          .blog-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon18 {
+          .blog-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text077 {
+          .blog-text58 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card2 {
+          .blog-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -2061,33 +1612,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text078 {
+          .blog-text59 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text079 {
+          .blog-text60 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started7 {
+          .blog-get-started4 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .home-get-started7:hover {
+          .blog-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text082 {
+          .blog-text63 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text085 {
+          .blog-text66 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2095,84 +1646,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points2 {
+          .blog-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point06 {
+          .blog-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon20 {
+          .blog-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text086 {
+          .blog-text67 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point07 {
+          .blog-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon22 {
+          .blog-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text087 {
+          .blog-text68 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point08 {
+          .blog-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon24 {
+          .blog-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text088 {
+          .blog-text69 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point09 {
+          .blog-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon26 {
+          .blog-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text089 {
+          .blog-text70 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-testimonals {
+          .blog-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2182,7 +1733,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .home-left3 {
+          .blog-left1 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2190,35 +1741,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text090 {
+          .blog-text71 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text091 {
+          .blog-text72 {
             text-align: left;
           }
-          .home-right2 {
+          .blog-right1 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .home-column {
+          .blog-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-column1 {
+          .blog-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-text092 {
+          .blog-text73 {
             cursor: pointer;
             display: none;
           }
-          .home-action-bar {
+          .blog-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2226,7 +1777,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-action {
+          .blog-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2236,7 +1787,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .home-heading3 {
+          .blog-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2245,164 +1796,48 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text095 {
+          .blog-text76 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text099 {
+          .blog-text80 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-get-started8 {
+          .blog-get-started5 {
             margin-bottom: 0px;
           }
-          .home-text100 {
+          .blog-text81 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-images {
+          .blog-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image2 {
+          .blog-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .home-faq {
-            width: 100%;
-            display: none;
-            padding: 120px;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: #eff0f2;
-          }
-          .home-heading4 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            user-select: none;
-            flex-direction: column;
-          }
-          .home-text103 {
-            text-align: center;
-          }
-          .home-text104 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text105 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text106 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header2 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text107 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text108 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header3 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text109 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text110 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text111 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text112 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text113 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text114 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-footer {
+          .blog-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
-          .home-top {
+          .blog-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2410,171 +1845,140 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-image3 {
+          .blog-image1 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text115 {
+          .blog-text84 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text116 {
+          .blog-text85 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-link6 {
+          .blog-link11 {
             text-decoration: underline;
           }
-          .home-link7 {
+          .blog-link12 {
             text-decoration: underline;
           }
-          .home-text119 {
+          .blog-text88 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .home-link8 {
+          .blog-link13 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 788px;
+            .blog-hero {
+              height: auto;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 660px;
+            .blog-hero {
+              height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-desktop-navigation {
+            .blog-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-centered {
+            .blog-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .home-left {
+            .blog-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .home-links {
+            .blog-links {
               display: none;
             }
-            .home-header {
+            .blog-header {
               width: 100%;
               max-width: 1200px;
             }
-            .home-outline {
-              width: auto;
-            }
-            .home-text010 {
-              font-size: 22px;
-            }
-            .home-image {
-              width: 100%;
-            }
-            .home-features {
+            .blog-features {
               padding-top: 260px;
             }
-            .home-title {
+            .blog-title {
               width: 100%;
               max-width: 1200px;
             }
-            .home-text018 {
+            .blog-text09 {
               font-size: 36px;
               line-height: 40px;
             }
-            .home-text022 {
+            .blog-text13 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .home-cards {
+            .blog-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .home-text026 {
+            .blog-text17 {
               line-height: 21px;
             }
-            .home-text028 {
+            .blog-text19 {
               line-height: 21px;
             }
-            .home-text030 {
+            .blog-text21 {
               line-height: 21px;
             }
-            .home-text031 {
+            .blog-text22 {
               font-size: 24px;
             }
-            .home-text032 {
+            .blog-text23 {
               line-height: 21px;
             }
-            .home-banner-advanced-analytics {
-              padding-top: var(--dl-space-space-sixunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-sixunits);
-            }
-            .home-text033 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-left1 {
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .home-cards-image1 {
-              width: 360px;
-            }
-            .home-container6 {
+            .blog-container10 {
               margin-left: 0px;
             }
-            .home-category2 {
+            .blog-category {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .home-headng {
+            .blog-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .home-container7 {
+            .blog-container11 {
               width: 100%;
             }
-            .home-pasted-image {
+            .blog-pasted-image {
               height: auto;
             }
-            .home-headng1 {
+            .blog-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-headng2 {
+            .blog-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text056 {
+            .blog-text37 {
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .blog-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .home-card {
+            .blog-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2582,478 +1986,359 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text060 {
+            .blog-text41 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-text062 {
+            .blog-text43 {
               font-size: 16px;
             }
-            .home-card1 {
+            .blog-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-card2 {
+            .blog-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-testimonals {
+            .blog-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .home-left3 {
+            .blog-left1 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text091 {
+            .blog-text72 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-right2 {
+            .blog-right1 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .home-column {
+            .blog-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-column1 {
+            .blog-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action {
+            .blog-action {
               flex-direction: column;
             }
-            .home-heading3 {
+            .blog-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .blog-text76 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-accordion {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-footer {
+            .blog-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .home-top {
+            .blog-top {
               flex-direction: column;
             }
-            .home-text119 {
+            .blog-text88 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              height: 578px;
+            .blog-hero {
+              height: auto;
               position: relative;
-              padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .home-desktop-navigation {
+            .blog-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-centered {
+            .blog-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-left {
+            .blog-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-right {
+            .blog-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .home-sign-in {
+            .blog-sign-in {
               display: flex;
             }
-            .home-get-started {
+            .blog-get-started {
               display: flex;
             }
-            .home-header {
+            .blog-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .home-text007 {
+            .blog-text07 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .home-text008 {
+            .blog-text08 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-            }
-            .home-outline {
-              border-width: 2px;
-              border-radius: 35px;
-            }
-            .home-text010 {
-              font-size: 18px;
-              text-align: center;
-            }
-            .home-image {
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-features {
+            .blog-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text018 {
+            .blog-text09 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .home-container1 {
+            .blog-container01 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-text025 {
+            .blog-text16 {
               font-size: 24px;
             }
-            .home-text026 {
+            .blog-text17 {
               font-size: 14px;
             }
-            .home-publish {
+            .blog-publish {
               margin-left: 0px;
             }
-            .home-text027 {
+            .blog-text18 {
               font-size: 24px;
             }
-            .home-text028 {
+            .blog-text19 {
               font-size: 14px;
             }
-            .home-container2 {
+            .blog-container02 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-analyze {
+            .blog-analyze {
               margin-right: 0px;
             }
-            .home-text029 {
+            .blog-text20 {
               font-size: 24px;
             }
-            .home-text030 {
+            .blog-text21 {
               font-size: 14px;
             }
-            .home-text032 {
+            .blog-text23 {
               font-size: 14px;
             }
-            .home-banner-advanced-analytics {
-              padding-bottom: var(--dl-space-space-twounits);
+            .blog-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-centered-container {
-              flex-direction: column-reverse;
-            }
-            .home-right1 {
-              margin-left: 0px;
-            }
-            .home-text033 {
-              font-size: 28px;
-              align-self: center;
-              text-align: left;
-              line-height: 26px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text034 {
-              align-self: center;
-              text-align: center;
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-category1 {
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-container3 {
-              flex-direction: column;
-            }
-            .home-left1 {
-              margin-right: 0px;
-            }
-            .home-text036 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-text037 {
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text038 {
-              font-size: 16px;
-            }
-            .home-image-container1 {
-              justify-content: center;
-            }
-            .home-cards-image1 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .home-banner {
+            .blog-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-container4 {
-              flex-direction: column;
-            }
-            .home-left2 {
-              margin-right: 0px;
-            }
-            .home-integrations {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-text045 {
+            .blog-text26 {
               line-height: 24px;
             }
-            .home-pills {
+            .blog-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-how-it-works {
+            .blog-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-heading1 {
+            .blog-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text047 {
+            .blog-text28 {
               margin-bottom: 0px;
             }
-            .home-headng {
+            .blog-headng {
               padding-bottom: 0px;
             }
-            .home-get-started4 {
+            .blog-get-started1 {
               display: none;
             }
-            .home-container7 {
+            .blog-container11 {
               width: 100%;
             }
-            .home-row {
+            .blog-row {
               height: auto;
               flex-direction: column;
             }
-            .home-pricing {
+            .blog-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-card {
+            .blog-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text059 {
+            .blog-text40 {
               font-size: 28px;
             }
-            .home-card1 {
+            .blog-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text065 {
+            .blog-text46 {
               font-size: 28px;
             }
-            .home-card2 {
+            .blog-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text078 {
+            .blog-text59 {
               font-size: 28px;
             }
-            .home-testimonals {
+            .blog-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .home-right2 {
+            .blog-right1 {
               width: 100%;
               flex-direction: column;
             }
-            .home-column1 {
+            .blog-column1 {
               display: none;
             }
-            .home-text092 {
+            .blog-text73 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .home-action-bar {
+            .blog-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-action {
+            .blog-action {
               align-items: center;
             }
-            .home-heading3 {
+            .blog-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .blog-text76 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text100 {
+            .blog-text81 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-images {
+            .blog-images {
               justify-content: center;
             }
-            .home-image2 {
+            .blog-image {
               width: 100%;
             }
-            .home-faq {
-              padding: var(--dl-space-space-fourunits);
-            }
-            .home-heading4 {
-              width: 100%;
-            }
-            .home-text103 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .home-text104 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-footer {
+            .blog-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-image3 {
+            .blog-image1 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              height: 600px;
-              padding-bottom: 160px;
+            .blog-hero {
+              height: auto;
             }
-            .home-centered {
+            .blog-centered {
               justify-content: center;
             }
-            .home-logo {
+            .blog-logo {
               width: 180px;
             }
-            .home-sign-in {
+            .blog-sign-in {
               display: none;
             }
-            .home-get-started {
+            .blog-get-started {
               display: none;
             }
-            .home-icon {
+            .blog-icon {
               display: none;
             }
-            .home-text008 {
+            .blog-text08 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              background-color: var(--dl-color-primary-700);
-            }
-            .home-dashboard-preview {
-              top: 500px;
-            }
-            .home-text010 {
-              font-size: 16px;
-            }
-            .home-image {
-              display: none;
-            }
-            .home-features {
+            .blog-features {
               padding-top: 200px;
             }
-            .home-cards {
+            .blog-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container1 {
+            .blog-container01 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .blog-container02 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .home-analyze {
+            .blog-analyze {
               margin-bottom: 0px;
             }
-            .home-right1 {
-              margin-top: var(--dl-space-space-twounits);
+            .blog-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              align-self: center;
-              text-align: center;
-            }
-            .home-text037 {
-              line-height: 24px;
-            }
-            .home-cards-image1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-category2 {
+            .blog-category {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-pricing {
+            .blog-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-get-started7 {
+            .blog-get-started4 {
               background-color: var(--dl-color-gray-white);
             }
-            .home-testimonals {
+            .blog-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action-bar {
+            .blog-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-footer {
+            .blog-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text115 {
+            .blog-text84 {
               text-align: center;
             }
           }
@@ -3063,4 +2348,4 @@ Here's what the above is doing:
   )
 }
 
-export default Home
+export default Blog

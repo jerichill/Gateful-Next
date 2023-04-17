@@ -4,80 +4,90 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-import Frameworks from '../components/frameworks'
 import YouTube from '../components/you-tube'
-import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
 
-const Home = (props) => {
+const Web3AndUserAdoption = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="web-and-user-adoption-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>
+            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+          </title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="home-hero">
-          <div className="home-menu">
-            <div id="navigation" className="home-desktop-navigation">
-              <nav className="home-centered">
-                <div className="home-left">
+        <section id="header" className="web-and-user-adoption-hero">
+          <div className="web-and-user-adoption-menu">
+            <div
+              id="navigation"
+              className="web-and-user-adoption-desktop-navigation"
+            >
+              <nav className="web-and-user-adoption-centered">
+                <div className="web-and-user-adoption-left">
                   <Link href="/">
-                    <a className="home-link">
+                    <a className="web-and-user-adoption-link">
                       <img
                         alt="Welcome to Gateful"
                         src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="home-logo"
+                        className="web-and-user-adoption-logo"
                       />
                     </a>
                   </Link>
-                  <div className="home-links">
+                  <div className="web-and-user-adoption-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link1 Link">Platform</a>
+                      <a className="web-and-user-adoption-link1 Link">
+                        Platform
+                      </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link2 Link">Solutions</a>
+                      <a className="web-and-user-adoption-link2 Link">
+                        Solutions
+                      </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link3 Link">
+                      <a className="web-and-user-adoption-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="home-right">
+                <div className="web-and-user-adoption-right">
                   <a
                     href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-sign-in Link"
+                    className="web-and-user-adoption-sign-in Link"
                   >
                     <span>Login</span>
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link4">
-                      <div className="home-get-started">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <a className="web-and-user-adoption-link4">
+                      <div className="web-and-user-adoption-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="web-and-user-adoption-icon"
+                        >
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                         </svg>
-                        <span className="home-text004">
+                        <span className="web-and-user-adoption-text004">
                           <span>Book a Demo</span>
                           <br></br>
                         </span>
@@ -114,73 +124,30 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="home-header">
-            <h1 className="home-text007">
-              The Easiest Way to Create Token Gated Digital Experiences
+          <header className="web-and-user-adoption-header">
+            <h1 className="web-and-user-adoption-text007">
+              A Look at Web3 and User Adoption
             </h1>
-            <p className="home-text008">
-              Gateful makes it easy to add Web3 Token Gating functionality to
-              your website or web application. Transform your project into a
-              powerful Web3-connected community without writing any code.
+            <p className="web-and-user-adoption-text008">
+              Realization of the Web3 Vision
             </p>
-            <a
-              href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link5"
-            >
-              <div className="home-get-started1">
-                <svg viewBox="0 0 1024 1024" className="home-icon02">
-                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                </svg>
-                <span className="home-text009">Early access</span>
-              </div>
-            </a>
-          </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <h2 className="home-text010">
-                <span>
-                  Top
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text012">brands</span>
-                <span>
-                  ,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text014">developers</span>
-                <span>
-                  , and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text016">creators</span>
-                <span> trust Gateful.</span>
-              </h2>
+            <div className="web-and-user-adoption-profile">
               <img
-                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
-                src="/playground_assets/brands-200h.png"
-                loading="eager"
-                className="home-image"
+                alt="profile"
+                src="/playground_assets/headshot2022bpng-200w.png"
+                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
+                className="web-and-user-adoption-image"
               />
+              <span className="web-and-user-adoption-text009">
+                <span>J. Eric Hill</span>
+                <br></br>
+              </span>
             </div>
-          </div>
+          </header>
         </section>
-        <section className="home-features">
-          <div className="home-title">
-            <span className="home-text018">
+        <section className="web-and-user-adoption-features">
+          <div className="web-and-user-adoption-title">
+            <span className="web-and-user-adoption-text012">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -192,7 +159,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="home-text022">
+            <span className="web-and-user-adoption-text016">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -204,41 +171,41 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="home-cards">
-            <div className="home-container1">
+          <div className="web-and-user-adoption-cards">
+            <div className="web-and-user-adoption-container1">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="home-icon04"
+                  className="web-and-user-adoption-icon02"
                 />
-                <span className="home-text025">Schedule</span>
-                <span className="home-text026">
+                <span className="web-and-user-adoption-text019">Schedule</span>
+                <span className="web-and-user-adoption-text020">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="home-publish card">
+              <div className="web-and-user-adoption-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="home-icon05"
+                  className="web-and-user-adoption-icon03"
                 />
-                <span className="home-text027">Publish</span>
-                <span className="home-text028">
+                <span className="web-and-user-adoption-text021">Publish</span>
+                <span className="web-and-user-adoption-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="home-container2">
-              <div className="card home-analyze">
+            <div className="web-and-user-adoption-container2">
+              <div className="card web-and-user-adoption-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="home-icon06"
+                  className="web-and-user-adoption-icon04"
                 />
-                <span className="home-text029">Analyze</span>
-                <span className="home-text030">
+                <span className="web-and-user-adoption-text023">Analyze</span>
+                <span className="web-and-user-adoption-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -247,10 +214,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="home-icon07"
+                  className="web-and-user-adoption-icon05"
                 />
-                <span className="home-text031">Get leads</span>
-                <span className="home-text032">
+                <span className="web-and-user-adoption-text025">Get leads</span>
+                <span className="web-and-user-adoption-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,119 +225,235 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners">
-          <div className="home-banner-advanced-analytics">
-            <div className="home-centered-container">
-              <div className="home-image-container">
-                <img
-                  alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/2xscreen-1300w.png"
-                  loading="eager"
-                  className="home-cards-image"
-                />
-              </div>
-              <div className="home-right1">
-                <h2 className="home-text033 title">
-                  On-chain access control, simplified
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </h2>
-                <div className="home-category">
-                  <span className="home-text034">
-                    Add Web3 Token Gating functionality to your existing website
-                    or web application without writing code. Our integration
-                    with LIT Protocol allows you to create multiple token gates
-                    within the same experience. Create on-chain conditions
-                    unique to your audience and requirements. Integrate with
-                    major blockchain networks.
-                  </span>
-                </div>
-                <div className="home-category1">
-                  <img
-                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
-                    src="/playground_assets/2xblockchains-1100w.png"
-                    className="home-image1"
-                  />
-                </div>
-              </div>
-            </div>
+        <section className="web-and-user-adoption-banners">
+          <div className="web-and-user-adoption-blog">
+            <h2 className="web-and-user-adoption-text027">
+              Understanding the concept of Web3, a decentralized and
+              user-centric vision of the internet, and how users are adopting
+              this new technology.
+            </h2>
+            <span className="web-and-user-adoption-text028">
+              <span>
+                By understanding the fundamentals of Web3 and the strategies
+                being employed to promote its adoption, businesses and
+                individuals can better navigate and capitalize on the
+                opportunities presented by this innovative shift in the digital
+                landscape.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                The internet has gone through a series of transformations since
+                its inception. In the span of a few decades, it has evolved from
+                a static, one-way information distribution system to a dynamic,
+                interactive platform. As we stand on the cusp of another major
+                shift in the digital landscape, understanding the concept of
+                Web3 and how users are adopting this new technology is crucial
+                for businesses and individuals looking to stay ahead of the
+                curve.
+              </span>
+              <br></br>
+            </span>
+            <h2 className="web-and-user-adoption-text034">What is Web3</h2>
+            <h3 className="web-and-user-adoption-text035">
+              The Evolution of the Internet: Web1 to Web3
+            </h3>
+            <span className="web-and-user-adoption-text036">
+              Web1, or the first iteration of the internet, was characterized by
+              static web pages and one-way information flow. With the advent of
+              Web2, the internet became more interactive and user-generated
+              content became the norm. Web3 is the next evolutionary step,
+              focusing on decentralization, user ownership, and improved
+              security.
+            </span>
+            <h3 className="web-and-user-adoption-text037">
+              The Evolution of the Internet: Web1 to Web3
+            </h3>
+            <span className="web-and-user-adoption-text038">
+              <span className="web-and-user-adoption-text039">
+                Web3 is built on several key components, including:
+              </span>
+              <br className="web-and-user-adoption-text040"></br>
+              <br></br>
+              <span className="web-and-user-adoption-text042">
+                Decentralization:
+              </span>
+              <span>
+                {' '}
+                Web3 aims to eliminate reliance on central authorities and
+                intermediaries, enabling users to directly interact with each
+                other through peer-to-peer networks.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="web-and-user-adoption-text046">
+                User Ownership:
+              </span>
+              <span>
+                {' '}
+                Web3 promotes the concept of user ownership of data and digital
+                assets, allowing individuals to maintain control over their
+                online presence and monetize their contributions.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="web-and-user-adoption-text050">
+                Improved Security:
+              </span>
+              <span>
+                {' '}
+                Web3 leverages advanced cryptographic techniques and blockchain
+                technology to enhance security, privacy, and trust in online
+                interactions.
+              </span>
+              <br></br>
+            </span>
+            <h2 className="web-and-user-adoption-text053">
+              How are Users Adopting New Web3 Technology?
+            </h2>
+            <h3 className="web-and-user-adoption-text054">
+              Decentralized Applications (DApps)
+            </h3>
+            <span className="web-and-user-adoption-text055">
+              Users are increasingly using DApps, which are applications built
+              on decentralized platforms. These applications offer improved
+              security, privacy, and control compared to their centralized
+              counterparts.
+            </span>
+            <h3 className="web-and-user-adoption-text056">
+              Cryptocurrencies and Digital Assets
+            </h3>
+            <span className="web-and-user-adoption-text057">
+              Cryptocurrencies, such as Bitcoin and Ethereum, have gained
+              significant traction as users adopt them for various use cases,
+              including transactions, investments, and as a hedge against
+              traditional financial systems.
+            </span>
+            <h3 className="web-and-user-adoption-text058">
+              Non-Fungible Tokens (NFTs)
+            </h3>
+            <span className="web-and-user-adoption-text059">
+              NFTs have exploded in popularity as users embrace their potential
+              to represent digital art, collectibles, and other unique digital
+              assets, enabling individuals to own and trade them with ease.
+            </span>
+            <h3 className="web-and-user-adoption-text060">
+              Decentralized Finance (DeFi)
+            </h3>
+            <span className="web-and-user-adoption-text061">
+              DeFi platforms offer users access to financial services, such as
+              lending, borrowing, and trading, without the need for traditional
+              intermediaries like banks, thereby democratizing access to
+              financial tools.
+            </span>
+            <h3 className="web-and-user-adoption-text062">
+              Governance and Decentralized Autonomous Organizations (DAOs)
+            </h3>
+            <span className="web-and-user-adoption-text063">
+              Users are participating in governance processes and joining DAOs,
+              which are community-driven organizations that operate on
+              decentralized platforms, enabling transparent decision-making and
+              resource allocation.
+            </span>
+            <h2 className="web-and-user-adoption-text064">
+              Challenges and Barriers to Adoption
+            </h2>
+            <span className="web-and-user-adoption-text065">
+              <span className="web-and-user-adoption-text066">
+                Despite the promise of Web3, there are challenges and barriers
+                that must be addressed to facilitate widespread adoption, such
+                as:
+              </span>
+              <br></br>
+              <br></br>
+              <span className="web-and-user-adoption-text069">
+                Scalability:
+              </span>
+              <span>
+                {' '}
+                Decentralized platforms must be able to handle increased traffic
+                and transactions as user adoption grows.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="web-and-user-adoption-text073">Usability:</span>
+              <span>
+                {' '}
+                Interfaces and user experiences must be improved to make Web3
+                technologies more accessible to non-technical users.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="web-and-user-adoption-text077">Regulation:</span>
+              <span>
+                {' '}
+                Regulatory frameworks must evolve to accommodate the unique
+                aspects of Web3 without stifling innovation.
+              </span>
+            </span>
+            <span className="web-and-user-adoption-text079">
+              Web3 represents a significant shift in the way users interact with
+              the internet, emphasizing decentralization, ownership, and
+              security. By understanding the core components of Web3 and
+              examining how users are adopting these new technologies,
+              businesses and individuals can better position themselves to
+              capitalize on the opportunities presented by this digital
+              transformation. However, addressing the challenges and barriers to
+              adoption will be critical in ensuring the successful realization
+              of the Web3 vision.
+            </span>
           </div>
-          <div className="home-banner-manage">
-            <div className="home-container3">
-              <div className="home-left1">
-                <span className="sub-title">Content Management</span>
-                <span className="home-text036 title">
-                  Manage all your platforms in just one place.
+          <div className="web-and-user-adoption-blog1">
+            <h2 className="web-and-user-adoption-text080">
+              Gateful is the easiest way to token gate any website or web
+              application.
+            </h2>
+            <span className="web-and-user-adoption-text081">
+              If you&apos;re looking to add Web3 Token Gating functionality to
+              your website or web application and do not know where to start,
+              contact our Web3 implementation team for a demo.
+            </span>
+            <a
+              href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="web-and-user-adoption-link5"
+            >
+              <div className="web-and-user-adoption-get-started1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="web-and-user-adoption-icon06"
+                >
+                  <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                </svg>
+                <span className="web-and-user-adoption-text082">
+                  Book a Demo
                 </span>
-                <span className="home-text037">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started2 template-button">
-                  <span className="home-text038">Get started</span>
-                </div>
               </div>
-              <div className="home-image-container1">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="home-cards-image1"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="home-banner">
-            <div className="home-container4">
-              <div className="home-left2">
-                <span className="home-text039">Improve Scheduling</span>
-                <h2 className="home-text040 title">
-                  Powerful scheduler that saves you time
-                </h2>
-                <span className="home-text041">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container2">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="home-cards-image2"
-                />
-              </div>
-            </div>
+            </a>
           </div>
         </section>
-        <Frameworks></Frameworks>
-        <section className="home-integrations">
-          <div className="home-centered-container1">
-            <div className="home-heading">
+        <section className="web-and-user-adoption-integrations">
+          <div className="web-and-user-adoption-centered-container">
+            <div className="web-and-user-adoption-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="home-text045">
+              <span className="web-and-user-adoption-text085">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="home-pills-container">
-              <div className="home-pills">
-                <div className="home-container5">
+            <div className="web-and-user-adoption-pills-container">
+              <div className="web-and-user-adoption-pills">
+                <div className="web-and-user-adoption-container3">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="home-container6">
+                <div className="web-and-user-adoption-container4">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -380,18 +463,19 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <Testimonial></Testimonial>
-        <section className="home-how-it-works">
-          <div className="home-centered-container2">
-            <div className="home-heading1">
-              <span className="home-text046">How it works</span>
-              <span className="home-text047 title">
+        <section className="web-and-user-adoption-how-it-works">
+          <div className="web-and-user-adoption-centered-container1">
+            <div className="web-and-user-adoption-heading1">
+              <span className="web-and-user-adoption-text086">
+                How it works
+              </span>
+              <span className="web-and-user-adoption-text087 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="home-category2">
-              <div className="home-headng">
-                <span className="home-text048">
+            <div className="web-and-user-adoption-category">
+              <div className="web-and-user-adoption-headng">
+                <span className="web-and-user-adoption-text088">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -399,28 +483,30 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="home-text049">
+                <span className="web-and-user-adoption-text089">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="home-get-started4 template-button">
-                  <span className="home-text050">Get started</span>
+                <div className="web-and-user-adoption-get-started2 template-button">
+                  <span className="web-and-user-adoption-text090">
+                    Get started
+                  </span>
                 </div>
               </div>
-              <div className="home-container7">
+              <div className="web-and-user-adoption-container5">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="home-pasted-image"
+                  className="web-and-user-adoption-pasted-image"
                 />
               </div>
             </div>
-            <div className="home-row">
-              <div className="home-category3">
-                <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
-                  <span className="home-text052">
+            <div className="web-and-user-adoption-row">
+              <div className="web-and-user-adoption-category1">
+                <div className="web-and-user-adoption-headng1">
+                  <span className="web-and-user-adoption-text091">2 — Act</span>
+                  <span className="web-and-user-adoption-text092">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -429,13 +515,13 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="home-pasted-image1"
+                  className="web-and-user-adoption-pasted-image1"
                 />
               </div>
-              <div className="home-category4">
-                <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
-                  <span className="home-text054">
+              <div className="web-and-user-adoption-category2">
+                <div className="web-and-user-adoption-headng2">
+                  <span className="web-and-user-adoption-text093">2 — Act</span>
+                  <span className="web-and-user-adoption-text094">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -444,184 +530,196 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="home-pasted-image2"
+                  className="web-and-user-adoption-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="home-pricing">
-          <div className="home-centered-container3">
-            <div className="home-heading2">
-              <span className="home-text055 title">
+        <section className="web-and-user-adoption-pricing">
+          <div className="web-and-user-adoption-centered-container2">
+            <div className="web-and-user-adoption-heading2">
+              <span className="web-and-user-adoption-text095 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="home-text056">
+              <span className="web-and-user-adoption-text096">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="home-selection">
-                <span className="home-text057">Monthly</span>
-                <span className="home-text058">Yearly</span>
+              <div className="web-and-user-adoption-selection">
+                <span className="web-and-user-adoption-text097">Monthly</span>
+                <span className="web-and-user-adoption-text098">Yearly</span>
               </div>
             </div>
-            <div className="home-cards1">
-              <div className="home-card">
-                <span className="home-text059">Free</span>
-                <span className="home-text060">
+            <div className="web-and-user-adoption-cards1">
+              <div className="web-and-user-adoption-card">
+                <span className="web-and-user-adoption-text099">Free</span>
+                <span className="web-and-user-adoption-text100">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started5 template-button">
-                  <span className="home-text061">Start for free</span>
+                <div className="web-and-user-adoption-get-started3 template-button">
+                  <span className="web-and-user-adoption-text101">
+                    Start for free
+                  </span>
                 </div>
-                <span className="home-text062">What&apos;s included</span>
-                <div className="home-bullet-points">
-                  <div className="home-point">
+                <span className="web-and-user-adoption-text102">
+                  What&apos;s included
+                </span>
+                <div className="web-and-user-adoption-bullet-points">
+                  <div className="web-and-user-adoption-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon08"
+                      className="web-and-user-adoption-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text063">
+                    <span className="web-and-user-adoption-text103">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point01">
+                  <div className="web-and-user-adoption-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon10"
+                      className="web-and-user-adoption-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text064">
+                    <span className="web-and-user-adoption-text104">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card1">
-                <span className="home-text065">Pay as you go</span>
-                <span className="home-text066">
+              <div className="web-and-user-adoption-card1">
+                <span className="web-and-user-adoption-text105">
+                  Pay as you go
+                </span>
+                <span className="web-and-user-adoption-text106">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="home-get-started6 template-button">
-                  <span className="home-text070">
+                <div className="web-and-user-adoption-get-started4 template-button">
+                  <span className="web-and-user-adoption-text110">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text073">What&apos;s included</span>
-                <div className="home-bullet-points1">
-                  <div className="home-point02">
+                <span className="web-and-user-adoption-text113">
+                  What&apos;s included
+                </span>
+                <div className="web-and-user-adoption-bullet-points1">
+                  <div className="web-and-user-adoption-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon12"
+                      className="web-and-user-adoption-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text074">
+                    <span className="web-and-user-adoption-text114">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point03">
+                  <div className="web-and-user-adoption-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon14"
+                      className="web-and-user-adoption-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text075">
+                    <span className="web-and-user-adoption-text115">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point04">
+                  <div className="web-and-user-adoption-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon16"
+                      className="web-and-user-adoption-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text076">
+                    <span className="web-and-user-adoption-text116">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point05">
+                  <div className="web-and-user-adoption-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon18"
+                      className="web-and-user-adoption-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text077">
+                    <span className="web-and-user-adoption-text117">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card2">
-                <span className="home-text078">Enterprise</span>
-                <span className="home-text079">
+              <div className="web-and-user-adoption-card2">
+                <span className="web-and-user-adoption-text118">
+                  Enterprise
+                </span>
+                <span className="web-and-user-adoption-text119">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="home-get-started7 template-button">
-                  <span className="home-text082">
+                <div className="web-and-user-adoption-get-started5 template-button">
+                  <span className="web-and-user-adoption-text122">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text085">What&apos;s included</span>
-                <div className="home-bullet-points2">
-                  <div className="home-point06">
+                <span className="web-and-user-adoption-text125">
+                  What&apos;s included
+                </span>
+                <div className="web-and-user-adoption-bullet-points2">
+                  <div className="web-and-user-adoption-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon20"
+                      className="web-and-user-adoption-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text086">
+                    <span className="web-and-user-adoption-text126">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point07">
+                  <div className="web-and-user-adoption-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon22"
+                      className="web-and-user-adoption-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text087">
+                    <span className="web-and-user-adoption-text127">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point08">
+                  <div className="web-and-user-adoption-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="web-and-user-adoption-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text088">
+                    <span className="web-and-user-adoption-text128">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point09">
+                  <div className="web-and-user-adoption-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="web-and-user-adoption-icon26"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text089">
+                    <span className="web-and-user-adoption-text129">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -630,15 +728,15 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-testimonals">
-          <div className="home-left3">
-            <span className="home-text090">Testimonals</span>
-            <span className="home-text091 title">
+        <section className="web-and-user-adoption-testimonals">
+          <div className="web-and-user-adoption-left1">
+            <span className="web-and-user-adoption-text130">Testimonals</span>
+            <span className="web-and-user-adoption-text131 title">
               What people say about Active
             </span>
           </div>
-          <div className="home-right2">
-            <div className="home-column">
+          <div className="web-and-user-adoption-right1">
+            <div className="web-and-user-adoption-column">
               <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -662,7 +760,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></TestimonalBLurb>
             </div>
-            <div className="home-column1">
+            <div className="web-and-user-adoption-column1">
               <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
@@ -689,252 +787,49 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="home-text092">
+          <span className="web-and-user-adoption-text132">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="home-action-bar">
-          <div className="home-action">
-            <div className="home-heading3">
-              <span className="home-text095 title">
+        <section className="web-and-user-adoption-action-bar">
+          <div className="web-and-user-adoption-action">
+            <div className="web-and-user-adoption-heading3">
+              <span className="web-and-user-adoption-text135 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="home-text099">
+              <span className="web-and-user-adoption-text139">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="home-get-started8 template-button">
-                <span className="home-text100">
+              <div className="web-and-user-adoption-get-started6 template-button">
+                <span className="web-and-user-adoption-text140">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="home-images">
+            <div className="web-and-user-adoption-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image2"
+                className="web-and-user-adoption-image1"
               />
             </div>
           </div>
         </section>
-        <section className="home-faq">
-          <div className="home-heading4">
-            <span className="home-text103 title">
-              Frequently asked questions
-            </span>
-            <span className="home-text104">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
-          </div>
-          <div className="home-accordion">
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
-                <span className="home-text105">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="accordionContainer">
-              <div className="home-header2">
-                <span className="home-text107">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text108">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
-                <span className="home-text109">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text110">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text111">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text112">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
-                <span className="home-text113">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text114">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <DangerousHTML
-              html={`<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll(".accordionContainer"); // All accordion containers
-const accordionContents = document.querySelectorAll(".accordionContent"); // All accordion content
-const accordionIcons = document.querySelectorAll(".accordionIcon"); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = "none"; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener("click", () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = "none"; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains("accordion-open")) { // Checks if this container has class "accordion-open"
-            accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open"
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open" from all containers
-            });
-
-            accordionContainer.classList.add("accordion-open"); // Adds class "accordion-open" to this container
-            accordionContents[index].style.display = "flex"; // Shows accordion content
-            accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class "accordion-open"
-            - If it does, it removes class "accordion-open"
-            - If it doesn't, it:
-                - Removes class "accordion-open" from all containers
-                - Adds class "accordion-open" to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>`}
-            ></DangerousHTML>
-          </div>
-        </section>
-        <footer className="home-footer">
-          <div className="home-top">
+        <footer className="web-and-user-adoption-footer">
+          <div className="web-and-user-adoption-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
+              className="web-and-user-adoption-image2"
             />
-            <span className="home-text115">
+            <span className="web-and-user-adoption-text143">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="home-text116">
+            <span className="web-and-user-adoption-text144">
               <span>
                 Built by
                 <span
@@ -947,7 +842,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link6"
+                className="web-and-user-adoption-link6"
               >
                 OpenMedium, Inc
               </a>
@@ -964,12 +859,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link7"
+                className="web-and-user-adoption-link7"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="home-text119">
+            <span className="web-and-user-adoption-text147">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -977,7 +872,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link8"
+                className="web-and-user-adoption-link8"
               >
                 Legal
               </a>
@@ -987,7 +882,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .home-container {
+          .web-and-user-adoption-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -995,9 +890,9 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .home-hero {
+          .web-and-user-adoption-hero {
             width: 100%;
-            height: 716px;
+            height: auto;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1008,25 +903,25 @@ Here's what the above is doing:
             background-image: linear-gradient(
                 135deg,
                 rgba(16, 138, 130, 0.75) 0%,
-                rgba(18, 16, 74, 0.8) 50%,
+                rgba(18, 16, 74, 0.9) 48%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
-              url('/playground_assets/fractal%20image%209-1500w.png');
+              url('https://images.unsplash.com/photo-1639322537523-abaea1ca9f9c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHdlYjN8ZW58MHx8fHwxNjgxNTkxNDEz&ixlib=rb-4.0.3&w=1500');
             background-position: top left, center;
           }
-          .home-menu {
+          .web-and-user-adoption-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-desktop-navigation {
+          .web-and-user-adoption-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-centered {
+          .web-and-user-adoption-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -1038,7 +933,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-left {
+          .web-and-user-adoption-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1046,35 +941,35 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .home-link {
+          .web-and-user-adoption-link {
             display: contents;
           }
-          .home-logo {
+          .web-and-user-adoption-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .home-links {
+          .web-and-user-adoption-links {
             align-items: center;
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link1 {
+          .web-and-user-adoption-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link2 {
+          .web-and-user-adoption-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link3 {
+          .web-and-user-adoption-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-right {
+          .web-and-user-adoption-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1082,16 +977,16 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-sign-in {
+          .web-and-user-adoption-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link4 {
+          .web-and-user-adoption-link4 {
             display: contents;
           }
-          .home-get-started {
+          .web-and-user-adoption-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1107,21 +1002,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .home-get-started:hover {
+          .web-and-user-adoption-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .home-icon {
+          .web-and-user-adoption-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text004 {
+          .web-and-user-adoption-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .home-header {
+          .web-and-user-adoption-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1130,7 +1025,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text007 {
+          .web-and-user-adoption-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1138,95 +1033,34 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-text008 {
+          .web-and-user-adoption-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
-            font-size: 20px;
+            font-size: 24px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-link5 {
-            display: contents;
-          }
-          .home-get-started1 {
-            color: white;
-            cursor: pointer;
+          .web-and-user-adoption-profile {
             display: flex;
-            box-shadow: 5px 5px 0px 1px #db2763;
-            margin-top: 40px;
-            transition: 0.3s;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 10px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-unit);
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-primary-700);
-          }
-          .home-get-started1:hover {
-            color: black;
-            background-color: #ffffff;
-          }
-          .home-icon02 {
-            fill: var(--dl-color-primary-100);
-            width: 20px;
-            height: 20px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
-          .home-text009 {
-            color: var(--dl-color-primary-100);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-dashboard-preview {
-            width: 100%;
-            height: 182px;
-            display: flex;
-            z-index: 1;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-outline {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            border-color: var(--dl-color-primary-100);
-            border-width: 2px;
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 20px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-text010 {
-            color: var(--dl-color-primary-100);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text012 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text014 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text016 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-image {
-            width: 90%;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            object-fit: cover;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-features {
+          .web-and-user-adoption-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .web-and-user-adoption-text009 {
+            color: var(--dl-color-gray-white);
+            font-size: 20px;
+            font-weight: 300;
+            margin-left: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1238,25 +1072,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
+          .web-and-user-adoption-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text018 {
+          .web-and-user-adoption-text012 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .home-text022 {
+          .web-and-user-adoption-text016 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-cards {
+          .web-and-user-adoption-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1264,7 +1098,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .home-container1 {
+          .web-and-user-adoption-container1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1272,40 +1106,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-icon04 {
+          .web-and-user-adoption-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text025 {
+          .web-and-user-adoption-text019 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text026 {
+          .web-and-user-adoption-text020 {
             line-height: 24px;
           }
-          .home-publish {
+          .web-and-user-adoption-publish {
             height: initial;
           }
-          .home-icon05 {
+          .web-and-user-adoption-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text027 {
+          .web-and-user-adoption-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text028 {
+          .web-and-user-adoption-text022 {
             line-height: 24px;
           }
-          .home-container2 {
+          .web-and-user-adoption-container2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1313,234 +1147,233 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .home-icon06 {
+          .web-and-user-adoption-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text029 {
+          .web-and-user-adoption-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .home-text030 {
+          .web-and-user-adoption-text024 {
             line-height: 24px;
           }
-          .home-icon07 {
+          .web-and-user-adoption-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text031 {
+          .web-and-user-adoption-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text032 {
+          .web-and-user-adoption-text026 {
             line-height: 24px;
           }
-          .home-banners {
+          .web-and-user-adoption-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-advanced-analytics {
+          .web-and-user-adoption-blog {
             width: 100%;
             display: flex;
+            max-width: 900px;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .web-and-user-adoption-text027 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text028 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text034 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text035 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text036 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text037 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text038 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text039 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text040 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text042 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text046 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text050 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text053 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text054 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text055 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text056 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text057 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text058 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text059 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text060 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text061 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text062 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text063 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text064 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text065 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text066 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text069 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text073 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text077 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text079 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-blog1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            max-width: 900px;
+            box-shadow: 5px 5px 0px 1px #dbfe87;
             align-items: center;
-            padding-top: 180px;
-            padding-left: var(--dl-space-space-sixunits);
-            padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
+            border-color: var(--dl-color-primary-700);
+            border-width: 1px;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+            justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .home-centered-container {
-            width: 100%;
+          .web-and-user-adoption-text080 {
+            text-align: center;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text081 {
+            font-size: 19px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-link5 {
+            display: contents;
+          }
+          .web-and-user-adoption-get-started1 {
+            color: white;
+            cursor: pointer;
             display: flex;
-            max-width: 1280px;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-image-container {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-          }
-          .home-cards-image {
-            width: 100%;
-            height: 100%;
-            box-shadow: 5px 5px 0px 1px #dbfe87;
-            object-fit: contain;
-            border-radius: 20px;
-          }
-          .home-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text033 {
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 0px;
-          }
-          .home-category {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-          }
-          .home-text034 {
-            color: rgb(0, 0, 0);
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 0px;
-          }
-          .home-category1 {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image1 {
-            width: 80%;
-            object-fit: cover;
-          }
-          .home-banner-manage {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container3 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-left1 {
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text036 {
-            text-align: left;
-          }
-          .home-text037 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started2 {
+            box-shadow: 5px 5px 0px 1px #db2763;
             transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started2:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text038 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container1 {
-            flex: 1;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-cards-image1 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            user-select: none;
-          }
-          .home-banner {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container4 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-left2 {
-            flex: 1;
-            display: flex;
             align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: 10px;
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-primary-700);
           }
-          .home-text039 {
-            color: rgb(82, 40, 245);
-            font-style: normal;
-            font-weight: 600;
-            margin-bottom: 24px;
+          .web-and-user-adoption-get-started1:hover {
+            color: black;
+            background-color: #ffffff;
           }
-          .home-text040 {
-            text-align: left;
+          .web-and-user-adoption-icon06 {
+            fill: var(--dl-color-primary-100);
+            width: 20px;
+            height: 20px;
+            margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text041 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started3 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started3:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text042 {
+          .web-and-user-adoption-text082 {
+            color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-image-container2 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-cards-image2 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-          }
-          .home-integrations {
+          .web-and-user-adoption-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1549,7 +1382,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .home-centered-container1 {
+          .web-and-user-adoption-centered-container {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1557,24 +1390,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading {
+          .web-and-user-adoption-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text045 {
+          .web-and-user-adoption-text085 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-pills-container {
+          .web-and-user-adoption-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-pills {
+          .web-and-user-adoption-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1583,14 +1416,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-container5 {
+          .web-and-user-adoption-container3 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container6 {
+          .web-and-user-adoption-container4 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1598,7 +1431,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-how-it-works {
+          .web-and-user-adoption-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1609,7 +1442,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .home-centered-container2 {
+          .web-and-user-adoption-centered-container1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1618,22 +1451,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-heading1 {
+          .web-and-user-adoption-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text046 {
+          .web-and-user-adoption-text086 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text047 {
+          .web-and-user-adoption-text087 {
             color: var(--dl-color-gray-white);
           }
-          .home-category2 {
+          .web-and-user-adoption-category {
             color: white;
             width: 100%;
             display: flex;
@@ -1644,7 +1477,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .home-headng {
+          .web-and-user-adoption-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1654,49 +1487,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text048 {
+          .web-and-user-adoption-text088 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text049 {
+          .web-and-user-adoption-text089 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .home-get-started4 {
+          .web-and-user-adoption-get-started2 {
             margin-bottom: 0px;
           }
-          .home-get-started4:hover {
+          .web-and-user-adoption-get-started2:hover {
             color: black;
             background-color: #ffffff;
           }
-          .home-text050 {
+          .web-and-user-adoption-text090 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-container7 {
+          .web-and-user-adoption-container5 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .home-pasted-image {
+          .web-and-user-adoption-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .home-row {
+          .web-and-user-adoption-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .home-category3 {
+          .web-and-user-adoption-category1 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1708,7 +1541,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .home-headng1 {
+          .web-and-user-adoption-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1718,21 +1551,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text051 {
+          .web-and-user-adoption-text091 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text052 {
+          .web-and-user-adoption-text092 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .home-pasted-image1 {
+          .web-and-user-adoption-pasted-image1 {
             width: 100%;
           }
-          .home-category4 {
+          .web-and-user-adoption-category2 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1744,7 +1577,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .home-headng2 {
+          .web-and-user-adoption-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1754,22 +1587,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text053 {
+          .web-and-user-adoption-text093 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text054 {
+          .web-and-user-adoption-text094 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .home-pasted-image2 {
+          .web-and-user-adoption-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .home-pricing {
+          .web-and-user-adoption-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1781,7 +1614,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .home-centered-container3 {
+          .web-and-user-adoption-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1789,30 +1622,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading2 {
+          .web-and-user-adoption-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text055 {
+          .web-and-user-adoption-text095 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .home-text056 {
+          .web-and-user-adoption-text096 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-selection {
+          .web-and-user-adoption-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-text057 {
+          .web-and-user-adoption-text097 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1823,7 +1656,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-text058 {
+          .web-and-user-adoption-text098 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1834,7 +1667,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .web-and-user-adoption-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1844,7 +1677,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-card {
+          .web-and-user-adoption-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1858,77 +1691,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text059 {
+          .web-and-user-adoption-text099 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text060 {
+          .web-and-user-adoption-text100 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started5 {
+          .web-and-user-adoption-get-started3 {
             transition: 0.3s;
           }
-          .home-get-started5:hover {
+          .web-and-user-adoption-get-started3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text061 {
+          .web-and-user-adoption-text101 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text062 {
+          .web-and-user-adoption-text102 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points {
+          .web-and-user-adoption-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point {
+          .web-and-user-adoption-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon08 {
+          .web-and-user-adoption-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text063 {
+          .web-and-user-adoption-text103 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point01 {
+          .web-and-user-adoption-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon10 {
+          .web-and-user-adoption-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text064 {
+          .web-and-user-adoption-text104 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card1 {
+          .web-and-user-adoption-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1943,111 +1776,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text065 {
+          .web-and-user-adoption-text105 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text066 {
+          .web-and-user-adoption-text106 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started6 {
+          .web-and-user-adoption-get-started4 {
             transition: 0.3s;
           }
-          .home-get-started6:hover {
+          .web-and-user-adoption-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text070 {
+          .web-and-user-adoption-text110 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text073 {
+          .web-and-user-adoption-text113 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points1 {
+          .web-and-user-adoption-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point02 {
+          .web-and-user-adoption-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon12 {
+          .web-and-user-adoption-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text074 {
+          .web-and-user-adoption-text114 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point03 {
+          .web-and-user-adoption-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon14 {
+          .web-and-user-adoption-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text075 {
+          .web-and-user-adoption-text115 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point04 {
+          .web-and-user-adoption-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon16 {
+          .web-and-user-adoption-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text076 {
+          .web-and-user-adoption-text116 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point05 {
+          .web-and-user-adoption-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon18 {
+          .web-and-user-adoption-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text077 {
+          .web-and-user-adoption-text117 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card2 {
+          .web-and-user-adoption-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -2061,33 +1894,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text078 {
+          .web-and-user-adoption-text118 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text079 {
+          .web-and-user-adoption-text119 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started7 {
+          .web-and-user-adoption-get-started5 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .home-get-started7:hover {
+          .web-and-user-adoption-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text082 {
+          .web-and-user-adoption-text122 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text085 {
+          .web-and-user-adoption-text125 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2095,84 +1928,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points2 {
+          .web-and-user-adoption-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point06 {
+          .web-and-user-adoption-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon20 {
+          .web-and-user-adoption-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text086 {
+          .web-and-user-adoption-text126 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point07 {
+          .web-and-user-adoption-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon22 {
+          .web-and-user-adoption-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text087 {
+          .web-and-user-adoption-text127 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point08 {
+          .web-and-user-adoption-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon24 {
+          .web-and-user-adoption-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text088 {
+          .web-and-user-adoption-text128 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point09 {
+          .web-and-user-adoption-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon26 {
+          .web-and-user-adoption-icon26 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text089 {
+          .web-and-user-adoption-text129 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-testimonals {
+          .web-and-user-adoption-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2182,7 +2015,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .home-left3 {
+          .web-and-user-adoption-left1 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2190,35 +2023,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text090 {
+          .web-and-user-adoption-text130 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text091 {
+          .web-and-user-adoption-text131 {
             text-align: left;
           }
-          .home-right2 {
+          .web-and-user-adoption-right1 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .home-column {
+          .web-and-user-adoption-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-column1 {
+          .web-and-user-adoption-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-text092 {
+          .web-and-user-adoption-text132 {
             cursor: pointer;
             display: none;
           }
-          .home-action-bar {
+          .web-and-user-adoption-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2226,7 +2059,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-action {
+          .web-and-user-adoption-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2236,7 +2069,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .home-heading3 {
+          .web-and-user-adoption-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2245,164 +2078,48 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text095 {
+          .web-and-user-adoption-text135 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text099 {
+          .web-and-user-adoption-text139 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-get-started8 {
+          .web-and-user-adoption-get-started6 {
             margin-bottom: 0px;
           }
-          .home-text100 {
+          .web-and-user-adoption-text140 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-images {
+          .web-and-user-adoption-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image2 {
+          .web-and-user-adoption-image1 {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .home-faq {
-            width: 100%;
-            display: none;
-            padding: 120px;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: #eff0f2;
-          }
-          .home-heading4 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            user-select: none;
-            flex-direction: column;
-          }
-          .home-text103 {
-            text-align: center;
-          }
-          .home-text104 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text105 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text106 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header2 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text107 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text108 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header3 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text109 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text110 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text111 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text112 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text113 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text114 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-footer {
+          .web-and-user-adoption-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
-          .home-top {
+          .web-and-user-adoption-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2410,171 +2127,140 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-image3 {
+          .web-and-user-adoption-image2 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text115 {
+          .web-and-user-adoption-text143 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text116 {
+          .web-and-user-adoption-text144 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-link6 {
+          .web-and-user-adoption-link6 {
             text-decoration: underline;
           }
-          .home-link7 {
+          .web-and-user-adoption-link7 {
             text-decoration: underline;
           }
-          .home-text119 {
+          .web-and-user-adoption-text147 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .home-link8 {
+          .web-and-user-adoption-link8 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 788px;
+            .web-and-user-adoption-hero {
+              height: auto;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 660px;
+            .web-and-user-adoption-hero {
+              height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-desktop-navigation {
+            .web-and-user-adoption-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-centered {
+            .web-and-user-adoption-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .home-left {
+            .web-and-user-adoption-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .home-links {
+            .web-and-user-adoption-links {
               display: none;
             }
-            .home-header {
+            .web-and-user-adoption-header {
               width: 100%;
               max-width: 1200px;
             }
-            .home-outline {
-              width: auto;
-            }
-            .home-text010 {
-              font-size: 22px;
-            }
-            .home-image {
-              width: 100%;
-            }
-            .home-features {
+            .web-and-user-adoption-features {
               padding-top: 260px;
             }
-            .home-title {
+            .web-and-user-adoption-title {
               width: 100%;
               max-width: 1200px;
             }
-            .home-text018 {
+            .web-and-user-adoption-text012 {
               font-size: 36px;
               line-height: 40px;
             }
-            .home-text022 {
+            .web-and-user-adoption-text016 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .home-cards {
+            .web-and-user-adoption-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .home-text026 {
+            .web-and-user-adoption-text020 {
               line-height: 21px;
             }
-            .home-text028 {
+            .web-and-user-adoption-text022 {
               line-height: 21px;
             }
-            .home-text030 {
+            .web-and-user-adoption-text024 {
               line-height: 21px;
             }
-            .home-text031 {
+            .web-and-user-adoption-text025 {
               font-size: 24px;
             }
-            .home-text032 {
+            .web-and-user-adoption-text026 {
               line-height: 21px;
             }
-            .home-banner-advanced-analytics {
-              padding-top: var(--dl-space-space-sixunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-sixunits);
-            }
-            .home-text033 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-left1 {
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .home-cards-image1 {
-              width: 360px;
-            }
-            .home-container6 {
+            .web-and-user-adoption-container4 {
               margin-left: 0px;
             }
-            .home-category2 {
+            .web-and-user-adoption-category {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .home-headng {
+            .web-and-user-adoption-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .home-container7 {
+            .web-and-user-adoption-container5 {
               width: 100%;
             }
-            .home-pasted-image {
+            .web-and-user-adoption-pasted-image {
               height: auto;
             }
-            .home-headng1 {
+            .web-and-user-adoption-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-headng2 {
+            .web-and-user-adoption-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text056 {
+            .web-and-user-adoption-text096 {
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .web-and-user-adoption-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .home-card {
+            .web-and-user-adoption-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2582,478 +2268,375 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text060 {
+            .web-and-user-adoption-text100 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-text062 {
+            .web-and-user-adoption-text102 {
               font-size: 16px;
             }
-            .home-card1 {
+            .web-and-user-adoption-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-card2 {
+            .web-and-user-adoption-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-testimonals {
+            .web-and-user-adoption-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .home-left3 {
+            .web-and-user-adoption-left1 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text091 {
+            .web-and-user-adoption-text131 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-right2 {
+            .web-and-user-adoption-right1 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .home-column {
+            .web-and-user-adoption-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-column1 {
+            .web-and-user-adoption-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action {
+            .web-and-user-adoption-action {
               flex-direction: column;
             }
-            .home-heading3 {
+            .web-and-user-adoption-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .web-and-user-adoption-text135 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-accordion {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-footer {
+            .web-and-user-adoption-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .home-top {
+            .web-and-user-adoption-top {
               flex-direction: column;
             }
-            .home-text119 {
+            .web-and-user-adoption-text147 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              height: 578px;
+            .web-and-user-adoption-hero {
+              height: auto;
               position: relative;
-              padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .home-desktop-navigation {
+            .web-and-user-adoption-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-centered {
+            .web-and-user-adoption-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-left {
+            .web-and-user-adoption-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-right {
+            .web-and-user-adoption-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .home-sign-in {
+            .web-and-user-adoption-sign-in {
               display: flex;
             }
-            .home-get-started {
+            .web-and-user-adoption-get-started {
               display: flex;
             }
-            .home-header {
+            .web-and-user-adoption-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .home-text007 {
+            .web-and-user-adoption-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .home-text008 {
+            .web-and-user-adoption-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-            }
-            .home-outline {
-              border-width: 2px;
-              border-radius: 35px;
-            }
-            .home-text010 {
-              font-size: 18px;
-              text-align: center;
-            }
-            .home-image {
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-features {
+            .web-and-user-adoption-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text018 {
+            .web-and-user-adoption-text012 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .home-container1 {
+            .web-and-user-adoption-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-text025 {
+            .web-and-user-adoption-text019 {
               font-size: 24px;
             }
-            .home-text026 {
+            .web-and-user-adoption-text020 {
               font-size: 14px;
             }
-            .home-publish {
+            .web-and-user-adoption-publish {
               margin-left: 0px;
             }
-            .home-text027 {
+            .web-and-user-adoption-text021 {
               font-size: 24px;
             }
-            .home-text028 {
+            .web-and-user-adoption-text022 {
               font-size: 14px;
             }
-            .home-container2 {
+            .web-and-user-adoption-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-analyze {
+            .web-and-user-adoption-analyze {
               margin-right: 0px;
             }
-            .home-text029 {
+            .web-and-user-adoption-text023 {
               font-size: 24px;
             }
-            .home-text030 {
+            .web-and-user-adoption-text024 {
               font-size: 14px;
             }
-            .home-text032 {
+            .web-and-user-adoption-text026 {
               font-size: 14px;
             }
-            .home-banner-advanced-analytics {
-              padding-bottom: var(--dl-space-space-twounits);
+            .web-and-user-adoption-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-centered-container {
-              flex-direction: column-reverse;
+            .web-and-user-adoption-blog1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-right1 {
-              margin-left: 0px;
+            .web-and-user-adoption-get-started1 {
+              margin-top: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              font-size: 28px;
-              align-self: center;
-              text-align: left;
-              line-height: 26px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text034 {
-              align-self: center;
-              text-align: center;
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-category1 {
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-container3 {
-              flex-direction: column;
-            }
-            .home-left1 {
-              margin-right: 0px;
-            }
-            .home-text036 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-text037 {
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text038 {
-              font-size: 16px;
-            }
-            .home-image-container1 {
-              justify-content: center;
-            }
-            .home-cards-image1 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .home-banner {
+            .web-and-user-adoption-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-container4 {
-              flex-direction: column;
-            }
-            .home-left2 {
-              margin-right: 0px;
-            }
-            .home-integrations {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-text045 {
+            .web-and-user-adoption-text085 {
               line-height: 24px;
             }
-            .home-pills {
+            .web-and-user-adoption-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-how-it-works {
+            .web-and-user-adoption-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-heading1 {
+            .web-and-user-adoption-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text047 {
+            .web-and-user-adoption-text087 {
               margin-bottom: 0px;
             }
-            .home-headng {
+            .web-and-user-adoption-headng {
               padding-bottom: 0px;
             }
-            .home-get-started4 {
+            .web-and-user-adoption-get-started2 {
               display: none;
             }
-            .home-container7 {
+            .web-and-user-adoption-container5 {
               width: 100%;
             }
-            .home-row {
+            .web-and-user-adoption-row {
               height: auto;
               flex-direction: column;
             }
-            .home-pricing {
+            .web-and-user-adoption-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-card {
+            .web-and-user-adoption-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text059 {
+            .web-and-user-adoption-text099 {
               font-size: 28px;
             }
-            .home-card1 {
+            .web-and-user-adoption-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text065 {
+            .web-and-user-adoption-text105 {
               font-size: 28px;
             }
-            .home-card2 {
+            .web-and-user-adoption-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text078 {
+            .web-and-user-adoption-text118 {
               font-size: 28px;
             }
-            .home-testimonals {
+            .web-and-user-adoption-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .home-right2 {
+            .web-and-user-adoption-right1 {
               width: 100%;
               flex-direction: column;
             }
-            .home-column1 {
+            .web-and-user-adoption-column1 {
               display: none;
             }
-            .home-text092 {
+            .web-and-user-adoption-text132 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .home-action-bar {
+            .web-and-user-adoption-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-action {
+            .web-and-user-adoption-action {
               align-items: center;
             }
-            .home-heading3 {
+            .web-and-user-adoption-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .web-and-user-adoption-text135 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text100 {
+            .web-and-user-adoption-text140 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-images {
+            .web-and-user-adoption-images {
               justify-content: center;
             }
-            .home-image2 {
+            .web-and-user-adoption-image1 {
               width: 100%;
             }
-            .home-faq {
-              padding: var(--dl-space-space-fourunits);
-            }
-            .home-heading4 {
-              width: 100%;
-            }
-            .home-text103 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .home-text104 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-footer {
+            .web-and-user-adoption-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-image3 {
+            .web-and-user-adoption-image2 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              height: 600px;
-              padding-bottom: 160px;
+            .web-and-user-adoption-hero {
+              height: auto;
             }
-            .home-centered {
+            .web-and-user-adoption-centered {
               justify-content: center;
             }
-            .home-logo {
+            .web-and-user-adoption-logo {
               width: 180px;
             }
-            .home-sign-in {
+            .web-and-user-adoption-sign-in {
               display: none;
             }
-            .home-get-started {
+            .web-and-user-adoption-get-started {
               display: none;
             }
-            .home-icon {
+            .web-and-user-adoption-icon {
               display: none;
             }
-            .home-text008 {
+            .web-and-user-adoption-text008 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              background-color: var(--dl-color-primary-700);
-            }
-            .home-dashboard-preview {
-              top: 500px;
-            }
-            .home-text010 {
-              font-size: 16px;
-            }
-            .home-image {
-              display: none;
-            }
-            .home-features {
+            .web-and-user-adoption-features {
               padding-top: 200px;
             }
-            .home-cards {
+            .web-and-user-adoption-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container1 {
+            .web-and-user-adoption-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .web-and-user-adoption-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .home-analyze {
+            .web-and-user-adoption-analyze {
               margin-bottom: 0px;
             }
-            .home-right1 {
-              margin-top: var(--dl-space-space-twounits);
+            .web-and-user-adoption-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              align-self: center;
-              text-align: center;
+            .web-and-user-adoption-blog1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text037 {
-              line-height: 24px;
+            .web-and-user-adoption-get-started1 {
+              background-color: var(--dl-color-primary-700);
             }
-            .home-cards-image1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-category2 {
+            .web-and-user-adoption-category {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-pricing {
+            .web-and-user-adoption-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-get-started7 {
+            .web-and-user-adoption-get-started5 {
               background-color: var(--dl-color-gray-white);
             }
-            .home-testimonals {
+            .web-and-user-adoption-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action-bar {
+            .web-and-user-adoption-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-footer {
+            .web-and-user-adoption-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text115 {
+            .web-and-user-adoption-text143 {
               text-align: center;
             }
           }
@@ -3063,4 +2646,4 @@ Here's what the above is doing:
   )
 }
 
-export default Home
+export default Web3AndUserAdoption

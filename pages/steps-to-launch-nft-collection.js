@@ -4,80 +4,90 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-import Frameworks from '../components/frameworks'
 import YouTube from '../components/you-tube'
-import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
 
-const Home = (props) => {
+const StepsToLaunchNFTCollection = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="steps-to-launch-nf-collection-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>
+            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+          </title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="home-hero">
-          <div className="home-menu">
-            <div id="navigation" className="home-desktop-navigation">
-              <nav className="home-centered">
-                <div className="home-left">
+        <section id="header" className="steps-to-launch-nf-collection-hero">
+          <div className="steps-to-launch-nf-collection-menu">
+            <div
+              id="navigation"
+              className="steps-to-launch-nf-collection-desktop-navigation"
+            >
+              <nav className="steps-to-launch-nf-collection-centered">
+                <div className="steps-to-launch-nf-collection-left">
                   <Link href="/">
-                    <a className="home-link">
+                    <a className="steps-to-launch-nf-collection-link">
                       <img
                         alt="Welcome to Gateful"
                         src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="home-logo"
+                        className="steps-to-launch-nf-collection-logo"
                       />
                     </a>
                   </Link>
-                  <div className="home-links">
+                  <div className="steps-to-launch-nf-collection-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link1 Link">Platform</a>
+                      <a className="steps-to-launch-nf-collection-link1 Link">
+                        Platform
+                      </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link2 Link">Solutions</a>
+                      <a className="steps-to-launch-nf-collection-link2 Link">
+                        Solutions
+                      </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link3 Link">
+                      <a className="steps-to-launch-nf-collection-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="home-right">
+                <div className="steps-to-launch-nf-collection-right">
                   <a
                     href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-sign-in Link"
+                    className="steps-to-launch-nf-collection-sign-in Link"
                   >
                     <span>Login</span>
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link4">
-                      <div className="home-get-started">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <a className="steps-to-launch-nf-collection-link4">
+                      <div className="steps-to-launch-nf-collection-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="steps-to-launch-nf-collection-icon"
+                        >
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                         </svg>
-                        <span className="home-text004">
+                        <span className="steps-to-launch-nf-collection-text004">
                           <span>Book a Demo</span>
                           <br></br>
                         </span>
@@ -114,73 +124,30 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="home-header">
-            <h1 className="home-text007">
-              The Easiest Way to Create Token Gated Digital Experiences
+          <header className="steps-to-launch-nf-collection-header">
+            <h1 className="steps-to-launch-nf-collection-text007">
+              Basic Steps to Launch Your New NFT Collection
             </h1>
-            <p className="home-text008">
-              Gateful makes it easy to add Web3 Token Gating functionality to
-              your website or web application. Transform your project into a
-              powerful Web3-connected community without writing any code.
+            <p className="steps-to-launch-nf-collection-text008">
+              Planning Your Web3 Project
             </p>
-            <a
-              href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link5"
-            >
-              <div className="home-get-started1">
-                <svg viewBox="0 0 1024 1024" className="home-icon02">
-                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                </svg>
-                <span className="home-text009">Early access</span>
-              </div>
-            </a>
-          </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <h2 className="home-text010">
-                <span>
-                  Top
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text012">brands</span>
-                <span>
-                  ,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text014">developers</span>
-                <span>
-                  , and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text016">creators</span>
-                <span> trust Gateful.</span>
-              </h2>
+            <div className="steps-to-launch-nf-collection-profile">
               <img
-                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
-                src="/playground_assets/brands-200h.png"
-                loading="eager"
-                className="home-image"
+                alt="profile"
+                src="/playground_assets/headshot2022bpng-200w.png"
+                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
+                className="steps-to-launch-nf-collection-image"
               />
+              <span className="steps-to-launch-nf-collection-text009">
+                <span>J. Eric Hill</span>
+                <br></br>
+              </span>
             </div>
-          </div>
+          </header>
         </section>
-        <section className="home-features">
-          <div className="home-title">
-            <span className="home-text018">
+        <section className="steps-to-launch-nf-collection-features">
+          <div className="steps-to-launch-nf-collection-title">
+            <span className="steps-to-launch-nf-collection-text012">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -192,7 +159,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="home-text022">
+            <span className="steps-to-launch-nf-collection-text016">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -204,41 +171,47 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="home-cards">
-            <div className="home-container1">
+          <div className="steps-to-launch-nf-collection-cards">
+            <div className="steps-to-launch-nf-collection-container1">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="home-icon04"
+                  className="steps-to-launch-nf-collection-icon02"
                 />
-                <span className="home-text025">Schedule</span>
-                <span className="home-text026">
+                <span className="steps-to-launch-nf-collection-text019">
+                  Schedule
+                </span>
+                <span className="steps-to-launch-nf-collection-text020">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="home-publish card">
+              <div className="steps-to-launch-nf-collection-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="home-icon05"
+                  className="steps-to-launch-nf-collection-icon03"
                 />
-                <span className="home-text027">Publish</span>
-                <span className="home-text028">
+                <span className="steps-to-launch-nf-collection-text021">
+                  Publish
+                </span>
+                <span className="steps-to-launch-nf-collection-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="home-container2">
-              <div className="card home-analyze">
+            <div className="steps-to-launch-nf-collection-container2">
+              <div className="card steps-to-launch-nf-collection-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="home-icon06"
+                  className="steps-to-launch-nf-collection-icon04"
                 />
-                <span className="home-text029">Analyze</span>
-                <span className="home-text030">
+                <span className="steps-to-launch-nf-collection-text023">
+                  Analyze
+                </span>
+                <span className="steps-to-launch-nf-collection-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -247,10 +220,12 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="home-icon07"
+                  className="steps-to-launch-nf-collection-icon05"
                 />
-                <span className="home-text031">Get leads</span>
-                <span className="home-text032">
+                <span className="steps-to-launch-nf-collection-text025">
+                  Get leads
+                </span>
+                <span className="steps-to-launch-nf-collection-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,119 +233,166 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners">
-          <div className="home-banner-advanced-analytics">
-            <div className="home-centered-container">
-              <div className="home-image-container">
-                <img
-                  alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/2xscreen-1300w.png"
-                  loading="eager"
-                  className="home-cards-image"
-                />
-              </div>
-              <div className="home-right1">
-                <h2 className="home-text033 title">
-                  On-chain access control, simplified
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </h2>
-                <div className="home-category">
-                  <span className="home-text034">
-                    Add Web3 Token Gating functionality to your existing website
-                    or web application without writing code. Our integration
-                    with LIT Protocol allows you to create multiple token gates
-                    within the same experience. Create on-chain conditions
-                    unique to your audience and requirements. Integrate with
-                    major blockchain networks.
-                  </span>
-                </div>
-                <div className="home-category1">
-                  <img
-                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
-                    src="/playground_assets/2xblockchains-1100w.png"
-                    className="home-image1"
-                  />
-                </div>
-              </div>
-            </div>
+        <section className="steps-to-launch-nf-collection-banners">
+          <div className="steps-to-launch-nf-collection-blog">
+            <h2 className="steps-to-launch-nf-collection-text027">
+              Launching an NFT collection can be overwhelming. Here are the
+              basic steps to help you plan your collection launch.
+            </h2>
+            <h3 className="steps-to-launch-nf-collection-text028">
+              Step 1: Conceptualize your NFT collection
+            </h3>
+            <span className="steps-to-launch-nf-collection-text029">
+              Before you begin with the technical aspects, brainstorm ideas for
+              your collection. Consider the target audience and the unique value
+              proposition of your NFTs. This could be a series of digital art
+              pieces, collectibles, or even virtual real estate. Think about the
+              theme, design, rarity, and utility of your NFT collection.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text030">
+              Step 2: Choose a blockchain platform
+            </h3>
+            <span className="steps-to-launch-nf-collection-text031">
+              <span>
+                Select a blockchain platform to build your NFT collection on.
+                Popular choices include Ethereum, Binance Smart Chain, and Flow.
+                Consider factors such as transaction fees, network speed, and
+                community support when making your decision.
+              </span>
+              <br></br>
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text034">
+              Step 3: Create your digital assets
+            </h3>
+            <span className="steps-to-launch-nf-collection-text035">
+              Design and create the digital assets for your NFT collection. This
+              could be images, videos, music, or other multimedia content. Make
+              sure that your assets are high-quality and unique, as this will
+              help attract buyers and investors.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text036">
+              Step 4: Mint your NFTs
+            </h3>
+            <span className="steps-to-launch-nf-collection-text037">
+              Minting is the process of creating NFTs by converting your digital
+              assets into tokens on the blockchain. You can use platforms like
+              OpenSea, Rarible, and Mintable to mint your NFTs. Follow the
+              specific instructions provided by the platform of your choice,
+              which will typically involve uploading your digital assets and
+              setting metadata such as rarity, descriptions, and other
+              attributes.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text038">
+              Step 5: Set up a smart contract
+            </h3>
+            <span className="steps-to-launch-nf-collection-text039">
+              Create a smart contract for your NFT collection that will handle
+              the sale, ownership, and transfer of your NFTs. You can use
+              platforms like Remix if you&apos;re working with Ethereum, or find
+              a developer to help you create the smart contract for your chosen
+              blockchain.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text040">
+              Step 6: Market your NFT collection
+            </h3>
+            <span className="steps-to-launch-nf-collection-text041">
+              Promote your NFT collection through various marketing channels
+              such as social media, email marketing, and influencer
+              partnerships. Build a community around your collection by engaging
+              with potential buyers and collectors on platforms like Discord and
+              Twitter.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text042">
+              Step 7: Launch your NFT collection
+            </h3>
+            <span className="steps-to-launch-nf-collection-text043">
+              Once you&apos;re ready to launch, set a date and time for your NFT
+              collection to go live. Make sure your community is aware of the
+              launch details and create hype around the event. You can choose to
+              release your NFTs all at once or stagger the release to create a
+              sense of urgency and exclusivity.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text044">
+              Step 8: Token gate your NFT collection
+            </h3>
+            <span className="steps-to-launch-nf-collection-text045">
+              To token gate your NFT collection, you&apos;ll need to restrict
+              access to specific content, experiences, or benefits based on NFT
+              ownership. You can use platforms like Gateful to easily set up
+              token-gating.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text046">
+              Step 9: Monitor and engage with your community
+            </h3>
+            <span className="steps-to-launch-nf-collection-text047">
+              After launching your NFT collection, continue to engage with your
+              community and provide support to buyers and collectors. Listen to
+              feedback and make improvements as necessary. Organize events,
+              contests, or giveaways to keep the momentum going and add value to
+              your NFT collection.
+            </span>
+            <h3 className="steps-to-launch-nf-collection-text048">
+              Step 10: Plan for the future
+            </h3>
+            <span className="steps-to-launch-nf-collection-text049">
+              Consider the long-term growth and sustainability of your NFT
+              collection. You can add additional NFTs over time, collaborate
+              with other artists or creators, or develop additional utility and
+              benefits for NFT holders. Keep your community engaged and excited
+              about the future of your collection.
+            </span>
           </div>
-          <div className="home-banner-manage">
-            <div className="home-container3">
-              <div className="home-left1">
-                <span className="sub-title">Content Management</span>
-                <span className="home-text036 title">
-                  Manage all your platforms in just one place.
+          <div className="steps-to-launch-nf-collection-blog1">
+            <h2 className="steps-to-launch-nf-collection-text050">
+              Gateful is the easiest way to token gate any website or web
+              application.
+            </h2>
+            <span className="steps-to-launch-nf-collection-text051">
+              If you&apos;re looking to add Web3 Token Gating functionality to
+              your website or web application and do not know where to start,
+              contact our Web3 implementation team for a demo.
+            </span>
+            <a
+              href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="steps-to-launch-nf-collection-link5"
+            >
+              <div className="steps-to-launch-nf-collection-get-started1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="steps-to-launch-nf-collection-icon06"
+                >
+                  <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                </svg>
+                <span className="steps-to-launch-nf-collection-text052">
+                  Book a Demo
                 </span>
-                <span className="home-text037">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started2 template-button">
-                  <span className="home-text038">Get started</span>
-                </div>
               </div>
-              <div className="home-image-container1">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="home-cards-image1"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="home-banner">
-            <div className="home-container4">
-              <div className="home-left2">
-                <span className="home-text039">Improve Scheduling</span>
-                <h2 className="home-text040 title">
-                  Powerful scheduler that saves you time
-                </h2>
-                <span className="home-text041">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container2">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="home-cards-image2"
-                />
-              </div>
-            </div>
+            </a>
           </div>
         </section>
-        <Frameworks></Frameworks>
-        <section className="home-integrations">
-          <div className="home-centered-container1">
-            <div className="home-heading">
+        <section className="steps-to-launch-nf-collection-integrations">
+          <div className="steps-to-launch-nf-collection-centered-container">
+            <div className="steps-to-launch-nf-collection-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="home-text045">
+              <span className="steps-to-launch-nf-collection-text055">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="home-pills-container">
-              <div className="home-pills">
-                <div className="home-container5">
+            <div className="steps-to-launch-nf-collection-pills-container">
+              <div className="steps-to-launch-nf-collection-pills">
+                <div className="steps-to-launch-nf-collection-container3">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="home-container6">
+                <div className="steps-to-launch-nf-collection-container4">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -380,18 +402,19 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <Testimonial></Testimonial>
-        <section className="home-how-it-works">
-          <div className="home-centered-container2">
-            <div className="home-heading1">
-              <span className="home-text046">How it works</span>
-              <span className="home-text047 title">
+        <section className="steps-to-launch-nf-collection-how-it-works">
+          <div className="steps-to-launch-nf-collection-centered-container1">
+            <div className="steps-to-launch-nf-collection-heading1">
+              <span className="steps-to-launch-nf-collection-text056">
+                How it works
+              </span>
+              <span className="steps-to-launch-nf-collection-text057 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="home-category2">
-              <div className="home-headng">
-                <span className="home-text048">
+            <div className="steps-to-launch-nf-collection-category">
+              <div className="steps-to-launch-nf-collection-headng">
+                <span className="steps-to-launch-nf-collection-text058">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -399,28 +422,32 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="home-text049">
+                <span className="steps-to-launch-nf-collection-text059">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="home-get-started4 template-button">
-                  <span className="home-text050">Get started</span>
+                <div className="steps-to-launch-nf-collection-get-started2 template-button">
+                  <span className="steps-to-launch-nf-collection-text060">
+                    Get started
+                  </span>
                 </div>
               </div>
-              <div className="home-container7">
+              <div className="steps-to-launch-nf-collection-container5">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="home-pasted-image"
+                  className="steps-to-launch-nf-collection-pasted-image"
                 />
               </div>
             </div>
-            <div className="home-row">
-              <div className="home-category3">
-                <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
-                  <span className="home-text052">
+            <div className="steps-to-launch-nf-collection-row">
+              <div className="steps-to-launch-nf-collection-category1">
+                <div className="steps-to-launch-nf-collection-headng1">
+                  <span className="steps-to-launch-nf-collection-text061">
+                    2 — Act
+                  </span>
+                  <span className="steps-to-launch-nf-collection-text062">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -429,13 +456,15 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="home-pasted-image1"
+                  className="steps-to-launch-nf-collection-pasted-image1"
                 />
               </div>
-              <div className="home-category4">
-                <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
-                  <span className="home-text054">
+              <div className="steps-to-launch-nf-collection-category2">
+                <div className="steps-to-launch-nf-collection-headng2">
+                  <span className="steps-to-launch-nf-collection-text063">
+                    2 — Act
+                  </span>
+                  <span className="steps-to-launch-nf-collection-text064">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -444,184 +473,202 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="home-pasted-image2"
+                  className="steps-to-launch-nf-collection-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="home-pricing">
-          <div className="home-centered-container3">
-            <div className="home-heading2">
-              <span className="home-text055 title">
+        <section className="steps-to-launch-nf-collection-pricing">
+          <div className="steps-to-launch-nf-collection-centered-container2">
+            <div className="steps-to-launch-nf-collection-heading2">
+              <span className="steps-to-launch-nf-collection-text065 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="home-text056">
+              <span className="steps-to-launch-nf-collection-text066">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="home-selection">
-                <span className="home-text057">Monthly</span>
-                <span className="home-text058">Yearly</span>
+              <div className="steps-to-launch-nf-collection-selection">
+                <span className="steps-to-launch-nf-collection-text067">
+                  Monthly
+                </span>
+                <span className="steps-to-launch-nf-collection-text068">
+                  Yearly
+                </span>
               </div>
             </div>
-            <div className="home-cards1">
-              <div className="home-card">
-                <span className="home-text059">Free</span>
-                <span className="home-text060">
+            <div className="steps-to-launch-nf-collection-cards1">
+              <div className="steps-to-launch-nf-collection-card">
+                <span className="steps-to-launch-nf-collection-text069">
+                  Free
+                </span>
+                <span className="steps-to-launch-nf-collection-text070">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started5 template-button">
-                  <span className="home-text061">Start for free</span>
+                <div className="steps-to-launch-nf-collection-get-started3 template-button">
+                  <span className="steps-to-launch-nf-collection-text071">
+                    Start for free
+                  </span>
                 </div>
-                <span className="home-text062">What&apos;s included</span>
-                <div className="home-bullet-points">
-                  <div className="home-point">
+                <span className="steps-to-launch-nf-collection-text072">
+                  What&apos;s included
+                </span>
+                <div className="steps-to-launch-nf-collection-bullet-points">
+                  <div className="steps-to-launch-nf-collection-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon08"
+                      className="steps-to-launch-nf-collection-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text063">
+                    <span className="steps-to-launch-nf-collection-text073">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point01">
+                  <div className="steps-to-launch-nf-collection-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon10"
+                      className="steps-to-launch-nf-collection-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text064">
+                    <span className="steps-to-launch-nf-collection-text074">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card1">
-                <span className="home-text065">Pay as you go</span>
-                <span className="home-text066">
+              <div className="steps-to-launch-nf-collection-card1">
+                <span className="steps-to-launch-nf-collection-text075">
+                  Pay as you go
+                </span>
+                <span className="steps-to-launch-nf-collection-text076">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="home-get-started6 template-button">
-                  <span className="home-text070">
+                <div className="steps-to-launch-nf-collection-get-started4 template-button">
+                  <span className="steps-to-launch-nf-collection-text080">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text073">What&apos;s included</span>
-                <div className="home-bullet-points1">
-                  <div className="home-point02">
+                <span className="steps-to-launch-nf-collection-text083">
+                  What&apos;s included
+                </span>
+                <div className="steps-to-launch-nf-collection-bullet-points1">
+                  <div className="steps-to-launch-nf-collection-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon12"
+                      className="steps-to-launch-nf-collection-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text074">
+                    <span className="steps-to-launch-nf-collection-text084">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point03">
+                  <div className="steps-to-launch-nf-collection-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon14"
+                      className="steps-to-launch-nf-collection-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text075">
+                    <span className="steps-to-launch-nf-collection-text085">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point04">
+                  <div className="steps-to-launch-nf-collection-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon16"
+                      className="steps-to-launch-nf-collection-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text076">
+                    <span className="steps-to-launch-nf-collection-text086">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point05">
+                  <div className="steps-to-launch-nf-collection-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon18"
+                      className="steps-to-launch-nf-collection-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text077">
+                    <span className="steps-to-launch-nf-collection-text087">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card2">
-                <span className="home-text078">Enterprise</span>
-                <span className="home-text079">
+              <div className="steps-to-launch-nf-collection-card2">
+                <span className="steps-to-launch-nf-collection-text088">
+                  Enterprise
+                </span>
+                <span className="steps-to-launch-nf-collection-text089">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="home-get-started7 template-button">
-                  <span className="home-text082">
+                <div className="steps-to-launch-nf-collection-get-started5 template-button">
+                  <span className="steps-to-launch-nf-collection-text092">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text085">What&apos;s included</span>
-                <div className="home-bullet-points2">
-                  <div className="home-point06">
+                <span className="steps-to-launch-nf-collection-text095">
+                  What&apos;s included
+                </span>
+                <div className="steps-to-launch-nf-collection-bullet-points2">
+                  <div className="steps-to-launch-nf-collection-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon20"
+                      className="steps-to-launch-nf-collection-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text086">
+                    <span className="steps-to-launch-nf-collection-text096">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point07">
+                  <div className="steps-to-launch-nf-collection-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon22"
+                      className="steps-to-launch-nf-collection-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text087">
+                    <span className="steps-to-launch-nf-collection-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point08">
+                  <div className="steps-to-launch-nf-collection-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="steps-to-launch-nf-collection-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text088">
+                    <span className="steps-to-launch-nf-collection-text098">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point09">
+                  <div className="steps-to-launch-nf-collection-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="steps-to-launch-nf-collection-icon26"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text089">
+                    <span className="steps-to-launch-nf-collection-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -630,15 +677,17 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-testimonals">
-          <div className="home-left3">
-            <span className="home-text090">Testimonals</span>
-            <span className="home-text091 title">
+        <section className="steps-to-launch-nf-collection-testimonals">
+          <div className="steps-to-launch-nf-collection-left1">
+            <span className="steps-to-launch-nf-collection-text100">
+              Testimonals
+            </span>
+            <span className="steps-to-launch-nf-collection-text101 title">
               What people say about Active
             </span>
           </div>
-          <div className="home-right2">
-            <div className="home-column">
+          <div className="steps-to-launch-nf-collection-right1">
+            <div className="steps-to-launch-nf-collection-column">
               <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -662,7 +711,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></TestimonalBLurb>
             </div>
-            <div className="home-column1">
+            <div className="steps-to-launch-nf-collection-column1">
               <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
@@ -689,252 +738,49 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="home-text092">
+          <span className="steps-to-launch-nf-collection-text102">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="home-action-bar">
-          <div className="home-action">
-            <div className="home-heading3">
-              <span className="home-text095 title">
+        <section className="steps-to-launch-nf-collection-action-bar">
+          <div className="steps-to-launch-nf-collection-action">
+            <div className="steps-to-launch-nf-collection-heading3">
+              <span className="steps-to-launch-nf-collection-text105 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="home-text099">
+              <span className="steps-to-launch-nf-collection-text109">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="home-get-started8 template-button">
-                <span className="home-text100">
+              <div className="steps-to-launch-nf-collection-get-started6 template-button">
+                <span className="steps-to-launch-nf-collection-text110">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="home-images">
+            <div className="steps-to-launch-nf-collection-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image2"
+                className="steps-to-launch-nf-collection-image1"
               />
             </div>
           </div>
         </section>
-        <section className="home-faq">
-          <div className="home-heading4">
-            <span className="home-text103 title">
-              Frequently asked questions
-            </span>
-            <span className="home-text104">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
-          </div>
-          <div className="home-accordion">
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
-                <span className="home-text105">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="accordionContainer">
-              <div className="home-header2">
-                <span className="home-text107">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text108">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
-                <span className="home-text109">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text110">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text111">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text112">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
-                <span className="home-text113">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text114">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <DangerousHTML
-              html={`<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll(".accordionContainer"); // All accordion containers
-const accordionContents = document.querySelectorAll(".accordionContent"); // All accordion content
-const accordionIcons = document.querySelectorAll(".accordionIcon"); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = "none"; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener("click", () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = "none"; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains("accordion-open")) { // Checks if this container has class "accordion-open"
-            accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open"
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open" from all containers
-            });
-
-            accordionContainer.classList.add("accordion-open"); // Adds class "accordion-open" to this container
-            accordionContents[index].style.display = "flex"; // Shows accordion content
-            accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class "accordion-open"
-            - If it does, it removes class "accordion-open"
-            - If it doesn't, it:
-                - Removes class "accordion-open" from all containers
-                - Adds class "accordion-open" to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>`}
-            ></DangerousHTML>
-          </div>
-        </section>
-        <footer className="home-footer">
-          <div className="home-top">
+        <footer className="steps-to-launch-nf-collection-footer">
+          <div className="steps-to-launch-nf-collection-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
+              className="steps-to-launch-nf-collection-image2"
             />
-            <span className="home-text115">
+            <span className="steps-to-launch-nf-collection-text113">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="home-text116">
+            <span className="steps-to-launch-nf-collection-text114">
               <span>
                 Built by
                 <span
@@ -947,7 +793,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link6"
+                className="steps-to-launch-nf-collection-link6"
               >
                 OpenMedium, Inc
               </a>
@@ -964,12 +810,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link7"
+                className="steps-to-launch-nf-collection-link7"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="home-text119">
+            <span className="steps-to-launch-nf-collection-text117">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -977,7 +823,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link8"
+                className="steps-to-launch-nf-collection-link8"
               >
                 Legal
               </a>
@@ -987,7 +833,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .home-container {
+          .steps-to-launch-nf-collection-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -995,9 +841,9 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .home-hero {
+          .steps-to-launch-nf-collection-hero {
             width: 100%;
-            height: 716px;
+            height: auto;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1007,26 +853,26 @@ Here's what the above is doing:
             background-size: cover;
             background-image: linear-gradient(
                 135deg,
-                rgba(16, 138, 130, 0.75) 0%,
-                rgba(18, 16, 74, 0.8) 50%,
+                rgba(16, 138, 130, 0.85) 0%,
+                rgba(18, 16, 74, 0.95) 46%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
-              url('/playground_assets/fractal%20image%209-1500w.png');
+              url('https://images.unsplash.com/photo-1651130535340-e02c63a43a0a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxvcGVuc2VhfGVufDB8fHx8MTY4MTYxNDMyOQ&ixlib=rb-4.0.3&w=1500');
             background-position: top left, center;
           }
-          .home-menu {
+          .steps-to-launch-nf-collection-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-desktop-navigation {
+          .steps-to-launch-nf-collection-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-centered {
+          .steps-to-launch-nf-collection-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -1038,7 +884,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-left {
+          .steps-to-launch-nf-collection-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1046,35 +892,35 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .home-link {
+          .steps-to-launch-nf-collection-link {
             display: contents;
           }
-          .home-logo {
+          .steps-to-launch-nf-collection-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .home-links {
+          .steps-to-launch-nf-collection-links {
             align-items: center;
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link1 {
+          .steps-to-launch-nf-collection-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link2 {
+          .steps-to-launch-nf-collection-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link3 {
+          .steps-to-launch-nf-collection-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-right {
+          .steps-to-launch-nf-collection-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1082,16 +928,16 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-sign-in {
+          .steps-to-launch-nf-collection-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link4 {
+          .steps-to-launch-nf-collection-link4 {
             display: contents;
           }
-          .home-get-started {
+          .steps-to-launch-nf-collection-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1107,21 +953,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .home-get-started:hover {
+          .steps-to-launch-nf-collection-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .home-icon {
+          .steps-to-launch-nf-collection-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text004 {
+          .steps-to-launch-nf-collection-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .home-header {
+          .steps-to-launch-nf-collection-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1130,7 +976,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text007 {
+          .steps-to-launch-nf-collection-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1138,95 +984,34 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-text008 {
+          .steps-to-launch-nf-collection-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
-            font-size: 20px;
+            font-size: 24px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-link5 {
-            display: contents;
-          }
-          .home-get-started1 {
-            color: white;
-            cursor: pointer;
+          .steps-to-launch-nf-collection-profile {
             display: flex;
-            box-shadow: 5px 5px 0px 1px #db2763;
-            margin-top: 40px;
-            transition: 0.3s;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 10px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-unit);
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-primary-700);
-          }
-          .home-get-started1:hover {
-            color: black;
-            background-color: #ffffff;
-          }
-          .home-icon02 {
-            fill: var(--dl-color-primary-100);
-            width: 20px;
-            height: 20px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
-          .home-text009 {
-            color: var(--dl-color-primary-100);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-dashboard-preview {
-            width: 100%;
-            height: 182px;
-            display: flex;
-            z-index: 1;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-outline {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            border-color: var(--dl-color-primary-100);
-            border-width: 2px;
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 20px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-text010 {
-            color: var(--dl-color-primary-100);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text012 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text014 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text016 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-image {
-            width: 90%;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            object-fit: cover;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-features {
+          .steps-to-launch-nf-collection-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .steps-to-launch-nf-collection-text009 {
+            color: var(--dl-color-gray-white);
+            font-size: 20px;
+            font-weight: 300;
+            margin-left: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1238,25 +1023,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
+          .steps-to-launch-nf-collection-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text018 {
+          .steps-to-launch-nf-collection-text012 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .home-text022 {
+          .steps-to-launch-nf-collection-text016 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-cards {
+          .steps-to-launch-nf-collection-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1264,7 +1049,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .home-container1 {
+          .steps-to-launch-nf-collection-container1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1272,40 +1057,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-icon04 {
+          .steps-to-launch-nf-collection-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text025 {
+          .steps-to-launch-nf-collection-text019 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text026 {
+          .steps-to-launch-nf-collection-text020 {
             line-height: 24px;
           }
-          .home-publish {
+          .steps-to-launch-nf-collection-publish {
             height: initial;
           }
-          .home-icon05 {
+          .steps-to-launch-nf-collection-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text027 {
+          .steps-to-launch-nf-collection-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text028 {
+          .steps-to-launch-nf-collection-text022 {
             line-height: 24px;
           }
-          .home-container2 {
+          .steps-to-launch-nf-collection-container2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1313,234 +1098,203 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .home-icon06 {
+          .steps-to-launch-nf-collection-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text029 {
+          .steps-to-launch-nf-collection-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .home-text030 {
+          .steps-to-launch-nf-collection-text024 {
             line-height: 24px;
           }
-          .home-icon07 {
+          .steps-to-launch-nf-collection-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text031 {
+          .steps-to-launch-nf-collection-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text032 {
+          .steps-to-launch-nf-collection-text026 {
             line-height: 24px;
           }
-          .home-banners {
+          .steps-to-launch-nf-collection-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-advanced-analytics {
+          .steps-to-launch-nf-collection-blog {
             width: 100%;
             display: flex;
+            max-width: 900px;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .steps-to-launch-nf-collection-text027 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text028 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text029 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text030 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text031 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text034 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text035 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text036 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text037 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text038 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text039 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text040 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text041 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text042 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text043 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text044 {
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text045 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text046 {
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text047 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-text048 {
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text049 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-blog1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            max-width: 900px;
+            box-shadow: 5px 5px 0px 1px #dbfe87;
             align-items: center;
-            padding-top: 180px;
-            padding-left: var(--dl-space-space-sixunits);
-            padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
+            border-color: var(--dl-color-primary-700);
+            border-width: 1px;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+            justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .home-centered-container {
-            width: 100%;
+          .steps-to-launch-nf-collection-text050 {
+            text-align: center;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .steps-to-launch-nf-collection-text051 {
+            font-size: 19px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .steps-to-launch-nf-collection-link5 {
+            display: contents;
+          }
+          .steps-to-launch-nf-collection-get-started1 {
+            color: white;
+            cursor: pointer;
             display: flex;
-            max-width: 1280px;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-image-container {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-          }
-          .home-cards-image {
-            width: 100%;
-            height: 100%;
-            box-shadow: 5px 5px 0px 1px #dbfe87;
-            object-fit: contain;
-            border-radius: 20px;
-          }
-          .home-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text033 {
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 0px;
-          }
-          .home-category {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-          }
-          .home-text034 {
-            color: rgb(0, 0, 0);
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 0px;
-          }
-          .home-category1 {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image1 {
-            width: 80%;
-            object-fit: cover;
-          }
-          .home-banner-manage {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container3 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-left1 {
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text036 {
-            text-align: left;
-          }
-          .home-text037 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started2 {
+            box-shadow: 5px 5px 0px 1px #db2763;
             transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started2:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text038 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container1 {
-            flex: 1;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-cards-image1 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            user-select: none;
-          }
-          .home-banner {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container4 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-left2 {
-            flex: 1;
-            display: flex;
             align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: 10px;
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-primary-700);
           }
-          .home-text039 {
-            color: rgb(82, 40, 245);
-            font-style: normal;
-            font-weight: 600;
-            margin-bottom: 24px;
+          .steps-to-launch-nf-collection-get-started1:hover {
+            color: black;
+            background-color: #ffffff;
           }
-          .home-text040 {
-            text-align: left;
+          .steps-to-launch-nf-collection-icon06 {
+            fill: var(--dl-color-primary-100);
+            width: 20px;
+            height: 20px;
+            margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text041 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started3 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started3:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text042 {
+          .steps-to-launch-nf-collection-text052 {
+            color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-image-container2 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-cards-image2 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-          }
-          .home-integrations {
+          .steps-to-launch-nf-collection-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1549,7 +1303,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .home-centered-container1 {
+          .steps-to-launch-nf-collection-centered-container {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1557,24 +1311,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading {
+          .steps-to-launch-nf-collection-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text045 {
+          .steps-to-launch-nf-collection-text055 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-pills-container {
+          .steps-to-launch-nf-collection-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-pills {
+          .steps-to-launch-nf-collection-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1583,14 +1337,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-container5 {
+          .steps-to-launch-nf-collection-container3 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container6 {
+          .steps-to-launch-nf-collection-container4 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1598,7 +1352,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-how-it-works {
+          .steps-to-launch-nf-collection-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1609,7 +1363,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .home-centered-container2 {
+          .steps-to-launch-nf-collection-centered-container1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1618,22 +1372,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-heading1 {
+          .steps-to-launch-nf-collection-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text046 {
+          .steps-to-launch-nf-collection-text056 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text047 {
+          .steps-to-launch-nf-collection-text057 {
             color: var(--dl-color-gray-white);
           }
-          .home-category2 {
+          .steps-to-launch-nf-collection-category {
             color: white;
             width: 100%;
             display: flex;
@@ -1644,7 +1398,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .home-headng {
+          .steps-to-launch-nf-collection-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1654,49 +1408,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text048 {
+          .steps-to-launch-nf-collection-text058 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text049 {
+          .steps-to-launch-nf-collection-text059 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .home-get-started4 {
+          .steps-to-launch-nf-collection-get-started2 {
             margin-bottom: 0px;
           }
-          .home-get-started4:hover {
+          .steps-to-launch-nf-collection-get-started2:hover {
             color: black;
             background-color: #ffffff;
           }
-          .home-text050 {
+          .steps-to-launch-nf-collection-text060 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-container7 {
+          .steps-to-launch-nf-collection-container5 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .home-pasted-image {
+          .steps-to-launch-nf-collection-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .home-row {
+          .steps-to-launch-nf-collection-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .home-category3 {
+          .steps-to-launch-nf-collection-category1 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1708,7 +1462,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .home-headng1 {
+          .steps-to-launch-nf-collection-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1718,21 +1472,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text051 {
+          .steps-to-launch-nf-collection-text061 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text052 {
+          .steps-to-launch-nf-collection-text062 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .home-pasted-image1 {
+          .steps-to-launch-nf-collection-pasted-image1 {
             width: 100%;
           }
-          .home-category4 {
+          .steps-to-launch-nf-collection-category2 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1744,7 +1498,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .home-headng2 {
+          .steps-to-launch-nf-collection-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1754,22 +1508,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text053 {
+          .steps-to-launch-nf-collection-text063 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text054 {
+          .steps-to-launch-nf-collection-text064 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .home-pasted-image2 {
+          .steps-to-launch-nf-collection-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .home-pricing {
+          .steps-to-launch-nf-collection-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1781,7 +1535,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .home-centered-container3 {
+          .steps-to-launch-nf-collection-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1789,30 +1543,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading2 {
+          .steps-to-launch-nf-collection-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text055 {
+          .steps-to-launch-nf-collection-text065 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .home-text056 {
+          .steps-to-launch-nf-collection-text066 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-selection {
+          .steps-to-launch-nf-collection-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-text057 {
+          .steps-to-launch-nf-collection-text067 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1823,7 +1577,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-text058 {
+          .steps-to-launch-nf-collection-text068 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1834,7 +1588,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .steps-to-launch-nf-collection-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1844,7 +1598,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-card {
+          .steps-to-launch-nf-collection-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1858,77 +1612,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text059 {
+          .steps-to-launch-nf-collection-text069 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text060 {
+          .steps-to-launch-nf-collection-text070 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started5 {
+          .steps-to-launch-nf-collection-get-started3 {
             transition: 0.3s;
           }
-          .home-get-started5:hover {
+          .steps-to-launch-nf-collection-get-started3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text061 {
+          .steps-to-launch-nf-collection-text071 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text062 {
+          .steps-to-launch-nf-collection-text072 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points {
+          .steps-to-launch-nf-collection-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point {
+          .steps-to-launch-nf-collection-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon08 {
+          .steps-to-launch-nf-collection-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text063 {
+          .steps-to-launch-nf-collection-text073 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point01 {
+          .steps-to-launch-nf-collection-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon10 {
+          .steps-to-launch-nf-collection-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text064 {
+          .steps-to-launch-nf-collection-text074 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card1 {
+          .steps-to-launch-nf-collection-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1943,111 +1697,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text065 {
+          .steps-to-launch-nf-collection-text075 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text066 {
+          .steps-to-launch-nf-collection-text076 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started6 {
+          .steps-to-launch-nf-collection-get-started4 {
             transition: 0.3s;
           }
-          .home-get-started6:hover {
+          .steps-to-launch-nf-collection-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text070 {
+          .steps-to-launch-nf-collection-text080 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text073 {
+          .steps-to-launch-nf-collection-text083 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points1 {
+          .steps-to-launch-nf-collection-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point02 {
+          .steps-to-launch-nf-collection-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon12 {
+          .steps-to-launch-nf-collection-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text074 {
+          .steps-to-launch-nf-collection-text084 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point03 {
+          .steps-to-launch-nf-collection-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon14 {
+          .steps-to-launch-nf-collection-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text075 {
+          .steps-to-launch-nf-collection-text085 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point04 {
+          .steps-to-launch-nf-collection-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon16 {
+          .steps-to-launch-nf-collection-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text076 {
+          .steps-to-launch-nf-collection-text086 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point05 {
+          .steps-to-launch-nf-collection-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon18 {
+          .steps-to-launch-nf-collection-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text077 {
+          .steps-to-launch-nf-collection-text087 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card2 {
+          .steps-to-launch-nf-collection-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -2061,33 +1815,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text078 {
+          .steps-to-launch-nf-collection-text088 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text079 {
+          .steps-to-launch-nf-collection-text089 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started7 {
+          .steps-to-launch-nf-collection-get-started5 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .home-get-started7:hover {
+          .steps-to-launch-nf-collection-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text082 {
+          .steps-to-launch-nf-collection-text092 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text085 {
+          .steps-to-launch-nf-collection-text095 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2095,84 +1849,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points2 {
+          .steps-to-launch-nf-collection-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point06 {
+          .steps-to-launch-nf-collection-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon20 {
+          .steps-to-launch-nf-collection-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text086 {
+          .steps-to-launch-nf-collection-text096 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point07 {
+          .steps-to-launch-nf-collection-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon22 {
+          .steps-to-launch-nf-collection-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text087 {
+          .steps-to-launch-nf-collection-text097 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point08 {
+          .steps-to-launch-nf-collection-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon24 {
+          .steps-to-launch-nf-collection-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text088 {
+          .steps-to-launch-nf-collection-text098 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point09 {
+          .steps-to-launch-nf-collection-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon26 {
+          .steps-to-launch-nf-collection-icon26 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text089 {
+          .steps-to-launch-nf-collection-text099 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-testimonals {
+          .steps-to-launch-nf-collection-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2182,7 +1936,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .home-left3 {
+          .steps-to-launch-nf-collection-left1 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2190,35 +1944,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text090 {
+          .steps-to-launch-nf-collection-text100 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text091 {
+          .steps-to-launch-nf-collection-text101 {
             text-align: left;
           }
-          .home-right2 {
+          .steps-to-launch-nf-collection-right1 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .home-column {
+          .steps-to-launch-nf-collection-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-column1 {
+          .steps-to-launch-nf-collection-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-text092 {
+          .steps-to-launch-nf-collection-text102 {
             cursor: pointer;
             display: none;
           }
-          .home-action-bar {
+          .steps-to-launch-nf-collection-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2226,7 +1980,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-action {
+          .steps-to-launch-nf-collection-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2236,7 +1990,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .home-heading3 {
+          .steps-to-launch-nf-collection-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2245,164 +1999,48 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text095 {
+          .steps-to-launch-nf-collection-text105 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text099 {
+          .steps-to-launch-nf-collection-text109 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-get-started8 {
+          .steps-to-launch-nf-collection-get-started6 {
             margin-bottom: 0px;
           }
-          .home-text100 {
+          .steps-to-launch-nf-collection-text110 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-images {
+          .steps-to-launch-nf-collection-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image2 {
+          .steps-to-launch-nf-collection-image1 {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .home-faq {
-            width: 100%;
-            display: none;
-            padding: 120px;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: #eff0f2;
-          }
-          .home-heading4 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            user-select: none;
-            flex-direction: column;
-          }
-          .home-text103 {
-            text-align: center;
-          }
-          .home-text104 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text105 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text106 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header2 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text107 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text108 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header3 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text109 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text110 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text111 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text112 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text113 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text114 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-footer {
+          .steps-to-launch-nf-collection-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
-          .home-top {
+          .steps-to-launch-nf-collection-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2410,171 +2048,140 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-image3 {
+          .steps-to-launch-nf-collection-image2 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text115 {
+          .steps-to-launch-nf-collection-text113 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text116 {
+          .steps-to-launch-nf-collection-text114 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-link6 {
+          .steps-to-launch-nf-collection-link6 {
             text-decoration: underline;
           }
-          .home-link7 {
+          .steps-to-launch-nf-collection-link7 {
             text-decoration: underline;
           }
-          .home-text119 {
+          .steps-to-launch-nf-collection-text117 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .home-link8 {
+          .steps-to-launch-nf-collection-link8 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 788px;
+            .steps-to-launch-nf-collection-hero {
+              height: auto;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 660px;
+            .steps-to-launch-nf-collection-hero {
+              height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-desktop-navigation {
+            .steps-to-launch-nf-collection-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-centered {
+            .steps-to-launch-nf-collection-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .home-left {
+            .steps-to-launch-nf-collection-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .home-links {
+            .steps-to-launch-nf-collection-links {
               display: none;
             }
-            .home-header {
+            .steps-to-launch-nf-collection-header {
               width: 100%;
               max-width: 1200px;
             }
-            .home-outline {
-              width: auto;
-            }
-            .home-text010 {
-              font-size: 22px;
-            }
-            .home-image {
-              width: 100%;
-            }
-            .home-features {
+            .steps-to-launch-nf-collection-features {
               padding-top: 260px;
             }
-            .home-title {
+            .steps-to-launch-nf-collection-title {
               width: 100%;
               max-width: 1200px;
             }
-            .home-text018 {
+            .steps-to-launch-nf-collection-text012 {
               font-size: 36px;
               line-height: 40px;
             }
-            .home-text022 {
+            .steps-to-launch-nf-collection-text016 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .home-cards {
+            .steps-to-launch-nf-collection-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .home-text026 {
+            .steps-to-launch-nf-collection-text020 {
               line-height: 21px;
             }
-            .home-text028 {
+            .steps-to-launch-nf-collection-text022 {
               line-height: 21px;
             }
-            .home-text030 {
+            .steps-to-launch-nf-collection-text024 {
               line-height: 21px;
             }
-            .home-text031 {
+            .steps-to-launch-nf-collection-text025 {
               font-size: 24px;
             }
-            .home-text032 {
+            .steps-to-launch-nf-collection-text026 {
               line-height: 21px;
             }
-            .home-banner-advanced-analytics {
-              padding-top: var(--dl-space-space-sixunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-sixunits);
-            }
-            .home-text033 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-left1 {
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .home-cards-image1 {
-              width: 360px;
-            }
-            .home-container6 {
+            .steps-to-launch-nf-collection-container4 {
               margin-left: 0px;
             }
-            .home-category2 {
+            .steps-to-launch-nf-collection-category {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .home-headng {
+            .steps-to-launch-nf-collection-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .home-container7 {
+            .steps-to-launch-nf-collection-container5 {
               width: 100%;
             }
-            .home-pasted-image {
+            .steps-to-launch-nf-collection-pasted-image {
               height: auto;
             }
-            .home-headng1 {
+            .steps-to-launch-nf-collection-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-headng2 {
+            .steps-to-launch-nf-collection-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text056 {
+            .steps-to-launch-nf-collection-text066 {
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .steps-to-launch-nf-collection-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .home-card {
+            .steps-to-launch-nf-collection-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2582,478 +2189,375 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text060 {
+            .steps-to-launch-nf-collection-text070 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-text062 {
+            .steps-to-launch-nf-collection-text072 {
               font-size: 16px;
             }
-            .home-card1 {
+            .steps-to-launch-nf-collection-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-card2 {
+            .steps-to-launch-nf-collection-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-testimonals {
+            .steps-to-launch-nf-collection-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .home-left3 {
+            .steps-to-launch-nf-collection-left1 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text091 {
+            .steps-to-launch-nf-collection-text101 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-right2 {
+            .steps-to-launch-nf-collection-right1 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .home-column {
+            .steps-to-launch-nf-collection-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-column1 {
+            .steps-to-launch-nf-collection-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action {
+            .steps-to-launch-nf-collection-action {
               flex-direction: column;
             }
-            .home-heading3 {
+            .steps-to-launch-nf-collection-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .steps-to-launch-nf-collection-text105 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-accordion {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-footer {
+            .steps-to-launch-nf-collection-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .home-top {
+            .steps-to-launch-nf-collection-top {
               flex-direction: column;
             }
-            .home-text119 {
+            .steps-to-launch-nf-collection-text117 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              height: 578px;
+            .steps-to-launch-nf-collection-hero {
+              height: auto;
               position: relative;
-              padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .home-desktop-navigation {
+            .steps-to-launch-nf-collection-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-centered {
+            .steps-to-launch-nf-collection-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-left {
+            .steps-to-launch-nf-collection-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-right {
+            .steps-to-launch-nf-collection-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .home-sign-in {
+            .steps-to-launch-nf-collection-sign-in {
               display: flex;
             }
-            .home-get-started {
+            .steps-to-launch-nf-collection-get-started {
               display: flex;
             }
-            .home-header {
+            .steps-to-launch-nf-collection-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .home-text007 {
+            .steps-to-launch-nf-collection-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .home-text008 {
+            .steps-to-launch-nf-collection-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-            }
-            .home-outline {
-              border-width: 2px;
-              border-radius: 35px;
-            }
-            .home-text010 {
-              font-size: 18px;
-              text-align: center;
-            }
-            .home-image {
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-features {
+            .steps-to-launch-nf-collection-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text018 {
+            .steps-to-launch-nf-collection-text012 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .home-container1 {
+            .steps-to-launch-nf-collection-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-text025 {
+            .steps-to-launch-nf-collection-text019 {
               font-size: 24px;
             }
-            .home-text026 {
+            .steps-to-launch-nf-collection-text020 {
               font-size: 14px;
             }
-            .home-publish {
+            .steps-to-launch-nf-collection-publish {
               margin-left: 0px;
             }
-            .home-text027 {
+            .steps-to-launch-nf-collection-text021 {
               font-size: 24px;
             }
-            .home-text028 {
+            .steps-to-launch-nf-collection-text022 {
               font-size: 14px;
             }
-            .home-container2 {
+            .steps-to-launch-nf-collection-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-analyze {
+            .steps-to-launch-nf-collection-analyze {
               margin-right: 0px;
             }
-            .home-text029 {
+            .steps-to-launch-nf-collection-text023 {
               font-size: 24px;
             }
-            .home-text030 {
+            .steps-to-launch-nf-collection-text024 {
               font-size: 14px;
             }
-            .home-text032 {
+            .steps-to-launch-nf-collection-text026 {
               font-size: 14px;
             }
-            .home-banner-advanced-analytics {
-              padding-bottom: var(--dl-space-space-twounits);
+            .steps-to-launch-nf-collection-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-centered-container {
-              flex-direction: column-reverse;
+            .steps-to-launch-nf-collection-blog1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-right1 {
-              margin-left: 0px;
+            .steps-to-launch-nf-collection-get-started1 {
+              margin-top: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              font-size: 28px;
-              align-self: center;
-              text-align: left;
-              line-height: 26px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text034 {
-              align-self: center;
-              text-align: center;
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-category1 {
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-container3 {
-              flex-direction: column;
-            }
-            .home-left1 {
-              margin-right: 0px;
-            }
-            .home-text036 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-text037 {
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text038 {
-              font-size: 16px;
-            }
-            .home-image-container1 {
-              justify-content: center;
-            }
-            .home-cards-image1 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .home-banner {
+            .steps-to-launch-nf-collection-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-container4 {
-              flex-direction: column;
-            }
-            .home-left2 {
-              margin-right: 0px;
-            }
-            .home-integrations {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-text045 {
+            .steps-to-launch-nf-collection-text055 {
               line-height: 24px;
             }
-            .home-pills {
+            .steps-to-launch-nf-collection-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-how-it-works {
+            .steps-to-launch-nf-collection-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-heading1 {
+            .steps-to-launch-nf-collection-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text047 {
+            .steps-to-launch-nf-collection-text057 {
               margin-bottom: 0px;
             }
-            .home-headng {
+            .steps-to-launch-nf-collection-headng {
               padding-bottom: 0px;
             }
-            .home-get-started4 {
+            .steps-to-launch-nf-collection-get-started2 {
               display: none;
             }
-            .home-container7 {
+            .steps-to-launch-nf-collection-container5 {
               width: 100%;
             }
-            .home-row {
+            .steps-to-launch-nf-collection-row {
               height: auto;
               flex-direction: column;
             }
-            .home-pricing {
+            .steps-to-launch-nf-collection-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-card {
+            .steps-to-launch-nf-collection-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text059 {
+            .steps-to-launch-nf-collection-text069 {
               font-size: 28px;
             }
-            .home-card1 {
+            .steps-to-launch-nf-collection-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text065 {
+            .steps-to-launch-nf-collection-text075 {
               font-size: 28px;
             }
-            .home-card2 {
+            .steps-to-launch-nf-collection-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text078 {
+            .steps-to-launch-nf-collection-text088 {
               font-size: 28px;
             }
-            .home-testimonals {
+            .steps-to-launch-nf-collection-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .home-right2 {
+            .steps-to-launch-nf-collection-right1 {
               width: 100%;
               flex-direction: column;
             }
-            .home-column1 {
+            .steps-to-launch-nf-collection-column1 {
               display: none;
             }
-            .home-text092 {
+            .steps-to-launch-nf-collection-text102 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .home-action-bar {
+            .steps-to-launch-nf-collection-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-action {
+            .steps-to-launch-nf-collection-action {
               align-items: center;
             }
-            .home-heading3 {
+            .steps-to-launch-nf-collection-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .steps-to-launch-nf-collection-text105 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text100 {
+            .steps-to-launch-nf-collection-text110 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-images {
+            .steps-to-launch-nf-collection-images {
               justify-content: center;
             }
-            .home-image2 {
+            .steps-to-launch-nf-collection-image1 {
               width: 100%;
             }
-            .home-faq {
-              padding: var(--dl-space-space-fourunits);
-            }
-            .home-heading4 {
-              width: 100%;
-            }
-            .home-text103 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .home-text104 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-footer {
+            .steps-to-launch-nf-collection-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-image3 {
+            .steps-to-launch-nf-collection-image2 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              height: 600px;
-              padding-bottom: 160px;
+            .steps-to-launch-nf-collection-hero {
+              height: auto;
             }
-            .home-centered {
+            .steps-to-launch-nf-collection-centered {
               justify-content: center;
             }
-            .home-logo {
+            .steps-to-launch-nf-collection-logo {
               width: 180px;
             }
-            .home-sign-in {
+            .steps-to-launch-nf-collection-sign-in {
               display: none;
             }
-            .home-get-started {
+            .steps-to-launch-nf-collection-get-started {
               display: none;
             }
-            .home-icon {
+            .steps-to-launch-nf-collection-icon {
               display: none;
             }
-            .home-text008 {
+            .steps-to-launch-nf-collection-text008 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              background-color: var(--dl-color-primary-700);
-            }
-            .home-dashboard-preview {
-              top: 500px;
-            }
-            .home-text010 {
-              font-size: 16px;
-            }
-            .home-image {
-              display: none;
-            }
-            .home-features {
+            .steps-to-launch-nf-collection-features {
               padding-top: 200px;
             }
-            .home-cards {
+            .steps-to-launch-nf-collection-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container1 {
+            .steps-to-launch-nf-collection-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .steps-to-launch-nf-collection-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .home-analyze {
+            .steps-to-launch-nf-collection-analyze {
               margin-bottom: 0px;
             }
-            .home-right1 {
-              margin-top: var(--dl-space-space-twounits);
+            .steps-to-launch-nf-collection-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              align-self: center;
-              text-align: center;
+            .steps-to-launch-nf-collection-blog1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text037 {
-              line-height: 24px;
+            .steps-to-launch-nf-collection-get-started1 {
+              background-color: var(--dl-color-primary-700);
             }
-            .home-cards-image1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-category2 {
+            .steps-to-launch-nf-collection-category {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-pricing {
+            .steps-to-launch-nf-collection-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-get-started7 {
+            .steps-to-launch-nf-collection-get-started5 {
               background-color: var(--dl-color-gray-white);
             }
-            .home-testimonals {
+            .steps-to-launch-nf-collection-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action-bar {
+            .steps-to-launch-nf-collection-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-footer {
+            .steps-to-launch-nf-collection-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text115 {
+            .steps-to-launch-nf-collection-text113 {
               text-align: center;
             }
           }
@@ -3063,4 +2567,4 @@ Here's what the above is doing:
   )
 }
 
-export default Home
+export default StepsToLaunchNFTCollection

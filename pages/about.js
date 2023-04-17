@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
 import YouTube from '../components/you-tube'
-import Testimonal from '../components/testimonal'
+import TestimonalBLurb from '../components/testimonal-b-lurb'
 
 const About = (props) => {
   return (
@@ -31,51 +32,58 @@ const About = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="about-hero">
+        <header id="header" className="about-hero">
           <div className="about-menu">
             <div id="navigation" className="about-desktop-navigation">
               <nav className="about-centered">
                 <div className="about-left">
-                  <img
-                    alt="Welcome to Gateful"
-                    src="/playground_assets/gateful-logo-wht-200h.png"
-                    className="about-logo"
-                  />
+                  <Link href="/">
+                    <a className="about-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="about-logo"
+                      />
+                    </a>
+                  </Link>
                   <div className="about-links">
-                    <span className="Link">Solutions</span>
-                    <span className="Link">How it works</span>
-                    <span className="Link">Prices</span>
+                    <Link href="/token-gating-platform">
+                      <a className="about-link1 Link">Platform</a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="about-link2 Link">Solutions</a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="about-link3 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="about-right">
-                  <svg viewBox="0 0 1024 1024" className="about-icon">
-                    <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                  </svg>
                   <a
-                    href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+                    href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="about-sign-in Link"
                   >
-                    <span>Book a Demo</span>
+                    <span>Login</span>
                     <br></br>
                   </a>
-                  <a
-                    href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="about-link"
-                  >
-                    <div className="about-get-started">
-                      <svg viewBox="0 0 1024 1024" className="about-icon02">
-                        <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                      </svg>
-                      <span className="about-text005">
-                        <span>Early access</span>
-                        <br></br>
-                      </span>
-                    </div>
-                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="about-link4">
+                      <div className="about-get-started">
+                        <svg viewBox="0 0 1024 1024" className="about-icon">
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="about-text004">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
                 </div>
               </nav>
             </div>
@@ -107,13 +115,13 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="about-header">
-            <h1 className="about-text008">About</h1>
-            <p className="about-text009">Learn more about Gateful.</p>
+            <h1 className="about-text007">About</h1>
+            <p className="about-text008">Learn more about Gateful.</p>
           </header>
-        </section>
+        </header>
         <section className="about-features">
           <div className="about-title">
-            <span className="about-text010">
+            <span className="about-text009">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -125,7 +133,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="about-text014">
+            <span className="about-text013">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -143,10 +151,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="about-icon04"
+                  className="about-icon02"
                 />
-                <span className="about-text017">Schedule</span>
-                <span className="about-text018">
+                <span className="about-text016">Schedule</span>
+                <span className="about-text017">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -155,10 +163,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="about-icon05"
+                  className="about-icon03"
                 />
-                <span className="about-text019">Publish</span>
-                <span className="about-text020">
+                <span className="about-text018">Publish</span>
+                <span className="about-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -168,10 +176,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="about-icon06"
+                  className="about-icon04"
                 />
-                <span className="about-text021">Analyze</span>
-                <span className="about-text022">
+                <span className="about-text020">Analyze</span>
+                <span className="about-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -180,10 +188,10 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="about-icon07"
+                  className="about-icon05"
                 />
-                <span className="about-text023">Get leads</span>
-                <span className="about-text024">
+                <span className="about-text022">Get leads</span>
+                <span className="about-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -192,7 +200,7 @@ closeButton.addEventListener("click", function() {
           </div>
         </section>
         <section className="about-banners">
-          <div className="about-banner-advanced-analytics">
+          <section className="about-banner-advanced-analytics">
             <div className="about-centered-container">
               <div className="about-image-container">
                 <img
@@ -203,9 +211,9 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="about-right1">
-                <h2 className="about-text025 title">What is Gateful?</h2>
+                <h2 className="about-text024 title">What is Gateful?</h2>
                 <div className="about-category">
-                  <span className="about-text026">
+                  <span className="about-text025">
                     <span>
                       Gateful is a platform that provides an easy way to add
                       Web3 Token Gating functionality to your website or web
@@ -241,11 +249,11 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="about-centered-container1">
               <div className="about-right2">
-                <h2 className="about-text035 title">
+                <h2 className="about-text034 title">
                   <span>Management Team</span>
                   <br></br>
                 </h2>
-                <span className="about-text038">
+                <span className="about-text037">
                   <span>
                     Gateful is backed and delivered by experienced Founders and
                     Technologists.
@@ -259,7 +267,7 @@ closeButton.addEventListener("click", function() {
                       src="/playground_assets/headshot2022bpng-300w.png"
                       className="about-image"
                     />
-                    <h3 className="about-text041">J. Eric Hill</h3>
+                    <h3 className="about-text040">J. Eric Hill</h3>
                     <span>OpenMedium, Inc.</span>
                   </div>
                   <div className="about-active-users1 metrics">
@@ -268,7 +276,7 @@ closeButton.addEventListener("click", function() {
                       src="/playground_assets/sv-300h.jpeg"
                       className="about-image1"
                     />
-                    <h3 className="about-text042">Sherwood Vane</h3>
+                    <h3 className="about-text041">Sherwood Vane</h3>
                     <span>Sherwood X</span>
                   </div>
                   <div className="about-active-users2 metrics">
@@ -277,7 +285,7 @@ closeButton.addEventListener("click", function() {
                       src="/playground_assets/bk-300h.png"
                       className="about-image2"
                     />
-                    <h3 className="about-text043">Brijesh Kamani</h3>
+                    <h3 className="about-text042">Brijesh Kamani</h3>
                     <span>TekSun, Inc.</span>
                   </div>
                   <div className="about-active-users3 metrics">
@@ -286,27 +294,27 @@ closeButton.addEventListener("click", function() {
                       src="/playground_assets/bj-300h.png"
                       className="about-image3"
                     />
-                    <h3 className="about-text044">Brijesh Jagani</h3>
+                    <h3 className="about-text043">Brijesh Jagani</h3>
                     <span>TekSun, Inc.</span>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
           <div className="about-banner-manage">
             <div className="about-container3">
               <div className="about-left1">
                 <span className="sub-title">Content Management</span>
-                <span className="about-text046 title">
+                <span className="about-text045 title">
                   Manage all your platforms in just one place.
                 </span>
-                <span className="about-text047">
+                <span className="about-text046">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="about-get-started1 template-button">
-                  <span className="about-text048">Get started</span>
+                  <span className="about-text047">Get started</span>
                 </div>
               </div>
               <div className="about-image-container1">
@@ -321,17 +329,17 @@ closeButton.addEventListener("click", function() {
           <div className="about-banner">
             <div className="about-container4">
               <div className="about-left2">
-                <span className="about-text049">Improve Scheduling</span>
-                <h2 className="about-text050 title">
+                <span className="about-text048">Improve Scheduling</span>
+                <h2 className="about-text049 title">
                   Powerful scheduler that saves you time
                 </h2>
-                <span className="about-text051">
+                <span className="about-text050">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="about-get-started2 template-button">
-                  <span className="about-text052">Get started</span>
+                  <span className="about-text051">Get started</span>
                 </div>
               </div>
               <div className="about-image-container2">
@@ -351,7 +359,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="about-text055">
+              <span className="about-text054">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -377,14 +385,14 @@ closeButton.addEventListener("click", function() {
         <section className="about-how-it-works">
           <div className="about-centered-container3">
             <div className="about-heading1">
-              <span className="about-text056">How it works</span>
-              <span className="about-text057 title">
+              <span className="about-text055">How it works</span>
+              <span className="about-text056 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="about-category2">
               <div className="about-headng">
-                <span className="about-text058">
+                <span className="about-text057">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -392,13 +400,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="about-text059">
+                <span className="about-text058">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="about-get-started3 template-button">
-                  <span className="about-text060">Get started</span>
+                  <span className="about-text059">Get started</span>
                 </div>
               </div>
               <div className="about-container7">
@@ -412,8 +420,8 @@ closeButton.addEventListener("click", function() {
             <div className="about-row">
               <div className="about-category3">
                 <div className="about-headng1">
-                  <span className="about-text061">2 — Act</span>
-                  <span className="about-text062">
+                  <span className="about-text060">2 — Act</span>
+                  <span className="about-text061">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -427,8 +435,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="about-category4">
                 <div className="about-headng2">
-                  <span className="about-text063">2 — Act</span>
-                  <span className="about-text064">
+                  <span className="about-text062">2 — Act</span>
+                  <span className="about-text063">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -446,31 +454,42 @@ closeButton.addEventListener("click", function() {
         <section className="about-pricing">
           <div className="about-centered-container4">
             <div className="about-heading2">
-              <span className="about-text065 title">
+              <span className="about-text064 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="about-text066">
+              <span className="about-text065">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="about-selection">
-                <span className="about-text067">Monthly</span>
-                <span className="about-text068">Yearly</span>
+                <span className="about-text066">Monthly</span>
+                <span className="about-text067">Yearly</span>
               </div>
             </div>
             <div className="about-cards1">
               <div className="about-card">
-                <span className="about-text069">Free</span>
-                <span className="about-text070">
+                <span className="about-text068">Free</span>
+                <span className="about-text069">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="about-get-started4 template-button">
-                  <span className="about-text071">Start for free</span>
+                  <span className="about-text070">Start for free</span>
                 </div>
-                <span className="about-text072">What&apos;s included</span>
+                <span className="about-text071">What&apos;s included</span>
                 <div className="about-bullet-points">
                   <div className="about-point">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="about-icon06"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="about-text072">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="about-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon08"
@@ -481,22 +500,11 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point01">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="about-icon10"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="about-text074">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
               <div className="about-card1">
-                <span className="about-text075">Pay as you go</span>
-                <span className="about-text076">
+                <span className="about-text074">Pay as you go</span>
+                <span className="about-text075">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -504,14 +512,25 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="about-get-started5 template-button">
-                  <span className="about-text080">
+                  <span className="about-text079">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="about-text083">What&apos;s included</span>
+                <span className="about-text082">What&apos;s included</span>
                 <div className="about-bullet-points1">
                   <div className="about-point02">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="about-icon10"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="about-text083">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="about-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon12"
@@ -522,7 +541,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point03">
+                  <div className="about-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon14"
@@ -533,7 +552,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point04">
+                  <div className="about-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon16"
@@ -544,22 +563,11 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point05">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="about-icon18"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="about-text087">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
               <div className="about-card2">
-                <span className="about-text088">Enterprise</span>
-                <span className="about-text089">
+                <span className="about-text087">Enterprise</span>
+                <span className="about-text088">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -567,14 +575,25 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="about-get-started6 template-button">
-                  <span className="about-text092">
+                  <span className="about-text091">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="about-text095">What&apos;s included</span>
+                <span className="about-text094">What&apos;s included</span>
                 <div className="about-bullet-points2">
                   <div className="about-point06">
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      className="about-icon18"
+                    >
+                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
+                    </svg>
+                    <span className="about-text095">
+                      Sed ut pespiciatis unde omnis
+                    </span>
+                  </div>
+                  <div className="about-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon20"
@@ -585,7 +604,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point07">
+                  <div className="about-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon22"
@@ -596,7 +615,7 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point08">
+                  <div className="about-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-icon24"
@@ -607,17 +626,6 @@ closeButton.addEventListener("click", function() {
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="about-point09">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      className="about-icon26"
-                    >
-                      <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                    <span className="about-text099">
-                      Sed ut pespiciatis unde omnis
-                    </span>
-                  </div>
                 </div>
               </div>
             </div>
@@ -625,64 +633,64 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="about-testimonals">
           <div className="about-left3">
-            <span className="about-text100">Testimonals</span>
-            <span className="about-text101 title">
+            <span className="about-text099">Testimonals</span>
+            <span className="about-text100 title">
               What people say about Active
             </span>
           </div>
           <div className="about-right3">
             <div className="about-column">
-              <Testimonal
+              <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Social Club"
                 Name="Jessica Smith"
                 Quote="“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.\u2028 Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”"
                 Avatar_src="/playground_assets/image312912-mvsg-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="BeMe"
                 Name="Logan Boy"
                 Quote="“Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..”"
                 Avatar_src="/playground_assets/image502912-6wy-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Hello W."
                 Name="Laraine Summers"
                 Quote="“Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.”"
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
-              ></Testimonal>
+              ></TestimonalBLurb>
             </div>
             <div className="about-column1">
-              <Testimonal
+              <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
                 Quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”'
                 Avatar_src="/playground_assets/image572912-0d3-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Share"
                 Name="Mariah Mae"
                 Quote="“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”"
                 Avatar_src="/playground_assets/image632913-swij-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Gather"
                 Name="John Finati"
                 Quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”'
                 Avatar_src="/playground_assets/image102913-x4z8-200h.png"
-              ></Testimonal>
-              <Testimonal
+              ></TestimonalBLurb>
+              <TestimonalBLurb
                 From="Zigo"
                 Name="Mary Pau"
                 Quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ”'
                 Avatar_src="/playground_assets/image562913-ycff-200h.png"
-              ></Testimonal>
+              ></TestimonalBLurb>
             </div>
           </div>
-          <span className="about-text102">
+          <span className="about-text101">
             <span>Show more</span>
             <br></br>
           </span>
@@ -690,16 +698,16 @@ closeButton.addEventListener("click", function() {
         <section className="about-action-bar">
           <div className="about-action">
             <div className="about-heading3">
-              <span className="about-text105 title">
+              <span className="about-text104 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="about-text109">
+              <span className="about-text108">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="about-get-started7 template-button">
-                <span className="about-text110">
+                <span className="about-text109">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -716,17 +724,17 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="about-faq">
           <div className="about-heading4">
-            <h2 className="about-text113">Frequently asked questions</h2>
+            <h2 className="about-text112">Frequently asked questions</h2>
           </div>
           <div className="about-accordion">
             <div data-faq="closed" className="accordionContainer">
               <div className="about-header1">
-                <h3 className="about-text114">
+                <h3 className="about-text113">
                   Does Gateful have a token or cryptocurrency?
                 </h3>
               </div>
               <div className="accordionContent">
-                <span className="about-text115">
+                <span className="about-text114">
                   No, Gateful does not offer a token or cryptocurrency at this
                   time.
                 </span>
@@ -734,10 +742,10 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="accordionContainer">
               <div className="about-header2">
-                <h3 className="about-text116">How much does Gateful cost?</h3>
+                <h3 className="about-text115">How much does Gateful cost?</h3>
               </div>
               <div className="accordionContent">
-                <span className="about-text117">
+                <span className="about-text116">
                   Currently, Gateful is in private beta and accepting new
                   clients for custom integrations. We are working on our SaaS
                   self-service platform and pricing model. Check back soon for
@@ -747,10 +755,10 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="about-header3">
-                <h3 className="about-text118">What can I token gate?</h3>
+                <h3 className="about-text117">What can I token gate?</h3>
               </div>
               <div className="accordionContent">
-                <span className="about-text119">
+                <span className="about-text118">
                   Gateful can be used to token gate any non-sensitive content
                   hosted on the internet and accessible to users through a web
                   browser. Please review our Terms of Use located at
@@ -761,13 +769,13 @@ closeButton.addEventListener("click", function() {
             </div>
             <div data-faq="closed" className="accordionContainer">
               <div className="about-header4">
-                <h3 className="about-text120">
+                <h3 className="about-text119">
                   Can Gateful be used to replace authentication services for
                   website customer accounts?
                 </h3>
               </div>
               <div className="accordionContent">
-                <span className="about-text121">
+                <span className="about-text120">
                   <span>
                     No, Gateful should not be used to create and manage customer
                     account access. Gateful provides a simple way to verify
@@ -850,10 +858,10 @@ Here's what the above is doing:
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="about-image5"
             />
-            <span className="about-text126">
+            <span className="about-text125">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="about-text127">
+            <span className="about-text126">
               <span>
                 Built by
                 <span
@@ -866,7 +874,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="about-link1"
+                className="about-link5"
               >
                 OpenMedium, Inc
               </a>
@@ -883,12 +891,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="about-link2"
+                className="about-link6"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="about-text130">
+            <span className="about-text129">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -896,7 +904,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="about-link3"
+                className="about-link7"
               >
                 Legal
               </a>
@@ -965,17 +973,33 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
+          .about-link {
+            display: contents;
+          }
           .about-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
+            text-decoration: none;
           }
           .about-links {
-            display: none;
             align-items: center;
             margin-left: 33px;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             flex-direction: row;
+          }
+          .about-link1 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .about-link2 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .about-link3 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
           }
           .about-right {
             height: 100%;
@@ -985,19 +1009,13 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-icon {
-            fill: var(--dl-color-gray-white);
-            width: 24px;
-            height: 24px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
           .about-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .about-link {
+          .about-link4 {
             display: contents;
           }
           .about-get-started {
@@ -1019,13 +1037,13 @@ Here's what the above is doing:
           .about-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .about-icon02 {
+          .about-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .about-text005 {
+          .about-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
@@ -1039,7 +1057,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .about-text008 {
+          .about-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1047,7 +1065,7 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .about-text009 {
+          .about-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -1072,14 +1090,14 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .about-text010 {
+          .about-text009 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .about-text014 {
+          .about-text013 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1101,37 +1119,37 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .about-icon04 {
+          .about-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text017 {
+          .about-text016 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text018 {
+          .about-text017 {
             line-height: 24px;
           }
           .about-publish {
             height: initial;
           }
-          .about-icon05 {
+          .about-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text019 {
+          .about-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text020 {
+          .about-text019 {
             line-height: 24px;
           }
           .about-container2 {
@@ -1142,34 +1160,34 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .about-icon06 {
+          .about-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text021 {
+          .about-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .about-text022 {
+          .about-text021 {
             line-height: 24px;
           }
-          .about-icon07 {
+          .about-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text023 {
+          .about-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text024 {
+          .about-text023 {
             line-height: 24px;
           }
           .about-banners {
@@ -1217,7 +1235,7 @@ Here's what the above is doing:
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .about-text025 {
+          .about-text024 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -1228,7 +1246,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .about-text026 {
+          .about-text025 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
@@ -1252,13 +1270,13 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .about-text035 {
+          .about-text034 {
             font-size: 30px;
             align-self: center;
             text-align: left;
             margin-bottom: 0px;
           }
-          .about-text038 {
+          .about-text037 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             align-self: center;
@@ -1288,7 +1306,7 @@ Here's what the above is doing:
             border-radius: 20px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text041 {
+          .about-text040 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -1311,7 +1329,7 @@ Here's what the above is doing:
             border-radius: 20px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text042 {
+          .about-text041 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -1334,7 +1352,7 @@ Here's what the above is doing:
             border-radius: 20px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text043 {
+          .about-text042 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -1357,7 +1375,7 @@ Here's what the above is doing:
             border-radius: 20px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text044 {
+          .about-text043 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -1392,10 +1410,10 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .about-text046 {
+          .about-text045 {
             text-align: left;
           }
-          .about-text047 {
+          .about-text046 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1408,7 +1426,7 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-text048 {
+          .about-text047 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1454,16 +1472,16 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .about-text049 {
+          .about-text048 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .about-text050 {
+          .about-text049 {
             text-align: left;
           }
-          .about-text051 {
+          .about-text050 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1476,7 +1494,7 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-text052 {
+          .about-text051 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1515,7 +1533,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .about-text055 {
+          .about-text054 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1577,13 +1595,13 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .about-text056 {
+          .about-text055 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .about-text057 {
+          .about-text056 {
             color: var(--dl-color-gray-white);
           }
           .about-category2 {
@@ -1607,13 +1625,13 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .about-text058 {
+          .about-text057 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-text059 {
+          .about-text058 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1625,7 +1643,7 @@ Here's what the above is doing:
             color: black;
             background-color: #ffffff;
           }
-          .about-text060 {
+          .about-text059 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1671,14 +1689,14 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .about-text061 {
+          .about-text060 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-text062 {
+          .about-text061 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1707,14 +1725,14 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .about-text063 {
+          .about-text062 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-text064 {
+          .about-text063 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1748,11 +1766,11 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .about-text065 {
+          .about-text064 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .about-text066 {
+          .about-text065 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1765,7 +1783,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .about-text067 {
+          .about-text066 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1776,7 +1794,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .about-text068 {
+          .about-text067 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1811,13 +1829,13 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .about-text069 {
+          .about-text068 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text070 {
+          .about-text069 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1829,13 +1847,13 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-text071 {
+          .about-text070 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .about-text072 {
+          .about-text071 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1853,12 +1871,12 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .about-icon08 {
+          .about-icon06 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .about-text073 {
+          .about-text072 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1870,12 +1888,12 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .about-icon10 {
+          .about-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .about-text074 {
+          .about-text073 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1896,13 +1914,13 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .about-text075 {
+          .about-text074 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text076 {
+          .about-text075 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1914,13 +1932,13 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-text080 {
+          .about-text079 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .about-text083 {
+          .about-text082 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1938,6 +1956,23 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
+          .about-icon10 {
+            fill: #5228f5;
+            width: 8px;
+            height: 8px;
+          }
+          .about-text083 {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: var(--dl-space-space-halfunit);
+          }
+          .about-point03 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+          }
           .about-icon12 {
             fill: #5228f5;
             width: 8px;
@@ -1949,7 +1984,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .about-point03 {
+          .about-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1966,7 +2001,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .about-point04 {
+          .about-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1978,23 +2013,6 @@ Here's what the above is doing:
             height: 8px;
           }
           .about-text086 {
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            margin-left: var(--dl-space-space-halfunit);
-          }
-          .about-point05 {
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-          }
-          .about-icon18 {
-            fill: #5228f5;
-            width: 8px;
-            height: 8px;
-          }
-          .about-text087 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -2014,14 +2032,14 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .about-text088 {
+          .about-text087 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text089 {
+          .about-text088 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -2035,12 +2053,12 @@ Here's what the above is doing:
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-text092 {
+          .about-text091 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .about-text095 {
+          .about-text094 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2059,6 +2077,24 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
+          .about-icon18 {
+            fill: #5228f5;
+            width: 8px;
+            height: 8px;
+          }
+          .about-text095 {
+            color: #ffffff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-left: var(--dl-space-space-halfunit);
+          }
+          .about-point07 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+            flex-direction: row;
+          }
           .about-icon20 {
             fill: #5228f5;
             width: 8px;
@@ -2071,7 +2107,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .about-point07 {
+          .about-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -2089,7 +2125,7 @@ Here's what the above is doing:
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .about-point08 {
+          .about-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -2101,24 +2137,6 @@ Here's what the above is doing:
             height: 8px;
           }
           .about-text098 {
-            color: #ffffff;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            margin-left: var(--dl-space-space-halfunit);
-          }
-          .about-point09 {
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            flex-direction: row;
-          }
-          .about-icon26 {
-            fill: #5228f5;
-            width: 8px;
-            height: 8px;
-          }
-          .about-text099 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -2143,13 +2161,13 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .about-text100 {
+          .about-text099 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .about-text101 {
+          .about-text100 {
             text-align: left;
           }
           .about-right3 {
@@ -2167,7 +2185,7 @@ Here's what the above is doing:
             display: flex;
             flex-direction: column;
           }
-          .about-text102 {
+          .about-text101 {
             cursor: pointer;
             display: none;
           }
@@ -2198,11 +2216,11 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .about-text105 {
+          .about-text104 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .about-text109 {
+          .about-text108 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2210,7 +2228,7 @@ Here's what the above is doing:
           .about-get-started7 {
             margin-bottom: 0px;
           }
-          .about-text110 {
+          .about-text109 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2243,7 +2261,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .about-text113 {
+          .about-text112 {
             font-size: 30px;
             text-align: center;
             font-family: Urbanist;
@@ -2265,14 +2283,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .about-text114 {
+          .about-text113 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .about-text115 {
+          .about-text114 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2282,14 +2300,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .about-text116 {
+          .about-text115 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .about-text117 {
+          .about-text116 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2299,14 +2317,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .about-text118 {
+          .about-text117 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .about-text119 {
+          .about-text118 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2316,14 +2334,14 @@ Here's what the above is doing:
             display: flex;
             justify-content: space-between;
           }
-          .about-text120 {
+          .about-text119 {
             width: 100%;
             font-size: 20px;
             max-width: 760px;
             font-style: normal;
             font-weight: 500;
           }
-          .about-text121 {
+          .about-text120 {
             width: 100%;
             max-width: 760px;
             line-height: 24px;
@@ -2354,33 +2372,33 @@ Here's what the above is doing:
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text126 {
+          .about-text125 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text127 {
+          .about-text126 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .about-link1 {
+          .about-link5 {
             text-decoration: underline;
           }
-          .about-link2 {
+          .about-link6 {
             text-decoration: underline;
           }
-          .about-text130 {
+          .about-text129 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .about-link3 {
+          .about-link7 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -2420,11 +2438,11 @@ Here's what the above is doing:
               width: 100%;
               max-width: 1200px;
             }
-            .about-text010 {
+            .about-text009 {
               font-size: 36px;
               line-height: 40px;
             }
-            .about-text014 {
+            .about-text013 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2432,19 +2450,19 @@ Here's what the above is doing:
             .about-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .about-text018 {
+            .about-text017 {
               line-height: 21px;
             }
-            .about-text020 {
+            .about-text019 {
+              line-height: 21px;
+            }
+            .about-text021 {
               line-height: 21px;
             }
             .about-text022 {
-              line-height: 21px;
-            }
-            .about-text023 {
               font-size: 24px;
             }
-            .about-text024 {
+            .about-text023 {
               line-height: 21px;
             }
             .about-banner-advanced-analytics {
@@ -2453,11 +2471,11 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .about-text025 {
+            .about-text024 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text035 {
+            .about-text034 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -2503,7 +2521,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .about-text066 {
+            .about-text065 {
               width: 100%;
               max-width: 600px;
             }
@@ -2519,11 +2537,11 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .about-text070 {
+            .about-text069 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .about-text072 {
+            .about-text071 {
               font-size: 16px;
             }
             .about-card1 {
@@ -2543,7 +2561,7 @@ Here's what the above is doing:
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .about-text101 {
+            .about-text100 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2568,7 +2586,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text105 {
+            .about-text104 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2582,7 +2600,7 @@ Here's what the above is doing:
             .about-top {
               flex-direction: column;
             }
-            .about-text130 {
+            .about-text129 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2619,14 +2637,14 @@ Here's what the above is doing:
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .about-text008 {
+            .about-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .about-text009 {
+            .about-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2637,7 +2655,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text010 {
+            .about-text009 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2648,19 +2666,19 @@ Here's what the above is doing:
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .about-text017 {
+            .about-text016 {
               font-size: 24px;
             }
-            .about-text018 {
+            .about-text017 {
               font-size: 14px;
             }
             .about-publish {
               margin-left: 0px;
             }
-            .about-text019 {
+            .about-text018 {
               font-size: 24px;
             }
-            .about-text020 {
+            .about-text019 {
               font-size: 14px;
             }
             .about-container2 {
@@ -2670,13 +2688,13 @@ Here's what the above is doing:
             .about-analyze {
               margin-right: 0px;
             }
-            .about-text021 {
+            .about-text020 {
               font-size: 24px;
             }
-            .about-text022 {
+            .about-text021 {
               font-size: 14px;
             }
-            .about-text024 {
+            .about-text023 {
               font-size: 14px;
             }
             .about-banner-advanced-analytics {
@@ -2688,14 +2706,14 @@ Here's what the above is doing:
             .about-right1 {
               margin-left: 0px;
             }
-            .about-text025 {
+            .about-text024 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .about-text026 {
+            .about-text025 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -2707,18 +2725,21 @@ Here's what the above is doing:
             .about-right2 {
               margin-left: 0px;
             }
-            .about-text035 {
+            .about-text034 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .about-text038 {
+            .about-text037 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
+            }
+            .about-text040 {
+              font-size: 14px;
             }
             .about-text041 {
               font-size: 14px;
@@ -2727,9 +2748,6 @@ Here's what the above is doing:
               font-size: 14px;
             }
             .about-text043 {
-              font-size: 14px;
-            }
-            .about-text044 {
               font-size: 14px;
             }
             .about-banner-manage {
@@ -2742,14 +2760,14 @@ Here's what the above is doing:
             .about-left1 {
               margin-right: 0px;
             }
-            .about-text046 {
+            .about-text045 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-text047 {
+            .about-text046 {
               line-height: 24px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .about-text048 {
+            .about-text047 {
               font-size: 16px;
             }
             .about-image-container1 {
@@ -2776,7 +2794,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .about-text055 {
+            .about-text054 {
               line-height: 24px;
             }
             .about-pills {
@@ -2791,7 +2809,7 @@ Here's what the above is doing:
             .about-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .about-text057 {
+            .about-text056 {
               margin-bottom: 0px;
             }
             .about-headng {
@@ -2815,7 +2833,7 @@ Here's what the above is doing:
             .about-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .about-text069 {
+            .about-text068 {
               font-size: 28px;
             }
             .about-card1 {
@@ -2824,7 +2842,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .about-text075 {
+            .about-text074 {
               font-size: 28px;
             }
             .about-card2 {
@@ -2832,7 +2850,7 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .about-text088 {
+            .about-text087 {
               font-size: 28px;
             }
             .about-testimonals {
@@ -2847,7 +2865,7 @@ Here's what the above is doing:
             .about-column1 {
               display: none;
             }
-            .about-text102 {
+            .about-text101 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2867,11 +2885,11 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text105 {
+            .about-text104 {
               font-size: 28px;
               text-align: left;
             }
-            .about-text110 {
+            .about-text109 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2908,16 +2926,16 @@ Here's what the above is doing:
             .about-logo {
               width: 180px;
             }
-            .about-icon {
-              display: none;
-            }
             .about-sign-in {
               display: none;
             }
             .about-get-started {
               display: none;
             }
-            .about-text009 {
+            .about-icon {
+              display: none;
+            }
+            .about-text008 {
               color: #eee9fe;
             }
             .about-features {
@@ -2941,16 +2959,20 @@ Here's what the above is doing:
             .about-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .about-text025 {
+            .about-text024 {
               align-self: center;
               text-align: center;
             }
             .about-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .about-text035 {
+            .about-text034 {
               align-self: center;
               text-align: center;
+            }
+            .about-text040 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
             }
             .about-text041 {
               color: var(--dl-color-gray-black);
@@ -2964,11 +2986,7 @@ Here's what the above is doing:
               color: var(--dl-color-gray-black);
               font-size: 14px;
             }
-            .about-text044 {
-              color: var(--dl-color-gray-black);
-              font-size: 14px;
-            }
-            .about-text047 {
+            .about-text046 {
               line-height: 24px;
             }
             .about-cards-image1 {
@@ -2999,7 +3017,7 @@ Here's what the above is doing:
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .about-text126 {
+            .about-text125 {
               text-align: center;
             }
           }

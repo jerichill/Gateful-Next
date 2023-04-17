@@ -69,7 +69,7 @@
   margin: 1em 0px 1em 0px;
   display: block;
   padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
+  list-style-type: decimal;
   list-style-position: outside;
 }
 .list-item {
@@ -158,7 +158,7 @@
   font-size: 56px;
   text-align: center;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 50px;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .sub-title {

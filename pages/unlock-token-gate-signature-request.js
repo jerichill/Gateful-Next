@@ -4,80 +4,93 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-import Frameworks from '../components/frameworks'
 import YouTube from '../components/you-tube'
-import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
 
-const Home = (props) => {
+const UnlockTokenGateSignatureRequest = (props) => {
   return (
     <>
-      <div className="home-container">
+      <div className="unlock-token-gate-signature-request-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>
+            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+          </title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b692443f-9226-4a47-945b-4471e2366a37/77019fe6-e6fc-4e47-b1bc-874216c83069?org_if_sml=1"
           />
         </Head>
-        <section id="header" className="home-hero">
-          <div className="home-menu">
-            <div id="navigation" className="home-desktop-navigation">
-              <nav className="home-centered">
-                <div className="home-left">
+        <section
+          id="header"
+          className="unlock-token-gate-signature-request-hero"
+        >
+          <div className="unlock-token-gate-signature-request-menu">
+            <div
+              id="navigation"
+              className="unlock-token-gate-signature-request-desktop-navigation"
+            >
+              <nav className="unlock-token-gate-signature-request-centered">
+                <div className="unlock-token-gate-signature-request-left">
                   <Link href="/">
-                    <a className="home-link">
+                    <a className="unlock-token-gate-signature-request-link">
                       <img
                         alt="Welcome to Gateful"
                         src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="home-logo"
+                        className="unlock-token-gate-signature-request-logo"
                       />
                     </a>
                   </Link>
-                  <div className="home-links">
+                  <div className="unlock-token-gate-signature-request-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link1 Link">Platform</a>
+                      <a className="unlock-token-gate-signature-request-link1 Link">
+                        Platform
+                      </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link2 Link">Solutions</a>
+                      <a className="unlock-token-gate-signature-request-link2 Link">
+                        Solutions
+                      </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link3 Link">
+                      <a className="unlock-token-gate-signature-request-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="home-right">
+                <div className="unlock-token-gate-signature-request-right">
                   <a
                     href="https://app.gateful.io"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-sign-in Link"
+                    className="unlock-token-gate-signature-request-sign-in Link"
                   >
                     <span>Login</span>
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link4">
-                      <div className="home-get-started">
-                        <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <a className="unlock-token-gate-signature-request-link4">
+                      <div className="unlock-token-gate-signature-request-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="unlock-token-gate-signature-request-icon"
+                        >
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                         </svg>
-                        <span className="home-text004">
+                        <span className="unlock-token-gate-signature-request-text004">
                           <span>Book a Demo</span>
                           <br></br>
                         </span>
@@ -114,73 +127,33 @@ closeButton.addEventListener("click", function() {
               ></DangerousHTML>
             </div>
           </div>
-          <header className="home-header">
-            <h1 className="home-text007">
-              The Easiest Way to Create Token Gated Digital Experiences
+          <header className="unlock-token-gate-signature-request-header">
+            <h1 className="unlock-token-gate-signature-request-text007">
+              The Signature Request Explained
             </h1>
-            <p className="home-text008">
-              Gateful makes it easy to add Web3 Token Gating functionality to
-              your website or web application. Transform your project into a
-              powerful Web3-connected community without writing any code.
+            <p className="unlock-token-gate-signature-request-text008">
+              <span className="unlock-token-gate-signature-request-text009">
+                Unlocking a Token Gate
+              </span>
+              <br></br>
             </p>
-            <a
-              href="https://zfrmz.com/MtUWiQJfSPjHpXrfUYIh"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link5"
-            >
-              <div className="home-get-started1">
-                <svg viewBox="0 0 1024 1024" className="home-icon02">
-                  <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
-                </svg>
-                <span className="home-text009">Early access</span>
-              </div>
-            </a>
-          </header>
-          <div className="home-dashboard-preview">
-            <div className="home-outline">
-              <h2 className="home-text010">
-                <span>
-                  Top
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text012">brands</span>
-                <span>
-                  ,
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text014">developers</span>
-                <span>
-                  , and
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text016">creators</span>
-                <span> trust Gateful.</span>
-              </h2>
+            <div className="unlock-token-gate-signature-request-profile">
               <img
-                alt="TekSun, RareOrb, OpenMedium, RadPup, and TurboVirtual trust Gateful."
-                src="/playground_assets/brands-200h.png"
-                loading="eager"
-                className="home-image"
+                alt="profile"
+                src="/playground_assets/headshot2022bpng-200w.png"
+                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
+                className="unlock-token-gate-signature-request-image"
               />
+              <span className="unlock-token-gate-signature-request-text011">
+                <span>J. Eric Hill</span>
+                <br></br>
+              </span>
             </div>
-          </div>
+          </header>
         </section>
-        <section className="home-features">
-          <div className="home-title">
-            <span className="home-text018">
+        <section className="unlock-token-gate-signature-request-features">
+          <div className="unlock-token-gate-signature-request-title">
+            <span className="unlock-token-gate-signature-request-text014">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -192,7 +165,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="home-text022">
+            <span className="unlock-token-gate-signature-request-text018">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -204,41 +177,47 @@ closeButton.addEventListener("click", function() {
               <span>eiusmod tempor incididunt.</span>
             </span>
           </div>
-          <div className="home-cards">
-            <div className="home-container1">
+          <div className="unlock-token-gate-signature-request-cards">
+            <div className="unlock-token-gate-signature-request-container1">
               <div className="card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-fii6m-200h.png"
-                  className="home-icon04"
+                  className="unlock-token-gate-signature-request-icon02"
                 />
-                <span className="home-text025">Schedule</span>
-                <span className="home-text026">
+                <span className="unlock-token-gate-signature-request-text021">
+                  Schedule
+                </span>
+                <span className="unlock-token-gate-signature-request-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
               </div>
-              <div className="home-publish card">
+              <div className="unlock-token-gate-signature-request-publish card">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-mimg-200h.png"
-                  className="home-icon05"
+                  className="unlock-token-gate-signature-request-icon03"
                 />
-                <span className="home-text027">Publish</span>
-                <span className="home-text028">
+                <span className="unlock-token-gate-signature-request-text023">
+                  Publish
+                </span>
+                <span className="unlock-token-gate-signature-request-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
             </div>
-            <div className="home-container2">
-              <div className="card home-analyze">
+            <div className="unlock-token-gate-signature-request-container2">
+              <div className="card unlock-token-gate-signature-request-analyze">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-l6p-200h.png"
-                  className="home-icon06"
+                  className="unlock-token-gate-signature-request-icon04"
                 />
-                <span className="home-text029">Analyze</span>
-                <span className="home-text030">
+                <span className="unlock-token-gate-signature-request-text025">
+                  Analyze
+                </span>
+                <span className="unlock-token-gate-signature-request-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -247,10 +226,12 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-vyi5-200h.png"
-                  className="home-icon07"
+                  className="unlock-token-gate-signature-request-icon05"
                 />
-                <span className="home-text031">Get leads</span>
-                <span className="home-text032">
+                <span className="unlock-token-gate-signature-request-text027">
+                  Get leads
+                </span>
+                <span className="unlock-token-gate-signature-request-text028">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,119 +239,201 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-banners">
-          <div className="home-banner-advanced-analytics">
-            <div className="home-centered-container">
-              <div className="home-image-container">
-                <img
-                  alt="Manage on-chain access control with Gateful "
-                  src="/playground_assets/2xscreen-1300w.png"
-                  loading="eager"
-                  className="home-cards-image"
+        <section className="unlock-token-gate-signature-request-banners">
+          <div className="unlock-token-gate-signature-request-blog">
+            <h2 className="unlock-token-gate-signature-request-text029">
+              As the world of online communities and digital content continues
+              to grow, creators and platforms are seeking new ways to protect
+              access, validate users, and promote exclusivity.
+            </h2>
+            <span className="unlock-token-gate-signature-request-text030">
+              <span>
+                Enter token gating, a novel approach to ensuring only qualified
+                individuals gain entry to specific online spaces. In this
+                article, we will dive into the concept of token gating and, more
+                specifically, demystify the signature request – a crucial
+                component of the process. Let&apos;s start by understanding what
+                token gating is and how it works.
+              </span>
+              <br></br>
+            </span>
+            <h2 className="unlock-token-gate-signature-request-text033">
+              Token Gating: An Overview
+            </h2>
+            <span className="unlock-token-gate-signature-request-text034">
+              Token gating is a method used by creators and platforms to limit
+              access to content or communities by requiring users to possess a
+              specific digital token. These tokens, often built on blockchain
+              technology, can represent membership, ownership, or any other form
+              of entitlement. The token gating process ensures that users meet
+              specific criteria before they can access the restricted content or
+              community.
+            </span>
+            <h2 className="unlock-token-gate-signature-request-text035">
+              The Signature Request: A Key Component
+            </h2>
+            <span className="unlock-token-gate-signature-request-text036">
+              <span>
+                A signature request is a crucial step in the token gating
+                process, acting as a verification tool for both the user and the
+                platform. It is a form of interaction between a user&apos;s
+                digital wallet, which holds their tokens, and the platform
+                requesting verification of their token ownership.
+              </span>
+              <br></br>
+            </span>
+            <h3 className="unlock-token-gate-signature-request-text039">
+              The process typically unfolds as follows:
+            </h3>
+            <ul className="list">
+              <li className="list-item">
+                <span className="unlock-token-gate-signature-request-text040">
+                  A user attempts to access token-gated content or a community.
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="unlock-token-gate-signature-request-text041">
+                  The platform requests a signature from the user&apos;s digital
+                  wallet to verify their token ownership.
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="unlock-token-gate-signature-request-text042">
+                  The user&apos;s wallet generates a unique, one-time-use
+                  signature that proves their ownership of the required token.
+                </span>
+              </li>
+              <li className="list-item">
+                <span className="unlock-token-gate-signature-request-text043">
+                  The platform verifies the signature, granting access to the
+                  user if the criteria are met.
+                </span>
+              </li>
+            </ul>
+            <h2 className="unlock-token-gate-signature-request-text044">
+              Importance of Signature Requests in Token Gating
+            </h2>
+            <h3 className="unlock-token-gate-signature-request-text045">
+              Signature requests play a vital role in token gating for several
+              reasons:
+            </h3>
+            <span className="unlock-token-gate-signature-request-text046">
+              <span className="unlock-token-gate-signature-request-text047">
+                Security:
+              </span>
+              <span>
+                {' '}
+                A signature request ensures that only the rightful owner of a
+                token can access gated content. The unique signature generated
+                by the user&apos;s wallet prevents unauthorized access, even if
+                another party knows the user&apos;s public wallet address.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="unlock-token-gate-signature-request-text051">
+                Decentralization:
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
                 />
-              </div>
-              <div className="home-right1">
-                <h2 className="home-text033 title">
-                  On-chain access control, simplified
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </h2>
-                <div className="home-category">
-                  <span className="home-text034">
-                    Add Web3 Token Gating functionality to your existing website
-                    or web application without writing code. Our integration
-                    with LIT Protocol allows you to create multiple token gates
-                    within the same experience. Create on-chain conditions
-                    unique to your audience and requirements. Integrate with
-                    major blockchain networks.
-                  </span>
-                </div>
-                <div className="home-category1">
-                  <img
-                    alt="Gateful Supports Ethereum, Polygon, Binance, and Solana"
-                    src="/playground_assets/2xblockchains-1100w.png"
-                    className="home-image1"
-                  />
-                </div>
-              </div>
-            </div>
+              </span>
+              <span>
+                By relying on blockchain technology, token gating sidesteps
+                centralized control points, such as a single database or server.
+                This decentralized approach enhances security and reduces the
+                risk of a single point of failure.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="unlock-token-gate-signature-request-text055">
+                Privacy:
+              </span>
+              <span>
+                {' '}
+                Signature requests do not require users to share sensitive
+                information, like personal details or passwords, with the
+                platform. The process relies only on the user&apos;s digital
+                wallet, maintaining their privacy while still allowing for
+                verification.
+              </span>
+              <br></br>
+              <br></br>
+              <span className="unlock-token-gate-signature-request-text059">
+                Flexibility:
+              </span>
+              <span>
+                {' '}
+                Token gating can be applied to various types of content and
+                communities, from social media platforms and forums to exclusive
+                digital art collections. The signature request process remains
+                consistent across these applications, providing a versatile
+                solution for creators and platforms.
+              </span>
+              <br></br>
+            </span>
+            <span className="unlock-token-gate-signature-request-text062">
+              Token gating is an innovative method to protect exclusive content
+              and communities in the digital age. The signature request serves
+              as a secure, decentralized, and privacy-friendly way of verifying
+              token ownership, ensuring that only the rightful users gain
+              access. As the world of digital content and online communities
+              continues to evolve, token gating and signature requests are
+              poised to become increasingly important in maintaining
+              exclusivity, security, and privacy for users and creators alike.
+            </span>
           </div>
-          <div className="home-banner-manage">
-            <div className="home-container3">
-              <div className="home-left1">
-                <span className="sub-title">Content Management</span>
-                <span className="home-text036 title">
-                  Manage all your platforms in just one place.
+          <div className="unlock-token-gate-signature-request-blog1">
+            <h2 className="unlock-token-gate-signature-request-text063">
+              Gateful is the easiest way to token gate any website or web
+              application.
+            </h2>
+            <span className="unlock-token-gate-signature-request-text064">
+              If you&apos;re looking to add Web3 Token Gating functionality to
+              your website or web application and do not know where to start,
+              contact our Web3 implementation team for a demo.
+            </span>
+            <a
+              href="https://ondemand.openmedium.biz/#/customer/4313645000001425224"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="unlock-token-gate-signature-request-link5"
+            >
+              <div className="unlock-token-gate-signature-request-get-started1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="unlock-token-gate-signature-request-icon06"
+                >
+                  <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                </svg>
+                <span className="unlock-token-gate-signature-request-text065">
+                  Book a Demo
                 </span>
-                <span className="home-text037">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started2 template-button">
-                  <span className="home-text038">Get started</span>
-                </div>
               </div>
-              <div className="home-image-container1">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/pastedimage-wvmq%201-1200w.png"
-                  className="home-cards-image1"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="home-banner">
-            <div className="home-container4">
-              <div className="home-left2">
-                <span className="home-text039">Improve Scheduling</span>
-                <h2 className="home-text040 title">
-                  Powerful scheduler that saves you time
-                </h2>
-                <span className="home-text041">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  vv
-                </span>
-                <div className="home-get-started3 template-button">
-                  <span className="home-text042">Get started</span>
-                </div>
-              </div>
-              <div className="home-image-container2">
-                <img
-                  alt="pastedImage"
-                  src="/playground_assets/83d913a38a75e38d7cef4fea757ed7ed-1200w.png"
-                  className="home-cards-image2"
-                />
-              </div>
-            </div>
+            </a>
           </div>
         </section>
-        <Frameworks></Frameworks>
-        <section className="home-integrations">
-          <div className="home-centered-container1">
-            <div className="home-heading">
+        <section className="unlock-token-gate-signature-request-integrations">
+          <div className="unlock-token-gate-signature-request-centered-container">
+            <div className="unlock-token-gate-signature-request-heading">
               <span className="sub-title">Integrations</span>
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="home-text045">
+              <span className="unlock-token-gate-signature-request-text068">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
-            <div className="home-pills-container">
-              <div className="home-pills">
-                <div className="home-container5">
+            <div className="unlock-token-gate-signature-request-pills-container">
+              <div className="unlock-token-gate-signature-request-pills">
+                <div className="unlock-token-gate-signature-request-container3">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="home-container6">
+                <div className="unlock-token-gate-signature-request-container4">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -380,18 +443,19 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <Testimonial></Testimonial>
-        <section className="home-how-it-works">
-          <div className="home-centered-container2">
-            <div className="home-heading1">
-              <span className="home-text046">How it works</span>
-              <span className="home-text047 title">
+        <section className="unlock-token-gate-signature-request-how-it-works">
+          <div className="unlock-token-gate-signature-request-centered-container1">
+            <div className="unlock-token-gate-signature-request-heading1">
+              <span className="unlock-token-gate-signature-request-text069">
+                How it works
+              </span>
+              <span className="unlock-token-gate-signature-request-text070 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
-            <div className="home-category2">
-              <div className="home-headng">
-                <span className="home-text048">
+            <div className="unlock-token-gate-signature-request-category">
+              <div className="unlock-token-gate-signature-request-headng">
+                <span className="unlock-token-gate-signature-request-text071">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -399,28 +463,32 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="home-text049">
+                <span className="unlock-token-gate-signature-request-text072">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
-                <div className="home-get-started4 template-button">
-                  <span className="home-text050">Get started</span>
+                <div className="unlock-token-gate-signature-request-get-started2 template-button">
+                  <span className="unlock-token-gate-signature-request-text073">
+                    Get started
+                  </span>
                 </div>
               </div>
-              <div className="home-container7">
+              <div className="unlock-token-gate-signature-request-container5">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
-                  className="home-pasted-image"
+                  className="unlock-token-gate-signature-request-pasted-image"
                 />
               </div>
             </div>
-            <div className="home-row">
-              <div className="home-category3">
-                <div className="home-headng1">
-                  <span className="home-text051">2 — Act</span>
-                  <span className="home-text052">
+            <div className="unlock-token-gate-signature-request-row">
+              <div className="unlock-token-gate-signature-request-category1">
+                <div className="unlock-token-gate-signature-request-headng1">
+                  <span className="unlock-token-gate-signature-request-text074">
+                    2 — Act
+                  </span>
+                  <span className="unlock-token-gate-signature-request-text075">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -429,13 +497,15 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-ibg-1200w.png"
-                  className="home-pasted-image1"
+                  className="unlock-token-gate-signature-request-pasted-image1"
                 />
               </div>
-              <div className="home-category4">
-                <div className="home-headng2">
-                  <span className="home-text053">2 — Act</span>
-                  <span className="home-text054">
+              <div className="unlock-token-gate-signature-request-category2">
+                <div className="unlock-token-gate-signature-request-headng2">
+                  <span className="unlock-token-gate-signature-request-text076">
+                    2 — Act
+                  </span>
+                  <span className="unlock-token-gate-signature-request-text077">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -444,184 +514,202 @@ closeButton.addEventListener("click", function() {
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-3c4o-1200w.png"
-                  className="home-pasted-image2"
+                  className="unlock-token-gate-signature-request-pasted-image2"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="home-pricing">
-          <div className="home-centered-container3">
-            <div className="home-heading2">
-              <span className="home-text055 title">
+        <section className="unlock-token-gate-signature-request-pricing">
+          <div className="unlock-token-gate-signature-request-centered-container2">
+            <div className="unlock-token-gate-signature-request-heading2">
+              <span className="unlock-token-gate-signature-request-text078 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="home-text056">
+              <span className="unlock-token-gate-signature-request-text079">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
-              <div className="home-selection">
-                <span className="home-text057">Monthly</span>
-                <span className="home-text058">Yearly</span>
+              <div className="unlock-token-gate-signature-request-selection">
+                <span className="unlock-token-gate-signature-request-text080">
+                  Monthly
+                </span>
+                <span className="unlock-token-gate-signature-request-text081">
+                  Yearly
+                </span>
               </div>
             </div>
-            <div className="home-cards1">
-              <div className="home-card">
-                <span className="home-text059">Free</span>
-                <span className="home-text060">
+            <div className="unlock-token-gate-signature-request-cards1">
+              <div className="unlock-token-gate-signature-request-card">
+                <span className="unlock-token-gate-signature-request-text082">
+                  Free
+                </span>
+                <span className="unlock-token-gate-signature-request-text083">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
-                <div className="home-get-started5 template-button">
-                  <span className="home-text061">Start for free</span>
+                <div className="unlock-token-gate-signature-request-get-started3 template-button">
+                  <span className="unlock-token-gate-signature-request-text084">
+                    Start for free
+                  </span>
                 </div>
-                <span className="home-text062">What&apos;s included</span>
-                <div className="home-bullet-points">
-                  <div className="home-point">
+                <span className="unlock-token-gate-signature-request-text085">
+                  What&apos;s included
+                </span>
+                <div className="unlock-token-gate-signature-request-bullet-points">
+                  <div className="unlock-token-gate-signature-request-point">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon08"
+                      className="unlock-token-gate-signature-request-icon08"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text063">
+                    <span className="unlock-token-gate-signature-request-text086">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point01">
+                  <div className="unlock-token-gate-signature-request-point01">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon10"
+                      className="unlock-token-gate-signature-request-icon10"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text064">
+                    <span className="unlock-token-gate-signature-request-text087">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card1">
-                <span className="home-text065">Pay as you go</span>
-                <span className="home-text066">
+              <div className="unlock-token-gate-signature-request-card1">
+                <span className="unlock-token-gate-signature-request-text088">
+                  Pay as you go
+                </span>
+                <span className="unlock-token-gate-signature-request-text089">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
                     lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
                 </span>
-                <div className="home-get-started6 template-button">
-                  <span className="home-text070">
+                <div className="unlock-token-gate-signature-request-get-started4 template-button">
+                  <span className="unlock-token-gate-signature-request-text093">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text073">What&apos;s included</span>
-                <div className="home-bullet-points1">
-                  <div className="home-point02">
+                <span className="unlock-token-gate-signature-request-text096">
+                  What&apos;s included
+                </span>
+                <div className="unlock-token-gate-signature-request-bullet-points1">
+                  <div className="unlock-token-gate-signature-request-point02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon12"
+                      className="unlock-token-gate-signature-request-icon12"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text074">
+                    <span className="unlock-token-gate-signature-request-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point03">
+                  <div className="unlock-token-gate-signature-request-point03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon14"
+                      className="unlock-token-gate-signature-request-icon14"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text075">
+                    <span className="unlock-token-gate-signature-request-text098">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point04">
+                  <div className="unlock-token-gate-signature-request-point04">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon16"
+                      className="unlock-token-gate-signature-request-icon16"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text076">
+                    <span className="unlock-token-gate-signature-request-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point05">
+                  <div className="unlock-token-gate-signature-request-point05">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon18"
+                      className="unlock-token-gate-signature-request-icon18"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text077">
+                    <span className="unlock-token-gate-signature-request-text100">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="home-card2">
-                <span className="home-text078">Enterprise</span>
-                <span className="home-text079">
+              <div className="unlock-token-gate-signature-request-card2">
+                <span className="unlock-token-gate-signature-request-text101">
+                  Enterprise
+                </span>
+                <span className="unlock-token-gate-signature-request-text102">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
                   </span>
                   <br></br>
                 </span>
-                <div className="home-get-started7 template-button">
-                  <span className="home-text082">
+                <div className="unlock-token-gate-signature-request-get-started5 template-button">
+                  <span className="unlock-token-gate-signature-request-text105">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="home-text085">What&apos;s included</span>
-                <div className="home-bullet-points2">
-                  <div className="home-point06">
+                <span className="unlock-token-gate-signature-request-text108">
+                  What&apos;s included
+                </span>
+                <div className="unlock-token-gate-signature-request-bullet-points2">
+                  <div className="unlock-token-gate-signature-request-point06">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon20"
+                      className="unlock-token-gate-signature-request-icon20"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text086">
+                    <span className="unlock-token-gate-signature-request-text109">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point07">
+                  <div className="unlock-token-gate-signature-request-point07">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon22"
+                      className="unlock-token-gate-signature-request-icon22"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text087">
+                    <span className="unlock-token-gate-signature-request-text110">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point08">
+                  <div className="unlock-token-gate-signature-request-point08">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="unlock-token-gate-signature-request-icon24"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text088">
+                    <span className="unlock-token-gate-signature-request-text111">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
-                  <div className="home-point09">
+                  <div className="unlock-token-gate-signature-request-point09">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="unlock-token-gate-signature-request-icon26"
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text089">
+                    <span className="unlock-token-gate-signature-request-text112">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -630,15 +718,17 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <section className="home-testimonals">
-          <div className="home-left3">
-            <span className="home-text090">Testimonals</span>
-            <span className="home-text091 title">
+        <section className="unlock-token-gate-signature-request-testimonals">
+          <div className="unlock-token-gate-signature-request-left1">
+            <span className="unlock-token-gate-signature-request-text113">
+              Testimonals
+            </span>
+            <span className="unlock-token-gate-signature-request-text114 title">
               What people say about Active
             </span>
           </div>
-          <div className="home-right2">
-            <div className="home-column">
+          <div className="unlock-token-gate-signature-request-right1">
+            <div className="unlock-token-gate-signature-request-column">
               <TestimonalBLurb
                 Quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
                 Avatar_src="/playground_assets/image552912-e3yq-200h.png"
@@ -662,7 +752,7 @@ closeButton.addEventListener("click", function() {
                 Avatar_src="/playground_assets/image202912-zekh-200h.png"
               ></TestimonalBLurb>
             </div>
-            <div className="home-column1">
+            <div className="unlock-token-gate-signature-request-column1">
               <TestimonalBLurb
                 From="Handsly"
                 Name="William McPau"
@@ -689,252 +779,49 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="home-text092">
+          <span className="unlock-token-gate-signature-request-text115">
             <span>Show more</span>
             <br></br>
           </span>
         </section>
-        <section className="home-action-bar">
-          <div className="home-action">
-            <div className="home-heading3">
-              <span className="home-text095 title">
+        <section className="unlock-token-gate-signature-request-action-bar">
+          <div className="unlock-token-gate-signature-request-action">
+            <div className="unlock-token-gate-signature-request-heading3">
+              <span className="unlock-token-gate-signature-request-text118 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="home-text099">
+              <span className="unlock-token-gate-signature-request-text122">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
-              <div className="home-get-started8 template-button">
-                <span className="home-text100">
+              <div className="unlock-token-gate-signature-request-get-started6 template-button">
+                <span className="unlock-token-gate-signature-request-text123">
                   <span>Start free</span>
                   <br></br>
                 </span>
               </div>
             </div>
-            <div className="home-images">
+            <div className="unlock-token-gate-signature-request-images">
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="home-image2"
+                className="unlock-token-gate-signature-request-image1"
               />
             </div>
           </div>
         </section>
-        <section className="home-faq">
-          <div className="home-heading4">
-            <span className="home-text103 title">
-              Frequently asked questions
-            </span>
-            <span className="home-text104">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
-            </span>
-          </div>
-          <div className="home-accordion">
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header1">
-                <span className="home-text105">
-                  — What is sit amet, consectetur adipiscing elit, sed do?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text106">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div className="accordionContainer">
-              <div className="home-header2">
-                <span className="home-text107">
-                  — Why is dolore magna aliqua excepteur sint
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text108">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header3">
-                <span className="home-text109">
-                  — Is excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum?
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text110">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header4">
-                <span className="home-text111">
-                  — Who quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                  enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                  aut fugit, sed quia consequuntur magni
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text112">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-            <div data-faq="closed" className="accordionContainer">
-              <div className="home-header5">
-                <span className="home-text113">
-                  — Is minim veniam quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <svg viewBox="0 0 1024 1024" className="accordionIcon">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-              <div className="accordionContent">
-                <span className="home-text114">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <DangerousHTML
-              html={`<script>
-// Accordion - Code Embed
-
-const accordionContainers = document.querySelectorAll(".accordionContainer"); // All accordion containers
-const accordionContents = document.querySelectorAll(".accordionContent"); // All accordion content
-const accordionIcons = document.querySelectorAll(".accordionIcon"); // All accordion icons
-
-accordionContents.forEach((accordionContent) => {
-    accordionContent.style.display = "none"; //Hides all accordion contents
-});
-
-accordionContainers.forEach((accordionContainer, index) => {
-    accordionContainer.addEventListener("click", () => {
-        accordionContents.forEach((accordionContent) => {
-            accordionContent.style.display = "none"; //Hides all accordion contents
-        });
-
-        accordionIcons.forEach((accordionIcon) => {
-            accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
-        });
-
-        if (accordionContainer.classList.contains("accordion-open")) { // Checks if this container has class "accordion-open"
-            accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open"
-        } else {
-            accordionContainers.forEach((accordionContainer) => {
-                accordionContainer.classList.remove("accordion-open"); // Removes class "accordion-open" from all containers
-            });
-
-            accordionContainer.classList.add("accordion-open"); // Adds class "accordion-open" to this container
-            accordionContents[index].style.display = "flex"; // Shows accordion content
-            accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
-        }
-    });
-});
-
-/*
-Here's what the above is doing:
-    1. Selects all accordion containers, contents, and icons
-    2. Hides all accordion contents
-    3. Adds an event listener to each accordion container
-    4. When an accordion container is clicked, it:
-        - Hides all accordion contents
-        - Resets all icon transforms to 0deg (default)
-        - Checks if this container has class "accordion-open"
-            - If it does, it removes class "accordion-open"
-            - If it doesn't, it:
-                - Removes class "accordion-open" from all containers
-                - Adds class "accordion-open" to this container
-                - Shows accordion content
-                - Rotates accordion icon 180deg
-*/
-</script>`}
-            ></DangerousHTML>
-          </div>
-        </section>
-        <footer className="home-footer">
-          <div className="home-top">
+        <footer className="unlock-token-gate-signature-request-footer">
+          <div className="unlock-token-gate-signature-request-top">
             <img
               alt="image"
               src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
+              className="unlock-token-gate-signature-request-image2"
             />
-            <span className="home-text115">
+            <span className="unlock-token-gate-signature-request-text126">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="home-text116">
+            <span className="unlock-token-gate-signature-request-text127">
               <span>
                 Built by
                 <span
@@ -947,7 +834,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link6"
+                className="unlock-token-gate-signature-request-link6"
               >
                 OpenMedium, Inc
               </a>
@@ -964,12 +851,12 @@ Here's what the above is doing:
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link7"
+                className="unlock-token-gate-signature-request-link7"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="home-text119">
+            <span className="unlock-token-gate-signature-request-text130">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -977,7 +864,7 @@ Here's what the above is doing:
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link8"
+                className="unlock-token-gate-signature-request-link8"
               >
                 Legal
               </a>
@@ -987,7 +874,7 @@ Here's what the above is doing:
       </div>
       <style jsx>
         {`
-          .home-container {
+          .unlock-token-gate-signature-request-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -995,38 +882,38 @@ Here's what the above is doing:
             overflow-x: hidden;
             flex-direction: column;
           }
-          .home-hero {
+          .unlock-token-gate-signature-request-hero {
             width: 100%;
-            height: 716px;
+            height: auto;
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-oneandhalfunits);
             padding-left: var(--dl-space-space-sevenunits);
             padding-right: var(--dl-space-space-sevenunits);
             flex-direction: column;
-            background-size: cover;
+            background-size: cover, contain;
             background-image: linear-gradient(
                 135deg,
-                rgba(16, 138, 130, 0.75) 0%,
-                rgba(18, 16, 74, 0.8) 50%,
+                rgba(16, 138, 130, 0.8) 0%,
+                rgba(18, 16, 74, 0.8) 48%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
-              url('/playground_assets/fractal%20image%209-1500w.png');
+              url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNjEyOTc1&ixlib=rb-4.0.3&w=1500');
             background-position: top left, center;
           }
-          .home-menu {
+          .unlock-token-gate-signature-request-menu {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-desktop-navigation {
+          .unlock-token-gate-signature-request-desktop-navigation {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-centered {
+          .unlock-token-gate-signature-request-centered {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -1038,7 +925,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-left {
+          .unlock-token-gate-signature-request-left {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1046,35 +933,35 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: 38px;
           }
-          .home-link {
+          .unlock-token-gate-signature-request-link {
             display: contents;
           }
-          .home-logo {
+          .unlock-token-gate-signature-request-logo {
             width: 200px;
             margin-left: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .home-links {
+          .unlock-token-gate-signature-request-links {
             align-items: center;
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link1 {
+          .unlock-token-gate-signature-request-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link2 {
+          .unlock-token-gate-signature-request-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link3 {
+          .unlock-token-gate-signature-request-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-right {
+          .unlock-token-gate-signature-request-right {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1082,16 +969,16 @@ Here's what the above is doing:
             flex-direction: row;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-sign-in {
+          .unlock-token-gate-signature-request-sign-in {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link4 {
+          .unlock-token-gate-signature-request-link4 {
             display: contents;
           }
-          .home-get-started {
+          .unlock-token-gate-signature-request-get-started {
             cursor: pointer;
             display: flex;
             box-shadow: 5px 5px 0px 1px #db2763;
@@ -1107,21 +994,21 @@ Here's what the above is doing:
             text-decoration: none;
             background-color: var(--dl-color-primary-700);
           }
-          .home-get-started:hover {
+          .unlock-token-gate-signature-request-get-started:hover {
             background-color: var(--dl-color-gray-white);
           }
-          .home-icon {
+          .unlock-token-gate-signature-request-icon {
             fill: var(--dl-color-primary-100);
             width: 20px;
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text004 {
+          .unlock-token-gate-signature-request-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
           }
-          .home-header {
+          .unlock-token-gate-signature-request-header {
             width: 70%;
             display: flex;
             max-width: 1280px;
@@ -1130,7 +1017,7 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text007 {
+          .unlock-token-gate-signature-request-text007 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1138,95 +1025,34 @@ Here's what the above is doing:
             font-weight: 700;
             line-height: 80px;
           }
-          .home-text008 {
+          .unlock-token-gate-signature-request-text008 {
             color: rgb(238, 233, 254);
             width: 90%;
-            font-size: 20px;
+            font-size: 24px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-link5 {
-            display: contents;
-          }
-          .home-get-started1 {
-            color: white;
-            cursor: pointer;
+          .unlock-token-gate-signature-request-profile {
             display: flex;
-            box-shadow: 5px 5px 0px 1px #db2763;
-            margin-top: 40px;
-            transition: 0.3s;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 10px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-unit);
-            justify-content: center;
-            text-decoration: none;
-            background-color: var(--dl-color-primary-700);
-          }
-          .home-get-started1:hover {
-            color: black;
-            background-color: #ffffff;
-          }
-          .home-icon02 {
-            fill: var(--dl-color-primary-100);
-            width: 20px;
-            height: 20px;
-            margin-right: var(--dl-space-space-halfunit);
-          }
-          .home-text009 {
-            color: var(--dl-color-primary-100);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-dashboard-preview {
-            width: 100%;
-            height: 182px;
-            display: flex;
-            z-index: 1;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-          }
-          .home-outline {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            border-color: var(--dl-color-primary-100);
-            border-width: 2px;
-            padding-left: var(--dl-space-space-twounits);
-            border-radius: 20px;
-            padding-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-text010 {
-            color: var(--dl-color-primary-100);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text012 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text014 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-text016 {
-            color: var(--dl-color-primary-300);
-          }
-          .home-image {
-            width: 90%;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            object-fit: cover;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-features {
+          .unlock-token-gate-signature-request-image {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .unlock-token-gate-signature-request-text011 {
+            color: var(--dl-color-gray-white);
+            font-size: 20px;
+            font-weight: 300;
+            margin-left: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-features {
             width: 100%;
             height: 1388px;
             display: none;
@@ -1238,25 +1064,25 @@ Here's what the above is doing:
             flex-direction: column;
             background-color: EFF0F2;
           }
-          .home-title {
+          .unlock-token-gate-signature-request-title {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text018 {
+          .unlock-token-gate-signature-request-text014 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .home-text022 {
+          .unlock-token-gate-signature-request-text018 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
           }
-          .home-cards {
+          .unlock-token-gate-signature-request-cards {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1264,7 +1090,7 @@ Here's what the above is doing:
             align-items: center;
             flex-direction: column;
           }
-          .home-container1 {
+          .unlock-token-gate-signature-request-container1 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1272,40 +1098,40 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .home-icon04 {
+          .unlock-token-gate-signature-request-icon02 {
             width: 32px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text025 {
+          .unlock-token-gate-signature-request-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text026 {
+          .unlock-token-gate-signature-request-text022 {
             line-height: 24px;
           }
-          .home-publish {
+          .unlock-token-gate-signature-request-publish {
             height: initial;
           }
-          .home-icon05 {
+          .unlock-token-gate-signature-request-icon03 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text027 {
+          .unlock-token-gate-signature-request-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text028 {
+          .unlock-token-gate-signature-request-text024 {
             line-height: 24px;
           }
-          .home-container2 {
+          .unlock-token-gate-signature-request-container2 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1313,234 +1139,187 @@ Here's what the above is doing:
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
           }
-          .home-icon06 {
+          .unlock-token-gate-signature-request-icon04 {
             width: 35px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text029 {
+          .unlock-token-gate-signature-request-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .home-text030 {
+          .unlock-token-gate-signature-request-text026 {
             line-height: 24px;
           }
-          .home-icon07 {
+          .unlock-token-gate-signature-request-icon05 {
             width: 30px;
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text031 {
+          .unlock-token-gate-signature-request-text027 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text032 {
+          .unlock-token-gate-signature-request-text028 {
             line-height: 24px;
           }
-          .home-banners {
+          .unlock-token-gate-signature-request-banners {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-advanced-analytics {
+          .unlock-token-gate-signature-request-blog {
             width: 100%;
             display: flex;
+            max-width: 900px;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: flex-start;
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .unlock-token-gate-signature-request-text029 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text030 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-text033 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text034 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-text035 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text036 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-text039 {
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text040 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text041 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text042 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text043 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text044 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text045 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text046 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-text047 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .unlock-token-gate-signature-request-text051 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .unlock-token-gate-signature-request-text055 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .unlock-token-gate-signature-request-text059 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .unlock-token-gate-signature-request-text062 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-blog1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            max-width: 900px;
+            box-shadow: 5px 5px 0px 1px #dbfe87;
             align-items: center;
-            padding-top: 180px;
-            padding-left: var(--dl-space-space-sixunits);
-            padding-right: var(--dl-space-space-sixunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
+            border-color: var(--dl-color-primary-700);
+            border-width: 1px;
+            border-radius: 20px;
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+            justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .home-centered-container {
-            width: 100%;
+          .unlock-token-gate-signature-request-text063 {
+            text-align: center;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text064 {
+            font-size: 19px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-link5 {
+            display: contents;
+          }
+          .unlock-token-gate-signature-request-get-started1 {
+            color: white;
+            cursor: pointer;
             display: flex;
-            max-width: 1280px;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-image-container {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-          }
-          .home-cards-image {
-            width: 100%;
-            height: 100%;
-            box-shadow: 5px 5px 0px 1px #dbfe87;
-            object-fit: contain;
-            border-radius: 20px;
-          }
-          .home-right1 {
-            flex: 1;
-            display: flex;
-            margin-left: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text033 {
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 0px;
-          }
-          .home-category {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-          }
-          .home-text034 {
-            color: rgb(0, 0, 0);
-            font-size: 18px;
-            line-height: 24px;
-            margin-bottom: 0px;
-          }
-          .home-category1 {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image1 {
-            width: 80%;
-            object-fit: cover;
-          }
-          .home-banner-manage {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container3 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-left1 {
-            flex: 1;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-          }
-          .home-text036 {
-            text-align: left;
-          }
-          .home-text037 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started2 {
+            box-shadow: 5px 5px 0px 1px #db2763;
             transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started2:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text038 {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .home-image-container1 {
-            flex: 1;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-cards-image1 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            user-select: none;
-          }
-          .home-banner {
-            width: 100%;
-            display: none;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-sevenunits);
-            padding-right: var(--dl-space-space-sevenunits);
-            flex-direction: row;
-            padding-bottom: var(--dl-space-space-sixunits);
-            justify-content: center;
-          }
-          .home-container4 {
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-left2 {
-            flex: 1;
-            display: flex;
             align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            border-radius: 10px;
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-primary-700);
           }
-          .home-text039 {
-            color: rgb(82, 40, 245);
-            font-style: normal;
-            font-weight: 600;
-            margin-bottom: 24px;
+          .unlock-token-gate-signature-request-get-started1:hover {
+            color: black;
+            background-color: #ffffff;
           }
-          .home-text040 {
-            text-align: left;
+          .unlock-token-gate-signature-request-icon06 {
+            fill: var(--dl-color-primary-100);
+            width: 20px;
+            height: 20px;
+            margin-right: var(--dl-space-space-halfunit);
           }
-          .home-text041 {
-            color: rgb(0, 0, 0);
-            line-height: 24px;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-get-started3 {
-            transition: 0.3s;
-            margin-bottom: 0;
-          }
-          .home-get-started3:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-template-blue-bg);
-          }
-          .home-text042 {
+          .unlock-token-gate-signature-request-text065 {
+            color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-image-container2 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-cards-image2 {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-          }
-          .home-integrations {
+          .unlock-token-gate-signature-request-integrations {
             width: 100%;
             display: none;
             padding: var(--dl-space-space-sevenunits);
@@ -1549,7 +1328,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #eff0f2;
           }
-          .home-centered-container1 {
+          .unlock-token-gate-signature-request-centered-container {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1557,24 +1336,24 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading {
+          .unlock-token-gate-signature-request-heading {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text045 {
+          .unlock-token-gate-signature-request-text068 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-pills-container {
+          .unlock-token-gate-signature-request-pills-container {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-pills {
+          .unlock-token-gate-signature-request-pills {
             width: 100%;
             display: flex;
             grid-gap: var(--dl-space-space-twounits);
@@ -1583,14 +1362,14 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-container5 {
+          .unlock-token-gate-signature-request-container3 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container6 {
+          .unlock-token-gate-signature-request-container4 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1598,7 +1377,7 @@ Here's what the above is doing:
             flex-direction: row;
             justify-content: center;
           }
-          .home-how-it-works {
+          .unlock-token-gate-signature-request-how-it-works {
             width: 100%;
             display: none;
             align-items: center;
@@ -1609,7 +1388,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             background-color: #211062;
           }
-          .home-centered-container2 {
+          .unlock-token-gate-signature-request-centered-container1 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -1618,22 +1397,22 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-heading1 {
+          .unlock-token-gate-signature-request-heading1 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text046 {
+          .unlock-token-gate-signature-request-text069 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text047 {
+          .unlock-token-gate-signature-request-text070 {
             color: var(--dl-color-gray-white);
           }
-          .home-category2 {
+          .unlock-token-gate-signature-request-category {
             color: white;
             width: 100%;
             display: flex;
@@ -1644,7 +1423,7 @@ Here's what the above is doing:
             flex-direction: row;
             background-color: #5228f5;
           }
-          .home-headng {
+          .unlock-token-gate-signature-request-headng {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -1654,49 +1433,49 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text048 {
+          .unlock-token-gate-signature-request-text071 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text049 {
+          .unlock-token-gate-signature-request-text072 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
           }
-          .home-get-started4 {
+          .unlock-token-gate-signature-request-get-started2 {
             margin-bottom: 0px;
           }
-          .home-get-started4:hover {
+          .unlock-token-gate-signature-request-get-started2:hover {
             color: black;
             background-color: #ffffff;
           }
-          .home-text050 {
+          .unlock-token-gate-signature-request-text073 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-container7 {
+          .unlock-token-gate-signature-request-container5 {
             flex: 1;
             height: 100%;
             display: flex;
             align-self: flex-end;
             flex-direction: row;
           }
-          .home-pasted-image {
+          .unlock-token-gate-signature-request-pasted-image {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
             object-fit: contain;
           }
-          .home-row {
+          .unlock-token-gate-signature-request-row {
             display: flex;
             grid-gap: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
           }
-          .home-category3 {
+          .unlock-token-gate-signature-request-category1 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1708,7 +1487,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #ffffff;
           }
-          .home-headng1 {
+          .unlock-token-gate-signature-request-headng1 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1718,21 +1497,21 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text051 {
+          .unlock-token-gate-signature-request-text074 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text052 {
+          .unlock-token-gate-signature-request-text075 {
             color: #1e1e1e;
             line-height: 24px;
           }
-          .home-pasted-image1 {
+          .unlock-token-gate-signature-request-pasted-image1 {
             width: 100%;
           }
-          .home-category4 {
+          .unlock-token-gate-signature-request-category2 {
             flex: 1;
             color: white;
             height: 555px;
@@ -1744,7 +1523,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #000000;
           }
-          .home-headng2 {
+          .unlock-token-gate-signature-request-headng2 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -1754,22 +1533,22 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .home-text053 {
+          .unlock-token-gate-signature-request-text076 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .home-text054 {
+          .unlock-token-gate-signature-request-text077 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
-          .home-pasted-image2 {
+          .unlock-token-gate-signature-request-pasted-image2 {
             width: 100%;
             object-fit: contain;
           }
-          .home-pricing {
+          .unlock-token-gate-signature-request-pricing {
             width: 100%;
             display: none;
             align-items: center;
@@ -1781,7 +1560,7 @@ Here's what the above is doing:
             justify-content: center;
             background-color: #5228f5;
           }
-          .home-centered-container3 {
+          .unlock-token-gate-signature-request-centered-container2 {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -1789,30 +1568,30 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-heading2 {
+          .unlock-token-gate-signature-request-heading2 {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-text055 {
+          .unlock-token-gate-signature-request-text078 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .home-text056 {
+          .unlock-token-gate-signature-request-text079 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-selection {
+          .unlock-token-gate-signature-request-selection {
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-text057 {
+          .unlock-token-gate-signature-request-text080 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1823,7 +1602,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-text058 {
+          .unlock-token-gate-signature-request-text081 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1834,7 +1613,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .home-cards1 {
+          .unlock-token-gate-signature-request-cards1 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1844,7 +1623,7 @@ Here's what the above is doing:
             justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-card {
+          .unlock-token-gate-signature-request-card {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1858,77 +1637,77 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text059 {
+          .unlock-token-gate-signature-request-text082 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text060 {
+          .unlock-token-gate-signature-request-text083 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started5 {
+          .unlock-token-gate-signature-request-get-started3 {
             transition: 0.3s;
           }
-          .home-get-started5:hover {
+          .unlock-token-gate-signature-request-get-started3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text061 {
+          .unlock-token-gate-signature-request-text084 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text062 {
+          .unlock-token-gate-signature-request-text085 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points {
+          .unlock-token-gate-signature-request-bullet-points {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point {
+          .unlock-token-gate-signature-request-point {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon08 {
+          .unlock-token-gate-signature-request-icon08 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text063 {
+          .unlock-token-gate-signature-request-text086 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point01 {
+          .unlock-token-gate-signature-request-point01 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon10 {
+          .unlock-token-gate-signature-request-icon10 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text064 {
+          .unlock-token-gate-signature-request-text087 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card1 {
+          .unlock-token-gate-signature-request-card1 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1943,111 +1722,111 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-text065 {
+          .unlock-token-gate-signature-request-text088 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text066 {
+          .unlock-token-gate-signature-request-text089 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started6 {
+          .unlock-token-gate-signature-request-get-started4 {
             transition: 0.3s;
           }
-          .home-get-started6:hover {
+          .unlock-token-gate-signature-request-get-started4:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text070 {
+          .unlock-token-gate-signature-request-text093 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .home-text073 {
+          .unlock-token-gate-signature-request-text096 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points1 {
+          .unlock-token-gate-signature-request-bullet-points1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point02 {
+          .unlock-token-gate-signature-request-point02 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon12 {
+          .unlock-token-gate-signature-request-icon12 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text074 {
+          .unlock-token-gate-signature-request-text097 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point03 {
+          .unlock-token-gate-signature-request-point03 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon14 {
+          .unlock-token-gate-signature-request-icon14 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text075 {
+          .unlock-token-gate-signature-request-text098 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point04 {
+          .unlock-token-gate-signature-request-point04 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon16 {
+          .unlock-token-gate-signature-request-icon16 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text076 {
+          .unlock-token-gate-signature-request-text099 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point05 {
+          .unlock-token-gate-signature-request-point05 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon18 {
+          .unlock-token-gate-signature-request-icon18 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text077 {
+          .unlock-token-gate-signature-request-text100 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-card2 {
+          .unlock-token-gate-signature-request-card2 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -2061,33 +1840,33 @@ Here's what the above is doing:
             justify-content: flex-start;
             background-color: #000000;
           }
-          .home-text078 {
+          .unlock-token-gate-signature-request-text101 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-text079 {
+          .unlock-token-gate-signature-request-text102 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
-          .home-get-started7 {
+          .unlock-token-gate-signature-request-get-started5 {
             color: var(--dl-color-gray-black);
             transition: 0.3s;
             background-color: #ffffff;
           }
-          .home-get-started7:hover {
+          .unlock-token-gate-signature-request-get-started5:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .home-text082 {
+          .unlock-token-gate-signature-request-text105 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-text085 {
+          .unlock-token-gate-signature-request-text108 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -2095,84 +1874,84 @@ Here's what the above is doing:
             line-height: 27px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-bullet-points2 {
+          .unlock-token-gate-signature-request-bullet-points2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-point06 {
+          .unlock-token-gate-signature-request-point06 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon20 {
+          .unlock-token-gate-signature-request-icon20 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text086 {
+          .unlock-token-gate-signature-request-text109 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point07 {
+          .unlock-token-gate-signature-request-point07 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon22 {
+          .unlock-token-gate-signature-request-icon22 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text087 {
+          .unlock-token-gate-signature-request-text110 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point08 {
+          .unlock-token-gate-signature-request-point08 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon24 {
+          .unlock-token-gate-signature-request-icon24 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text088 {
+          .unlock-token-gate-signature-request-text111 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-point09 {
+          .unlock-token-gate-signature-request-point09 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
           }
-          .home-icon26 {
+          .unlock-token-gate-signature-request-icon26 {
             fill: #5228f5;
             width: 8px;
             height: 8px;
           }
-          .home-text089 {
+          .unlock-token-gate-signature-request-text112 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             margin-left: var(--dl-space-space-halfunit);
           }
-          .home-testimonals {
+          .unlock-token-gate-signature-request-testimonals {
             width: 100%;
             display: none;
             padding-top: var(--dl-space-space-sixunits);
@@ -2182,7 +1961,7 @@ Here's what the above is doing:
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .home-left3 {
+          .unlock-token-gate-signature-request-left1 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2190,35 +1969,35 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text090 {
+          .unlock-token-gate-signature-request-text113 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .home-text091 {
+          .unlock-token-gate-signature-request-text114 {
             text-align: left;
           }
-          .home-right2 {
+          .unlock-token-gate-signature-request-right1 {
             gap: 40px;
             display: flex;
             flex-direction: row;
           }
-          .home-column {
+          .unlock-token-gate-signature-request-column {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-column1 {
+          .unlock-token-gate-signature-request-column1 {
             gap: 40px;
             display: flex;
             flex-direction: column;
           }
-          .home-text092 {
+          .unlock-token-gate-signature-request-text115 {
             cursor: pointer;
             display: none;
           }
-          .home-action-bar {
+          .unlock-token-gate-signature-request-action-bar {
             width: 100%;
             display: none;
             padding: 120px;
@@ -2226,7 +2005,7 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-action {
+          .unlock-token-gate-signature-request-action {
             width: 100%;
             display: flex;
             max-width: 1200px;
@@ -2236,7 +2015,7 @@ Here's what the above is doing:
             justify-content: space-between;
             background-color: #5228f5;
           }
-          .home-heading3 {
+          .unlock-token-gate-signature-request-heading3 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -2245,164 +2024,48 @@ Here's what the above is doing:
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .home-text095 {
+          .unlock-token-gate-signature-request-text118 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .home-text099 {
+          .unlock-token-gate-signature-request-text122 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-get-started8 {
+          .unlock-token-gate-signature-request-get-started6 {
             margin-bottom: 0px;
           }
-          .home-text100 {
+          .unlock-token-gate-signature-request-text123 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .home-images {
+          .unlock-token-gate-signature-request-images {
             display: flex;
             align-items: flex-end;
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image2 {
+          .unlock-token-gate-signature-request-image1 {
             width: 100%;
             object-fit: cover;
             user-select: none;
           }
-          .home-faq {
-            width: 100%;
-            display: none;
-            padding: 120px;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 120px;
-            justify-content: center;
-            background-color: #eff0f2;
-          }
-          .home-heading4 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            user-select: none;
-            flex-direction: column;
-          }
-          .home-text103 {
-            text-align: center;
-          }
-          .home-text104 {
-            color: rgb(0, 0, 0);
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-fiveunits);
-          }
-          .home-accordion {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
-            display: flex;
-            max-width: 1200px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-header1 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text105 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text106 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header2 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text107 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text108 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header3 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text109 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text110 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header4 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text111 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text112 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-header5 {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-          }
-          .home-text113 {
-            width: 100%;
-            font-size: 20px;
-            max-width: 760px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .home-text114 {
-            width: 100%;
-            max-width: 760px;
-            line-height: 24px;
-          }
-          .home-footer {
+          .unlock-token-gate-signature-request-footer {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
           }
-          .home-top {
+          .unlock-token-gate-signature-request-top {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -2410,171 +2073,140 @@ Here's what the above is doing:
             flex-direction: column;
             justify-content: center;
           }
-          .home-image3 {
+          .unlock-token-gate-signature-request-image2 {
             width: 240px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text115 {
+          .unlock-token-gate-signature-request-text126 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text116 {
+          .unlock-token-gate-signature-request-text127 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-link6 {
+          .unlock-token-gate-signature-request-link6 {
             text-decoration: underline;
           }
-          .home-link7 {
+          .unlock-token-gate-signature-request-link7 {
             text-decoration: underline;
           }
-          .home-text119 {
+          .unlock-token-gate-signature-request-text130 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .home-link8 {
+          .unlock-token-gate-signature-request-link8 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 788px;
+            .unlock-token-gate-signature-request-hero {
+              height: auto;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 660px;
+            .unlock-token-gate-signature-request-hero {
+              height: auto;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-desktop-navigation {
+            .unlock-token-gate-signature-request-desktop-navigation {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-centered {
+            .unlock-token-gate-signature-request-centered {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
             }
-            .home-left {
+            .unlock-token-gate-signature-request-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .home-links {
+            .unlock-token-gate-signature-request-links {
               display: none;
             }
-            .home-header {
+            .unlock-token-gate-signature-request-header {
               width: 100%;
               max-width: 1200px;
             }
-            .home-outline {
-              width: auto;
-            }
-            .home-text010 {
-              font-size: 22px;
-            }
-            .home-image {
-              width: 100%;
-            }
-            .home-features {
+            .unlock-token-gate-signature-request-features {
               padding-top: 260px;
             }
-            .home-title {
+            .unlock-token-gate-signature-request-title {
               width: 100%;
               max-width: 1200px;
             }
-            .home-text018 {
+            .unlock-token-gate-signature-request-text014 {
               font-size: 36px;
               line-height: 40px;
             }
-            .home-text022 {
+            .unlock-token-gate-signature-request-text018 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
             }
-            .home-cards {
+            .unlock-token-gate-signature-request-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .home-text026 {
+            .unlock-token-gate-signature-request-text022 {
               line-height: 21px;
             }
-            .home-text028 {
+            .unlock-token-gate-signature-request-text024 {
               line-height: 21px;
             }
-            .home-text030 {
+            .unlock-token-gate-signature-request-text026 {
               line-height: 21px;
             }
-            .home-text031 {
+            .unlock-token-gate-signature-request-text027 {
               font-size: 24px;
             }
-            .home-text032 {
+            .unlock-token-gate-signature-request-text028 {
               line-height: 21px;
             }
-            .home-banner-advanced-analytics {
-              padding-top: var(--dl-space-space-sixunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-sixunits);
-            }
-            .home-text033 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-left1 {
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .home-cards-image1 {
-              width: 360px;
-            }
-            .home-container6 {
+            .unlock-token-gate-signature-request-container4 {
               margin-left: 0px;
             }
-            .home-category2 {
+            .unlock-token-gate-signature-request-category {
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
-            .home-headng {
+            .unlock-token-gate-signature-request-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .home-container7 {
+            .unlock-token-gate-signature-request-container5 {
               width: 100%;
             }
-            .home-pasted-image {
+            .unlock-token-gate-signature-request-pasted-image {
               height: auto;
             }
-            .home-headng1 {
+            .unlock-token-gate-signature-request-headng1 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-headng2 {
+            .unlock-token-gate-signature-request-headng2 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text056 {
+            .unlock-token-gate-signature-request-text079 {
               width: 100%;
               max-width: 600px;
             }
-            .home-cards1 {
+            .unlock-token-gate-signature-request-cards1 {
               display: flex;
               flex-direction: column;
             }
-            .home-card {
+            .unlock-token-gate-signature-request-card {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-fourunits);
@@ -2582,478 +2214,384 @@ Here's what the above is doing:
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text060 {
+            .unlock-token-gate-signature-request-text083 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .home-text062 {
+            .unlock-token-gate-signature-request-text085 {
               font-size: 16px;
             }
-            .home-card1 {
+            .unlock-token-gate-signature-request-card1 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-card2 {
+            .unlock-token-gate-signature-request-card2 {
               width: 100%;
               align-items: flex-start;
             }
-            .home-testimonals {
+            .unlock-token-gate-signature-request-testimonals {
               align-items: center;
               flex-direction: column;
             }
-            .home-left3 {
+            .unlock-token-gate-signature-request-left1 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .home-text091 {
+            .unlock-token-gate-signature-request-text114 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-right2 {
+            .unlock-token-gate-signature-request-right1 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
-            .home-column {
+            .unlock-token-gate-signature-request-column {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-column1 {
+            .unlock-token-gate-signature-request-column1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action {
+            .unlock-token-gate-signature-request-action {
               flex-direction: column;
             }
-            .home-heading3 {
+            .unlock-token-gate-signature-request-heading3 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .unlock-token-gate-signature-request-text118 {
               font-size: 36px;
               line-height: 36px;
             }
-            .home-accordion {
-              width: 100%;
-              max-width: 1200px;
-            }
-            .home-footer {
+            .unlock-token-gate-signature-request-footer {
               padding: var(--dl-space-space-sixunits);
             }
-            .home-top {
+            .unlock-token-gate-signature-request-top {
               flex-direction: column;
             }
-            .home-text119 {
+            .unlock-token-gate-signature-request-text130 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              height: 578px;
+            .unlock-token-gate-signature-request-hero {
+              height: auto;
               position: relative;
-              padding-bottom: 180px;
               background-color: var(--dl-color-template-blue-bg);
             }
-            .home-desktop-navigation {
+            .unlock-token-gate-signature-request-desktop-navigation {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-centered {
+            .unlock-token-gate-signature-request-centered {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .home-left {
+            .unlock-token-gate-signature-request-left {
               margin-left: var(--dl-space-space-unit);
             }
-            .home-right {
+            .unlock-token-gate-signature-request-right {
               margin-right: var(--dl-space-space-unit);
             }
-            .home-sign-in {
+            .unlock-token-gate-signature-request-sign-in {
               display: flex;
             }
-            .home-get-started {
+            .unlock-token-gate-signature-request-get-started {
               display: flex;
             }
-            .home-header {
+            .unlock-token-gate-signature-request-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .home-text007 {
+            .unlock-token-gate-signature-request-text007 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .home-text008 {
+            .unlock-token-gate-signature-request-text008 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
               line-height: 24px;
             }
-            .home-get-started1 {
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-dashboard-preview {
-              top: 520px;
-              width: 90%;
-            }
-            .home-outline {
-              border-width: 2px;
-              border-radius: 35px;
-            }
-            .home-text010 {
-              font-size: 18px;
-              text-align: center;
-            }
-            .home-image {
+            .unlock-token-gate-signature-request-text009 {
+              color: rgb(238, 233, 254);
+              font-size: 16px;
               margin-top: var(--dl-space-space-unit);
+              line-height: 24px;
             }
-            .home-features {
+            .unlock-token-gate-signature-request-features {
               padding-top: 350px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text018 {
+            .unlock-token-gate-signature-request-text014 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
             }
-            .home-container1 {
+            .unlock-token-gate-signature-request-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-text025 {
+            .unlock-token-gate-signature-request-text021 {
               font-size: 24px;
             }
-            .home-text026 {
+            .unlock-token-gate-signature-request-text022 {
               font-size: 14px;
             }
-            .home-publish {
+            .unlock-token-gate-signature-request-publish {
               margin-left: 0px;
             }
-            .home-text027 {
+            .unlock-token-gate-signature-request-text023 {
               font-size: 24px;
             }
-            .home-text028 {
+            .unlock-token-gate-signature-request-text024 {
               font-size: 14px;
             }
-            .home-container2 {
+            .unlock-token-gate-signature-request-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .home-analyze {
+            .unlock-token-gate-signature-request-analyze {
               margin-right: 0px;
             }
-            .home-text029 {
+            .unlock-token-gate-signature-request-text025 {
               font-size: 24px;
             }
-            .home-text030 {
+            .unlock-token-gate-signature-request-text026 {
               font-size: 14px;
             }
-            .home-text032 {
+            .unlock-token-gate-signature-request-text028 {
               font-size: 14px;
             }
-            .home-banner-advanced-analytics {
-              padding-bottom: var(--dl-space-space-twounits);
+            .unlock-token-gate-signature-request-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-centered-container {
-              flex-direction: column-reverse;
+            .unlock-token-gate-signature-request-blog1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .home-right1 {
-              margin-left: 0px;
+            .unlock-token-gate-signature-request-get-started1 {
+              margin-top: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              font-size: 28px;
-              align-self: center;
-              text-align: left;
-              line-height: 26px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text034 {
-              align-self: center;
-              text-align: center;
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-category1 {
-              align-items: center;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-banner-manage {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-container3 {
-              flex-direction: column;
-            }
-            .home-left1 {
-              margin-right: 0px;
-            }
-            .home-text036 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-text037 {
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text038 {
-              font-size: 16px;
-            }
-            .home-image-container1 {
-              justify-content: center;
-            }
-            .home-cards-image1 {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .home-banner {
+            .unlock-token-gate-signature-request-integrations {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-container4 {
-              flex-direction: column;
-            }
-            .home-left2 {
-              margin-right: 0px;
-            }
-            .home-integrations {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
-            }
-            .home-text045 {
+            .unlock-token-gate-signature-request-text068 {
               line-height: 24px;
             }
-            .home-pills {
+            .unlock-token-gate-signature-request-pills {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-how-it-works {
+            .unlock-token-gate-signature-request-how-it-works {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-heading1 {
+            .unlock-token-gate-signature-request-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text047 {
+            .unlock-token-gate-signature-request-text070 {
               margin-bottom: 0px;
             }
-            .home-headng {
+            .unlock-token-gate-signature-request-headng {
               padding-bottom: 0px;
             }
-            .home-get-started4 {
+            .unlock-token-gate-signature-request-get-started2 {
               display: none;
             }
-            .home-container7 {
+            .unlock-token-gate-signature-request-container5 {
               width: 100%;
             }
-            .home-row {
+            .unlock-token-gate-signature-request-row {
               height: auto;
               flex-direction: column;
             }
-            .home-pricing {
+            .unlock-token-gate-signature-request-pricing {
               width: 100%;
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-card {
+            .unlock-token-gate-signature-request-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text059 {
+            .unlock-token-gate-signature-request-text082 {
               font-size: 28px;
             }
-            .home-card1 {
+            .unlock-token-gate-signature-request-card1 {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text065 {
+            .unlock-token-gate-signature-request-text088 {
               font-size: 28px;
             }
-            .home-card2 {
+            .unlock-token-gate-signature-request-card2 {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text078 {
+            .unlock-token-gate-signature-request-text101 {
               font-size: 28px;
             }
-            .home-testimonals {
+            .unlock-token-gate-signature-request-testimonals {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: 0px;
             }
-            .home-right2 {
+            .unlock-token-gate-signature-request-right1 {
               width: 100%;
               flex-direction: column;
             }
-            .home-column1 {
+            .unlock-token-gate-signature-request-column1 {
               display: none;
             }
-            .home-text092 {
+            .unlock-token-gate-signature-request-text115 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
               font-weight: 600;
             }
-            .home-action-bar {
+            .unlock-token-gate-signature-request-action-bar {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-action {
+            .unlock-token-gate-signature-request-action {
               align-items: center;
             }
-            .home-heading3 {
+            .unlock-token-gate-signature-request-heading3 {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text095 {
+            .unlock-token-gate-signature-request-text118 {
               font-size: 28px;
               text-align: left;
             }
-            .home-text100 {
+            .unlock-token-gate-signature-request-text123 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
               font-weight: 600;
             }
-            .home-images {
+            .unlock-token-gate-signature-request-images {
               justify-content: center;
             }
-            .home-image2 {
+            .unlock-token-gate-signature-request-image1 {
               width: 100%;
             }
-            .home-faq {
-              padding: var(--dl-space-space-fourunits);
-            }
-            .home-heading4 {
-              width: 100%;
-            }
-            .home-text103 {
-              font-size: 36px;
-              line-height: 36px;
-            }
-            .home-text104 {
-              width: 100%;
-              max-width: 600p;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-footer {
+            .unlock-token-gate-signature-request-footer {
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-image3 {
+            .unlock-token-gate-signature-request-image2 {
               width: 200px;
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              height: 600px;
-              padding-bottom: 160px;
+            .unlock-token-gate-signature-request-hero {
+              height: auto;
             }
-            .home-centered {
+            .unlock-token-gate-signature-request-centered {
               justify-content: center;
             }
-            .home-logo {
+            .unlock-token-gate-signature-request-logo {
               width: 180px;
             }
-            .home-sign-in {
+            .unlock-token-gate-signature-request-sign-in {
               display: none;
             }
-            .home-get-started {
+            .unlock-token-gate-signature-request-get-started {
               display: none;
             }
-            .home-icon {
+            .unlock-token-gate-signature-request-icon {
               display: none;
             }
-            .home-text008 {
+            .unlock-token-gate-signature-request-text008 {
               color: #eee9fe;
             }
-            .home-get-started1 {
-              background-color: var(--dl-color-primary-700);
+            .unlock-token-gate-signature-request-text009 {
+              color: #eee9fe;
             }
-            .home-dashboard-preview {
-              top: 500px;
-            }
-            .home-text010 {
-              font-size: 16px;
-            }
-            .home-image {
-              display: none;
-            }
-            .home-features {
+            .unlock-token-gate-signature-request-features {
               padding-top: 200px;
             }
-            .home-cards {
+            .unlock-token-gate-signature-request-cards {
               margin-top: var(--dl-space-space-threeunits);
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container1 {
+            .unlock-token-gate-signature-request-container1 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .unlock-token-gate-signature-request-container2 {
               gap: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .home-analyze {
+            .unlock-token-gate-signature-request-analyze {
               margin-bottom: 0px;
             }
-            .home-right1 {
-              margin-top: var(--dl-space-space-twounits);
+            .unlock-token-gate-signature-request-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text033 {
-              align-self: center;
-              text-align: center;
+            .unlock-token-gate-signature-request-blog1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text037 {
-              line-height: 24px;
+            .unlock-token-gate-signature-request-get-started1 {
+              background-color: var(--dl-color-primary-700);
             }
-            .home-cards-image1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-twounits);
-            }
-            .home-category2 {
+            .unlock-token-gate-signature-request-category {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-pricing {
+            .unlock-token-gate-signature-request-pricing {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-get-started7 {
+            .unlock-token-gate-signature-request-get-started5 {
               background-color: var(--dl-color-gray-white);
             }
-            .home-testimonals {
+            .unlock-token-gate-signature-request-testimonals {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-action-bar {
+            .unlock-token-gate-signature-request-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-footer {
+            .unlock-token-gate-signature-request-footer {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-text115 {
+            .unlock-token-gate-signature-request-text126 {
               text-align: center;
             }
           }
@@ -3063,4 +2601,4 @@ Here's what the above is doing:
   )
 }
 
-export default Home
+export default UnlockTokenGateSignatureRequest
