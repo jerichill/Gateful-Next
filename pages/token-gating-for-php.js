@@ -32,69 +32,6 @@ const TokenGatingForPHP = (props) => {
         </Head>
         <header id="header" className="token-gating-for-php-hero">
           <div className="token-gating-for-php-menu">
-            <div
-              id="navigation"
-              className="token-gating-for-php-desktop-navigation"
-            >
-              <nav className="token-gating-for-php-centered">
-                <div className="token-gating-for-php-left">
-                  <Link href="/">
-                    <a className="token-gating-for-php-link">
-                      <img
-                        alt="Welcome to Gateful"
-                        src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="token-gating-for-php-logo"
-                      />
-                    </a>
-                  </Link>
-                  <div className="token-gating-for-php-links">
-                    <Link href="/token-gating-platform">
-                      <a className="token-gating-for-php-link1 Link">
-                        Platform
-                      </a>
-                    </Link>
-                    <Link href="/token-gating-solutions">
-                      <a className="token-gating-for-php-link2 Link">
-                        Solutions
-                      </a>
-                    </Link>
-                    <Link href="/blog">
-                      <a className="token-gating-for-php-link3 Link">
-                        <span>Blog</span>
-                        <br></br>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="token-gating-for-php-right">
-                  <a
-                    href="https://app.gateful.io"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="token-gating-for-php-sign-in Link"
-                  >
-                    <span>Login</span>
-                    <br></br>
-                  </a>
-                  <Link href="/book-a-demo">
-                    <a className="token-gating-for-php-link4">
-                      <div className="token-gating-for-php-get-started">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="token-gating-for-php-icon"
-                        >
-                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                        </svg>
-                        <span className="token-gating-for-php-text04">
-                          <span>Book a Demo</span>
-                          <br></br>
-                        </span>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              </nav>
-            </div>
             <div>
               <DangerousHTML
                 html={`<script>
@@ -121,19 +58,104 @@ closeButton.addEventListener("click", function() {
 </script>`}
               ></DangerousHTML>
             </div>
+            <div
+              id="navigation"
+              className="token-gating-for-php-desktop-navigation"
+            >
+              <nav className="token-gating-for-php-centered-desktop">
+                <div className="token-gating-for-php-left">
+                  <Link href="/">
+                    <a className="token-gating-for-php-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="token-gating-for-php-logo"
+                      />
+                    </a>
+                  </Link>
+                  <div className="token-gating-for-php-links">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-for-php-link01 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-for-php-link02 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-for-php-link03 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="token-gating-for-php-right">
+                  <a
+                    href="https://app.gateful.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="token-gating-for-php-sign-in Link"
+                  >
+                    <span>Login</span>
+                    <br></br>
+                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="token-gating-for-php-link04">
+                      <div className="token-gating-for-php-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="token-gating-for-php-icon"
+                        >
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="token-gating-for-php-text04">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+              </nav>
+              <nav className="token-gating-for-php-centered-mobile">
+                <div className="token-gating-for-php-left1">
+                  <div className="token-gating-for-php-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-for-php-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-for-php-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-for-php-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
           <header className="token-gating-for-php-header">
-            <h1 className="token-gating-for-php-text07">
+            <h1 className="token-gating-for-php-text09">
               Token Gating for PHP
             </h1>
-            <p className="token-gating-for-php-text08">
+            <p className="token-gating-for-php-text10">
               Add Gateful to Your PHP Project
             </p>
           </header>
         </header>
         <section className="token-gating-for-php-features">
           <div className="token-gating-for-php-title">
-            <span className="token-gating-for-php-text09">
+            <span className="token-gating-for-php-text11">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -145,7 +167,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="token-gating-for-php-text13">
+            <span className="token-gating-for-php-text15">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -165,8 +187,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="token-gating-for-php-icon2"
                 />
-                <span className="token-gating-for-php-text16">Schedule</span>
-                <span className="token-gating-for-php-text17">
+                <span className="token-gating-for-php-text18">Schedule</span>
+                <span className="token-gating-for-php-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -177,8 +199,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="token-gating-for-php-icon3"
                 />
-                <span className="token-gating-for-php-text18">Publish</span>
-                <span className="token-gating-for-php-text19">
+                <span className="token-gating-for-php-text20">Publish</span>
+                <span className="token-gating-for-php-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -190,8 +212,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="token-gating-for-php-icon4"
                 />
-                <span className="token-gating-for-php-text20">Analyze</span>
-                <span className="token-gating-for-php-text21">
+                <span className="token-gating-for-php-text22">Analyze</span>
+                <span className="token-gating-for-php-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -202,8 +224,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="token-gating-for-php-icon5"
                 />
-                <span className="token-gating-for-php-text22">Get leads</span>
-                <span className="token-gating-for-php-text23">
+                <span className="token-gating-for-php-text24">Get leads</span>
+                <span className="token-gating-for-php-text25">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -223,14 +245,14 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-for-php-right1">
-                <h2 className="token-gating-for-php-text24 title">
+                <h2 className="token-gating-for-php-text26 title">
                   <span>
                     Deploy Web3 token gates faster with Gateful and PHP
                   </span>
                   <br></br>
                 </h2>
                 <div className="token-gating-for-php-category">
-                  <span className="token-gating-for-php-text27">
+                  <span className="token-gating-for-php-text29">
                     <span>
                       Token gating is a powerful tool for PHP developers that
                       brings an innovative layer of access control to Web3 and
@@ -250,13 +272,13 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-php-text30 title">
+            <h2 className="token-gating-for-php-text32 title">
               Create on-chain conditions for PHP
             </h2>
             <div className="token-gating-for-php-centered-container1">
               <div className="token-gating-for-php-right2">
                 <div className="token-gating-for-php-category1">
-                  <span className="token-gating-for-php-text31">
+                  <span className="token-gating-for-php-text33">
                     Add Web3 Token Gating functionality to your PHP project
                     without writing code. Our integration with LIT Protocol
                     allows you to create multiple token gates within the same
@@ -273,12 +295,12 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div className="token-gating-for-php-centered-container2">
-              <h2 className="token-gating-for-php-text32 title">
+              <h2 className="token-gating-for-php-text34 title">
                 Benefits of PHP for Web3 development
               </h2>
               <div className="token-gating-for-php-right3">
                 <div className="token-gating-for-php-category2">
-                  <span className="token-gating-for-php-text33">
+                  <span className="token-gating-for-php-text35">
                     Token gating is a powerful concept that has emerged in the
                     blockchain and Web3 space, enabling content creators to
                     provide exclusive access to token holders. By integrating
@@ -295,7 +317,7 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-php-text34 title">
+            <h2 className="token-gating-for-php-text36 title">
               Learn more about Web3 and Token Gating
             </h2>
             <div className="token-gating-for-php-blog">
@@ -337,10 +359,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="token-gating-for-php-image1"
             />
-            <span className="token-gating-for-php-text35">
+            <span className="token-gating-for-php-text37">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="token-gating-for-php-text36">
+            <span className="token-gating-for-php-text38">
               <span>
                 Built by
                 <span
@@ -353,7 +375,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-php-link5"
+                className="token-gating-for-php-link08"
               >
                 OpenMedium, Inc
               </a>
@@ -370,12 +392,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-php-link6"
+                className="token-gating-for-php-link09"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="token-gating-for-php-text39">
+            <span className="token-gating-for-php-text41">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -383,7 +405,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-php-link7"
+                className="token-gating-for-php-link10"
               >
                 Legal
               </a>
@@ -432,7 +454,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-php-centered {
+          .token-gating-for-php-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -465,17 +487,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .token-gating-for-php-link1 {
+          .token-gating-for-php-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .token-gating-for-php-link2 {
+          .token-gating-for-php-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .token-gating-for-php-link3 {
+          .token-gating-for-php-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -494,7 +516,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .token-gating-for-php-link4 {
+          .token-gating-for-php-link04 {
             display: contents;
           }
           .token-gating-for-php-get-started {
@@ -527,6 +549,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .token-gating-for-php-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .token-gating-for-php-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .token-gating-for-php-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .token-gating-for-php-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-php-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-php-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .token-gating-for-php-header {
             width: 70%;
             display: flex;
@@ -536,7 +598,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-for-php-text07 {
+          .token-gating-for-php-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -544,7 +606,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .token-gating-for-php-text08 {
+          .token-gating-for-php-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -569,14 +631,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-php-text09 {
+          .token-gating-for-php-text11 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .token-gating-for-php-text13 {
+          .token-gating-for-php-text15 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -603,14 +665,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-php-text16 {
+          .token-gating-for-php-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-php-text17 {
+          .token-gating-for-php-text19 {
             line-height: 24px;
           }
           .token-gating-for-php-publish {
@@ -621,14 +683,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-php-text18 {
+          .token-gating-for-php-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-php-text19 {
+          .token-gating-for-php-text21 {
             line-height: 24px;
           }
           .token-gating-for-php-container2 {
@@ -644,14 +706,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-php-text20 {
+          .token-gating-for-php-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .token-gating-for-php-text21 {
+          .token-gating-for-php-text23 {
             line-height: 24px;
           }
           .token-gating-for-php-icon5 {
@@ -659,14 +721,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-php-text22 {
+          .token-gating-for-php-text24 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-php-text23 {
+          .token-gating-for-php-text25 {
             line-height: 24px;
           }
           .token-gating-for-php-section {
@@ -717,7 +779,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-for-php-text24 {
+          .token-gating-for-php-text26 {
             font-size: 30px;
             text-align: left;
             line-height: 1.25em;
@@ -728,13 +790,13 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .token-gating-for-php-text27 {
+          .token-gating-for-php-text29 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .token-gating-for-php-text30 {
+          .token-gating-for-php-text32 {
             font-size: 30px;
             text-align: left;
           }
@@ -759,7 +821,7 @@ closeButton.addEventListener("click", function() {
             align-items: flex-start;
             flex-direction: column;
           }
-          .token-gating-for-php-text31 {
+          .token-gating-for-php-text33 {
             color: rgb(0, 0, 0);
             font-size: 20px;
             text-align: center;
@@ -787,7 +849,7 @@ closeButton.addEventListener("click", function() {
             justify-content: center;
             background-color: var(--dl-color-primary-100);
           }
-          .token-gating-for-php-text32 {
+          .token-gating-for-php-text34 {
             color: var(--dl-color-gray-white);
             font-size: 30px;
             text-align: left;
@@ -804,13 +866,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-for-php-text33 {
+          .token-gating-for-php-text35 {
             color: var(--dl-color-gray-white);
             font-size: 20px;
             text-align: center;
             line-height: 30px;
           }
-          .token-gating-for-php-text34 {
+          .token-gating-for-php-text36 {
             font-size: 30px;
             text-align: left;
           }
@@ -874,33 +936,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-php-text35 {
+          .token-gating-for-php-text37 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-php-text36 {
+          .token-gating-for-php-text38 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-for-php-link5 {
+          .token-gating-for-php-link08 {
             text-decoration: underline;
           }
-          .token-gating-for-php-link6 {
+          .token-gating-for-php-link09 {
             text-decoration: underline;
           }
-          .token-gating-for-php-text39 {
+          .token-gating-for-php-text41 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-for-php-link7 {
+          .token-gating-for-php-link10 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -918,7 +980,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-php-centered {
+            .token-gating-for-php-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -926,8 +988,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .token-gating-for-php-links {
-              display: none;
+            .token-gating-for-php-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .token-gating-for-php-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .token-gating-for-php-header {
               width: 100%;
@@ -940,11 +1007,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .token-gating-for-php-text09 {
+            .token-gating-for-php-text11 {
               font-size: 36px;
               line-height: 40px;
             }
-            .token-gating-for-php-text13 {
+            .token-gating-for-php-text15 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -952,19 +1019,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .token-gating-for-php-text17 {
-              line-height: 21px;
-            }
             .token-gating-for-php-text19 {
               line-height: 21px;
             }
             .token-gating-for-php-text21 {
               line-height: 21px;
             }
-            .token-gating-for-php-text22 {
+            .token-gating-for-php-text23 {
+              line-height: 21px;
+            }
+            .token-gating-for-php-text24 {
               font-size: 24px;
             }
-            .token-gating-for-php-text23 {
+            .token-gating-for-php-text25 {
               line-height: 21px;
             }
             .token-gating-for-php-content {
@@ -973,11 +1040,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .token-gating-for-php-text24 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .token-gating-for-php-text30 {
+            .token-gating-for-php-text26 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -986,6 +1049,10 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .token-gating-for-php-text34 {
+              line-height: 1.25em;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .token-gating-for-php-text36 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1006,7 +1073,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-top {
               flex-direction: column;
             }
-            .token-gating-for-php-text39 {
+            .token-gating-for-php-text41 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -1022,12 +1089,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .token-gating-for-php-centered {
+            .token-gating-for-php-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .token-gating-for-php-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .token-gating-for-php-links {
+              display: none;
             }
             .token-gating-for-php-right {
               margin-right: var(--dl-space-space-unit);
@@ -1038,19 +1108,28 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-get-started {
               display: flex;
             }
+            .token-gating-for-php-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .token-gating-for-php-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .token-gating-for-php-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-for-php-text07 {
+            .token-gating-for-php-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .token-gating-for-php-text08 {
+            .token-gating-for-php-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -1061,7 +1140,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-php-text09 {
+            .token-gating-for-php-text11 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -1072,19 +1151,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .token-gating-for-php-text16 {
+            .token-gating-for-php-text18 {
               font-size: 24px;
             }
-            .token-gating-for-php-text17 {
+            .token-gating-for-php-text19 {
               font-size: 14px;
             }
             .token-gating-for-php-publish {
               margin-left: 0px;
             }
-            .token-gating-for-php-text18 {
+            .token-gating-for-php-text20 {
               font-size: 24px;
             }
-            .token-gating-for-php-text19 {
+            .token-gating-for-php-text21 {
               font-size: 14px;
             }
             .token-gating-for-php-container2 {
@@ -1094,13 +1173,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-analyze {
               margin-right: 0px;
             }
-            .token-gating-for-php-text20 {
+            .token-gating-for-php-text22 {
               font-size: 24px;
             }
-            .token-gating-for-php-text21 {
+            .token-gating-for-php-text23 {
               font-size: 14px;
             }
-            .token-gating-for-php-text23 {
+            .token-gating-for-php-text25 {
               font-size: 14px;
             }
             .token-gating-for-php-content {
@@ -1113,20 +1192,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-right1 {
               margin-left: 0px;
             }
-            .token-gating-for-php-text24 {
+            .token-gating-for-php-text26 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-for-php-text27 {
+            .token-gating-for-php-text29 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-php-text30 {
+            .token-gating-for-php-text32 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1139,7 +1218,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-right2 {
               margin-left: 0px;
             }
-            .token-gating-for-php-text31 {
+            .token-gating-for-php-text33 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -1150,7 +1229,7 @@ closeButton.addEventListener("click", function() {
               flex-direction: column;
               justify-content: center;
             }
-            .token-gating-for-php-text32 {
+            .token-gating-for-php-text34 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1160,13 +1239,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-right3 {
               margin-left: 0px;
             }
-            .token-gating-for-php-text33 {
+            .token-gating-for-php-text35 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-php-text34 {
+            .token-gating-for-php-text36 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1190,7 +1269,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-hero {
               height: auto;
             }
-            .token-gating-for-php-centered {
+            .token-gating-for-php-centered-desktop {
               justify-content: center;
             }
             .token-gating-for-php-logo {
@@ -1205,7 +1284,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-icon {
               display: none;
             }
-            .token-gating-for-php-text08 {
+            .token-gating-for-php-centered-mobile {
+              justify-content: center;
+            }
+            .token-gating-for-php-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .token-gating-for-php-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .token-gating-for-php-text10 {
               color: #eee9fe;
             }
             .token-gating-for-php-features {
@@ -1226,14 +1318,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-analyze {
               margin-bottom: 0px;
             }
+            .token-gating-for-php-content {
+              padding-top: var(--dl-space-space-threeunits);
+            }
             .token-gating-for-php-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-php-text24 {
+            .token-gating-for-php-text26 {
               align-self: center;
               text-align: center;
             }
-            .token-gating-for-php-text30 {
+            .token-gating-for-php-text32 {
               align-self: center;
               text-align: center;
             }
@@ -1243,17 +1338,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-php-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-php-text31 {
+            .token-gating-for-php-text33 {
               width: auto;
             }
-            .token-gating-for-php-text32 {
+            .token-gating-for-php-text34 {
               align-self: center;
               text-align: center;
             }
             .token-gating-for-php-right3 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-php-text34 {
+            .token-gating-for-php-text36 {
               align-self: center;
               text-align: center;
             }
@@ -1267,7 +1362,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .token-gating-for-php-text35 {
+            .token-gating-for-php-text37 {
               text-align: center;
             }
           }

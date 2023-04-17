@@ -34,69 +34,6 @@ const TokenGatingForNextjs = (props) => {
         </Head>
         <header id="header" className="token-gating-for-nextjs-hero">
           <div className="token-gating-for-nextjs-menu">
-            <div
-              id="navigation"
-              className="token-gating-for-nextjs-desktop-navigation"
-            >
-              <nav className="token-gating-for-nextjs-centered">
-                <div className="token-gating-for-nextjs-left">
-                  <Link href="/">
-                    <a className="token-gating-for-nextjs-link">
-                      <img
-                        alt="Welcome to Gateful"
-                        src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="token-gating-for-nextjs-logo"
-                      />
-                    </a>
-                  </Link>
-                  <div className="token-gating-for-nextjs-links">
-                    <Link href="/token-gating-platform">
-                      <a className="token-gating-for-nextjs-link1 Link">
-                        Platform
-                      </a>
-                    </Link>
-                    <Link href="/token-gating-solutions">
-                      <a className="token-gating-for-nextjs-link2 Link">
-                        Solutions
-                      </a>
-                    </Link>
-                    <Link href="/blog">
-                      <a className="token-gating-for-nextjs-link3 Link">
-                        <span>Blog</span>
-                        <br></br>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="token-gating-for-nextjs-right">
-                  <a
-                    href="https://app.gateful.io"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="token-gating-for-nextjs-sign-in Link"
-                  >
-                    <span>Login</span>
-                    <br></br>
-                  </a>
-                  <Link href="/book-a-demo">
-                    <a className="token-gating-for-nextjs-link4">
-                      <div className="token-gating-for-nextjs-get-started">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="token-gating-for-nextjs-icon"
-                        >
-                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                        </svg>
-                        <span className="token-gating-for-nextjs-text04">
-                          <span>Book a Demo</span>
-                          <br></br>
-                        </span>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              </nav>
-            </div>
             <div>
               <DangerousHTML
                 html={`<script>
@@ -123,19 +60,104 @@ closeButton.addEventListener("click", function() {
 </script>`}
               ></DangerousHTML>
             </div>
+            <div
+              id="navigation"
+              className="token-gating-for-nextjs-desktop-navigation"
+            >
+              <nav className="token-gating-for-nextjs-centered-desktop">
+                <div className="token-gating-for-nextjs-left">
+                  <Link href="/">
+                    <a className="token-gating-for-nextjs-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="token-gating-for-nextjs-logo"
+                      />
+                    </a>
+                  </Link>
+                  <div className="token-gating-for-nextjs-links">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-for-nextjs-link01 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-for-nextjs-link02 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-for-nextjs-link03 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="token-gating-for-nextjs-right">
+                  <a
+                    href="https://app.gateful.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="token-gating-for-nextjs-sign-in Link"
+                  >
+                    <span>Login</span>
+                    <br></br>
+                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="token-gating-for-nextjs-link04">
+                      <div className="token-gating-for-nextjs-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="token-gating-for-nextjs-icon"
+                        >
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="token-gating-for-nextjs-text04">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+              </nav>
+              <nav className="token-gating-for-nextjs-centered-mobile">
+                <div className="token-gating-for-nextjs-left1">
+                  <div className="token-gating-for-nextjs-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-for-nextjs-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-for-nextjs-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-for-nextjs-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
           <header className="token-gating-for-nextjs-header">
-            <h1 className="token-gating-for-nextjs-text07">
+            <h1 className="token-gating-for-nextjs-text09">
               Token Gating for Next.js
             </h1>
-            <p className="token-gating-for-nextjs-text08">
+            <p className="token-gating-for-nextjs-text10">
               Add Gateful to Your Next.js Project
             </p>
           </header>
         </header>
         <section className="token-gating-for-nextjs-features">
           <div className="token-gating-for-nextjs-title">
-            <span className="token-gating-for-nextjs-text09">
+            <span className="token-gating-for-nextjs-text11">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -147,7 +169,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="token-gating-for-nextjs-text13">
+            <span className="token-gating-for-nextjs-text15">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -167,8 +189,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="token-gating-for-nextjs-icon2"
                 />
-                <span className="token-gating-for-nextjs-text16">Schedule</span>
-                <span className="token-gating-for-nextjs-text17">
+                <span className="token-gating-for-nextjs-text18">Schedule</span>
+                <span className="token-gating-for-nextjs-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -179,8 +201,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="token-gating-for-nextjs-icon3"
                 />
-                <span className="token-gating-for-nextjs-text18">Publish</span>
-                <span className="token-gating-for-nextjs-text19">
+                <span className="token-gating-for-nextjs-text20">Publish</span>
+                <span className="token-gating-for-nextjs-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -192,8 +214,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="token-gating-for-nextjs-icon4"
                 />
-                <span className="token-gating-for-nextjs-text20">Analyze</span>
-                <span className="token-gating-for-nextjs-text21">
+                <span className="token-gating-for-nextjs-text22">Analyze</span>
+                <span className="token-gating-for-nextjs-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -204,10 +226,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="token-gating-for-nextjs-icon5"
                 />
-                <span className="token-gating-for-nextjs-text22">
+                <span className="token-gating-for-nextjs-text24">
                   Get leads
                 </span>
-                <span className="token-gating-for-nextjs-text23">
+                <span className="token-gating-for-nextjs-text25">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -227,14 +249,14 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-for-nextjs-right1">
-                <h2 className="token-gating-for-nextjs-text24 title">
+                <h2 className="token-gating-for-nextjs-text26 title">
                   <span>
                     Deploy Web3 token gates faster with Gateful and Next.js
                   </span>
                   <br></br>
                 </h2>
                 <div className="token-gating-for-nextjs-category">
-                  <span className="token-gating-for-nextjs-text27">
+                  <span className="token-gating-for-nextjs-text29">
                     <span>
                       Token gating is a powerful tool for Next.js developers
                       that brings an innovative layer of access control to Web3
@@ -254,13 +276,13 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-nextjs-text30 title">
+            <h2 className="token-gating-for-nextjs-text32 title">
               Create on-chain conditions for Next.js
             </h2>
             <div className="token-gating-for-nextjs-centered-container1">
               <div className="token-gating-for-nextjs-right2">
                 <div className="token-gating-for-nextjs-category1">
-                  <span className="token-gating-for-nextjs-text31">
+                  <span className="token-gating-for-nextjs-text33">
                     Add Web3 Token Gating functionality to your Next.js project
                     without writing code. Our integration with LIT Protocol
                     allows you to create multiple token gates within the same
@@ -277,12 +299,12 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div className="token-gating-for-nextjs-centered-container2">
-              <h2 className="token-gating-for-nextjs-text32 title">
+              <h2 className="token-gating-for-nextjs-text34 title">
                 Benefits of Next.js for Web3 development
               </h2>
               <div className="token-gating-for-nextjs-right3">
                 <div className="token-gating-for-nextjs-category2">
-                  <span className="token-gating-for-nextjs-text33">
+                  <span className="token-gating-for-nextjs-text35">
                     Token Gating for Next.js is a game-changing feature that
                     offers creators, developers, and brands an opportunity to
                     create exclusive content experiences.. By utilizing token
@@ -297,7 +319,7 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-nextjs-text34 title">
+            <h2 className="token-gating-for-nextjs-text36 title">
               Learn more about Web3 and Token Gating
             </h2>
             <div className="token-gating-for-nextjs-blog">
@@ -339,10 +361,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="token-gating-for-nextjs-image1"
             />
-            <span className="token-gating-for-nextjs-text35">
+            <span className="token-gating-for-nextjs-text37">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="token-gating-for-nextjs-text36">
+            <span className="token-gating-for-nextjs-text38">
               <span>
                 Built by
                 <span
@@ -355,7 +377,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link5"
+                className="token-gating-for-nextjs-link08"
               >
                 OpenMedium, Inc
               </a>
@@ -372,12 +394,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link6"
+                className="token-gating-for-nextjs-link09"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="token-gating-for-nextjs-text39">
+            <span className="token-gating-for-nextjs-text41">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -385,7 +407,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-nextjs-link7"
+                className="token-gating-for-nextjs-link10"
               >
                 Legal
               </a>
@@ -434,7 +456,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-nextjs-centered {
+          .token-gating-for-nextjs-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -467,17 +489,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .token-gating-for-nextjs-link1 {
+          .token-gating-for-nextjs-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .token-gating-for-nextjs-link2 {
+          .token-gating-for-nextjs-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .token-gating-for-nextjs-link3 {
+          .token-gating-for-nextjs-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -496,7 +518,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .token-gating-for-nextjs-link4 {
+          .token-gating-for-nextjs-link04 {
             display: contents;
           }
           .token-gating-for-nextjs-get-started {
@@ -529,6 +551,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .token-gating-for-nextjs-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .token-gating-for-nextjs-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .token-gating-for-nextjs-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .token-gating-for-nextjs-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-nextjs-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-nextjs-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .token-gating-for-nextjs-header {
             width: 70%;
             display: flex;
@@ -538,7 +600,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-for-nextjs-text07 {
+          .token-gating-for-nextjs-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -546,7 +608,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .token-gating-for-nextjs-text08 {
+          .token-gating-for-nextjs-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -571,14 +633,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-nextjs-text09 {
+          .token-gating-for-nextjs-text11 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .token-gating-for-nextjs-text13 {
+          .token-gating-for-nextjs-text15 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -605,14 +667,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-nextjs-text16 {
+          .token-gating-for-nextjs-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-nextjs-text17 {
+          .token-gating-for-nextjs-text19 {
             line-height: 24px;
           }
           .token-gating-for-nextjs-publish {
@@ -623,14 +685,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-nextjs-text18 {
+          .token-gating-for-nextjs-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-nextjs-text19 {
+          .token-gating-for-nextjs-text21 {
             line-height: 24px;
           }
           .token-gating-for-nextjs-container2 {
@@ -646,14 +708,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-nextjs-text20 {
+          .token-gating-for-nextjs-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .token-gating-for-nextjs-text21 {
+          .token-gating-for-nextjs-text23 {
             line-height: 24px;
           }
           .token-gating-for-nextjs-icon5 {
@@ -661,14 +723,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-nextjs-text22 {
+          .token-gating-for-nextjs-text24 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-nextjs-text23 {
+          .token-gating-for-nextjs-text25 {
             line-height: 24px;
           }
           .token-gating-for-nextjs-section {
@@ -719,7 +781,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-for-nextjs-text24 {
+          .token-gating-for-nextjs-text26 {
             font-size: 30px;
             text-align: left;
             line-height: 1.25em;
@@ -730,13 +792,13 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .token-gating-for-nextjs-text27 {
+          .token-gating-for-nextjs-text29 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .token-gating-for-nextjs-text30 {
+          .token-gating-for-nextjs-text32 {
             font-size: 30px;
             text-align: left;
           }
@@ -761,7 +823,7 @@ closeButton.addEventListener("click", function() {
             align-items: flex-start;
             flex-direction: column;
           }
-          .token-gating-for-nextjs-text31 {
+          .token-gating-for-nextjs-text33 {
             color: rgb(0, 0, 0);
             font-size: 20px;
             text-align: center;
@@ -789,7 +851,7 @@ closeButton.addEventListener("click", function() {
             justify-content: center;
             background-color: var(--dl-color-primary-100);
           }
-          .token-gating-for-nextjs-text32 {
+          .token-gating-for-nextjs-text34 {
             color: var(--dl-color-gray-white);
             font-size: 30px;
             text-align: left;
@@ -806,13 +868,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-for-nextjs-text33 {
+          .token-gating-for-nextjs-text35 {
             color: var(--dl-color-gray-white);
             font-size: 20px;
             text-align: center;
             line-height: 30px;
           }
-          .token-gating-for-nextjs-text34 {
+          .token-gating-for-nextjs-text36 {
             font-size: 30px;
             text-align: left;
           }
@@ -876,33 +938,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-nextjs-text35 {
+          .token-gating-for-nextjs-text37 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-nextjs-text36 {
+          .token-gating-for-nextjs-text38 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-for-nextjs-link5 {
+          .token-gating-for-nextjs-link08 {
             text-decoration: underline;
           }
-          .token-gating-for-nextjs-link6 {
+          .token-gating-for-nextjs-link09 {
             text-decoration: underline;
           }
-          .token-gating-for-nextjs-text39 {
+          .token-gating-for-nextjs-text41 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-for-nextjs-link7 {
+          .token-gating-for-nextjs-link10 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -920,7 +982,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-nextjs-centered {
+            .token-gating-for-nextjs-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -928,8 +990,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .token-gating-for-nextjs-links {
-              display: none;
+            .token-gating-for-nextjs-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .token-gating-for-nextjs-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .token-gating-for-nextjs-header {
               width: 100%;
@@ -942,11 +1009,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .token-gating-for-nextjs-text09 {
+            .token-gating-for-nextjs-text11 {
               font-size: 36px;
               line-height: 40px;
             }
-            .token-gating-for-nextjs-text13 {
+            .token-gating-for-nextjs-text15 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -954,19 +1021,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .token-gating-for-nextjs-text17 {
-              line-height: 21px;
-            }
             .token-gating-for-nextjs-text19 {
               line-height: 21px;
             }
             .token-gating-for-nextjs-text21 {
               line-height: 21px;
             }
-            .token-gating-for-nextjs-text22 {
+            .token-gating-for-nextjs-text23 {
+              line-height: 21px;
+            }
+            .token-gating-for-nextjs-text24 {
               font-size: 24px;
             }
-            .token-gating-for-nextjs-text23 {
+            .token-gating-for-nextjs-text25 {
               line-height: 21px;
             }
             .token-gating-for-nextjs-content {
@@ -975,11 +1042,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .token-gating-for-nextjs-text24 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .token-gating-for-nextjs-text30 {
+            .token-gating-for-nextjs-text26 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -988,6 +1051,10 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .token-gating-for-nextjs-text34 {
+              line-height: 1.25em;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .token-gating-for-nextjs-text36 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1008,7 +1075,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-top {
               flex-direction: column;
             }
-            .token-gating-for-nextjs-text39 {
+            .token-gating-for-nextjs-text41 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -1024,12 +1091,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .token-gating-for-nextjs-centered {
+            .token-gating-for-nextjs-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .token-gating-for-nextjs-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .token-gating-for-nextjs-links {
+              display: none;
             }
             .token-gating-for-nextjs-right {
               margin-right: var(--dl-space-space-unit);
@@ -1040,19 +1110,28 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-get-started {
               display: flex;
             }
+            .token-gating-for-nextjs-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .token-gating-for-nextjs-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .token-gating-for-nextjs-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-for-nextjs-text07 {
+            .token-gating-for-nextjs-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .token-gating-for-nextjs-text08 {
+            .token-gating-for-nextjs-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -1063,7 +1142,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-nextjs-text09 {
+            .token-gating-for-nextjs-text11 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -1074,19 +1153,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .token-gating-for-nextjs-text16 {
+            .token-gating-for-nextjs-text18 {
               font-size: 24px;
             }
-            .token-gating-for-nextjs-text17 {
+            .token-gating-for-nextjs-text19 {
               font-size: 14px;
             }
             .token-gating-for-nextjs-publish {
               margin-left: 0px;
             }
-            .token-gating-for-nextjs-text18 {
+            .token-gating-for-nextjs-text20 {
               font-size: 24px;
             }
-            .token-gating-for-nextjs-text19 {
+            .token-gating-for-nextjs-text21 {
               font-size: 14px;
             }
             .token-gating-for-nextjs-container2 {
@@ -1096,13 +1175,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-analyze {
               margin-right: 0px;
             }
-            .token-gating-for-nextjs-text20 {
+            .token-gating-for-nextjs-text22 {
               font-size: 24px;
             }
-            .token-gating-for-nextjs-text21 {
+            .token-gating-for-nextjs-text23 {
               font-size: 14px;
             }
-            .token-gating-for-nextjs-text23 {
+            .token-gating-for-nextjs-text25 {
               font-size: 14px;
             }
             .token-gating-for-nextjs-content {
@@ -1115,20 +1194,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-right1 {
               margin-left: 0px;
             }
-            .token-gating-for-nextjs-text24 {
+            .token-gating-for-nextjs-text26 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-for-nextjs-text27 {
+            .token-gating-for-nextjs-text29 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-nextjs-text30 {
+            .token-gating-for-nextjs-text32 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1141,7 +1220,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-right2 {
               margin-left: 0px;
             }
-            .token-gating-for-nextjs-text31 {
+            .token-gating-for-nextjs-text33 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -1152,7 +1231,7 @@ closeButton.addEventListener("click", function() {
               flex-direction: column;
               justify-content: center;
             }
-            .token-gating-for-nextjs-text32 {
+            .token-gating-for-nextjs-text34 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1162,13 +1241,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-right3 {
               margin-left: 0px;
             }
-            .token-gating-for-nextjs-text33 {
+            .token-gating-for-nextjs-text35 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-nextjs-text34 {
+            .token-gating-for-nextjs-text36 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1192,7 +1271,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-hero {
               height: auto;
             }
-            .token-gating-for-nextjs-centered {
+            .token-gating-for-nextjs-centered-desktop {
               justify-content: center;
             }
             .token-gating-for-nextjs-logo {
@@ -1207,7 +1286,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-icon {
               display: none;
             }
-            .token-gating-for-nextjs-text08 {
+            .token-gating-for-nextjs-centered-mobile {
+              justify-content: center;
+            }
+            .token-gating-for-nextjs-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .token-gating-for-nextjs-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .token-gating-for-nextjs-text10 {
               color: #eee9fe;
             }
             .token-gating-for-nextjs-features {
@@ -1228,14 +1320,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-analyze {
               margin-bottom: 0px;
             }
+            .token-gating-for-nextjs-content {
+              padding-top: var(--dl-space-space-threeunits);
+            }
             .token-gating-for-nextjs-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-nextjs-text24 {
+            .token-gating-for-nextjs-text26 {
               align-self: center;
               text-align: center;
             }
-            .token-gating-for-nextjs-text30 {
+            .token-gating-for-nextjs-text32 {
               align-self: center;
               text-align: center;
             }
@@ -1245,17 +1340,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-nextjs-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-nextjs-text31 {
+            .token-gating-for-nextjs-text33 {
               width: auto;
             }
-            .token-gating-for-nextjs-text32 {
+            .token-gating-for-nextjs-text34 {
               align-self: center;
               text-align: center;
             }
             .token-gating-for-nextjs-right3 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-nextjs-text34 {
+            .token-gating-for-nextjs-text36 {
               align-self: center;
               text-align: center;
             }
@@ -1269,7 +1364,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .token-gating-for-nextjs-text35 {
+            .token-gating-for-nextjs-text37 {
               text-align: center;
             }
           }

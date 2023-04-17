@@ -32,11 +32,37 @@ const TokenGatingForReact = (props) => {
         </Head>
         <header id="header" className="token-gating-for-react-hero">
           <div className="token-gating-for-react-menu">
+            <div>
+              <DangerousHTML
+                html={`<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector("#mobile-menu")
+
+// Buttons
+const closeButton = document.querySelector("#close-mobile-menu")
+const openButton = document.querySelector("#open-mobile-menu")
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(0%)"
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(100%)"
+})
+</script>`}
+              ></DangerousHTML>
+            </div>
             <div
               id="navigation"
               className="token-gating-for-react-desktop-navigation"
             >
-              <nav className="token-gating-for-react-centered">
+              <nav className="token-gating-for-react-centered-desktop">
                 <div className="token-gating-for-react-left">
                   <Link href="/">
                     <a className="token-gating-for-react-link">
@@ -94,46 +120,42 @@ const TokenGatingForReact = (props) => {
                   </Link>
                 </div>
               </nav>
-            </div>
-            <div>
-              <DangerousHTML
-                html={`<script>
-/*
-Mobile menu - Code Embed
-*/
-
-// Mobile menu
-const mobileMenu = document.querySelector("#mobile-menu")
-
-// Buttons
-const closeButton = document.querySelector("#close-mobile-menu")
-const openButton = document.querySelector("#open-mobile-menu")
-
-// On openButton click, set the mobileMenu position left to -100vw
-openButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(0%)"
-})
-
-// On closeButton click, set the mobileMenu position to 0vw
-closeButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(100%)"
-})
-</script>`}
-              ></DangerousHTML>
+              <nav className="token-gating-for-react-centered-mobile">
+                <div className="token-gating-for-react-left1">
+                  <div className="token-gating-for-react-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-for-react-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-for-react-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-for-react-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
             </div>
           </div>
           <header className="token-gating-for-react-header">
-            <h1 className="token-gating-for-react-text07">
+            <h1 className="token-gating-for-react-text09">
               Token Gating for React
             </h1>
-            <p className="token-gating-for-react-text08">
+            <p className="token-gating-for-react-text10">
               Add Gateful to Your React Project
             </p>
           </header>
         </header>
         <section className="token-gating-for-react-features">
           <div className="token-gating-for-react-title">
-            <span className="token-gating-for-react-text09">
+            <span className="token-gating-for-react-text11">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -145,7 +167,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="token-gating-for-react-text13">
+            <span className="token-gating-for-react-text15">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -165,8 +187,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="token-gating-for-react-icon2"
                 />
-                <span className="token-gating-for-react-text16">Schedule</span>
-                <span className="token-gating-for-react-text17">
+                <span className="token-gating-for-react-text18">Schedule</span>
+                <span className="token-gating-for-react-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -177,8 +199,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="token-gating-for-react-icon3"
                 />
-                <span className="token-gating-for-react-text18">Publish</span>
-                <span className="token-gating-for-react-text19">
+                <span className="token-gating-for-react-text20">Publish</span>
+                <span className="token-gating-for-react-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -190,8 +212,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="token-gating-for-react-icon4"
                 />
-                <span className="token-gating-for-react-text20">Analyze</span>
-                <span className="token-gating-for-react-text21">
+                <span className="token-gating-for-react-text22">Analyze</span>
+                <span className="token-gating-for-react-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -202,8 +224,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="token-gating-for-react-icon5"
                 />
-                <span className="token-gating-for-react-text22">Get leads</span>
-                <span className="token-gating-for-react-text23">
+                <span className="token-gating-for-react-text24">Get leads</span>
+                <span className="token-gating-for-react-text25">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -223,14 +245,14 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-for-react-right1">
-                <h2 className="token-gating-for-react-text24 title">
+                <h2 className="token-gating-for-react-text26 title">
                   <span>
                     Deploy Web3 token gates faster with Gateful and React
                   </span>
                   <br></br>
                 </h2>
                 <div className="token-gating-for-react-category">
-                  <span className="token-gating-for-react-text27">
+                  <span className="token-gating-for-react-text29">
                     <span>
                       Token gating is a powerful tool for React developers that
                       brings an innovative layer of access control to Web3 and
@@ -250,13 +272,13 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-react-text30 title">
+            <h2 className="token-gating-for-react-text32 title">
               Create on-chain conditions for React
             </h2>
             <div className="token-gating-for-react-centered-container1">
               <div className="token-gating-for-react-right2">
                 <div className="token-gating-for-react-category1">
-                  <span className="token-gating-for-react-text31">
+                  <span className="token-gating-for-react-text33">
                     Add Web3 Token Gating functionality to your React project
                     without writing code. Our integration with LIT Protocol
                     allows you to create multiple token gates within the same
@@ -273,12 +295,12 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div className="token-gating-for-react-centered-container2">
-              <h2 className="token-gating-for-react-text32 title">
+              <h2 className="token-gating-for-react-text34 title">
                 Benefits of React for Web3 development
               </h2>
               <div className="token-gating-for-react-right3">
                 <div className="token-gating-for-react-category2">
-                  <span className="token-gating-for-react-text33">
+                  <span className="token-gating-for-react-text35">
                     The main benefit of using React for Web3 projects is its
                     ability to handle data storage efficiently. This makes it
                     easier for developers who are working on smart contracts or
@@ -296,13 +318,13 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-for-react-text34 title">
+            <h2 className="token-gating-for-react-text36 title">
               Learn more about Web3 and Token Gating
             </h2>
             <div className="token-gating-for-react-blog">
               <div className="token-gating-for-react-container3">
                 <Link href="/about-token-gating-platforms">
-                  <a className="token-gating-for-react-link05">
+                  <a className="token-gating-for-react-link08">
                     <BlogPostCardFinal
                       title="Token Gating Platforms: Revolutionizing Web3 Content Monetization and Access Control"
                       image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYxfHx3ZWIzfGVufDB8fHx8MTY4MTc0Mjk4OA&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -315,7 +337,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="token-gating-for-react-container4">
                 <Link href="/an-introduction-to-nft-token-gating">
-                  <a className="token-gating-for-react-link06">
+                  <a className="token-gating-for-react-link09">
                     <BlogPostCardFinal
                       title="Embracing the Future of Web3:  An Introduction to NFT Token Gating"
                       image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNzQzMzY0&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -328,7 +350,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="token-gating-for-react-container5">
                 <Link href="/unlock-token-gate-signature-request">
-                  <a className="token-gating-for-react-link07">
+                  <a className="token-gating-for-react-link10">
                     <BlogPostCardFinal
                       title="Unlocking a Token Gate: The Signature Request Explained"
                       image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNzQzNDM3&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -350,10 +372,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="token-gating-for-react-image1"
             />
-            <span className="token-gating-for-react-text35">
+            <span className="token-gating-for-react-text37">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="token-gating-for-react-text36">
+            <span className="token-gating-for-react-text38">
               <span>
                 Built by
                 <span
@@ -366,7 +388,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-react-link08"
+                className="token-gating-for-react-link11"
               >
                 OpenMedium, Inc
               </a>
@@ -383,12 +405,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-react-link09"
+                className="token-gating-for-react-link12"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="token-gating-for-react-text39">
+            <span className="token-gating-for-react-text41">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -396,7 +418,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-for-react-link10"
+                className="token-gating-for-react-link13"
               >
                 Legal
               </a>
@@ -445,7 +467,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-react-centered {
+          .token-gating-for-react-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -540,6 +562,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .token-gating-for-react-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .token-gating-for-react-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .token-gating-for-react-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .token-gating-for-react-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-react-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-for-react-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .token-gating-for-react-header {
             width: 70%;
             display: flex;
@@ -549,7 +611,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-for-react-text07 {
+          .token-gating-for-react-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -557,7 +619,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .token-gating-for-react-text08 {
+          .token-gating-for-react-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -582,14 +644,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-react-text09 {
+          .token-gating-for-react-text11 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .token-gating-for-react-text13 {
+          .token-gating-for-react-text15 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -616,14 +678,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-react-text16 {
+          .token-gating-for-react-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-react-text17 {
+          .token-gating-for-react-text19 {
             line-height: 24px;
           }
           .token-gating-for-react-publish {
@@ -634,14 +696,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-react-text18 {
+          .token-gating-for-react-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-react-text19 {
+          .token-gating-for-react-text21 {
             line-height: 24px;
           }
           .token-gating-for-react-container2 {
@@ -657,14 +719,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-react-text20 {
+          .token-gating-for-react-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .token-gating-for-react-text21 {
+          .token-gating-for-react-text23 {
             line-height: 24px;
           }
           .token-gating-for-react-icon5 {
@@ -672,14 +734,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-react-text22 {
+          .token-gating-for-react-text24 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-react-text23 {
+          .token-gating-for-react-text25 {
             line-height: 24px;
           }
           .token-gating-for-react-section {
@@ -730,7 +792,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-for-react-text24 {
+          .token-gating-for-react-text26 {
             font-size: 30px;
             text-align: left;
             line-height: 1.25em;
@@ -741,13 +803,13 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .token-gating-for-react-text27 {
+          .token-gating-for-react-text29 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .token-gating-for-react-text30 {
+          .token-gating-for-react-text32 {
             font-size: 30px;
             text-align: left;
           }
@@ -772,7 +834,7 @@ closeButton.addEventListener("click", function() {
             align-items: flex-start;
             flex-direction: column;
           }
-          .token-gating-for-react-text31 {
+          .token-gating-for-react-text33 {
             color: rgb(0, 0, 0);
             font-size: 20px;
             text-align: center;
@@ -800,7 +862,7 @@ closeButton.addEventListener("click", function() {
             justify-content: center;
             background-color: var(--dl-color-primary-100);
           }
-          .token-gating-for-react-text32 {
+          .token-gating-for-react-text34 {
             color: var(--dl-color-gray-white);
             font-size: 30px;
             text-align: left;
@@ -817,13 +879,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-for-react-text33 {
+          .token-gating-for-react-text35 {
             color: var(--dl-color-gray-white);
             font-size: 20px;
             text-align: center;
             line-height: 30px;
           }
-          .token-gating-for-react-text34 {
+          .token-gating-for-react-text36 {
             font-size: 30px;
             text-align: left;
           }
@@ -841,7 +903,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-for-react-link05 {
+          .token-gating-for-react-link08 {
             display: contents;
           }
           .token-gating-for-react-component {
@@ -853,7 +915,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-for-react-link06 {
+          .token-gating-for-react-link09 {
             display: contents;
           }
           .token-gating-for-react-component1 {
@@ -864,7 +926,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             justify-content: space-between;
           }
-          .token-gating-for-react-link07 {
+          .token-gating-for-react-link10 {
             display: contents;
           }
           .token-gating-for-react-component2 {
@@ -896,33 +958,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-react-text35 {
+          .token-gating-for-react-text37 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-react-text36 {
+          .token-gating-for-react-text38 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-for-react-link08 {
+          .token-gating-for-react-link11 {
             text-decoration: underline;
           }
-          .token-gating-for-react-link09 {
+          .token-gating-for-react-link12 {
             text-decoration: underline;
           }
-          .token-gating-for-react-text39 {
+          .token-gating-for-react-text41 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-for-react-link10 {
+          .token-gating-for-react-link13 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -940,7 +1002,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-react-centered {
+            .token-gating-for-react-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -948,8 +1010,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .token-gating-for-react-links {
-              display: none;
+            .token-gating-for-react-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .token-gating-for-react-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .token-gating-for-react-header {
               width: 100%;
@@ -962,11 +1029,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .token-gating-for-react-text09 {
+            .token-gating-for-react-text11 {
               font-size: 36px;
               line-height: 40px;
             }
-            .token-gating-for-react-text13 {
+            .token-gating-for-react-text15 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -974,19 +1041,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .token-gating-for-react-text17 {
-              line-height: 21px;
-            }
             .token-gating-for-react-text19 {
               line-height: 21px;
             }
             .token-gating-for-react-text21 {
               line-height: 21px;
             }
-            .token-gating-for-react-text22 {
+            .token-gating-for-react-text23 {
+              line-height: 21px;
+            }
+            .token-gating-for-react-text24 {
               font-size: 24px;
             }
-            .token-gating-for-react-text23 {
+            .token-gating-for-react-text25 {
               line-height: 21px;
             }
             .token-gating-for-react-content {
@@ -995,11 +1062,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .token-gating-for-react-text24 {
-              line-height: 1.25em;
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-            .token-gating-for-react-text30 {
+            .token-gating-for-react-text26 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1008,6 +1071,10 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .token-gating-for-react-text34 {
+              line-height: 1.25em;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .token-gating-for-react-text36 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1028,7 +1095,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-top {
               flex-direction: column;
             }
-            .token-gating-for-react-text39 {
+            .token-gating-for-react-text41 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -1044,12 +1111,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .token-gating-for-react-centered {
+            .token-gating-for-react-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .token-gating-for-react-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .token-gating-for-react-links {
+              display: none;
             }
             .token-gating-for-react-right {
               margin-right: var(--dl-space-space-unit);
@@ -1060,19 +1130,28 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-get-started {
               display: flex;
             }
+            .token-gating-for-react-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .token-gating-for-react-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .token-gating-for-react-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-for-react-text07 {
+            .token-gating-for-react-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .token-gating-for-react-text08 {
+            .token-gating-for-react-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -1083,7 +1162,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-react-text09 {
+            .token-gating-for-react-text11 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -1094,19 +1173,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .token-gating-for-react-text16 {
+            .token-gating-for-react-text18 {
               font-size: 24px;
             }
-            .token-gating-for-react-text17 {
+            .token-gating-for-react-text19 {
               font-size: 14px;
             }
             .token-gating-for-react-publish {
               margin-left: 0px;
             }
-            .token-gating-for-react-text18 {
+            .token-gating-for-react-text20 {
               font-size: 24px;
             }
-            .token-gating-for-react-text19 {
+            .token-gating-for-react-text21 {
               font-size: 14px;
             }
             .token-gating-for-react-container2 {
@@ -1116,13 +1195,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-analyze {
               margin-right: 0px;
             }
-            .token-gating-for-react-text20 {
+            .token-gating-for-react-text22 {
               font-size: 24px;
             }
-            .token-gating-for-react-text21 {
+            .token-gating-for-react-text23 {
               font-size: 14px;
             }
-            .token-gating-for-react-text23 {
+            .token-gating-for-react-text25 {
               font-size: 14px;
             }
             .token-gating-for-react-content {
@@ -1135,20 +1214,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-right1 {
               margin-left: 0px;
             }
-            .token-gating-for-react-text24 {
+            .token-gating-for-react-text26 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-for-react-text27 {
+            .token-gating-for-react-text29 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-react-text30 {
+            .token-gating-for-react-text32 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1161,7 +1240,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-right2 {
               margin-left: 0px;
             }
-            .token-gating-for-react-text31 {
+            .token-gating-for-react-text33 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -1172,7 +1251,7 @@ closeButton.addEventListener("click", function() {
               flex-direction: column;
               justify-content: center;
             }
-            .token-gating-for-react-text32 {
+            .token-gating-for-react-text34 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1182,13 +1261,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-right3 {
               margin-left: 0px;
             }
-            .token-gating-for-react-text33 {
+            .token-gating-for-react-text35 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-for-react-text34 {
+            .token-gating-for-react-text36 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1212,7 +1291,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-hero {
               height: auto;
             }
-            .token-gating-for-react-centered {
+            .token-gating-for-react-centered-desktop {
               justify-content: center;
             }
             .token-gating-for-react-logo {
@@ -1227,7 +1306,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-icon {
               display: none;
             }
-            .token-gating-for-react-text08 {
+            .token-gating-for-react-centered-mobile {
+              justify-content: center;
+            }
+            .token-gating-for-react-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .token-gating-for-react-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .token-gating-for-react-text10 {
               color: #eee9fe;
             }
             .token-gating-for-react-features {
@@ -1248,14 +1340,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-analyze {
               margin-bottom: 0px;
             }
+            .token-gating-for-react-content {
+              padding-top: var(--dl-space-space-threeunits);
+            }
             .token-gating-for-react-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-react-text24 {
+            .token-gating-for-react-text26 {
               align-self: center;
               text-align: center;
             }
-            .token-gating-for-react-text30 {
+            .token-gating-for-react-text32 {
               align-self: center;
               text-align: center;
             }
@@ -1265,17 +1360,17 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-react-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-react-text31 {
+            .token-gating-for-react-text33 {
               width: auto;
             }
-            .token-gating-for-react-text32 {
+            .token-gating-for-react-text34 {
               align-self: center;
               text-align: center;
             }
             .token-gating-for-react-right3 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-for-react-text34 {
+            .token-gating-for-react-text36 {
               align-self: center;
               text-align: center;
             }
@@ -1289,7 +1384,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .token-gating-for-react-text35 {
+            .token-gating-for-react-text37 {
               text-align: center;
             }
           }

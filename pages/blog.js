@@ -33,8 +33,34 @@ const Blog = (props) => {
         </Head>
         <section id="header" className="blog-hero">
           <div className="blog-menu">
+            <div>
+              <DangerousHTML
+                html={`<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector("#mobile-menu")
+
+// Buttons
+const closeButton = document.querySelector("#close-mobile-menu")
+const openButton = document.querySelector("#open-mobile-menu")
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(0%)"
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(100%)"
+})
+</script>`}
+              ></DangerousHTML>
+            </div>
             <div id="navigation" className="blog-desktop-navigation">
-              <nav className="blog-centered">
+              <nav className="blog-centered-desktop">
                 <div className="blog-left">
                   <Link href="/">
                     <a className="blog-link">
@@ -85,44 +111,36 @@ const Blog = (props) => {
                   </Link>
                 </div>
               </nav>
-            </div>
-            <div>
-              <DangerousHTML
-                html={`<script>
-/*
-Mobile menu - Code Embed
-*/
-
-// Mobile menu
-const mobileMenu = document.querySelector("#mobile-menu")
-
-// Buttons
-const closeButton = document.querySelector("#close-mobile-menu")
-const openButton = document.querySelector("#open-mobile-menu")
-
-// On openButton click, set the mobileMenu position left to -100vw
-openButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(0%)"
-})
-
-// On closeButton click, set the mobileMenu position to 0vw
-closeButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(100%)"
-})
-</script>`}
-              ></DangerousHTML>
+              <nav className="blog-centered-mobile">
+                <div className="blog-left1">
+                  <div className="blog-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="blog-link05 Link">Platform</a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="blog-link06 Link">Solutions</a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="blog-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
             </div>
           </div>
           <header className="blog-header">
-            <h1 className="blog-text07">Blog</h1>
-            <p className="blog-text08">
+            <h1 className="blog-text09">Blog</h1>
+            <p className="blog-text10">
               Learn more about Web3 and Token Gating.
             </p>
           </header>
         </section>
         <section className="blog-features">
           <div className="blog-title">
-            <span className="blog-text09">
+            <span className="blog-text11">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -134,7 +152,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="blog-text13">
+            <span className="blog-text15">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -154,8 +172,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="blog-icon02"
                 />
-                <span className="blog-text16">Schedule</span>
-                <span className="blog-text17">
+                <span className="blog-text18">Schedule</span>
+                <span className="blog-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -166,8 +184,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="blog-icon03"
                 />
-                <span className="blog-text18">Publish</span>
-                <span className="blog-text19">
+                <span className="blog-text20">Publish</span>
+                <span className="blog-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -179,8 +197,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="blog-icon04"
                 />
-                <span className="blog-text20">Analyze</span>
-                <span className="blog-text21">
+                <span className="blog-text22">Analyze</span>
+                <span className="blog-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -191,8 +209,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="blog-icon05"
                 />
-                <span className="blog-text22">Get leads</span>
-                <span className="blog-text23">
+                <span className="blog-text24">Get leads</span>
+                <span className="blog-text25">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -204,7 +222,7 @@ closeButton.addEventListener("click", function() {
           <div className="blog-blog">
             <div className="blog-container03">
               <Link href="/about-token-gating-platforms">
-                <a className="blog-link05">
+                <a className="blog-link08">
                   <BlogPostCard2
                     title="Token Gating Platforms: Revolutionizing Content Monetization and Access Control"
                     image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDY2fHx3ZWIzfGVufDB8fHx8MTY4MTU5MTQzOA&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -218,7 +236,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-container04">
               <Link href="/an-introduction-to-nft-token-gating">
-                <a className="blog-link06">
+                <a className="blog-link09">
                   <BlogPostCard2
                     title="Embracing the Future of Web3: An Introduction to NFT Token Gating"
                     image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNTkxNTQy&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -232,7 +250,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-container05">
               <Link href="/token-gating-for-digital-marketing">
-                <a className="blog-link07">
+                <a className="blog-link10">
                   <BlogPostCard2
                     title="Integrate Token Gating Into Your Digital Marketing Campaigns: Target Cryptocurrency Holders"
                     image_src="https://images.unsplash.com/photo-1639475377520-b256a5d204b1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1fHxjcnlwdG98ZW58MHx8fHwxNjgxNTkxNzg3&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -246,7 +264,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-container06">
               <Link href="/web3-and-user-adoption">
-                <a className="blog-link08">
+                <a className="blog-link11">
                   <BlogPostCard2
                     title="A Look at Web3 and User Adoption"
                     image_src="https://images.unsplash.com/photo-1639322537523-abaea1ca9f9c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHdlYjN8ZW58MHx8fHwxNjgxNTkxNDEz&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -260,7 +278,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-container07">
               <Link href="/unlock-token-gate-signature-request">
-                <a className="blog-link09">
+                <a className="blog-link12">
                   <BlogPostCard2
                     title="Unlocking a Token Gate: The Signature Request Explained"
                     image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNjEyOTc1&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -274,7 +292,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-container08">
               <Link href="/steps-to-launch-nft-collection">
-                <a className="blog-link10">
+                <a className="blog-link13">
                   <BlogPostCard2
                     title="Helpful Tips to Launch Your New NFT Collection"
                     image_src="https://images.unsplash.com/photo-1651130535340-e02c63a43a0a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxvcGVuc2VhfGVufDB8fHx8MTY4MTYxNDMyOQ&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -295,7 +313,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="blog-text26">
+              <span className="blog-text28">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -321,14 +339,14 @@ closeButton.addEventListener("click", function() {
         <section className="blog-how-it-works">
           <div className="blog-centered-container1">
             <div className="blog-heading1">
-              <span className="blog-text27">How it works</span>
-              <span className="blog-text28 title">
+              <span className="blog-text29">How it works</span>
+              <span className="blog-text30 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="blog-category">
               <div className="blog-headng">
-                <span className="blog-text29">
+                <span className="blog-text31">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -336,13 +354,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="blog-text30">
+                <span className="blog-text32">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="blog-get-started1 template-button">
-                  <span className="blog-text31">Get started</span>
+                  <span className="blog-text33">Get started</span>
                 </div>
               </div>
               <div className="blog-container11">
@@ -356,8 +374,8 @@ closeButton.addEventListener("click", function() {
             <div className="blog-row">
               <div className="blog-category1">
                 <div className="blog-headng1">
-                  <span className="blog-text32">2 — Act</span>
-                  <span className="blog-text33">
+                  <span className="blog-text34">2 — Act</span>
+                  <span className="blog-text35">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -371,8 +389,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="blog-category2">
                 <div className="blog-headng2">
-                  <span className="blog-text34">2 — Act</span>
-                  <span className="blog-text35">
+                  <span className="blog-text36">2 — Act</span>
+                  <span className="blog-text37">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -390,29 +408,29 @@ closeButton.addEventListener("click", function() {
         <section className="blog-pricing">
           <div className="blog-centered-container2">
             <div className="blog-heading2">
-              <span className="blog-text36 title">
+              <span className="blog-text38 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="blog-text37">
+              <span className="blog-text39">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="blog-selection">
-                <span className="blog-text38">Monthly</span>
-                <span className="blog-text39">Yearly</span>
+                <span className="blog-text40">Monthly</span>
+                <span className="blog-text41">Yearly</span>
               </div>
             </div>
             <div className="blog-cards1">
               <div className="blog-card">
-                <span className="blog-text40">Free</span>
-                <span className="blog-text41">
+                <span className="blog-text42">Free</span>
+                <span className="blog-text43">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="blog-get-started2 template-button">
-                  <span className="blog-text42">Start for free</span>
+                  <span className="blog-text44">Start for free</span>
                 </div>
-                <span className="blog-text43">What&apos;s included</span>
+                <span className="blog-text45">What&apos;s included</span>
                 <div className="blog-bullet-points">
                   <div className="blog-point">
                     <svg
@@ -421,7 +439,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text44">
+                    <span className="blog-text46">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -432,15 +450,15 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text45">
+                    <span className="blog-text47">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="blog-card1">
-                <span className="blog-text46">Pay as you go</span>
-                <span className="blog-text47">
+                <span className="blog-text48">Pay as you go</span>
+                <span className="blog-text49">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -448,12 +466,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="blog-get-started3 template-button">
-                  <span className="blog-text51">
+                  <span className="blog-text53">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="blog-text54">What&apos;s included</span>
+                <span className="blog-text56">What&apos;s included</span>
                 <div className="blog-bullet-points1">
                   <div className="blog-point02">
                     <svg
@@ -462,7 +480,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text55">
+                    <span className="blog-text57">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -473,7 +491,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text56">
+                    <span className="blog-text58">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -484,7 +502,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text57">
+                    <span className="blog-text59">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -495,15 +513,15 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text58">
+                    <span className="blog-text60">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="blog-card2">
-                <span className="blog-text59">Enterprise</span>
-                <span className="blog-text60">
+                <span className="blog-text61">Enterprise</span>
+                <span className="blog-text62">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -511,12 +529,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="blog-get-started4 template-button">
-                  <span className="blog-text63">
+                  <span className="blog-text65">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="blog-text66">What&apos;s included</span>
+                <span className="blog-text68">What&apos;s included</span>
                 <div className="blog-bullet-points2">
                   <div className="blog-point06">
                     <svg
@@ -525,7 +543,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text67">
+                    <span className="blog-text69">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -536,7 +554,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text68">
+                    <span className="blog-text70">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -547,7 +565,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text69">
+                    <span className="blog-text71">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -558,7 +576,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="blog-text70">
+                    <span className="blog-text72">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -568,9 +586,9 @@ closeButton.addEventListener("click", function() {
           </div>
         </section>
         <section className="blog-testimonals">
-          <div className="blog-left1">
-            <span className="blog-text71">Testimonals</span>
-            <span className="blog-text72 title">
+          <div className="blog-left2">
+            <span className="blog-text73">Testimonals</span>
+            <span className="blog-text74 title">
               What people say about Active
             </span>
           </div>
@@ -626,7 +644,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="blog-text73">
+          <span className="blog-text75">
             <span>Show more</span>
             <br></br>
           </span>
@@ -634,16 +652,16 @@ closeButton.addEventListener("click", function() {
         <section className="blog-action-bar">
           <div className="blog-action">
             <div className="blog-heading3">
-              <span className="blog-text76 title">
+              <span className="blog-text78 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="blog-text80">
+              <span className="blog-text82">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="blog-get-started5 template-button">
-                <span className="blog-text81">
+                <span className="blog-text83">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -665,10 +683,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="blog-image1"
             />
-            <span className="blog-text84">
+            <span className="blog-text86">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="blog-text85">
+            <span className="blog-text87">
               <span>
                 Built by
                 <span
@@ -681,7 +699,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="blog-link11"
+                className="blog-link14"
               >
                 OpenMedium, Inc
               </a>
@@ -698,12 +716,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="blog-link12"
+                className="blog-link15"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="blog-text88">
+            <span className="blog-text90">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -711,7 +729,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="blog-link13"
+                className="blog-link16"
               >
                 Legal
               </a>
@@ -760,7 +778,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .blog-centered {
+          .blog-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -855,6 +873,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .blog-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .blog-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .blog-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .blog-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .blog-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .blog-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .blog-header {
             width: 70%;
             display: flex;
@@ -864,7 +922,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .blog-text07 {
+          .blog-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -872,7 +930,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .blog-text08 {
+          .blog-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -897,14 +955,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .blog-text09 {
+          .blog-text11 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .blog-text13 {
+          .blog-text15 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -931,14 +989,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text16 {
+          .blog-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .blog-text17 {
+          .blog-text19 {
             line-height: 24px;
           }
           .blog-publish {
@@ -949,14 +1007,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text18 {
+          .blog-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .blog-text19 {
+          .blog-text21 {
             line-height: 24px;
           }
           .blog-container02 {
@@ -972,14 +1030,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text20 {
+          .blog-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .blog-text21 {
+          .blog-text23 {
             line-height: 24px;
           }
           .blog-icon05 {
@@ -987,14 +1045,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text22 {
+          .blog-text24 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .blog-text23 {
+          .blog-text25 {
             line-height: 24px;
           }
           .blog-banners {
@@ -1020,7 +1078,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link05 {
+          .blog-link08 {
             display: contents;
           }
           .blog-component {
@@ -1033,7 +1091,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link06 {
+          .blog-link09 {
             display: contents;
           }
           .blog-component01 {
@@ -1046,7 +1104,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link07 {
+          .blog-link10 {
             display: contents;
           }
           .blog-component02 {
@@ -1059,7 +1117,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link08 {
+          .blog-link11 {
             display: contents;
           }
           .blog-component03 {
@@ -1072,7 +1130,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link09 {
+          .blog-link12 {
             display: contents;
           }
           .blog-component04 {
@@ -1085,7 +1143,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link10 {
+          .blog-link13 {
             display: contents;
           }
           .blog-component05 {
@@ -1113,7 +1171,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .blog-text26 {
+          .blog-text28 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1175,13 +1233,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .blog-text27 {
+          .blog-text29 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .blog-text28 {
+          .blog-text30 {
             color: var(--dl-color-gray-white);
           }
           .blog-category {
@@ -1205,13 +1263,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .blog-text29 {
+          .blog-text31 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .blog-text30 {
+          .blog-text32 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1223,7 +1281,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .blog-text31 {
+          .blog-text33 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1269,14 +1327,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .blog-text32 {
+          .blog-text34 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .blog-text33 {
+          .blog-text35 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1305,14 +1363,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .blog-text34 {
+          .blog-text36 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .blog-text35 {
+          .blog-text37 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1346,11 +1404,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .blog-text36 {
+          .blog-text38 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .blog-text37 {
+          .blog-text39 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1363,7 +1421,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .blog-text38 {
+          .blog-text40 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1374,7 +1432,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .blog-text39 {
+          .blog-text41 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1409,13 +1467,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .blog-text40 {
+          .blog-text42 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text41 {
+          .blog-text43 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1427,13 +1485,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .blog-text42 {
+          .blog-text44 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .blog-text43 {
+          .blog-text45 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1456,7 +1514,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text44 {
+          .blog-text46 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1473,7 +1531,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text45 {
+          .blog-text47 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1494,13 +1552,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .blog-text46 {
+          .blog-text48 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text47 {
+          .blog-text49 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1512,13 +1570,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .blog-text51 {
+          .blog-text53 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .blog-text54 {
+          .blog-text56 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1541,7 +1599,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text55 {
+          .blog-text57 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1558,7 +1616,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text56 {
+          .blog-text58 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1575,7 +1633,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text57 {
+          .blog-text59 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1592,7 +1650,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text58 {
+          .blog-text60 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1612,14 +1670,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .blog-text59 {
+          .blog-text61 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .blog-text60 {
+          .blog-text62 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1633,12 +1691,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .blog-text63 {
+          .blog-text65 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .blog-text66 {
+          .blog-text68 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1662,7 +1720,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text67 {
+          .blog-text69 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1680,7 +1738,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text68 {
+          .blog-text70 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1698,7 +1756,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text69 {
+          .blog-text71 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1716,7 +1774,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .blog-text70 {
+          .blog-text72 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1733,7 +1791,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .blog-left1 {
+          .blog-left2 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -1741,13 +1799,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .blog-text71 {
+          .blog-text73 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .blog-text72 {
+          .blog-text74 {
             text-align: left;
           }
           .blog-right1 {
@@ -1765,7 +1823,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .blog-text73 {
+          .blog-text75 {
             cursor: pointer;
             display: none;
           }
@@ -1796,11 +1854,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .blog-text76 {
+          .blog-text78 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .blog-text80 {
+          .blog-text82 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1808,7 +1866,7 @@ closeButton.addEventListener("click", function() {
           .blog-get-started5 {
             margin-bottom: 0px;
           }
-          .blog-text81 {
+          .blog-text83 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1850,33 +1908,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .blog-text84 {
+          .blog-text86 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .blog-text85 {
+          .blog-text87 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .blog-link11 {
+          .blog-link14 {
             text-decoration: underline;
           }
-          .blog-link12 {
+          .blog-link15 {
             text-decoration: underline;
           }
-          .blog-text88 {
+          .blog-text90 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .blog-link13 {
+          .blog-link16 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -1894,7 +1952,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .blog-centered {
+            .blog-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -1902,8 +1960,13 @@ closeButton.addEventListener("click", function() {
             .blog-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .blog-links {
-              display: none;
+            .blog-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .blog-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .blog-header {
               width: 100%;
@@ -1916,11 +1979,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .blog-text09 {
+            .blog-text11 {
               font-size: 36px;
               line-height: 40px;
             }
-            .blog-text13 {
+            .blog-text15 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -1928,19 +1991,19 @@ closeButton.addEventListener("click", function() {
             .blog-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .blog-text17 {
-              line-height: 21px;
-            }
             .blog-text19 {
               line-height: 21px;
             }
             .blog-text21 {
               line-height: 21px;
             }
-            .blog-text22 {
+            .blog-text23 {
+              line-height: 21px;
+            }
+            .blog-text24 {
               font-size: 24px;
             }
-            .blog-text23 {
+            .blog-text25 {
               line-height: 21px;
             }
             .blog-container10 {
@@ -1970,7 +2033,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .blog-text37 {
+            .blog-text39 {
               width: 100%;
               max-width: 600px;
             }
@@ -1986,11 +2049,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .blog-text41 {
+            .blog-text43 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .blog-text43 {
+            .blog-text45 {
               font-size: 16px;
             }
             .blog-card1 {
@@ -2005,12 +2068,12 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               flex-direction: column;
             }
-            .blog-left1 {
+            .blog-left2 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .blog-text72 {
+            .blog-text74 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2035,7 +2098,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .blog-text76 {
+            .blog-text78 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2045,7 +2108,7 @@ closeButton.addEventListener("click", function() {
             .blog-top {
               flex-direction: column;
             }
-            .blog-text88 {
+            .blog-text90 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2061,12 +2124,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .blog-centered {
+            .blog-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .blog-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .blog-links {
+              display: none;
             }
             .blog-right {
               margin-right: var(--dl-space-space-unit);
@@ -2077,19 +2143,28 @@ closeButton.addEventListener("click", function() {
             .blog-get-started {
               display: flex;
             }
+            .blog-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .blog-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .blog-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .blog-text07 {
+            .blog-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .blog-text08 {
+            .blog-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2100,7 +2175,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .blog-text09 {
+            .blog-text11 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2111,19 +2186,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .blog-text16 {
+            .blog-text18 {
               font-size: 24px;
             }
-            .blog-text17 {
+            .blog-text19 {
               font-size: 14px;
             }
             .blog-publish {
               margin-left: 0px;
             }
-            .blog-text18 {
+            .blog-text20 {
               font-size: 24px;
             }
-            .blog-text19 {
+            .blog-text21 {
               font-size: 14px;
             }
             .blog-container02 {
@@ -2133,13 +2208,13 @@ closeButton.addEventListener("click", function() {
             .blog-analyze {
               margin-right: 0px;
             }
-            .blog-text20 {
+            .blog-text22 {
               font-size: 24px;
             }
-            .blog-text21 {
+            .blog-text23 {
               font-size: 14px;
             }
-            .blog-text23 {
+            .blog-text25 {
               font-size: 14px;
             }
             .blog-blog {
@@ -2152,7 +2227,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .blog-text26 {
+            .blog-text28 {
               line-height: 24px;
             }
             .blog-pills {
@@ -2167,7 +2242,7 @@ closeButton.addEventListener("click", function() {
             .blog-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .blog-text28 {
+            .blog-text30 {
               margin-bottom: 0px;
             }
             .blog-headng {
@@ -2191,7 +2266,7 @@ closeButton.addEventListener("click", function() {
             .blog-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .blog-text40 {
+            .blog-text42 {
               font-size: 28px;
             }
             .blog-card1 {
@@ -2200,7 +2275,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .blog-text46 {
+            .blog-text48 {
               font-size: 28px;
             }
             .blog-card2 {
@@ -2208,7 +2283,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .blog-text59 {
+            .blog-text61 {
               font-size: 28px;
             }
             .blog-testimonals {
@@ -2223,7 +2298,7 @@ closeButton.addEventListener("click", function() {
             .blog-column1 {
               display: none;
             }
-            .blog-text73 {
+            .blog-text75 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2243,11 +2318,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .blog-text76 {
+            .blog-text78 {
               font-size: 28px;
               text-align: left;
             }
-            .blog-text81 {
+            .blog-text83 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2272,7 +2347,7 @@ closeButton.addEventListener("click", function() {
             .blog-hero {
               height: auto;
             }
-            .blog-centered {
+            .blog-centered-desktop {
               justify-content: center;
             }
             .blog-logo {
@@ -2287,7 +2362,20 @@ closeButton.addEventListener("click", function() {
             .blog-icon {
               display: none;
             }
-            .blog-text08 {
+            .blog-centered-mobile {
+              justify-content: center;
+            }
+            .blog-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .blog-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .blog-text10 {
               color: #eee9fe;
             }
             .blog-features {
@@ -2309,8 +2397,10 @@ closeButton.addEventListener("click", function() {
               margin-bottom: 0px;
             }
             .blog-blog {
+              margin-top: var(--dl-space-space-threeunits);
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
@@ -2338,7 +2428,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .blog-text84 {
+            .blog-text86 {
               text-align: center;
             }
           }

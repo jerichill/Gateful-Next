@@ -34,11 +34,37 @@ const TokenGatingPlatform = (props) => {
         </Head>
         <header id="header" className="token-gating-platform-hero">
           <div className="token-gating-platform-menu">
+            <div>
+              <DangerousHTML
+                html={`<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector("#mobile-menu")
+
+// Buttons
+const closeButton = document.querySelector("#close-mobile-menu")
+const openButton = document.querySelector("#open-mobile-menu")
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(0%)"
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(100%)"
+})
+</script>`}
+              ></DangerousHTML>
+            </div>
             <div
               id="navigation"
               className="token-gating-platform-desktop-navigation"
             >
-              <nav className="token-gating-platform-centered">
+              <nav className="token-gating-platform-centered-desktop">
                 <div className="token-gating-platform-left">
                   <Link href="/">
                     <a className="token-gating-platform-link">
@@ -96,39 +122,35 @@ const TokenGatingPlatform = (props) => {
                   </Link>
                 </div>
               </nav>
-            </div>
-            <div>
-              <DangerousHTML
-                html={`<script>
-/*
-Mobile menu - Code Embed
-*/
-
-// Mobile menu
-const mobileMenu = document.querySelector("#mobile-menu")
-
-// Buttons
-const closeButton = document.querySelector("#close-mobile-menu")
-const openButton = document.querySelector("#open-mobile-menu")
-
-// On openButton click, set the mobileMenu position left to -100vw
-openButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(0%)"
-})
-
-// On closeButton click, set the mobileMenu position to 0vw
-closeButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(100%)"
-})
-</script>`}
-              ></DangerousHTML>
+              <nav className="token-gating-platform-centered-mobile">
+                <div className="token-gating-platform-left1">
+                  <div className="token-gating-platform-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-platform-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-platform-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-platform-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
             </div>
           </div>
           <header className="token-gating-platform-header">
-            <h1 className="token-gating-platform-text07">
+            <h1 className="token-gating-platform-text09">
               Token Gating Platform
             </h1>
-            <p className="token-gating-platform-text08">
+            <p className="token-gating-platform-text10">
               Transform your project into a powerful Web3-connected community.
             </p>
           </header>
@@ -136,74 +158,74 @@ closeButton.addEventListener("click", function() {
         <section className="token-gating-platform-banners">
           <section className="token-gating-platform-banner-advanced-analytics">
             <section className="token-gating-platform-frameworks">
-              <h2 className="token-gating-platform-text09 title">
+              <h2 className="token-gating-platform-text11 title">
                 <span>Token gating, simplified</span>
                 <br></br>
               </h2>
-              <p className="token-gating-platform-text12">
+              <p className="token-gating-platform-text14">
                 Add token gated experiences to your website or web application
                 using the frameworks you already know and love.
               </p>
               <div className="token-gating-platform-container1">
                 <Link href="/token-gating-for-react">
-                  <a className="token-gating-platform-link05">
+                  <a className="token-gating-platform-link08">
                     <div className="token-gating-platform-active-users metrics">
                       <img
                         alt=" "
                         src="/playground_assets/2xreact-200h.png"
                         className="token-gating-platform-image"
                       />
-                      <h3 className="token-gating-platform-text13">React</h3>
+                      <h3 className="token-gating-platform-text15">React</h3>
                     </div>
                   </a>
                 </Link>
                 <Link href="/token-gating-for-angular">
-                  <a className="token-gating-platform-link06">
+                  <a className="token-gating-platform-link09">
                     <div className="token-gating-platform-active-users1 metrics">
                       <img
                         alt=" "
                         src="/playground_assets/2xangular-800h.png"
                         className="token-gating-platform-image1"
                       />
-                      <span className="token-gating-platform-text14">
+                      <span className="token-gating-platform-text16">
                         Angular
                       </span>
                     </div>
                   </a>
                 </Link>
                 <Link href="/token-gating-for-nextjs">
-                  <a className="token-gating-platform-link07">
+                  <a className="token-gating-platform-link10">
                     <div className="token-gating-platform-active-users2 metrics">
                       <img
                         alt=" "
                         src="/playground_assets/2xnext-200h.png"
                         className="token-gating-platform-image2"
                       />
-                      <h3 className="token-gating-platform-text15">Next.js</h3>
+                      <h3 className="token-gating-platform-text17">Next.js</h3>
                     </div>
                   </a>
                 </Link>
                 <Link href="/token-gating-for-vuejs">
-                  <a className="token-gating-platform-link08">
+                  <a className="token-gating-platform-link11">
                     <div className="token-gating-platform-active-users3 metrics">
                       <img
                         alt=" "
                         src="/playground_assets/2xvue-200h.png"
                         className="token-gating-platform-image3"
                       />
-                      <h3 className="token-gating-platform-text16">Vue.js</h3>
+                      <h3 className="token-gating-platform-text18">Vue.js</h3>
                     </div>
                   </a>
                 </Link>
                 <Link href="/token-gating-for-php">
-                  <a className="token-gating-platform-link09">
+                  <a className="token-gating-platform-link12">
                     <div className="token-gating-platform-active-users4 metrics">
                       <img
                         alt=" "
                         src="/playground_assets/2xphp-200h.png"
                         className="token-gating-platform-image4"
                       />
-                      <h3 className="token-gating-platform-text17">
+                      <h3 className="token-gating-platform-text19">
                         PHP/HTML5
                       </h3>
                     </div>
@@ -221,7 +243,7 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-platform-right1">
-                <h2 className="token-gating-platform-text18 title">
+                <h2 className="token-gating-platform-text20 title">
                   Create unique on-chain conditions
                   <span
                     dangerouslySetInnerHTML={{
@@ -230,7 +252,7 @@ closeButton.addEventListener("click", function() {
                   />
                 </h2>
                 <div className="token-gating-platform-category">
-                  <span className="token-gating-platform-text19">
+                  <span className="token-gating-platform-text21">
                     <span>
                       Gateful&apos;s on-chain access control system simplifies
                       the process of creating token gated experiences,
@@ -265,11 +287,11 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-platform-right2">
-                <h2 className="token-gating-platform-text25 title">
+                <h2 className="token-gating-platform-text27 title">
                   Manage multiple projects and token gates
                 </h2>
                 <div className="token-gating-platform-category1">
-                  <span className="token-gating-platform-text26">
+                  <span className="token-gating-platform-text28">
                     <span>
                       Gateful&apos;s intuitive dashboard streamlines the process
                       of creating and managing multiple domain projects,
@@ -304,11 +326,11 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-platform-right3">
-                <h2 className="token-gating-platform-text32 title">
+                <h2 className="token-gating-platform-text34 title">
                   Personalize your token gate splash screen
                 </h2>
                 <div className="token-gating-platform-category2">
-                  <span className="token-gating-platform-text33">
+                  <span className="token-gating-platform-text35">
                     <span>
                       Enhance your token gate verification page by personalizing
                       it with your own content, creating a seamless experience
@@ -325,13 +347,13 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
           </section>
-          <h2 className="token-gating-platform-text36 title">
+          <h2 className="token-gating-platform-text38 title">
             Learn more about Web3 and Token Gating
           </h2>
           <div className="token-gating-platform-blog">
             <div className="token-gating-platform-container2">
               <Link href="/about-token-gating-platforms">
-                <a className="token-gating-platform-link10">
+                <a className="token-gating-platform-link13">
                   <BlogPostCardFinal
                     title="Token Gating Platforms: Revolutionizing Web3 Content Monetization and Access Control"
                     image_src="https://images.unsplash.com/photo-1676911809746-85d90edbbe4a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYxfHx3ZWIzfGVufDB8fHx8MTY4MTc0Mjk4OA&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -344,7 +366,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="token-gating-platform-container3">
               <Link href="/an-introduction-to-nft-token-gating">
-                <a className="token-gating-platform-link11">
+                <a className="token-gating-platform-link14">
                   <BlogPostCardFinal
                     title="Embracing the Future of Web3:  An Introduction to NFT Token Gating"
                     image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNzQzMzY0&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -357,7 +379,7 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="token-gating-platform-container4">
               <Link href="/unlock-token-gate-signature-request">
-                <a className="token-gating-platform-link12">
+                <a className="token-gating-platform-link15">
                   <BlogPostCardFinal
                     title="Unlocking a Token Gate: The Signature Request Explained"
                     image_src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGJsb2NrY2hhaW58ZW58MHx8fHwxNjgxNzQzNDM3&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -378,10 +400,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="token-gating-platform-image5"
             />
-            <span className="token-gating-platform-text37">
+            <span className="token-gating-platform-text39">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="token-gating-platform-text38">
+            <span className="token-gating-platform-text40">
               <span>
                 Built by
                 <span
@@ -394,7 +416,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-platform-link13"
+                className="token-gating-platform-link16"
               >
                 OpenMedium, Inc
               </a>
@@ -411,12 +433,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-platform-link14"
+                className="token-gating-platform-link17"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="token-gating-platform-text41">
+            <span className="token-gating-platform-text43">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -424,7 +446,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-platform-link15"
+                className="token-gating-platform-link18"
               >
                 Legal
               </a>
@@ -473,7 +495,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-platform-centered {
+          .token-gating-platform-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -568,6 +590,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .token-gating-platform-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .token-gating-platform-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .token-gating-platform-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .token-gating-platform-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-platform-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-platform-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .token-gating-platform-header {
             width: 70%;
             display: flex;
@@ -577,7 +639,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-platform-text07 {
+          .token-gating-platform-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -585,7 +647,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .token-gating-platform-text08 {
+          .token-gating-platform-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -624,11 +686,11 @@ closeButton.addEventListener("click", function() {
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
-          .token-gating-platform-text09 {
+          .token-gating-platform-text11 {
             font-size: 30px;
             margin-bottom: 0px;
           }
-          .token-gating-platform-text12 {
+          .token-gating-platform-text14 {
             font-size: 18px;
             font-style: normal;
             margin-top: 0px;
@@ -643,7 +705,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .token-gating-platform-link05 {
+          .token-gating-platform-link08 {
             display: contents;
           }
           .token-gating-platform-active-users {
@@ -656,13 +718,13 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text13 {
+          .token-gating-platform-text15 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
             font-weight: 600;
           }
-          .token-gating-platform-link06 {
+          .token-gating-platform-link09 {
             display: contents;
           }
           .token-gating-platform-active-users1 {
@@ -674,14 +736,14 @@ closeButton.addEventListener("click", function() {
             width: 100px;
             object-fit: cover;
           }
-          .token-gating-platform-text14 {
+          .token-gating-platform-text16 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
             margin-top: 13px;
             font-weight: 600;
           }
-          .token-gating-platform-link07 {
+          .token-gating-platform-link10 {
             display: contents;
           }
           .token-gating-platform-active-users2 {
@@ -694,13 +756,13 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text15 {
+          .token-gating-platform-text17 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
             font-weight: 600;
           }
-          .token-gating-platform-link08 {
+          .token-gating-platform-link11 {
             display: contents;
           }
           .token-gating-platform-active-users3 {
@@ -713,13 +775,13 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text16 {
+          .token-gating-platform-text18 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
             font-weight: 600;
           }
-          .token-gating-platform-link09 {
+          .token-gating-platform-link12 {
             display: contents;
           }
           .token-gating-platform-active-users4 {
@@ -732,7 +794,7 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text17 {
+          .token-gating-platform-text19 {
             color: var(--dl-color-gray-black);
             font-size: 22px;
             font-style: normal;
@@ -765,7 +827,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-platform-text18 {
+          .token-gating-platform-text20 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -776,7 +838,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-platform-text19 {
+          .token-gating-platform-text21 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
@@ -809,7 +871,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-platform-text25 {
+          .token-gating-platform-text27 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -820,7 +882,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-platform-text26 {
+          .token-gating-platform-text28 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
@@ -853,7 +915,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-platform-text32 {
+          .token-gating-platform-text34 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -864,13 +926,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-platform-text33 {
+          .token-gating-platform-text35 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .token-gating-platform-text36 {
+          .token-gating-platform-text38 {
             font-size: 30px;
             text-align: left;
           }
@@ -888,7 +950,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-platform-link10 {
+          .token-gating-platform-link13 {
             display: contents;
           }
           .token-gating-platform-component {
@@ -900,7 +962,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-platform-link11 {
+          .token-gating-platform-link14 {
             display: contents;
           }
           .token-gating-platform-component1 {
@@ -911,7 +973,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             justify-content: space-between;
           }
-          .token-gating-platform-link12 {
+          .token-gating-platform-link15 {
             display: contents;
           }
           .token-gating-platform-component2 {
@@ -943,34 +1005,40 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text37 {
+          .token-gating-platform-text39 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-platform-text38 {
+          .token-gating-platform-text40 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-platform-link13 {
+          .token-gating-platform-link16 {
             text-decoration: underline;
           }
-          .token-gating-platform-link14 {
+          .token-gating-platform-link17 {
             text-decoration: underline;
           }
-          .token-gating-platform-text41 {
+          .token-gating-platform-text43 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-platform-link15 {
+          .token-gating-platform-link18 {
             text-decoration: underline;
+          }
+          @media (max-width: 1600px) {
+            .token-gating-platform-text14 {
+              align-self: center;
+              text-align: center;
+            }
           }
           @media (max-width: 1200px) {
             .token-gating-platform-hero {
@@ -987,7 +1055,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-platform-centered {
+            .token-gating-platform-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -995,8 +1063,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .token-gating-platform-links {
-              display: none;
+            .token-gating-platform-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .token-gating-platform-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .token-gating-platform-header {
               width: 100%;
@@ -1024,19 +1097,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-active-users1 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-platform-text18 {
+            .token-gating-platform-text20 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-platform-text25 {
+            .token-gating-platform-text27 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-platform-text32 {
+            .token-gating-platform-text34 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-platform-text36 {
+            .token-gating-platform-text38 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1057,7 +1130,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-top {
               flex-direction: column;
             }
-            .token-gating-platform-text41 {
+            .token-gating-platform-text43 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -1073,12 +1146,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .token-gating-platform-centered {
+            .token-gating-platform-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .token-gating-platform-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .token-gating-platform-links {
+              display: none;
             }
             .token-gating-platform-right {
               margin-right: var(--dl-space-space-unit);
@@ -1089,19 +1165,28 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-get-started {
               display: flex;
             }
+            .token-gating-platform-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .token-gating-platform-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .token-gating-platform-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-platform-text07 {
+            .token-gating-platform-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .token-gating-platform-text08 {
+            .token-gating-platform-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -1119,12 +1204,6 @@ closeButton.addEventListener("click", function() {
               gap: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-platform-text13 {
-              font-size: 14px;
-            }
-            .token-gating-platform-text14 {
-              font-size: 14px;
-            }
             .token-gating-platform-text15 {
               font-size: 14px;
             }
@@ -1134,20 +1213,26 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-text17 {
               font-size: 14px;
             }
+            .token-gating-platform-text18 {
+              font-size: 14px;
+            }
+            .token-gating-platform-text19 {
+              font-size: 14px;
+            }
             .token-gating-platform-centered-container {
               flex-direction: column-reverse;
             }
             .token-gating-platform-right1 {
               margin-left: 0px;
             }
-            .token-gating-platform-text18 {
+            .token-gating-platform-text20 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text19 {
+            .token-gating-platform-text21 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -1159,14 +1244,14 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-right2 {
               margin-left: 0px;
             }
-            .token-gating-platform-text25 {
+            .token-gating-platform-text27 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text26 {
+            .token-gating-platform-text28 {
               align-self: center;
               text-align: center;
               line-height: 24px;
@@ -1178,20 +1263,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-right3 {
               margin-left: 0px;
             }
-            .token-gating-platform-text32 {
+            .token-gating-platform-text34 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text33 {
+            .token-gating-platform-text35 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-platform-text36 {
+            .token-gating-platform-text38 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1215,7 +1300,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-hero {
               height: auto;
             }
-            .token-gating-platform-centered {
+            .token-gating-platform-centered-desktop {
               justify-content: center;
             }
             .token-gating-platform-logo {
@@ -1230,19 +1315,27 @@ closeButton.addEventListener("click", function() {
             .token-gating-platform-icon {
               display: none;
             }
-            .token-gating-platform-text08 {
+            .token-gating-platform-centered-mobile {
+              justify-content: center;
+            }
+            .token-gating-platform-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .token-gating-platform-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .token-gating-platform-text10 {
               color: #eee9fe;
+            }
+            .token-gating-platform-banner-advanced-analytics {
+              padding-top: var(--dl-space-space-threeunits);
             }
             .token-gating-platform-frameworks {
               height: auto;
-            }
-            .token-gating-platform-text13 {
-              color: var(--dl-color-gray-black);
-              font-size: 14px;
-            }
-            .token-gating-platform-text14 {
-              color: var(--dl-color-gray-black);
-              font-size: 14px;
             }
             .token-gating-platform-text15 {
               color: var(--dl-color-gray-black);
@@ -1256,28 +1349,36 @@ closeButton.addEventListener("click", function() {
               color: var(--dl-color-gray-black);
               font-size: 14px;
             }
+            .token-gating-platform-text18 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
+            .token-gating-platform-text19 {
+              color: var(--dl-color-gray-black);
+              font-size: 14px;
+            }
             .token-gating-platform-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text18 {
+            .token-gating-platform-text20 {
               align-self: center;
               text-align: center;
             }
             .token-gating-platform-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text25 {
+            .token-gating-platform-text27 {
               align-self: center;
               text-align: center;
             }
             .token-gating-platform-right3 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-platform-text32 {
+            .token-gating-platform-text34 {
               align-self: center;
               text-align: center;
             }
-            .token-gating-platform-text36 {
+            .token-gating-platform-text38 {
               align-self: center;
               text-align: center;
             }
@@ -1291,7 +1392,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .token-gating-platform-text37 {
+            .token-gating-platform-text39 {
               text-align: center;
             }
           }

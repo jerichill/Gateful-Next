@@ -34,69 +34,6 @@ const Web3AndUserAdoption = (props) => {
         </Head>
         <section id="header" className="web-and-user-adoption-hero">
           <div className="web-and-user-adoption-menu">
-            <div
-              id="navigation"
-              className="web-and-user-adoption-desktop-navigation"
-            >
-              <nav className="web-and-user-adoption-centered">
-                <div className="web-and-user-adoption-left">
-                  <Link href="/">
-                    <a className="web-and-user-adoption-link">
-                      <img
-                        alt="Welcome to Gateful"
-                        src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="web-and-user-adoption-logo"
-                      />
-                    </a>
-                  </Link>
-                  <div className="web-and-user-adoption-links">
-                    <Link href="/token-gating-platform">
-                      <a className="web-and-user-adoption-link1 Link">
-                        Platform
-                      </a>
-                    </Link>
-                    <Link href="/token-gating-solutions">
-                      <a className="web-and-user-adoption-link2 Link">
-                        Solutions
-                      </a>
-                    </Link>
-                    <Link href="/blog">
-                      <a className="web-and-user-adoption-link3 Link">
-                        <span>Blog</span>
-                        <br></br>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="web-and-user-adoption-right">
-                  <a
-                    href="https://app.gateful.io"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="web-and-user-adoption-sign-in Link"
-                  >
-                    <span>Login</span>
-                    <br></br>
-                  </a>
-                  <Link href="/book-a-demo">
-                    <a className="web-and-user-adoption-link4">
-                      <div className="web-and-user-adoption-get-started">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="web-and-user-adoption-icon"
-                        >
-                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                        </svg>
-                        <span className="web-and-user-adoption-text004">
-                          <span>Book a Demo</span>
-                          <br></br>
-                        </span>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              </nav>
-            </div>
             <div>
               <DangerousHTML
                 html={`<script>
@@ -123,12 +60,97 @@ closeButton.addEventListener("click", function() {
 </script>`}
               ></DangerousHTML>
             </div>
+            <div
+              id="navigation"
+              className="web-and-user-adoption-desktop-navigation"
+            >
+              <nav className="web-and-user-adoption-centered-desktop">
+                <div className="web-and-user-adoption-left">
+                  <Link href="/">
+                    <a className="web-and-user-adoption-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="web-and-user-adoption-logo"
+                      />
+                    </a>
+                  </Link>
+                  <div className="web-and-user-adoption-links">
+                    <Link href="/token-gating-platform">
+                      <a className="web-and-user-adoption-link01 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="web-and-user-adoption-link02 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="web-and-user-adoption-link03 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="web-and-user-adoption-right">
+                  <a
+                    href="https://app.gateful.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="web-and-user-adoption-sign-in Link"
+                  >
+                    <span>Login</span>
+                    <br></br>
+                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="web-and-user-adoption-link04">
+                      <div className="web-and-user-adoption-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="web-and-user-adoption-icon"
+                        >
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="web-and-user-adoption-text004">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+              </nav>
+              <nav className="web-and-user-adoption-centered-mobile">
+                <div className="web-and-user-adoption-left1">
+                  <div className="web-and-user-adoption-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="web-and-user-adoption-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="web-and-user-adoption-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="web-and-user-adoption-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
           <header className="web-and-user-adoption-header">
-            <h1 className="web-and-user-adoption-text007">
+            <h1 className="web-and-user-adoption-text009">
               A Look at Web3 and User Adoption
             </h1>
-            <p className="web-and-user-adoption-text008">
+            <p className="web-and-user-adoption-text010">
               Realization of the Web3 Vision
             </p>
             <div className="web-and-user-adoption-profile">
@@ -138,7 +160,7 @@ closeButton.addEventListener("click", function() {
                 image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
                 className="web-and-user-adoption-image"
               />
-              <span className="web-and-user-adoption-text009">
+              <span className="web-and-user-adoption-text011">
                 <span>J. Eric Hill</span>
                 <br></br>
               </span>
@@ -147,7 +169,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="web-and-user-adoption-features">
           <div className="web-and-user-adoption-title">
-            <span className="web-and-user-adoption-text012">
+            <span className="web-and-user-adoption-text014">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -159,7 +181,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="web-and-user-adoption-text016">
+            <span className="web-and-user-adoption-text018">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -179,8 +201,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="web-and-user-adoption-icon02"
                 />
-                <span className="web-and-user-adoption-text019">Schedule</span>
-                <span className="web-and-user-adoption-text020">
+                <span className="web-and-user-adoption-text021">Schedule</span>
+                <span className="web-and-user-adoption-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -191,8 +213,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="web-and-user-adoption-icon03"
                 />
-                <span className="web-and-user-adoption-text021">Publish</span>
-                <span className="web-and-user-adoption-text022">
+                <span className="web-and-user-adoption-text023">Publish</span>
+                <span className="web-and-user-adoption-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -204,8 +226,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="web-and-user-adoption-icon04"
                 />
-                <span className="web-and-user-adoption-text023">Analyze</span>
-                <span className="web-and-user-adoption-text024">
+                <span className="web-and-user-adoption-text025">Analyze</span>
+                <span className="web-and-user-adoption-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -216,8 +238,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="web-and-user-adoption-icon05"
                 />
-                <span className="web-and-user-adoption-text025">Get leads</span>
-                <span className="web-and-user-adoption-text026">
+                <span className="web-and-user-adoption-text027">Get leads</span>
+                <span className="web-and-user-adoption-text028">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -227,12 +249,12 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="web-and-user-adoption-banners">
           <div className="web-and-user-adoption-blog">
-            <h2 className="web-and-user-adoption-text027">
+            <h2 className="web-and-user-adoption-text029">
               Understanding the concept of Web3, a decentralized and
               user-centric vision of the internet, and how users are adopting
               this new technology.
             </h2>
-            <span className="web-and-user-adoption-text028">
+            <span className="web-and-user-adoption-text030">
               <span>
                 By understanding the fundamentals of Web3 and the strategies
                 being employed to promote its adoption, businesses and
@@ -254,11 +276,11 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="web-and-user-adoption-text034">What is Web3</h2>
-            <h3 className="web-and-user-adoption-text035">
+            <h2 className="web-and-user-adoption-text036">What is Web3</h2>
+            <h3 className="web-and-user-adoption-text037">
               The Evolution of the Internet: Web1 to Web3
             </h3>
-            <span className="web-and-user-adoption-text036">
+            <span className="web-and-user-adoption-text038">
               Web1, or the first iteration of the internet, was characterized by
               static web pages and one-way information flow. With the advent of
               Web2, the internet became more interactive and user-generated
@@ -266,16 +288,16 @@ closeButton.addEventListener("click", function() {
               focusing on decentralization, user ownership, and improved
               security.
             </span>
-            <h3 className="web-and-user-adoption-text037">
+            <h3 className="web-and-user-adoption-text039">
               The Evolution of the Internet: Web1 to Web3
             </h3>
-            <span className="web-and-user-adoption-text038">
-              <span className="web-and-user-adoption-text039">
+            <span className="web-and-user-adoption-text040">
+              <span className="web-and-user-adoption-text041">
                 Web3 is built on several key components, including:
               </span>
-              <br className="web-and-user-adoption-text040"></br>
+              <br className="web-and-user-adoption-text042"></br>
               <br></br>
-              <span className="web-and-user-adoption-text042">
+              <span className="web-and-user-adoption-text044">
                 Decentralization:
               </span>
               <span>
@@ -286,7 +308,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="web-and-user-adoption-text046">
+              <span className="web-and-user-adoption-text048">
                 User Ownership:
               </span>
               <span>
@@ -297,7 +319,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="web-and-user-adoption-text050">
+              <span className="web-and-user-adoption-text052">
                 Improved Security:
               </span>
               <span>
@@ -308,65 +330,65 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="web-and-user-adoption-text053">
+            <h2 className="web-and-user-adoption-text055">
               How are Users Adopting New Web3 Technology?
             </h2>
-            <h3 className="web-and-user-adoption-text054">
+            <h3 className="web-and-user-adoption-text056">
               Decentralized Applications (DApps)
             </h3>
-            <span className="web-and-user-adoption-text055">
+            <span className="web-and-user-adoption-text057">
               Users are increasingly using DApps, which are applications built
               on decentralized platforms. These applications offer improved
               security, privacy, and control compared to their centralized
               counterparts.
             </span>
-            <h3 className="web-and-user-adoption-text056">
+            <h3 className="web-and-user-adoption-text058">
               Cryptocurrencies and Digital Assets
             </h3>
-            <span className="web-and-user-adoption-text057">
+            <span className="web-and-user-adoption-text059">
               Cryptocurrencies, such as Bitcoin and Ethereum, have gained
               significant traction as users adopt them for various use cases,
               including transactions, investments, and as a hedge against
               traditional financial systems.
             </span>
-            <h3 className="web-and-user-adoption-text058">
+            <h3 className="web-and-user-adoption-text060">
               Non-Fungible Tokens (NFTs)
             </h3>
-            <span className="web-and-user-adoption-text059">
+            <span className="web-and-user-adoption-text061">
               NFTs have exploded in popularity as users embrace their potential
               to represent digital art, collectibles, and other unique digital
               assets, enabling individuals to own and trade them with ease.
             </span>
-            <h3 className="web-and-user-adoption-text060">
+            <h3 className="web-and-user-adoption-text062">
               Decentralized Finance (DeFi)
             </h3>
-            <span className="web-and-user-adoption-text061">
+            <span className="web-and-user-adoption-text063">
               DeFi platforms offer users access to financial services, such as
               lending, borrowing, and trading, without the need for traditional
               intermediaries like banks, thereby democratizing access to
               financial tools.
             </span>
-            <h3 className="web-and-user-adoption-text062">
+            <h3 className="web-and-user-adoption-text064">
               Governance and Decentralized Autonomous Organizations (DAOs)
             </h3>
-            <span className="web-and-user-adoption-text063">
+            <span className="web-and-user-adoption-text065">
               Users are participating in governance processes and joining DAOs,
               which are community-driven organizations that operate on
               decentralized platforms, enabling transparent decision-making and
               resource allocation.
             </span>
-            <h2 className="web-and-user-adoption-text064">
+            <h2 className="web-and-user-adoption-text066">
               Challenges and Barriers to Adoption
             </h2>
-            <span className="web-and-user-adoption-text065">
-              <span className="web-and-user-adoption-text066">
+            <span className="web-and-user-adoption-text067">
+              <span className="web-and-user-adoption-text068">
                 Despite the promise of Web3, there are challenges and barriers
                 that must be addressed to facilitate widespread adoption, such
                 as:
               </span>
               <br></br>
               <br></br>
-              <span className="web-and-user-adoption-text069">
+              <span className="web-and-user-adoption-text071">
                 Scalability:
               </span>
               <span>
@@ -376,7 +398,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="web-and-user-adoption-text073">Usability:</span>
+              <span className="web-and-user-adoption-text075">Usability:</span>
               <span>
                 {' '}
                 Interfaces and user experiences must be improved to make Web3
@@ -384,14 +406,14 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="web-and-user-adoption-text077">Regulation:</span>
+              <span className="web-and-user-adoption-text079">Regulation:</span>
               <span>
                 {' '}
                 Regulatory frameworks must evolve to accommodate the unique
                 aspects of Web3 without stifling innovation.
               </span>
             </span>
-            <span className="web-and-user-adoption-text079">
+            <span className="web-and-user-adoption-text081">
               Web3 represents a significant shift in the way users interact with
               the internet, emphasizing decentralization, ownership, and
               security. By understanding the core components of Web3 and
@@ -404,17 +426,17 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="web-and-user-adoption-blog1">
-            <h2 className="web-and-user-adoption-text080">
+            <h2 className="web-and-user-adoption-text082">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="web-and-user-adoption-text081">
+            <span className="web-and-user-adoption-text083">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
             </span>
             <Link href="/book-a-demo">
-              <a className="web-and-user-adoption-link5">
+              <a className="web-and-user-adoption-link08">
                 <div className="web-and-user-adoption-get-started1">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -422,7 +444,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="web-and-user-adoption-text082">
+                  <span className="web-and-user-adoption-text084">
                     Book a Demo
                   </span>
                 </div>
@@ -437,7 +459,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="web-and-user-adoption-text085">
+              <span className="web-and-user-adoption-text087">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -463,16 +485,16 @@ closeButton.addEventListener("click", function() {
         <section className="web-and-user-adoption-how-it-works">
           <div className="web-and-user-adoption-centered-container1">
             <div className="web-and-user-adoption-heading1">
-              <span className="web-and-user-adoption-text086">
+              <span className="web-and-user-adoption-text088">
                 How it works
               </span>
-              <span className="web-and-user-adoption-text087 title">
+              <span className="web-and-user-adoption-text089 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="web-and-user-adoption-category">
               <div className="web-and-user-adoption-headng">
-                <span className="web-and-user-adoption-text088">
+                <span className="web-and-user-adoption-text090">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -480,13 +502,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="web-and-user-adoption-text089">
+                <span className="web-and-user-adoption-text091">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="web-and-user-adoption-get-started2 template-button">
-                  <span className="web-and-user-adoption-text090">
+                  <span className="web-and-user-adoption-text092">
                     Get started
                   </span>
                 </div>
@@ -502,8 +524,8 @@ closeButton.addEventListener("click", function() {
             <div className="web-and-user-adoption-row">
               <div className="web-and-user-adoption-category1">
                 <div className="web-and-user-adoption-headng1">
-                  <span className="web-and-user-adoption-text091">2 — Act</span>
-                  <span className="web-and-user-adoption-text092">
+                  <span className="web-and-user-adoption-text093">2 — Act</span>
+                  <span className="web-and-user-adoption-text094">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -517,8 +539,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="web-and-user-adoption-category2">
                 <div className="web-and-user-adoption-headng2">
-                  <span className="web-and-user-adoption-text093">2 — Act</span>
-                  <span className="web-and-user-adoption-text094">
+                  <span className="web-and-user-adoption-text095">2 — Act</span>
+                  <span className="web-and-user-adoption-text096">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -536,31 +558,31 @@ closeButton.addEventListener("click", function() {
         <section className="web-and-user-adoption-pricing">
           <div className="web-and-user-adoption-centered-container2">
             <div className="web-and-user-adoption-heading2">
-              <span className="web-and-user-adoption-text095 title">
+              <span className="web-and-user-adoption-text097 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="web-and-user-adoption-text096">
+              <span className="web-and-user-adoption-text098">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="web-and-user-adoption-selection">
-                <span className="web-and-user-adoption-text097">Monthly</span>
-                <span className="web-and-user-adoption-text098">Yearly</span>
+                <span className="web-and-user-adoption-text099">Monthly</span>
+                <span className="web-and-user-adoption-text100">Yearly</span>
               </div>
             </div>
             <div className="web-and-user-adoption-cards1">
               <div className="web-and-user-adoption-card">
-                <span className="web-and-user-adoption-text099">Free</span>
-                <span className="web-and-user-adoption-text100">
+                <span className="web-and-user-adoption-text101">Free</span>
+                <span className="web-and-user-adoption-text102">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="web-and-user-adoption-get-started3 template-button">
-                  <span className="web-and-user-adoption-text101">
+                  <span className="web-and-user-adoption-text103">
                     Start for free
                   </span>
                 </div>
-                <span className="web-and-user-adoption-text102">
+                <span className="web-and-user-adoption-text104">
                   What&apos;s included
                 </span>
                 <div className="web-and-user-adoption-bullet-points">
@@ -571,7 +593,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text103">
+                    <span className="web-and-user-adoption-text105">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -582,17 +604,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text104">
+                    <span className="web-and-user-adoption-text106">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="web-and-user-adoption-card1">
-                <span className="web-and-user-adoption-text105">
+                <span className="web-and-user-adoption-text107">
                   Pay as you go
                 </span>
-                <span className="web-and-user-adoption-text106">
+                <span className="web-and-user-adoption-text108">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -600,12 +622,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="web-and-user-adoption-get-started4 template-button">
-                  <span className="web-and-user-adoption-text110">
+                  <span className="web-and-user-adoption-text112">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="web-and-user-adoption-text113">
+                <span className="web-and-user-adoption-text115">
                   What&apos;s included
                 </span>
                 <div className="web-and-user-adoption-bullet-points1">
@@ -616,7 +638,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text114">
+                    <span className="web-and-user-adoption-text116">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -627,7 +649,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text115">
+                    <span className="web-and-user-adoption-text117">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -638,7 +660,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text116">
+                    <span className="web-and-user-adoption-text118">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -649,17 +671,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text117">
+                    <span className="web-and-user-adoption-text119">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="web-and-user-adoption-card2">
-                <span className="web-and-user-adoption-text118">
+                <span className="web-and-user-adoption-text120">
                   Enterprise
                 </span>
-                <span className="web-and-user-adoption-text119">
+                <span className="web-and-user-adoption-text121">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -667,12 +689,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="web-and-user-adoption-get-started5 template-button">
-                  <span className="web-and-user-adoption-text122">
+                  <span className="web-and-user-adoption-text124">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="web-and-user-adoption-text125">
+                <span className="web-and-user-adoption-text127">
                   What&apos;s included
                 </span>
                 <div className="web-and-user-adoption-bullet-points2">
@@ -683,7 +705,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text126">
+                    <span className="web-and-user-adoption-text128">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -694,7 +716,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text127">
+                    <span className="web-and-user-adoption-text129">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -705,7 +727,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text128">
+                    <span className="web-and-user-adoption-text130">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -716,7 +738,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="web-and-user-adoption-text129">
+                    <span className="web-and-user-adoption-text131">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -726,9 +748,9 @@ closeButton.addEventListener("click", function() {
           </div>
         </section>
         <section className="web-and-user-adoption-testimonals">
-          <div className="web-and-user-adoption-left1">
-            <span className="web-and-user-adoption-text130">Testimonals</span>
-            <span className="web-and-user-adoption-text131 title">
+          <div className="web-and-user-adoption-left2">
+            <span className="web-and-user-adoption-text132">Testimonals</span>
+            <span className="web-and-user-adoption-text133 title">
               What people say about Active
             </span>
           </div>
@@ -784,7 +806,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="web-and-user-adoption-text132">
+          <span className="web-and-user-adoption-text134">
             <span>Show more</span>
             <br></br>
           </span>
@@ -792,16 +814,16 @@ closeButton.addEventListener("click", function() {
         <section className="web-and-user-adoption-action-bar">
           <div className="web-and-user-adoption-action">
             <div className="web-and-user-adoption-heading3">
-              <span className="web-and-user-adoption-text135 title">
+              <span className="web-and-user-adoption-text137 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="web-and-user-adoption-text139">
+              <span className="web-and-user-adoption-text141">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="web-and-user-adoption-get-started6 template-button">
-                <span className="web-and-user-adoption-text140">
+                <span className="web-and-user-adoption-text142">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -823,10 +845,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="web-and-user-adoption-image2"
             />
-            <span className="web-and-user-adoption-text143">
+            <span className="web-and-user-adoption-text145">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="web-and-user-adoption-text144">
+            <span className="web-and-user-adoption-text146">
               <span>
                 Built by
                 <span
@@ -839,7 +861,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="web-and-user-adoption-link6"
+                className="web-and-user-adoption-link09"
               >
                 OpenMedium, Inc
               </a>
@@ -856,12 +878,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="web-and-user-adoption-link7"
+                className="web-and-user-adoption-link10"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="web-and-user-adoption-text147">
+            <span className="web-and-user-adoption-text149">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -869,7 +891,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="web-and-user-adoption-link8"
+                className="web-and-user-adoption-link11"
               >
                 Legal
               </a>
@@ -918,7 +940,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .web-and-user-adoption-centered {
+          .web-and-user-adoption-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -951,17 +973,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .web-and-user-adoption-link1 {
+          .web-and-user-adoption-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link2 {
+          .web-and-user-adoption-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link3 {
+          .web-and-user-adoption-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -980,7 +1002,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .web-and-user-adoption-link4 {
+          .web-and-user-adoption-link04 {
             display: contents;
           }
           .web-and-user-adoption-get-started {
@@ -1013,6 +1035,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .web-and-user-adoption-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .web-and-user-adoption-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .web-and-user-adoption-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .web-and-user-adoption-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .web-and-user-adoption-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .web-and-user-adoption-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .web-and-user-adoption-header {
             width: 70%;
             display: flex;
@@ -1022,7 +1084,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .web-and-user-adoption-text007 {
+          .web-and-user-adoption-text009 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1030,7 +1092,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .web-and-user-adoption-text008 {
+          .web-and-user-adoption-text010 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 24px;
@@ -1051,7 +1113,7 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }
-          .web-and-user-adoption-text009 {
+          .web-and-user-adoption-text011 {
             color: var(--dl-color-gray-white);
             font-size: 20px;
             font-weight: 300;
@@ -1074,14 +1136,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .web-and-user-adoption-text012 {
+          .web-and-user-adoption-text014 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .web-and-user-adoption-text016 {
+          .web-and-user-adoption-text018 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1108,14 +1170,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text019 {
+          .web-and-user-adoption-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text020 {
+          .web-and-user-adoption-text022 {
             line-height: 24px;
           }
           .web-and-user-adoption-publish {
@@ -1126,14 +1188,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text021 {
+          .web-and-user-adoption-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text022 {
+          .web-and-user-adoption-text024 {
             line-height: 24px;
           }
           .web-and-user-adoption-container2 {
@@ -1149,14 +1211,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text023 {
+          .web-and-user-adoption-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .web-and-user-adoption-text024 {
+          .web-and-user-adoption-text026 {
             line-height: 24px;
           }
           .web-and-user-adoption-icon05 {
@@ -1164,14 +1226,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text025 {
+          .web-and-user-adoption-text027 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text026 {
+          .web-and-user-adoption-text028 {
             line-height: 24px;
           }
           .web-and-user-adoption-banners {
@@ -1190,24 +1252,16 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .web-and-user-adoption-text027 {
+          .web-and-user-adoption-text029 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text028 {
+          .web-and-user-adoption-text030 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .web-and-user-adoption-text034 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .web-and-user-adoption-text035 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .web-and-user-adoption-text036 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .web-and-user-adoption-text037 {
             margin-bottom: var(--dl-space-space-unit);
@@ -1218,10 +1272,14 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .web-and-user-adoption-text039 {
-            font-style: normal;
-            font-weight: 700;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .web-and-user-adoption-text040 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text041 {
             font-style: normal;
             font-weight: 700;
           }
@@ -1229,24 +1287,20 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 700;
           }
-          .web-and-user-adoption-text046 {
+          .web-and-user-adoption-text044 {
             font-style: normal;
             font-weight: 700;
           }
-          .web-and-user-adoption-text050 {
+          .web-and-user-adoption-text048 {
             font-style: normal;
             font-weight: 700;
           }
-          .web-and-user-adoption-text053 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .web-and-user-adoption-text054 {
-            margin-bottom: var(--dl-space-space-unit);
+          .web-and-user-adoption-text052 {
+            font-style: normal;
+            font-weight: 700;
           }
           .web-and-user-adoption-text055 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .web-and-user-adoption-text056 {
             margin-bottom: var(--dl-space-space-unit);
@@ -1289,22 +1343,30 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .web-and-user-adoption-text066 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .web-and-user-adoption-text067 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .web-and-user-adoption-text068 {
             font-style: normal;
             font-weight: 700;
           }
-          .web-and-user-adoption-text069 {
+          .web-and-user-adoption-text071 {
             font-style: normal;
             font-weight: 700;
           }
-          .web-and-user-adoption-text073 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .web-and-user-adoption-text077 {
+          .web-and-user-adoption-text075 {
             font-style: normal;
             font-weight: 700;
           }
           .web-and-user-adoption-text079 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .web-and-user-adoption-text081 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1324,17 +1386,17 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .web-and-user-adoption-text080 {
+          .web-and-user-adoption-text082 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text081 {
+          .web-and-user-adoption-text083 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-link5 {
+          .web-and-user-adoption-link08 {
             display: contents;
           }
           .web-and-user-adoption-get-started1 {
@@ -1364,7 +1426,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .web-and-user-adoption-text082 {
+          .web-and-user-adoption-text084 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1392,7 +1454,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .web-and-user-adoption-text085 {
+          .web-and-user-adoption-text087 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1454,13 +1516,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .web-and-user-adoption-text086 {
+          .web-and-user-adoption-text088 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .web-and-user-adoption-text087 {
+          .web-and-user-adoption-text089 {
             color: var(--dl-color-gray-white);
           }
           .web-and-user-adoption-category {
@@ -1484,13 +1546,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .web-and-user-adoption-text088 {
+          .web-and-user-adoption-text090 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .web-and-user-adoption-text089 {
+          .web-and-user-adoption-text091 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1502,7 +1564,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .web-and-user-adoption-text090 {
+          .web-and-user-adoption-text092 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1548,14 +1610,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .web-and-user-adoption-text091 {
+          .web-and-user-adoption-text093 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .web-and-user-adoption-text092 {
+          .web-and-user-adoption-text094 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1584,14 +1646,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .web-and-user-adoption-text093 {
+          .web-and-user-adoption-text095 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .web-and-user-adoption-text094 {
+          .web-and-user-adoption-text096 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1625,11 +1687,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .web-and-user-adoption-text095 {
+          .web-and-user-adoption-text097 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .web-and-user-adoption-text096 {
+          .web-and-user-adoption-text098 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1642,7 +1704,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .web-and-user-adoption-text097 {
+          .web-and-user-adoption-text099 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1653,7 +1715,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .web-and-user-adoption-text098 {
+          .web-and-user-adoption-text100 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1688,13 +1750,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .web-and-user-adoption-text099 {
+          .web-and-user-adoption-text101 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text100 {
+          .web-and-user-adoption-text102 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1706,13 +1768,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .web-and-user-adoption-text101 {
+          .web-and-user-adoption-text103 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .web-and-user-adoption-text102 {
+          .web-and-user-adoption-text104 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1735,7 +1797,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text103 {
+          .web-and-user-adoption-text105 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1752,7 +1814,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text104 {
+          .web-and-user-adoption-text106 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1773,13 +1835,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .web-and-user-adoption-text105 {
+          .web-and-user-adoption-text107 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text106 {
+          .web-and-user-adoption-text108 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1791,13 +1853,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .web-and-user-adoption-text110 {
+          .web-and-user-adoption-text112 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .web-and-user-adoption-text113 {
+          .web-and-user-adoption-text115 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1820,7 +1882,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text114 {
+          .web-and-user-adoption-text116 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1837,7 +1899,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text115 {
+          .web-and-user-adoption-text117 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1854,7 +1916,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text116 {
+          .web-and-user-adoption-text118 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1871,7 +1933,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text117 {
+          .web-and-user-adoption-text119 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1891,14 +1953,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .web-and-user-adoption-text118 {
+          .web-and-user-adoption-text120 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-text119 {
+          .web-and-user-adoption-text121 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1912,12 +1974,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .web-and-user-adoption-text122 {
+          .web-and-user-adoption-text124 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .web-and-user-adoption-text125 {
+          .web-and-user-adoption-text127 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1941,7 +2003,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text126 {
+          .web-and-user-adoption-text128 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1959,7 +2021,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text127 {
+          .web-and-user-adoption-text129 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1977,7 +2039,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text128 {
+          .web-and-user-adoption-text130 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1995,7 +2057,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .web-and-user-adoption-text129 {
+          .web-and-user-adoption-text131 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -2012,7 +2074,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .web-and-user-adoption-left1 {
+          .web-and-user-adoption-left2 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -2020,13 +2082,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .web-and-user-adoption-text130 {
+          .web-and-user-adoption-text132 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .web-and-user-adoption-text131 {
+          .web-and-user-adoption-text133 {
             text-align: left;
           }
           .web-and-user-adoption-right1 {
@@ -2044,7 +2106,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .web-and-user-adoption-text132 {
+          .web-and-user-adoption-text134 {
             cursor: pointer;
             display: none;
           }
@@ -2075,11 +2137,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .web-and-user-adoption-text135 {
+          .web-and-user-adoption-text137 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .web-and-user-adoption-text139 {
+          .web-and-user-adoption-text141 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2087,7 +2149,7 @@ closeButton.addEventListener("click", function() {
           .web-and-user-adoption-get-started6 {
             margin-bottom: 0px;
           }
-          .web-and-user-adoption-text140 {
+          .web-and-user-adoption-text142 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2129,33 +2191,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text143 {
+          .web-and-user-adoption-text145 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .web-and-user-adoption-text144 {
+          .web-and-user-adoption-text146 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .web-and-user-adoption-link6 {
+          .web-and-user-adoption-link09 {
             text-decoration: underline;
           }
-          .web-and-user-adoption-link7 {
+          .web-and-user-adoption-link10 {
             text-decoration: underline;
           }
-          .web-and-user-adoption-text147 {
+          .web-and-user-adoption-text149 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .web-and-user-adoption-link8 {
+          .web-and-user-adoption-link11 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -2173,7 +2235,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .web-and-user-adoption-centered {
+            .web-and-user-adoption-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -2181,8 +2243,13 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .web-and-user-adoption-links {
-              display: none;
+            .web-and-user-adoption-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .web-and-user-adoption-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .web-and-user-adoption-header {
               width: 100%;
@@ -2195,11 +2262,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .web-and-user-adoption-text012 {
+            .web-and-user-adoption-text014 {
               font-size: 36px;
               line-height: 40px;
             }
-            .web-and-user-adoption-text016 {
+            .web-and-user-adoption-text018 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2207,19 +2274,19 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .web-and-user-adoption-text020 {
-              line-height: 21px;
-            }
             .web-and-user-adoption-text022 {
               line-height: 21px;
             }
             .web-and-user-adoption-text024 {
               line-height: 21px;
             }
-            .web-and-user-adoption-text025 {
+            .web-and-user-adoption-text026 {
+              line-height: 21px;
+            }
+            .web-and-user-adoption-text027 {
               font-size: 24px;
             }
-            .web-and-user-adoption-text026 {
+            .web-and-user-adoption-text028 {
               line-height: 21px;
             }
             .web-and-user-adoption-container4 {
@@ -2249,7 +2316,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .web-and-user-adoption-text096 {
+            .web-and-user-adoption-text098 {
               width: 100%;
               max-width: 600px;
             }
@@ -2265,11 +2332,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .web-and-user-adoption-text100 {
+            .web-and-user-adoption-text102 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .web-and-user-adoption-text102 {
+            .web-and-user-adoption-text104 {
               font-size: 16px;
             }
             .web-and-user-adoption-card1 {
@@ -2284,12 +2351,12 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               flex-direction: column;
             }
-            .web-and-user-adoption-left1 {
+            .web-and-user-adoption-left2 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .web-and-user-adoption-text131 {
+            .web-and-user-adoption-text133 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2314,7 +2381,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .web-and-user-adoption-text135 {
+            .web-and-user-adoption-text137 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2324,7 +2391,7 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-top {
               flex-direction: column;
             }
-            .web-and-user-adoption-text147 {
+            .web-and-user-adoption-text149 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2340,12 +2407,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .web-and-user-adoption-centered {
+            .web-and-user-adoption-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .web-and-user-adoption-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .web-and-user-adoption-links {
+              display: none;
             }
             .web-and-user-adoption-right {
               margin-right: var(--dl-space-space-unit);
@@ -2356,19 +2426,28 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-get-started {
               display: flex;
             }
+            .web-and-user-adoption-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .web-and-user-adoption-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .web-and-user-adoption-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .web-and-user-adoption-text007 {
+            .web-and-user-adoption-text009 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .web-and-user-adoption-text008 {
+            .web-and-user-adoption-text010 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2379,7 +2458,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .web-and-user-adoption-text012 {
+            .web-and-user-adoption-text014 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2390,19 +2469,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .web-and-user-adoption-text019 {
+            .web-and-user-adoption-text021 {
               font-size: 24px;
             }
-            .web-and-user-adoption-text020 {
+            .web-and-user-adoption-text022 {
               font-size: 14px;
             }
             .web-and-user-adoption-publish {
               margin-left: 0px;
             }
-            .web-and-user-adoption-text021 {
+            .web-and-user-adoption-text023 {
               font-size: 24px;
             }
-            .web-and-user-adoption-text022 {
+            .web-and-user-adoption-text024 {
               font-size: 14px;
             }
             .web-and-user-adoption-container2 {
@@ -2412,13 +2491,13 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-analyze {
               margin-right: 0px;
             }
-            .web-and-user-adoption-text023 {
+            .web-and-user-adoption-text025 {
               font-size: 24px;
             }
-            .web-and-user-adoption-text024 {
+            .web-and-user-adoption-text026 {
               font-size: 14px;
             }
-            .web-and-user-adoption-text026 {
+            .web-and-user-adoption-text028 {
               font-size: 14px;
             }
             .web-and-user-adoption-blog {
@@ -2438,7 +2517,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .web-and-user-adoption-text085 {
+            .web-and-user-adoption-text087 {
               line-height: 24px;
             }
             .web-and-user-adoption-pills {
@@ -2453,7 +2532,7 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .web-and-user-adoption-text087 {
+            .web-and-user-adoption-text089 {
               margin-bottom: 0px;
             }
             .web-and-user-adoption-headng {
@@ -2477,7 +2556,7 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .web-and-user-adoption-text099 {
+            .web-and-user-adoption-text101 {
               font-size: 28px;
             }
             .web-and-user-adoption-card1 {
@@ -2486,7 +2565,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .web-and-user-adoption-text105 {
+            .web-and-user-adoption-text107 {
               font-size: 28px;
             }
             .web-and-user-adoption-card2 {
@@ -2494,7 +2573,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .web-and-user-adoption-text118 {
+            .web-and-user-adoption-text120 {
               font-size: 28px;
             }
             .web-and-user-adoption-testimonals {
@@ -2509,7 +2588,7 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-column1 {
               display: none;
             }
-            .web-and-user-adoption-text132 {
+            .web-and-user-adoption-text134 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2529,11 +2608,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .web-and-user-adoption-text135 {
+            .web-and-user-adoption-text137 {
               font-size: 28px;
               text-align: left;
             }
-            .web-and-user-adoption-text140 {
+            .web-and-user-adoption-text142 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2558,7 +2637,7 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-hero {
               height: auto;
             }
-            .web-and-user-adoption-centered {
+            .web-and-user-adoption-centered-desktop {
               justify-content: center;
             }
             .web-and-user-adoption-logo {
@@ -2573,7 +2652,20 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-icon {
               display: none;
             }
-            .web-and-user-adoption-text008 {
+            .web-and-user-adoption-centered-mobile {
+              justify-content: center;
+            }
+            .web-and-user-adoption-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .web-and-user-adoption-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .web-and-user-adoption-text010 {
               color: #eee9fe;
             }
             .web-and-user-adoption-features {
@@ -2595,6 +2687,7 @@ closeButton.addEventListener("click", function() {
               margin-bottom: 0px;
             }
             .web-and-user-adoption-blog {
+              margin-top: var(--dl-space-space-threeunits);
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -2633,7 +2726,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .web-and-user-adoption-text143 {
+            .web-and-user-adoption-text145 {
               text-align: center;
             }
           }

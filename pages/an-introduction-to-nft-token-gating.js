@@ -41,7 +41,7 @@ const AnIntroductionToNFTTokenGating = (props) => {
               id="navigation"
               className="an-introduction-to-nf-token-gating-desktop-navigation"
             >
-              <nav className="an-introduction-to-nf-token-gating-centered">
+              <nav className="an-introduction-to-nf-token-gating-centered-desktop">
                 <div className="an-introduction-to-nf-token-gating-left">
                   <Link href="/">
                     <a className="an-introduction-to-nf-token-gating-link">
@@ -54,17 +54,17 @@ const AnIntroductionToNFTTokenGating = (props) => {
                   </Link>
                   <div className="an-introduction-to-nf-token-gating-links">
                     <Link href="/token-gating-platform">
-                      <a className="an-introduction-to-nf-token-gating-link1 Link">
+                      <a className="an-introduction-to-nf-token-gating-link01 Link">
                         Platform
                       </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="an-introduction-to-nf-token-gating-link2 Link">
+                      <a className="an-introduction-to-nf-token-gating-link02 Link">
                         Solutions
                       </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="an-introduction-to-nf-token-gating-link3 Link">
+                      <a className="an-introduction-to-nf-token-gating-link03 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -82,7 +82,7 @@ const AnIntroductionToNFTTokenGating = (props) => {
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="an-introduction-to-nf-token-gating-link4">
+                    <a className="an-introduction-to-nf-token-gating-link04">
                       <div className="an-introduction-to-nf-token-gating-get-started">
                         <svg
                           viewBox="0 0 1024 1024"
@@ -97,6 +97,28 @@ const AnIntroductionToNFTTokenGating = (props) => {
                       </div>
                     </a>
                   </Link>
+                </div>
+              </nav>
+              <nav className="an-introduction-to-nf-token-gating-centered-mobile">
+                <div className="an-introduction-to-nf-token-gating-left1">
+                  <div className="an-introduction-to-nf-token-gating-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="an-introduction-to-nf-token-gating-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="an-introduction-to-nf-token-gating-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="an-introduction-to-nf-token-gating-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </nav>
             </div>
@@ -128,10 +150,10 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
           <header className="an-introduction-to-nf-token-gating-header">
-            <h1 className="an-introduction-to-nf-token-gating-text007">
+            <h1 className="an-introduction-to-nf-token-gating-text009">
               An Introduction to NFT Token Gating
             </h1>
-            <p className="an-introduction-to-nf-token-gating-text008">
+            <p className="an-introduction-to-nf-token-gating-text010">
               Embracing the Future of Web3
             </p>
             <div className="an-introduction-to-nf-token-gating-profile">
@@ -141,7 +163,7 @@ closeButton.addEventListener("click", function() {
                 image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
                 className="an-introduction-to-nf-token-gating-image"
               />
-              <span className="an-introduction-to-nf-token-gating-text009">
+              <span className="an-introduction-to-nf-token-gating-text011">
                 <span>J. Eric Hill</span>
                 <br></br>
               </span>
@@ -150,7 +172,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="an-introduction-to-nf-token-gating-features">
           <div className="an-introduction-to-nf-token-gating-title">
-            <span className="an-introduction-to-nf-token-gating-text012">
+            <span className="an-introduction-to-nf-token-gating-text014">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -162,7 +184,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="an-introduction-to-nf-token-gating-text016">
+            <span className="an-introduction-to-nf-token-gating-text018">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -182,10 +204,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="an-introduction-to-nf-token-gating-icon02"
                 />
-                <span className="an-introduction-to-nf-token-gating-text019">
+                <span className="an-introduction-to-nf-token-gating-text021">
                   Schedule
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text020">
+                <span className="an-introduction-to-nf-token-gating-text022">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -196,10 +218,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="an-introduction-to-nf-token-gating-icon03"
                 />
-                <span className="an-introduction-to-nf-token-gating-text021">
+                <span className="an-introduction-to-nf-token-gating-text023">
                   Publish
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text022">
+                <span className="an-introduction-to-nf-token-gating-text024">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -211,10 +233,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="an-introduction-to-nf-token-gating-icon04"
                 />
-                <span className="an-introduction-to-nf-token-gating-text023">
+                <span className="an-introduction-to-nf-token-gating-text025">
                   Analyze
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text024">
+                <span className="an-introduction-to-nf-token-gating-text026">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -225,10 +247,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="an-introduction-to-nf-token-gating-icon05"
                 />
-                <span className="an-introduction-to-nf-token-gating-text025">
+                <span className="an-introduction-to-nf-token-gating-text027">
                   Get leads
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text026">
+                <span className="an-introduction-to-nf-token-gating-text028">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -238,7 +260,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="an-introduction-to-nf-token-gating-banners">
           <div className="an-introduction-to-nf-token-gating-blog">
-            <h2 className="an-introduction-to-nf-token-gating-text027">
+            <h2 className="an-introduction-to-nf-token-gating-text029">
               The world of digital assets and blockchain technology is evolving
               at a rapid pace. With the advent of non-fungible tokens (NFTs) and
               their increasing popularity, a new concept known as &quot;token
@@ -249,7 +271,7 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="an-introduction-to-nf-token-gating-text028">
+            <span className="an-introduction-to-nf-token-gating-text030">
               <span>
                 The world of digital assets has experienced exponential growth
                 in recent years, with non-fungible tokens (NFTs) gaining
@@ -262,10 +284,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="an-introduction-to-nf-token-gating-text031">
+            <h2 className="an-introduction-to-nf-token-gating-text033">
               What is NFT Token Gating?
             </h2>
-            <span className="an-introduction-to-nf-token-gating-text032">
+            <span className="an-introduction-to-nf-token-gating-text034">
               <span>
                 NFT token gating refers to the process of restricting access to
                 digital content or services based on the ownership of specific
@@ -284,15 +306,15 @@ closeButton.addEventListener("click", function() {
                 value of the content.
               </span>
             </span>
-            <h2 className="an-introduction-to-nf-token-gating-text037">
+            <h2 className="an-introduction-to-nf-token-gating-text039">
               Benefits of NFT Token Gating
             </h2>
-            <h3 className="an-introduction-to-nf-token-gating-text038">
+            <h3 className="an-introduction-to-nf-token-gating-text040">
               There are several benefits associated with NFT token gating, which
               include:
             </h3>
-            <span className="an-introduction-to-nf-token-gating-text039">
-              <span className="an-introduction-to-nf-token-gating-text040">
+            <span className="an-introduction-to-nf-token-gating-text041">
+              <span className="an-introduction-to-nf-token-gating-text042">
                 Monetization and revenue generation:
               </span>
               <span>
@@ -303,7 +325,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text044">
+              <span className="an-introduction-to-nf-token-gating-text046">
                 Exclusivity and scarcity:
               </span>
               <span>
@@ -314,7 +336,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text048">
+              <span className="an-introduction-to-nf-token-gating-text050">
                 Community building:
               </span>
               <span>
@@ -325,7 +347,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text052">
+              <span className="an-introduction-to-nf-token-gating-text054">
                 Flexibility and control:
               </span>
               <span>
@@ -336,10 +358,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="an-introduction-to-nf-token-gating-text055">
+            <h2 className="an-introduction-to-nf-token-gating-text057">
               Use Case Examples for NFT Token Gating
             </h2>
-            <span className="an-introduction-to-nf-token-gating-text056">
+            <span className="an-introduction-to-nf-token-gating-text058">
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -347,7 +369,7 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <span className="an-introduction-to-nf-token-gating-text058">
+              <span className="an-introduction-to-nf-token-gating-text060">
                 Exclusive content access:
               </span>
               <span>
@@ -358,7 +380,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text062">
+              <span className="an-introduction-to-nf-token-gating-text064">
                 Gaming:
               </span>
               <span>
@@ -369,7 +391,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text066">
+              <span className="an-introduction-to-nf-token-gating-text068">
                 Virtual events:
               </span>
               <span>
@@ -380,7 +402,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="an-introduction-to-nf-token-gating-text070">
+              <span className="an-introduction-to-nf-token-gating-text072">
                 Digital art exhibitions:
               </span>
               <span>
@@ -390,11 +412,11 @@ closeButton.addEventListener("click", function() {
                 virtual openings.
               </span>
             </span>
-            <h2 className="an-introduction-to-nf-token-gating-text072">
+            <h2 className="an-introduction-to-nf-token-gating-text074">
               NFT token gating is revolutionizing the way NFT creators monetize
               their collections and engage with their token holders.
             </h2>
-            <span className="an-introduction-to-nf-token-gating-text073">
+            <span className="an-introduction-to-nf-token-gating-text075">
               NFT token gating is an innovative concept that has the potential
               to revolutionize the way creators monetize and distribute their
               digital content. By harnessing the power of NFTs and token gating,
@@ -406,17 +428,17 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="an-introduction-to-nf-token-gating-blog1">
-            <h2 className="an-introduction-to-nf-token-gating-text074">
+            <h2 className="an-introduction-to-nf-token-gating-text076">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="an-introduction-to-nf-token-gating-text075">
+            <span className="an-introduction-to-nf-token-gating-text077">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
             </span>
             <Link href="/book-a-demo">
-              <a className="an-introduction-to-nf-token-gating-link5">
+              <a className="an-introduction-to-nf-token-gating-link08">
                 <div className="an-introduction-to-nf-token-gating-get-started1">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -424,7 +446,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="an-introduction-to-nf-token-gating-text076">
+                  <span className="an-introduction-to-nf-token-gating-text078">
                     Book a Demo
                   </span>
                 </div>
@@ -439,7 +461,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="an-introduction-to-nf-token-gating-text079">
+              <span className="an-introduction-to-nf-token-gating-text081">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -465,16 +487,16 @@ closeButton.addEventListener("click", function() {
         <section className="an-introduction-to-nf-token-gating-how-it-works">
           <div className="an-introduction-to-nf-token-gating-centered-container1">
             <div className="an-introduction-to-nf-token-gating-heading1">
-              <span className="an-introduction-to-nf-token-gating-text080">
+              <span className="an-introduction-to-nf-token-gating-text082">
                 How it works
               </span>
-              <span className="an-introduction-to-nf-token-gating-text081 title">
+              <span className="an-introduction-to-nf-token-gating-text083 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="an-introduction-to-nf-token-gating-category">
               <div className="an-introduction-to-nf-token-gating-headng">
-                <span className="an-introduction-to-nf-token-gating-text082">
+                <span className="an-introduction-to-nf-token-gating-text084">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -482,13 +504,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text083">
+                <span className="an-introduction-to-nf-token-gating-text085">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="an-introduction-to-nf-token-gating-get-started2 template-button">
-                  <span className="an-introduction-to-nf-token-gating-text084">
+                  <span className="an-introduction-to-nf-token-gating-text086">
                     Get started
                   </span>
                 </div>
@@ -504,10 +526,10 @@ closeButton.addEventListener("click", function() {
             <div className="an-introduction-to-nf-token-gating-row">
               <div className="an-introduction-to-nf-token-gating-category1">
                 <div className="an-introduction-to-nf-token-gating-headng1">
-                  <span className="an-introduction-to-nf-token-gating-text085">
+                  <span className="an-introduction-to-nf-token-gating-text087">
                     2 — Act
                   </span>
-                  <span className="an-introduction-to-nf-token-gating-text086">
+                  <span className="an-introduction-to-nf-token-gating-text088">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -521,10 +543,10 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="an-introduction-to-nf-token-gating-category2">
                 <div className="an-introduction-to-nf-token-gating-headng2">
-                  <span className="an-introduction-to-nf-token-gating-text087">
+                  <span className="an-introduction-to-nf-token-gating-text089">
                     2 — Act
                   </span>
-                  <span className="an-introduction-to-nf-token-gating-text088">
+                  <span className="an-introduction-to-nf-token-gating-text090">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -542,37 +564,37 @@ closeButton.addEventListener("click", function() {
         <section className="an-introduction-to-nf-token-gating-pricing">
           <div className="an-introduction-to-nf-token-gating-centered-container2">
             <div className="an-introduction-to-nf-token-gating-heading2">
-              <span className="an-introduction-to-nf-token-gating-text089 title">
+              <span className="an-introduction-to-nf-token-gating-text091 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="an-introduction-to-nf-token-gating-text090">
+              <span className="an-introduction-to-nf-token-gating-text092">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="an-introduction-to-nf-token-gating-selection">
-                <span className="an-introduction-to-nf-token-gating-text091">
+                <span className="an-introduction-to-nf-token-gating-text093">
                   Monthly
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text092">
+                <span className="an-introduction-to-nf-token-gating-text094">
                   Yearly
                 </span>
               </div>
             </div>
             <div className="an-introduction-to-nf-token-gating-cards1">
               <div className="an-introduction-to-nf-token-gating-card">
-                <span className="an-introduction-to-nf-token-gating-text093">
+                <span className="an-introduction-to-nf-token-gating-text095">
                   Free
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text094">
+                <span className="an-introduction-to-nf-token-gating-text096">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="an-introduction-to-nf-token-gating-get-started3 template-button">
-                  <span className="an-introduction-to-nf-token-gating-text095">
+                  <span className="an-introduction-to-nf-token-gating-text097">
                     Start for free
                   </span>
                 </div>
-                <span className="an-introduction-to-nf-token-gating-text096">
+                <span className="an-introduction-to-nf-token-gating-text098">
                   What&apos;s included
                 </span>
                 <div className="an-introduction-to-nf-token-gating-bullet-points">
@@ -583,7 +605,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text097">
+                    <span className="an-introduction-to-nf-token-gating-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -594,17 +616,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text098">
+                    <span className="an-introduction-to-nf-token-gating-text100">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="an-introduction-to-nf-token-gating-card1">
-                <span className="an-introduction-to-nf-token-gating-text099">
+                <span className="an-introduction-to-nf-token-gating-text101">
                   Pay as you go
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text100">
+                <span className="an-introduction-to-nf-token-gating-text102">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -612,12 +634,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="an-introduction-to-nf-token-gating-get-started4 template-button">
-                  <span className="an-introduction-to-nf-token-gating-text104">
+                  <span className="an-introduction-to-nf-token-gating-text106">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="an-introduction-to-nf-token-gating-text107">
+                <span className="an-introduction-to-nf-token-gating-text109">
                   What&apos;s included
                 </span>
                 <div className="an-introduction-to-nf-token-gating-bullet-points1">
@@ -628,7 +650,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text108">
+                    <span className="an-introduction-to-nf-token-gating-text110">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -639,7 +661,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text109">
+                    <span className="an-introduction-to-nf-token-gating-text111">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -650,7 +672,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text110">
+                    <span className="an-introduction-to-nf-token-gating-text112">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -661,17 +683,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text111">
+                    <span className="an-introduction-to-nf-token-gating-text113">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="an-introduction-to-nf-token-gating-card2">
-                <span className="an-introduction-to-nf-token-gating-text112">
+                <span className="an-introduction-to-nf-token-gating-text114">
                   Enterprise
                 </span>
-                <span className="an-introduction-to-nf-token-gating-text113">
+                <span className="an-introduction-to-nf-token-gating-text115">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -679,12 +701,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="an-introduction-to-nf-token-gating-get-started5 template-button">
-                  <span className="an-introduction-to-nf-token-gating-text116">
+                  <span className="an-introduction-to-nf-token-gating-text118">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="an-introduction-to-nf-token-gating-text119">
+                <span className="an-introduction-to-nf-token-gating-text121">
                   What&apos;s included
                 </span>
                 <div className="an-introduction-to-nf-token-gating-bullet-points2">
@@ -695,7 +717,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text120">
+                    <span className="an-introduction-to-nf-token-gating-text122">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -706,7 +728,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text121">
+                    <span className="an-introduction-to-nf-token-gating-text123">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -717,7 +739,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text122">
+                    <span className="an-introduction-to-nf-token-gating-text124">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -728,7 +750,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="an-introduction-to-nf-token-gating-text123">
+                    <span className="an-introduction-to-nf-token-gating-text125">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -738,11 +760,11 @@ closeButton.addEventListener("click", function() {
           </div>
         </section>
         <section className="an-introduction-to-nf-token-gating-testimonals">
-          <div className="an-introduction-to-nf-token-gating-left1">
-            <span className="an-introduction-to-nf-token-gating-text124">
+          <div className="an-introduction-to-nf-token-gating-left2">
+            <span className="an-introduction-to-nf-token-gating-text126">
               Testimonals
             </span>
-            <span className="an-introduction-to-nf-token-gating-text125 title">
+            <span className="an-introduction-to-nf-token-gating-text127 title">
               What people say about Active
             </span>
           </div>
@@ -798,7 +820,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="an-introduction-to-nf-token-gating-text126">
+          <span className="an-introduction-to-nf-token-gating-text128">
             <span>Show more</span>
             <br></br>
           </span>
@@ -806,16 +828,16 @@ closeButton.addEventListener("click", function() {
         <section className="an-introduction-to-nf-token-gating-action-bar">
           <div className="an-introduction-to-nf-token-gating-action">
             <div className="an-introduction-to-nf-token-gating-heading3">
-              <span className="an-introduction-to-nf-token-gating-text129 title">
+              <span className="an-introduction-to-nf-token-gating-text131 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="an-introduction-to-nf-token-gating-text133">
+              <span className="an-introduction-to-nf-token-gating-text135">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="an-introduction-to-nf-token-gating-get-started6 template-button">
-                <span className="an-introduction-to-nf-token-gating-text134">
+                <span className="an-introduction-to-nf-token-gating-text136">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -837,10 +859,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="an-introduction-to-nf-token-gating-image2"
             />
-            <span className="an-introduction-to-nf-token-gating-text137">
+            <span className="an-introduction-to-nf-token-gating-text139">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="an-introduction-to-nf-token-gating-text138">
+            <span className="an-introduction-to-nf-token-gating-text140">
               <span>
                 Built by
                 <span
@@ -853,7 +875,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="an-introduction-to-nf-token-gating-link6"
+                className="an-introduction-to-nf-token-gating-link09"
               >
                 OpenMedium, Inc
               </a>
@@ -870,12 +892,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="an-introduction-to-nf-token-gating-link7"
+                className="an-introduction-to-nf-token-gating-link10"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="an-introduction-to-nf-token-gating-text141">
+            <span className="an-introduction-to-nf-token-gating-text143">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -883,7 +905,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="an-introduction-to-nf-token-gating-link8"
+                className="an-introduction-to-nf-token-gating-link11"
               >
                 Legal
               </a>
@@ -932,7 +954,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-centered {
+          .an-introduction-to-nf-token-gating-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -965,17 +987,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .an-introduction-to-nf-token-gating-link1 {
+          .an-introduction-to-nf-token-gating-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .an-introduction-to-nf-token-gating-link2 {
+          .an-introduction-to-nf-token-gating-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .an-introduction-to-nf-token-gating-link3 {
+          .an-introduction-to-nf-token-gating-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -994,7 +1016,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .an-introduction-to-nf-token-gating-link4 {
+          .an-introduction-to-nf-token-gating-link04 {
             display: contents;
           }
           .an-introduction-to-nf-token-gating-get-started {
@@ -1027,6 +1049,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .an-introduction-to-nf-token-gating-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .an-introduction-to-nf-token-gating-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .an-introduction-to-nf-token-gating-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .an-introduction-to-nf-token-gating-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .an-introduction-to-nf-token-gating-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .an-introduction-to-nf-token-gating-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .an-introduction-to-nf-token-gating-header {
             width: 70%;
             display: flex;
@@ -1036,7 +1098,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text007 {
+          .an-introduction-to-nf-token-gating-text009 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -1044,7 +1106,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .an-introduction-to-nf-token-gating-text008 {
+          .an-introduction-to-nf-token-gating-text010 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 24px;
@@ -1065,7 +1127,7 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }
-          .an-introduction-to-nf-token-gating-text009 {
+          .an-introduction-to-nf-token-gating-text011 {
             color: var(--dl-color-gray-white);
             font-size: 20px;
             font-weight: 300;
@@ -1088,14 +1150,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text012 {
+          .an-introduction-to-nf-token-gating-text014 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .an-introduction-to-nf-token-gating-text016 {
+          .an-introduction-to-nf-token-gating-text018 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1122,14 +1184,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text019 {
+          .an-introduction-to-nf-token-gating-text021 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text020 {
+          .an-introduction-to-nf-token-gating-text022 {
             line-height: 24px;
           }
           .an-introduction-to-nf-token-gating-publish {
@@ -1140,14 +1202,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text021 {
+          .an-introduction-to-nf-token-gating-text023 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text022 {
+          .an-introduction-to-nf-token-gating-text024 {
             line-height: 24px;
           }
           .an-introduction-to-nf-token-gating-container2 {
@@ -1163,14 +1225,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text023 {
+          .an-introduction-to-nf-token-gating-text025 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .an-introduction-to-nf-token-gating-text024 {
+          .an-introduction-to-nf-token-gating-text026 {
             line-height: 24px;
           }
           .an-introduction-to-nf-token-gating-icon05 {
@@ -1178,14 +1240,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text025 {
+          .an-introduction-to-nf-token-gating-text027 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text026 {
+          .an-introduction-to-nf-token-gating-text028 {
             line-height: 24px;
           }
           .an-introduction-to-nf-token-gating-banners {
@@ -1204,77 +1266,77 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .an-introduction-to-nf-token-gating-text027 {
+          .an-introduction-to-nf-token-gating-text029 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text028 {
+          .an-introduction-to-nf-token-gating-text030 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text031 {
+          .an-introduction-to-nf-token-gating-text033 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text032 {
+          .an-introduction-to-nf-token-gating-text034 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .an-introduction-to-nf-token-gating-text037 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .an-introduction-to-nf-token-gating-text038 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .an-introduction-to-nf-token-gating-text039 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .an-introduction-to-nf-token-gating-text040 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .an-introduction-to-nf-token-gating-text044 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .an-introduction-to-nf-token-gating-text048 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .an-introduction-to-nf-token-gating-text052 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .an-introduction-to-nf-token-gating-text055 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text056 {
+          .an-introduction-to-nf-token-gating-text040 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .an-introduction-to-nf-token-gating-text041 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
+          .an-introduction-to-nf-token-gating-text042 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text046 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text050 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text054 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text057 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .an-introduction-to-nf-token-gating-text058 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .an-introduction-to-nf-token-gating-text060 {
             font-style: normal;
             font-weight: 700;
           }
-          .an-introduction-to-nf-token-gating-text062 {
+          .an-introduction-to-nf-token-gating-text064 {
             font-style: normal;
             font-weight: 700;
           }
-          .an-introduction-to-nf-token-gating-text066 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .an-introduction-to-nf-token-gating-text070 {
+          .an-introduction-to-nf-token-gating-text068 {
             font-style: normal;
             font-weight: 700;
           }
           .an-introduction-to-nf-token-gating-text072 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .an-introduction-to-nf-token-gating-text074 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text073 {
+          .an-introduction-to-nf-token-gating-text075 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1294,17 +1356,17 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .an-introduction-to-nf-token-gating-text074 {
+          .an-introduction-to-nf-token-gating-text076 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text075 {
+          .an-introduction-to-nf-token-gating-text077 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-link5 {
+          .an-introduction-to-nf-token-gating-link08 {
             display: contents;
           }
           .an-introduction-to-nf-token-gating-get-started1 {
@@ -1334,7 +1396,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .an-introduction-to-nf-token-gating-text076 {
+          .an-introduction-to-nf-token-gating-text078 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1362,7 +1424,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text079 {
+          .an-introduction-to-nf-token-gating-text081 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1424,13 +1486,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text080 {
+          .an-introduction-to-nf-token-gating-text082 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .an-introduction-to-nf-token-gating-text081 {
+          .an-introduction-to-nf-token-gating-text083 {
             color: var(--dl-color-gray-white);
           }
           .an-introduction-to-nf-token-gating-category {
@@ -1454,13 +1516,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .an-introduction-to-nf-token-gating-text082 {
+          .an-introduction-to-nf-token-gating-text084 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .an-introduction-to-nf-token-gating-text083 {
+          .an-introduction-to-nf-token-gating-text085 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1472,7 +1534,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .an-introduction-to-nf-token-gating-text084 {
+          .an-introduction-to-nf-token-gating-text086 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1518,14 +1580,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .an-introduction-to-nf-token-gating-text085 {
+          .an-introduction-to-nf-token-gating-text087 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .an-introduction-to-nf-token-gating-text086 {
+          .an-introduction-to-nf-token-gating-text088 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1554,14 +1616,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .an-introduction-to-nf-token-gating-text087 {
+          .an-introduction-to-nf-token-gating-text089 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .an-introduction-to-nf-token-gating-text088 {
+          .an-introduction-to-nf-token-gating-text090 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1595,11 +1657,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text089 {
+          .an-introduction-to-nf-token-gating-text091 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .an-introduction-to-nf-token-gating-text090 {
+          .an-introduction-to-nf-token-gating-text092 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1612,7 +1674,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .an-introduction-to-nf-token-gating-text091 {
+          .an-introduction-to-nf-token-gating-text093 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1623,7 +1685,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .an-introduction-to-nf-token-gating-text092 {
+          .an-introduction-to-nf-token-gating-text094 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1658,13 +1720,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .an-introduction-to-nf-token-gating-text093 {
+          .an-introduction-to-nf-token-gating-text095 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text094 {
+          .an-introduction-to-nf-token-gating-text096 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1676,13 +1738,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .an-introduction-to-nf-token-gating-text095 {
+          .an-introduction-to-nf-token-gating-text097 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .an-introduction-to-nf-token-gating-text096 {
+          .an-introduction-to-nf-token-gating-text098 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1705,7 +1767,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text097 {
+          .an-introduction-to-nf-token-gating-text099 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1722,7 +1784,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text098 {
+          .an-introduction-to-nf-token-gating-text100 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1743,13 +1805,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .an-introduction-to-nf-token-gating-text099 {
+          .an-introduction-to-nf-token-gating-text101 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text100 {
+          .an-introduction-to-nf-token-gating-text102 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1761,13 +1823,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .an-introduction-to-nf-token-gating-text104 {
+          .an-introduction-to-nf-token-gating-text106 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .an-introduction-to-nf-token-gating-text107 {
+          .an-introduction-to-nf-token-gating-text109 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1790,7 +1852,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text108 {
+          .an-introduction-to-nf-token-gating-text110 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1807,7 +1869,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text109 {
+          .an-introduction-to-nf-token-gating-text111 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1824,7 +1886,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text110 {
+          .an-introduction-to-nf-token-gating-text112 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1841,7 +1903,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text111 {
+          .an-introduction-to-nf-token-gating-text113 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1861,14 +1923,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .an-introduction-to-nf-token-gating-text112 {
+          .an-introduction-to-nf-token-gating-text114 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .an-introduction-to-nf-token-gating-text113 {
+          .an-introduction-to-nf-token-gating-text115 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1882,12 +1944,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .an-introduction-to-nf-token-gating-text116 {
+          .an-introduction-to-nf-token-gating-text118 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .an-introduction-to-nf-token-gating-text119 {
+          .an-introduction-to-nf-token-gating-text121 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1911,7 +1973,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text120 {
+          .an-introduction-to-nf-token-gating-text122 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1929,7 +1991,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text121 {
+          .an-introduction-to-nf-token-gating-text123 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1947,7 +2009,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text122 {
+          .an-introduction-to-nf-token-gating-text124 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1965,7 +2027,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .an-introduction-to-nf-token-gating-text123 {
+          .an-introduction-to-nf-token-gating-text125 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1982,7 +2044,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .an-introduction-to-nf-token-gating-left1 {
+          .an-introduction-to-nf-token-gating-left2 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -1990,13 +2052,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text124 {
+          .an-introduction-to-nf-token-gating-text126 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .an-introduction-to-nf-token-gating-text125 {
+          .an-introduction-to-nf-token-gating-text127 {
             text-align: left;
           }
           .an-introduction-to-nf-token-gating-right1 {
@@ -2014,7 +2076,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .an-introduction-to-nf-token-gating-text126 {
+          .an-introduction-to-nf-token-gating-text128 {
             cursor: pointer;
             display: none;
           }
@@ -2045,11 +2107,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .an-introduction-to-nf-token-gating-text129 {
+          .an-introduction-to-nf-token-gating-text131 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .an-introduction-to-nf-token-gating-text133 {
+          .an-introduction-to-nf-token-gating-text135 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2057,7 +2119,7 @@ closeButton.addEventListener("click", function() {
           .an-introduction-to-nf-token-gating-get-started6 {
             margin-bottom: 0px;
           }
-          .an-introduction-to-nf-token-gating-text134 {
+          .an-introduction-to-nf-token-gating-text136 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2099,33 +2161,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text137 {
+          .an-introduction-to-nf-token-gating-text139 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .an-introduction-to-nf-token-gating-text138 {
+          .an-introduction-to-nf-token-gating-text140 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .an-introduction-to-nf-token-gating-link6 {
+          .an-introduction-to-nf-token-gating-link09 {
             text-decoration: underline;
           }
-          .an-introduction-to-nf-token-gating-link7 {
+          .an-introduction-to-nf-token-gating-link10 {
             text-decoration: underline;
           }
-          .an-introduction-to-nf-token-gating-text141 {
+          .an-introduction-to-nf-token-gating-text143 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .an-introduction-to-nf-token-gating-link8 {
+          .an-introduction-to-nf-token-gating-link11 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -2143,7 +2205,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .an-introduction-to-nf-token-gating-centered {
+            .an-introduction-to-nf-token-gating-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -2151,8 +2213,13 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .an-introduction-to-nf-token-gating-links {
-              display: none;
+            .an-introduction-to-nf-token-gating-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .an-introduction-to-nf-token-gating-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .an-introduction-to-nf-token-gating-header {
               width: 100%;
@@ -2165,11 +2232,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .an-introduction-to-nf-token-gating-text012 {
+            .an-introduction-to-nf-token-gating-text014 {
               font-size: 36px;
               line-height: 40px;
             }
-            .an-introduction-to-nf-token-gating-text016 {
+            .an-introduction-to-nf-token-gating-text018 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2177,19 +2244,19 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .an-introduction-to-nf-token-gating-text020 {
-              line-height: 21px;
-            }
             .an-introduction-to-nf-token-gating-text022 {
               line-height: 21px;
             }
             .an-introduction-to-nf-token-gating-text024 {
               line-height: 21px;
             }
-            .an-introduction-to-nf-token-gating-text025 {
+            .an-introduction-to-nf-token-gating-text026 {
+              line-height: 21px;
+            }
+            .an-introduction-to-nf-token-gating-text027 {
               font-size: 24px;
             }
-            .an-introduction-to-nf-token-gating-text026 {
+            .an-introduction-to-nf-token-gating-text028 {
               line-height: 21px;
             }
             .an-introduction-to-nf-token-gating-container4 {
@@ -2219,7 +2286,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .an-introduction-to-nf-token-gating-text090 {
+            .an-introduction-to-nf-token-gating-text092 {
               width: 100%;
               max-width: 600px;
             }
@@ -2235,11 +2302,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .an-introduction-to-nf-token-gating-text094 {
+            .an-introduction-to-nf-token-gating-text096 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .an-introduction-to-nf-token-gating-text096 {
+            .an-introduction-to-nf-token-gating-text098 {
               font-size: 16px;
             }
             .an-introduction-to-nf-token-gating-card1 {
@@ -2254,12 +2321,12 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               flex-direction: column;
             }
-            .an-introduction-to-nf-token-gating-left1 {
+            .an-introduction-to-nf-token-gating-left2 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .an-introduction-to-nf-token-gating-text125 {
+            .an-introduction-to-nf-token-gating-text127 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2284,7 +2351,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .an-introduction-to-nf-token-gating-text129 {
+            .an-introduction-to-nf-token-gating-text131 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2294,7 +2361,7 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-top {
               flex-direction: column;
             }
-            .an-introduction-to-nf-token-gating-text141 {
+            .an-introduction-to-nf-token-gating-text143 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2310,12 +2377,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .an-introduction-to-nf-token-gating-centered {
+            .an-introduction-to-nf-token-gating-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .an-introduction-to-nf-token-gating-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .an-introduction-to-nf-token-gating-links {
+              display: none;
             }
             .an-introduction-to-nf-token-gating-right {
               margin-right: var(--dl-space-space-unit);
@@ -2326,19 +2396,28 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-get-started {
               display: flex;
             }
+            .an-introduction-to-nf-token-gating-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .an-introduction-to-nf-token-gating-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .an-introduction-to-nf-token-gating-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .an-introduction-to-nf-token-gating-text007 {
+            .an-introduction-to-nf-token-gating-text009 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .an-introduction-to-nf-token-gating-text008 {
+            .an-introduction-to-nf-token-gating-text010 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2349,7 +2428,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .an-introduction-to-nf-token-gating-text012 {
+            .an-introduction-to-nf-token-gating-text014 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2360,19 +2439,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .an-introduction-to-nf-token-gating-text019 {
+            .an-introduction-to-nf-token-gating-text021 {
               font-size: 24px;
             }
-            .an-introduction-to-nf-token-gating-text020 {
+            .an-introduction-to-nf-token-gating-text022 {
               font-size: 14px;
             }
             .an-introduction-to-nf-token-gating-publish {
               margin-left: 0px;
             }
-            .an-introduction-to-nf-token-gating-text021 {
+            .an-introduction-to-nf-token-gating-text023 {
               font-size: 24px;
             }
-            .an-introduction-to-nf-token-gating-text022 {
+            .an-introduction-to-nf-token-gating-text024 {
               font-size: 14px;
             }
             .an-introduction-to-nf-token-gating-container2 {
@@ -2382,13 +2461,13 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-analyze {
               margin-right: 0px;
             }
-            .an-introduction-to-nf-token-gating-text023 {
+            .an-introduction-to-nf-token-gating-text025 {
               font-size: 24px;
             }
-            .an-introduction-to-nf-token-gating-text024 {
+            .an-introduction-to-nf-token-gating-text026 {
               font-size: 14px;
             }
-            .an-introduction-to-nf-token-gating-text026 {
+            .an-introduction-to-nf-token-gating-text028 {
               font-size: 14px;
             }
             .an-introduction-to-nf-token-gating-blog {
@@ -2408,7 +2487,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .an-introduction-to-nf-token-gating-text079 {
+            .an-introduction-to-nf-token-gating-text081 {
               line-height: 24px;
             }
             .an-introduction-to-nf-token-gating-pills {
@@ -2423,7 +2502,7 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .an-introduction-to-nf-token-gating-text081 {
+            .an-introduction-to-nf-token-gating-text083 {
               margin-bottom: 0px;
             }
             .an-introduction-to-nf-token-gating-headng {
@@ -2447,7 +2526,7 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .an-introduction-to-nf-token-gating-text093 {
+            .an-introduction-to-nf-token-gating-text095 {
               font-size: 28px;
             }
             .an-introduction-to-nf-token-gating-card1 {
@@ -2456,7 +2535,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .an-introduction-to-nf-token-gating-text099 {
+            .an-introduction-to-nf-token-gating-text101 {
               font-size: 28px;
             }
             .an-introduction-to-nf-token-gating-card2 {
@@ -2464,7 +2543,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .an-introduction-to-nf-token-gating-text112 {
+            .an-introduction-to-nf-token-gating-text114 {
               font-size: 28px;
             }
             .an-introduction-to-nf-token-gating-testimonals {
@@ -2479,7 +2558,7 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-column1 {
               display: none;
             }
-            .an-introduction-to-nf-token-gating-text126 {
+            .an-introduction-to-nf-token-gating-text128 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2499,11 +2578,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .an-introduction-to-nf-token-gating-text129 {
+            .an-introduction-to-nf-token-gating-text131 {
               font-size: 28px;
               text-align: left;
             }
-            .an-introduction-to-nf-token-gating-text134 {
+            .an-introduction-to-nf-token-gating-text136 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2528,7 +2607,7 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-hero {
               height: auto;
             }
-            .an-introduction-to-nf-token-gating-centered {
+            .an-introduction-to-nf-token-gating-centered-desktop {
               justify-content: center;
             }
             .an-introduction-to-nf-token-gating-logo {
@@ -2543,7 +2622,20 @@ closeButton.addEventListener("click", function() {
             .an-introduction-to-nf-token-gating-icon {
               display: none;
             }
-            .an-introduction-to-nf-token-gating-text008 {
+            .an-introduction-to-nf-token-gating-centered-mobile {
+              justify-content: center;
+            }
+            .an-introduction-to-nf-token-gating-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .an-introduction-to-nf-token-gating-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .an-introduction-to-nf-token-gating-text010 {
               color: #eee9fe;
             }
             .an-introduction-to-nf-token-gating-features {
@@ -2565,6 +2657,7 @@ closeButton.addEventListener("click", function() {
               margin-bottom: 0px;
             }
             .an-introduction-to-nf-token-gating-blog {
+              margin-top: var(--dl-space-space-threeunits);
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -2603,7 +2696,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .an-introduction-to-nf-token-gating-text137 {
+            .an-introduction-to-nf-token-gating-text139 {
               text-align: center;
             }
           }

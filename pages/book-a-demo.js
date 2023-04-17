@@ -35,62 +35,6 @@ const BookADemo = (props) => {
         </Head>
         <header id="header" className="book--demo-hero">
           <div className="book--demo-menu">
-            <div id="navigation" className="book--demo-desktop-navigation">
-              <nav className="book--demo-centered">
-                <div className="book--demo-left">
-                  <Link href="/">
-                    <a className="book--demo-link">
-                      <img
-                        alt="Welcome to Gateful"
-                        src="/playground_assets/gateful-logo-wht-200h.png"
-                        className="book--demo-logo"
-                      />
-                    </a>
-                  </Link>
-                  <div className="book--demo-links">
-                    <Link href="/token-gating-platform">
-                      <a className="book--demo-link1 Link">Platform</a>
-                    </Link>
-                    <Link href="/token-gating-solutions">
-                      <a className="book--demo-link2 Link">Solutions</a>
-                    </Link>
-                    <Link href="/blog">
-                      <a className="book--demo-link3 Link">
-                        <span>Blog</span>
-                        <br></br>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="book--demo-right">
-                  <a
-                    href="https://app.gateful.io"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="book--demo-sign-in Link"
-                  >
-                    <span>Login</span>
-                    <br></br>
-                  </a>
-                  <Link href="/book-a-demo">
-                    <a className="book--demo-link4">
-                      <div className="book--demo-get-started">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="book--demo-icon"
-                        >
-                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
-                        </svg>
-                        <span className="book--demo-text04">
-                          <span>Book a Demo</span>
-                          <br></br>
-                        </span>
-                      </div>
-                    </a>
-                  </Link>
-                </div>
-              </nav>
-            </div>
             <div>
               <DangerousHTML
                 html={`<script>
@@ -117,17 +61,91 @@ closeButton.addEventListener("click", function() {
 </script>`}
               ></DangerousHTML>
             </div>
+            <div id="navigation" className="book--demo-desktop-navigation">
+              <nav className="book--demo-centered-desktop">
+                <div className="book--demo-left">
+                  <Link href="/">
+                    <a className="book--demo-link">
+                      <img
+                        alt="Welcome to Gateful"
+                        src="/playground_assets/gateful-logo-wht-200h.png"
+                        className="book--demo-logo"
+                      />
+                    </a>
+                  </Link>
+                  <div className="book--demo-links">
+                    <Link href="/token-gating-platform">
+                      <a className="book--demo-link01 Link">Platform</a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="book--demo-link02 Link">Solutions</a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="book--demo-link03 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="book--demo-right">
+                  <a
+                    href="https://app.gateful.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="book--demo-sign-in Link"
+                  >
+                    <span>Login</span>
+                    <br></br>
+                  </a>
+                  <Link href="/book-a-demo">
+                    <a className="book--demo-link04">
+                      <div className="book--demo-get-started">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="book--demo-icon"
+                        >
+                          <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
+                        </svg>
+                        <span className="book--demo-text004">
+                          <span>Book a Demo</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </Link>
+                </div>
+              </nav>
+              <nav className="book--demo-centered-mobile">
+                <div className="book--demo-left1">
+                  <div className="book--demo-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="book--demo-link05 Link">Platform</a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="book--demo-link06 Link">Solutions</a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="book--demo-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
           <header className="book--demo-header">
-            <h1 className="book--demo-text07">Book a Demo</h1>
-            <p className="book--demo-text08">
+            <h1 className="book--demo-text009">Book a Demo</h1>
+            <p className="book--demo-text010">
               Let&apos;s discuss your token gating project.
             </p>
           </header>
         </header>
         <section className="book--demo-features">
           <div className="book--demo-title">
-            <span className="book--demo-text09">
+            <span className="book--demo-text011">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -139,7 +157,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="book--demo-text13">
+            <span className="book--demo-text015">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -159,8 +177,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="book--demo-icon02"
                 />
-                <span className="book--demo-text16">Schedule</span>
-                <span className="book--demo-text17">
+                <span className="book--demo-text018">Schedule</span>
+                <span className="book--demo-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -171,8 +189,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="book--demo-icon03"
                 />
-                <span className="book--demo-text18">Publish</span>
-                <span className="book--demo-text19">
+                <span className="book--demo-text020">Publish</span>
+                <span className="book--demo-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -184,8 +202,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="book--demo-icon04"
                 />
-                <span className="book--demo-text20">Analyze</span>
-                <span className="book--demo-text21">
+                <span className="book--demo-text022">Analyze</span>
+                <span className="book--demo-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -196,8 +214,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="book--demo-icon05"
                 />
-                <span className="book--demo-text22">Get leads</span>
-                <span className="book--demo-text23">
+                <span className="book--demo-text024">Get leads</span>
+                <span className="book--demo-text025">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -217,18 +235,18 @@ closeButton.addEventListener("click", function() {
           </section>
           <div className="book--demo-banner-manage">
             <div className="book--demo-container3">
-              <div className="book--demo-left1">
+              <div className="book--demo-left2">
                 <span className="sub-title">Content Management</span>
-                <span className="book--demo-text25 title">
+                <span className="book--demo-text027 title">
                   Manage all your platforms in just one place.
                 </span>
-                <span className="book--demo-text26">
+                <span className="book--demo-text028">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="book--demo-get-started1 template-button">
-                  <span className="book--demo-text27">Get started</span>
+                  <span className="book--demo-text029">Get started</span>
                 </div>
               </div>
               <div className="book--demo-image-container">
@@ -242,18 +260,18 @@ closeButton.addEventListener("click", function() {
           </div>
           <div className="book--demo-banner">
             <div className="book--demo-container4">
-              <div className="book--demo-left2">
-                <span className="book--demo-text28">Improve Scheduling</span>
-                <h2 className="book--demo-text29 title">
+              <div className="book--demo-left3">
+                <span className="book--demo-text030">Improve Scheduling</span>
+                <h2 className="book--demo-text031 title">
                   Powerful scheduler that saves you time
                 </h2>
-                <span className="book--demo-text30">
+                <span className="book--demo-text032">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="book--demo-get-started2 template-button">
-                  <span className="book--demo-text31">Get started</span>
+                  <span className="book--demo-text033">Get started</span>
                 </div>
               </div>
               <div className="book--demo-image-container1">
@@ -273,7 +291,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="book--demo-text34">
+              <span className="book--demo-text036">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -299,14 +317,14 @@ closeButton.addEventListener("click", function() {
         <section className="book--demo-how-it-works">
           <div className="book--demo-centered-container2">
             <div className="book--demo-heading1">
-              <span className="book--demo-text35">How it works</span>
-              <span className="book--demo-text36 title">
+              <span className="book--demo-text037">How it works</span>
+              <span className="book--demo-text038 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="book--demo-category">
               <div className="book--demo-headng">
-                <span className="book--demo-text37">
+                <span className="book--demo-text039">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -314,13 +332,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="book--demo-text38">
+                <span className="book--demo-text040">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="book--demo-get-started3 template-button">
-                  <span className="book--demo-text39">Get started</span>
+                  <span className="book--demo-text041">Get started</span>
                 </div>
               </div>
               <div className="book--demo-container7">
@@ -334,8 +352,8 @@ closeButton.addEventListener("click", function() {
             <div className="book--demo-row">
               <div className="book--demo-category1">
                 <div className="book--demo-headng1">
-                  <span className="book--demo-text40">2 — Act</span>
-                  <span className="book--demo-text41">
+                  <span className="book--demo-text042">2 — Act</span>
+                  <span className="book--demo-text043">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -349,8 +367,8 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="book--demo-category2">
                 <div className="book--demo-headng2">
-                  <span className="book--demo-text42">2 — Act</span>
-                  <span className="book--demo-text43">
+                  <span className="book--demo-text044">2 — Act</span>
+                  <span className="book--demo-text045">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -368,29 +386,29 @@ closeButton.addEventListener("click", function() {
         <section className="book--demo-pricing">
           <div className="book--demo-centered-container3">
             <div className="book--demo-heading2">
-              <span className="book--demo-text44 title">
+              <span className="book--demo-text046 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="book--demo-text45">
+              <span className="book--demo-text047">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="book--demo-selection">
-                <span className="book--demo-text46">Monthly</span>
-                <span className="book--demo-text47">Yearly</span>
+                <span className="book--demo-text048">Monthly</span>
+                <span className="book--demo-text049">Yearly</span>
               </div>
             </div>
             <div className="book--demo-cards1">
               <div className="book--demo-card">
-                <span className="book--demo-text48">Free</span>
-                <span className="book--demo-text49">
+                <span className="book--demo-text050">Free</span>
+                <span className="book--demo-text051">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="book--demo-get-started4 template-button">
-                  <span className="book--demo-text50">Start for free</span>
+                  <span className="book--demo-text052">Start for free</span>
                 </div>
-                <span className="book--demo-text51">What&apos;s included</span>
+                <span className="book--demo-text053">What&apos;s included</span>
                 <div className="book--demo-bullet-points">
                   <div className="book--demo-point">
                     <svg
@@ -399,7 +417,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text52">
+                    <span className="book--demo-text054">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -410,15 +428,15 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text53">
+                    <span className="book--demo-text055">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="book--demo-card1">
-                <span className="book--demo-text54">Pay as you go</span>
-                <span className="book--demo-text55">
+                <span className="book--demo-text056">Pay as you go</span>
+                <span className="book--demo-text057">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -426,12 +444,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="book--demo-get-started5 template-button">
-                  <span className="book--demo-text59">
+                  <span className="book--demo-text061">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="book--demo-text62">What&apos;s included</span>
+                <span className="book--demo-text064">What&apos;s included</span>
                 <div className="book--demo-bullet-points1">
                   <div className="book--demo-point02">
                     <svg
@@ -440,7 +458,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text63">
+                    <span className="book--demo-text065">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -451,7 +469,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text64">
+                    <span className="book--demo-text066">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -462,7 +480,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text65">
+                    <span className="book--demo-text067">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -473,15 +491,15 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text66">
+                    <span className="book--demo-text068">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="book--demo-card2">
-                <span className="book--demo-text67">Enterprise</span>
-                <span className="book--demo-text68">
+                <span className="book--demo-text069">Enterprise</span>
+                <span className="book--demo-text070">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -489,12 +507,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="book--demo-get-started6 template-button">
-                  <span className="book--demo-text71">
+                  <span className="book--demo-text073">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="book--demo-text74">What&apos;s included</span>
+                <span className="book--demo-text076">What&apos;s included</span>
                 <div className="book--demo-bullet-points2">
                   <div className="book--demo-point06">
                     <svg
@@ -503,7 +521,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text75">
+                    <span className="book--demo-text077">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -514,7 +532,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text76">
+                    <span className="book--demo-text078">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -525,7 +543,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text77">
+                    <span className="book--demo-text079">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -536,7 +554,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="book--demo-text78">
+                    <span className="book--demo-text080">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -546,9 +564,9 @@ closeButton.addEventListener("click", function() {
           </div>
         </section>
         <section className="book--demo-testimonals">
-          <div className="book--demo-left3">
-            <span className="book--demo-text79">Testimonals</span>
-            <span className="book--demo-text80 title">
+          <div className="book--demo-left4">
+            <span className="book--demo-text081">Testimonals</span>
+            <span className="book--demo-text082 title">
               What people say about Active
             </span>
           </div>
@@ -604,7 +622,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="book--demo-text81">
+          <span className="book--demo-text083">
             <span>Show more</span>
             <br></br>
           </span>
@@ -612,16 +630,16 @@ closeButton.addEventListener("click", function() {
         <section className="book--demo-action-bar">
           <div className="book--demo-action">
             <div className="book--demo-heading3">
-              <span className="book--demo-text84 title">
+              <span className="book--demo-text086 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="book--demo-text88">
+              <span className="book--demo-text090">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="book--demo-get-started7 template-button">
-                <span className="book--demo-text89">
+                <span className="book--demo-text091">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -643,10 +661,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="book--demo-image1"
             />
-            <span className="book--demo-text92">
+            <span className="book--demo-text094">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="book--demo-text93">
+            <span className="book--demo-text095">
               <span>
                 Built by
                 <span
@@ -659,7 +677,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="book--demo-link5"
+                className="book--demo-link08"
               >
                 OpenMedium, Inc
               </a>
@@ -676,12 +694,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="book--demo-link6"
+                className="book--demo-link09"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="book--demo-text96">
+            <span className="book--demo-text098">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -689,7 +707,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="book--demo-link7"
+                className="book--demo-link10"
               >
                 Legal
               </a>
@@ -738,7 +756,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .book--demo-centered {
+          .book--demo-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -771,17 +789,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .book--demo-link1 {
+          .book--demo-link01 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .book--demo-link2 {
+          .book--demo-link02 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .book--demo-link3 {
+          .book--demo-link03 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -800,7 +818,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .book--demo-link4 {
+          .book--demo-link04 {
             display: contents;
           }
           .book--demo-get-started {
@@ -828,10 +846,50 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .book--demo-text04 {
+          .book--demo-text004 {
             color: var(--dl-color-primary-100);
             font-style: normal;
             font-weight: 600;
+          }
+          .book--demo-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .book--demo-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .book--demo-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .book--demo-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .book--demo-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .book--demo-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
           }
           .book--demo-header {
             width: 70%;
@@ -842,7 +900,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .book--demo-text07 {
+          .book--demo-text009 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -850,7 +908,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .book--demo-text08 {
+          .book--demo-text010 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -875,14 +933,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .book--demo-text09 {
+          .book--demo-text011 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .book--demo-text13 {
+          .book--demo-text015 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -909,14 +967,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text16 {
+          .book--demo-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .book--demo-text17 {
+          .book--demo-text019 {
             line-height: 24px;
           }
           .book--demo-publish {
@@ -927,14 +985,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text18 {
+          .book--demo-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .book--demo-text19 {
+          .book--demo-text021 {
             line-height: 24px;
           }
           .book--demo-container2 {
@@ -950,14 +1008,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text20 {
+          .book--demo-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .book--demo-text21 {
+          .book--demo-text023 {
             line-height: 24px;
           }
           .book--demo-icon05 {
@@ -965,14 +1023,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text22 {
+          .book--demo-text024 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .book--demo-text23 {
+          .book--demo-text025 {
             line-height: 24px;
           }
           .book--demo-banners {
@@ -1017,7 +1075,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .book--demo-left1 {
+          .book--demo-left2 {
             flex: 1;
             width: 100%;
             display: flex;
@@ -1025,10 +1083,10 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .book--demo-text25 {
+          .book--demo-text027 {
             text-align: left;
           }
-          .book--demo-text26 {
+          .book--demo-text028 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1041,7 +1099,7 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .book--demo-text27 {
+          .book--demo-text029 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1080,23 +1138,23 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .book--demo-left2 {
+          .book--demo-left3 {
             flex: 1;
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .book--demo-text28 {
+          .book--demo-text030 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .book--demo-text29 {
+          .book--demo-text031 {
             text-align: left;
           }
-          .book--demo-text30 {
+          .book--demo-text032 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1109,7 +1167,7 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .book--demo-text31 {
+          .book--demo-text033 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1148,7 +1206,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .book--demo-text34 {
+          .book--demo-text036 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1210,13 +1268,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .book--demo-text35 {
+          .book--demo-text037 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .book--demo-text36 {
+          .book--demo-text038 {
             color: var(--dl-color-gray-white);
           }
           .book--demo-category {
@@ -1240,13 +1298,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .book--demo-text37 {
+          .book--demo-text039 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .book--demo-text38 {
+          .book--demo-text040 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1258,7 +1316,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .book--demo-text39 {
+          .book--demo-text041 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1304,14 +1362,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .book--demo-text40 {
+          .book--demo-text042 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .book--demo-text41 {
+          .book--demo-text043 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1340,14 +1398,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .book--demo-text42 {
+          .book--demo-text044 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .book--demo-text43 {
+          .book--demo-text045 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1381,11 +1439,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .book--demo-text44 {
+          .book--demo-text046 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .book--demo-text45 {
+          .book--demo-text047 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1398,7 +1456,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .book--demo-text46 {
+          .book--demo-text048 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1409,7 +1467,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .book--demo-text47 {
+          .book--demo-text049 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1444,13 +1502,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .book--demo-text48 {
+          .book--demo-text050 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text49 {
+          .book--demo-text051 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1462,13 +1520,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .book--demo-text50 {
+          .book--demo-text052 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .book--demo-text51 {
+          .book--demo-text053 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1491,7 +1549,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text52 {
+          .book--demo-text054 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1508,7 +1566,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text53 {
+          .book--demo-text055 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1529,13 +1587,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .book--demo-text54 {
+          .book--demo-text056 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text55 {
+          .book--demo-text057 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1547,13 +1605,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .book--demo-text59 {
+          .book--demo-text061 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .book--demo-text62 {
+          .book--demo-text064 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1576,7 +1634,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text63 {
+          .book--demo-text065 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1593,7 +1651,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text64 {
+          .book--demo-text066 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1610,7 +1668,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text65 {
+          .book--demo-text067 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1627,7 +1685,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text66 {
+          .book--demo-text068 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1647,14 +1705,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .book--demo-text67 {
+          .book--demo-text069 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .book--demo-text68 {
+          .book--demo-text070 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1668,12 +1726,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .book--demo-text71 {
+          .book--demo-text073 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .book--demo-text74 {
+          .book--demo-text076 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1697,7 +1755,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text75 {
+          .book--demo-text077 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1715,7 +1773,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text76 {
+          .book--demo-text078 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1733,7 +1791,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text77 {
+          .book--demo-text079 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1751,7 +1809,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .book--demo-text78 {
+          .book--demo-text080 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1768,7 +1826,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .book--demo-left3 {
+          .book--demo-left4 {
             width: 375px;
             display: flex;
             margin-top: 375px;
@@ -1776,13 +1834,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .book--demo-text79 {
+          .book--demo-text081 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .book--demo-text80 {
+          .book--demo-text082 {
             text-align: left;
           }
           .book--demo-right1 {
@@ -1800,7 +1858,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .book--demo-text81 {
+          .book--demo-text083 {
             cursor: pointer;
             display: none;
           }
@@ -1831,11 +1889,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .book--demo-text84 {
+          .book--demo-text086 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .book--demo-text88 {
+          .book--demo-text090 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1843,7 +1901,7 @@ closeButton.addEventListener("click", function() {
           .book--demo-get-started7 {
             margin-bottom: 0px;
           }
-          .book--demo-text89 {
+          .book--demo-text091 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1885,33 +1943,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .book--demo-text92 {
+          .book--demo-text094 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .book--demo-text93 {
+          .book--demo-text095 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .book--demo-link5 {
+          .book--demo-link08 {
             text-decoration: underline;
           }
-          .book--demo-link6 {
+          .book--demo-link09 {
             text-decoration: underline;
           }
-          .book--demo-text96 {
+          .book--demo-text098 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .book--demo-link7 {
+          .book--demo-link10 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -1929,7 +1987,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .book--demo-centered {
+            .book--demo-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -1937,8 +1995,13 @@ closeButton.addEventListener("click", function() {
             .book--demo-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .book--demo-links {
-              display: none;
+            .book--demo-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .book--demo-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .book--demo-header {
               width: 100%;
@@ -1951,11 +2014,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .book--demo-text09 {
+            .book--demo-text011 {
               font-size: 36px;
               line-height: 40px;
             }
-            .book--demo-text13 {
+            .book--demo-text015 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -1963,19 +2026,19 @@ closeButton.addEventListener("click", function() {
             .book--demo-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .book--demo-text17 {
+            .book--demo-text019 {
               line-height: 21px;
             }
-            .book--demo-text19 {
+            .book--demo-text021 {
               line-height: 21px;
             }
-            .book--demo-text21 {
+            .book--demo-text023 {
               line-height: 21px;
             }
-            .book--demo-text22 {
+            .book--demo-text024 {
               font-size: 24px;
             }
-            .book--demo-text23 {
+            .book--demo-text025 {
               line-height: 21px;
             }
             .book--demo-banner-advanced-analytics {
@@ -1990,7 +2053,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .book--demo-left1 {
+            .book--demo-left2 {
               margin-right: var(--dl-space-space-threeunits);
             }
             .book--demo-cards-image {
@@ -2023,7 +2086,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .book--demo-text45 {
+            .book--demo-text047 {
               width: 100%;
               max-width: 600px;
             }
@@ -2039,11 +2102,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .book--demo-text49 {
+            .book--demo-text051 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .book--demo-text51 {
+            .book--demo-text053 {
               font-size: 16px;
             }
             .book--demo-card1 {
@@ -2058,12 +2121,12 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               flex-direction: column;
             }
-            .book--demo-left3 {
+            .book--demo-left4 {
               margin-top: 0px;
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .book--demo-text80 {
+            .book--demo-text082 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2088,7 +2151,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .book--demo-text84 {
+            .book--demo-text086 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2098,7 +2161,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-top {
               flex-direction: column;
             }
-            .book--demo-text96 {
+            .book--demo-text098 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -2114,12 +2177,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .book--demo-centered {
+            .book--demo-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .book--demo-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .book--demo-links {
+              display: none;
             }
             .book--demo-right {
               margin-right: var(--dl-space-space-unit);
@@ -2130,19 +2196,28 @@ closeButton.addEventListener("click", function() {
             .book--demo-get-started {
               display: flex;
             }
+            .book--demo-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .book--demo-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .book--demo-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .book--demo-text07 {
+            .book--demo-text009 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .book--demo-text08 {
+            .book--demo-text010 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -2153,7 +2228,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .book--demo-text09 {
+            .book--demo-text011 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2164,19 +2239,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .book--demo-text16 {
+            .book--demo-text018 {
               font-size: 24px;
             }
-            .book--demo-text17 {
+            .book--demo-text019 {
               font-size: 14px;
             }
             .book--demo-publish {
               margin-left: 0px;
             }
-            .book--demo-text18 {
+            .book--demo-text020 {
               font-size: 24px;
             }
-            .book--demo-text19 {
+            .book--demo-text021 {
               font-size: 14px;
             }
             .book--demo-container2 {
@@ -2186,13 +2261,13 @@ closeButton.addEventListener("click", function() {
             .book--demo-analyze {
               margin-right: 0px;
             }
-            .book--demo-text20 {
+            .book--demo-text022 {
               font-size: 24px;
             }
-            .book--demo-text21 {
+            .book--demo-text023 {
               font-size: 14px;
             }
-            .book--demo-text23 {
+            .book--demo-text025 {
               font-size: 14px;
             }
             .book--demo-banner-advanced-analytics {
@@ -2208,17 +2283,17 @@ closeButton.addEventListener("click", function() {
             .book--demo-container3 {
               flex-direction: column;
             }
-            .book--demo-left1 {
+            .book--demo-left2 {
               margin-right: 0px;
             }
-            .book--demo-text25 {
+            .book--demo-text027 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .book--demo-text26 {
+            .book--demo-text028 {
               line-height: 24px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .book--demo-text27 {
+            .book--demo-text029 {
               font-size: 16px;
             }
             .book--demo-image-container {
@@ -2236,7 +2311,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-container4 {
               flex-direction: column;
             }
-            .book--demo-left2 {
+            .book--demo-left3 {
               margin-right: 0px;
             }
             .book--demo-integrations {
@@ -2245,7 +2320,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .book--demo-text34 {
+            .book--demo-text036 {
               line-height: 24px;
             }
             .book--demo-pills {
@@ -2260,7 +2335,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .book--demo-text36 {
+            .book--demo-text038 {
               margin-bottom: 0px;
             }
             .book--demo-headng {
@@ -2284,7 +2359,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .book--demo-text48 {
+            .book--demo-text050 {
               font-size: 28px;
             }
             .book--demo-card1 {
@@ -2293,7 +2368,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .book--demo-text54 {
+            .book--demo-text056 {
               font-size: 28px;
             }
             .book--demo-card2 {
@@ -2301,7 +2376,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .book--demo-text67 {
+            .book--demo-text069 {
               font-size: 28px;
             }
             .book--demo-testimonals {
@@ -2316,7 +2391,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-column1 {
               display: none;
             }
-            .book--demo-text81 {
+            .book--demo-text083 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2336,11 +2411,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .book--demo-text84 {
+            .book--demo-text086 {
               font-size: 28px;
               text-align: left;
             }
-            .book--demo-text89 {
+            .book--demo-text091 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2365,7 +2440,7 @@ closeButton.addEventListener("click", function() {
             .book--demo-hero {
               height: auto;
             }
-            .book--demo-centered {
+            .book--demo-centered-desktop {
               justify-content: center;
             }
             .book--demo-logo {
@@ -2380,7 +2455,20 @@ closeButton.addEventListener("click", function() {
             .book--demo-icon {
               display: none;
             }
-            .book--demo-text08 {
+            .book--demo-centered-mobile {
+              justify-content: center;
+            }
+            .book--demo-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .book--demo-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .book--demo-text010 {
               color: #eee9fe;
             }
             .book--demo-features {
@@ -2401,7 +2489,10 @@ closeButton.addEventListener("click", function() {
             .book--demo-analyze {
               margin-bottom: 0px;
             }
-            .book--demo-text26 {
+            .book--demo-banner-advanced-analytics {
+              padding-top: var(--dl-space-space-threeunits);
+            }
+            .book--demo-text028 {
               line-height: 24px;
             }
             .book--demo-cards-image {
@@ -2432,7 +2523,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .book--demo-text92 {
+            .book--demo-text094 {
               text-align: center;
             }
           }

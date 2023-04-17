@@ -34,11 +34,37 @@ const TokenGatingSolutions = (props) => {
         </Head>
         <header id="header" className="token-gating-solutions-hero">
           <div className="token-gating-solutions-menu">
+            <div>
+              <DangerousHTML
+                html={`<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector("#mobile-menu")
+
+// Buttons
+const closeButton = document.querySelector("#close-mobile-menu")
+const openButton = document.querySelector("#open-mobile-menu")
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(0%)"
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener("click", function() {
+    mobileMenu.style.transform = "translateX(100%)"
+})
+</script>`}
+              ></DangerousHTML>
+            </div>
             <div
               id="navigation"
               className="token-gating-solutions-desktop-navigation"
             >
-              <nav className="token-gating-solutions-centered">
+              <nav className="token-gating-solutions-centered-desktop">
                 <div className="token-gating-solutions-left">
                   <Link href="/">
                     <a className="token-gating-solutions-link">
@@ -96,46 +122,42 @@ const TokenGatingSolutions = (props) => {
                   </Link>
                 </div>
               </nav>
-            </div>
-            <div>
-              <DangerousHTML
-                html={`<script>
-/*
-Mobile menu - Code Embed
-*/
-
-// Mobile menu
-const mobileMenu = document.querySelector("#mobile-menu")
-
-// Buttons
-const closeButton = document.querySelector("#close-mobile-menu")
-const openButton = document.querySelector("#open-mobile-menu")
-
-// On openButton click, set the mobileMenu position left to -100vw
-openButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(0%)"
-})
-
-// On closeButton click, set the mobileMenu position to 0vw
-closeButton.addEventListener("click", function() {
-    mobileMenu.style.transform = "translateX(100%)"
-})
-</script>`}
-              ></DangerousHTML>
+              <nav className="token-gating-solutions-centered-mobile">
+                <div className="token-gating-solutions-left1">
+                  <div className="token-gating-solutions-links1">
+                    <Link href="/token-gating-platform">
+                      <a className="token-gating-solutions-link05 Link">
+                        Platform
+                      </a>
+                    </Link>
+                    <Link href="/token-gating-solutions">
+                      <a className="token-gating-solutions-link06 Link">
+                        Solutions
+                      </a>
+                    </Link>
+                    <Link href="/blog">
+                      <a className="token-gating-solutions-link07 Link">
+                        <span>Blog</span>
+                        <br></br>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </nav>
             </div>
           </div>
           <header className="token-gating-solutions-header">
-            <h1 className="token-gating-solutions-text07">
+            <h1 className="token-gating-solutions-text09">
               Token Gating Solutions
             </h1>
-            <p className="token-gating-solutions-text08">
+            <p className="token-gating-solutions-text10">
               Create epic Web3-connected experiences with Gateful.
             </p>
           </header>
         </header>
         <section className="token-gating-solutions-features">
           <div className="token-gating-solutions-title">
-            <span className="token-gating-solutions-text09">
+            <span className="token-gating-solutions-text11">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -147,7 +169,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="token-gating-solutions-text13">
+            <span className="token-gating-solutions-text15">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -167,8 +189,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="token-gating-solutions-icon2"
                 />
-                <span className="token-gating-solutions-text16">Schedule</span>
-                <span className="token-gating-solutions-text17">
+                <span className="token-gating-solutions-text18">Schedule</span>
+                <span className="token-gating-solutions-text19">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -179,8 +201,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="token-gating-solutions-icon3"
                 />
-                <span className="token-gating-solutions-text18">Publish</span>
-                <span className="token-gating-solutions-text19">
+                <span className="token-gating-solutions-text20">Publish</span>
+                <span className="token-gating-solutions-text21">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -192,8 +214,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="token-gating-solutions-icon4"
                 />
-                <span className="token-gating-solutions-text20">Analyze</span>
-                <span className="token-gating-solutions-text21">
+                <span className="token-gating-solutions-text22">Analyze</span>
+                <span className="token-gating-solutions-text23">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -204,8 +226,8 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="token-gating-solutions-icon5"
                 />
-                <span className="token-gating-solutions-text22">Get leads</span>
-                <span className="token-gating-solutions-text23">
+                <span className="token-gating-solutions-text24">Get leads</span>
+                <span className="token-gating-solutions-text25">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -226,10 +248,10 @@ closeButton.addEventListener("click", function() {
                         className="token-gating-solutions-image"
                       />
                       <div className="token-gating-solutions-container04">
-                        <h2 className="token-gating-solutions-text24">
+                        <h2 className="token-gating-solutions-text26">
                           Brands
                         </h2>
-                        <p className="token-gating-solutions-text25">
+                        <p className="token-gating-solutions-text27">
                           Engage with emerging Web3 consumers by integrating
                           premium gated content.
                         </p>
@@ -244,10 +266,10 @@ closeButton.addEventListener("click", function() {
                         className="token-gating-solutions-image1"
                       />
                       <div className="token-gating-solutions-container06">
-                        <h2 className="token-gating-solutions-text26">
+                        <h2 className="token-gating-solutions-text28">
                           E-Commerce
                         </h2>
-                        <p className="token-gating-solutions-text27">
+                        <p className="token-gating-solutions-text29">
                           Create exclusive gated product pages for specific
                           token holders. 
                         </p>
@@ -262,10 +284,10 @@ closeButton.addEventListener("click", function() {
                         className="token-gating-solutions-image2"
                       />
                       <div className="token-gating-solutions-container08">
-                        <h2 className="token-gating-solutions-text28">
+                        <h2 className="token-gating-solutions-text30">
                           Creators
                         </h2>
-                        <p className="token-gating-solutions-text29">
+                        <p className="token-gating-solutions-text31">
                           Create exclusive token holders experiences for your
                           Web3 community.
                         </p>
@@ -280,10 +302,10 @@ closeButton.addEventListener("click", function() {
                         className="token-gating-solutions-image3"
                       />
                       <div className="token-gating-solutions-container10">
-                        <h2 className="token-gating-solutions-text30">
+                        <h2 className="token-gating-solutions-text32">
                           Developers
                         </h2>
-                        <p className="token-gating-solutions-text31">
+                        <p className="token-gating-solutions-text33">
                           <span>
                             Setup token gating for your project quickly with our
                             low-code solution.
@@ -306,11 +328,11 @@ closeButton.addEventListener("click", function() {
                 />
               </div>
               <div className="token-gating-solutions-right2">
-                <h2 className="token-gating-solutions-text34 title">
+                <h2 className="token-gating-solutions-text36 title">
                   Why Gateful?
                 </h2>
                 <div className="token-gating-solutions-category">
-                  <p className="token-gating-solutions-text35">
+                  <p className="token-gating-solutions-text37">
                     <span>
                       Web3 and blockchain technology have grown quickly, leading
                       to many different blockchain networks, protocols,
@@ -328,7 +350,7 @@ closeButton.addEventListener("click", function() {
                       systems, a secure and user-friendly solution is needed for
                       brands to engage with Web3-native consumers.
                     </span>
-                    <br className="token-gating-solutions-text40"></br>
+                    <br className="token-gating-solutions-text42"></br>
                     <br></br>
                     <span>
                       Gateful enables brands, creators, and developers to
@@ -342,13 +364,13 @@ closeButton.addEventListener("click", function() {
                 </div>
               </div>
             </div>
-            <h2 className="token-gating-solutions-text44 title">
+            <h2 className="token-gating-solutions-text46 title">
               Learn more about Web3 and token gating
             </h2>
             <div className="token-gating-solutions-blog1">
               <div className="token-gating-solutions-container11">
                 <Link href="/token-gating-for-digital-marketing">
-                  <a className="token-gating-solutions-link05">
+                  <a className="token-gating-solutions-link08">
                     <BlogPostCardFinal
                       title="Integrate Token Gating Into Your Digital Marketing Campaigns"
                       image_src="https://images.unsplash.com/photo-1639475377520-b256a5d204b1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMwfHxibG9ja2NoYWlufGVufDB8fHx8MTY4MTc2Mjc4MA&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -361,7 +383,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="token-gating-solutions-container12">
                 <Link href="/web3-and-user-adoption">
-                  <a className="token-gating-solutions-link06">
+                  <a className="token-gating-solutions-link09">
                     <BlogPostCardFinal
                       title="A Look at Web3 and User Adoption"
                       image_src="https://images.unsplash.com/photo-1639322537523-abaea1ca9f9c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYzfHxldGhlcmV1bXxlbnwwfHx8fDE2ODE3NjI4MDI&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -374,7 +396,7 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="token-gating-solutions-container13">
                 <Link href="/steps-to-launch-nft-collection">
-                  <a className="token-gating-solutions-link07">
+                  <a className="token-gating-solutions-link10">
                     <BlogPostCardFinal
                       title="Helpful Tips to Launch Your New NFT Collection"
                       image_src="https://images.unsplash.com/photo-1651130535340-e02c63a43a0a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJvcmVkJTIwYXBlfGVufDB8fHx8MTY4MTc2Mjg2MQ&amp;ixlib=rb-4.0.3&amp;w=1500"
@@ -396,10 +418,10 @@ closeButton.addEventListener("click", function() {
               src="/playground_assets/gateful-logo-blk-200h.png"
               className="token-gating-solutions-image4"
             />
-            <span className="token-gating-solutions-text45">
+            <span className="token-gating-solutions-text47">
               Gateful is the easiest way to create token gated experiences.
             </span>
-            <span className="token-gating-solutions-text46">
+            <span className="token-gating-solutions-text48">
               <span>
                 Built by
                 <span
@@ -412,7 +434,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-solutions-link08"
+                className="token-gating-solutions-link11"
               >
                 OpenMedium, Inc
               </a>
@@ -429,12 +451,12 @@ closeButton.addEventListener("click", function() {
                 href="https://www.teksun.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-solutions-link09"
+                className="token-gating-solutions-link12"
               >
                 TekSun, Inc.
               </a>
             </span>
-            <span className="token-gating-solutions-text49">
+            <span className="token-gating-solutions-text51">
               <span>
                 Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
               </span>
@@ -442,7 +464,7 @@ closeButton.addEventListener("click", function() {
                 href="https://www.openmedium.biz/legal/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="token-gating-solutions-link10"
+                className="token-gating-solutions-link13"
               >
                 Legal
               </a>
@@ -491,7 +513,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-solutions-centered {
+          .token-gating-solutions-centered-desktop {
             width: 100%;
             display: flex;
             max-width: 1280px;
@@ -586,6 +608,46 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
+          .token-gating-solutions-centered-mobile {
+            width: 100%;
+            display: none;
+            max-width: 1280px;
+            box-sizing: initial;
+            align-items: center;
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            border-radius: 50px;
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .token-gating-solutions-left1 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            flex-direction: row;
+            padding-bottom: 38px;
+          }
+          .token-gating-solutions-links1 {
+            align-items: center;
+            margin-left: 33px;
+            flex-direction: row;
+          }
+          .token-gating-solutions-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-solutions-link06 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
+          .token-gating-solutions-link07 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            text-decoration: none;
+          }
           .token-gating-solutions-header {
             width: 70%;
             display: flex;
@@ -595,7 +657,7 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-solutions-text07 {
+          .token-gating-solutions-text09 {
             color: var(--dl-color-primary-700);
             font-size: 60px;
             font-style: normal;
@@ -603,7 +665,7 @@ closeButton.addEventListener("click", function() {
             font-weight: 700;
             line-height: 80px;
           }
-          .token-gating-solutions-text08 {
+          .token-gating-solutions-text10 {
             color: rgb(238, 233, 254);
             width: 90%;
             font-size: 20px;
@@ -628,14 +690,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-solutions-text09 {
+          .token-gating-solutions-text11 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .token-gating-solutions-text13 {
+          .token-gating-solutions-text15 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -662,14 +724,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-solutions-text16 {
+          .token-gating-solutions-text18 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-solutions-text17 {
+          .token-gating-solutions-text19 {
             line-height: 24px;
           }
           .token-gating-solutions-publish {
@@ -680,14 +742,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-solutions-text18 {
+          .token-gating-solutions-text20 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-solutions-text19 {
+          .token-gating-solutions-text21 {
             line-height: 24px;
           }
           .token-gating-solutions-container02 {
@@ -703,14 +765,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-solutions-text20 {
+          .token-gating-solutions-text22 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .token-gating-solutions-text21 {
+          .token-gating-solutions-text23 {
             line-height: 24px;
           }
           .token-gating-solutions-icon5 {
@@ -718,14 +780,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-solutions-text22 {
+          .token-gating-solutions-text24 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-solutions-text23 {
+          .token-gating-solutions-text25 {
             line-height: 24px;
           }
           .token-gating-solutions-section {
@@ -803,13 +865,13 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .token-gating-solutions-text24 {
+          .token-gating-solutions-text26 {
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
             font-weight: 700;
           }
-          .token-gating-solutions-text25 {
+          .token-gating-solutions-text27 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -850,12 +912,12 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .token-gating-solutions-text26 {
+          .token-gating-solutions-text28 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 700;
           }
-          .token-gating-solutions-text27 {
+          .token-gating-solutions-text29 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -896,12 +958,12 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .token-gating-solutions-text28 {
+          .token-gating-solutions-text30 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 700;
           }
-          .token-gating-solutions-text29 {
+          .token-gating-solutions-text31 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -941,13 +1003,13 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .token-gating-solutions-text30 {
+          .token-gating-solutions-text32 {
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
             font-weight: 700;
           }
-          .token-gating-solutions-text31 {
+          .token-gating-solutions-text33 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -980,7 +1042,7 @@ closeButton.addEventListener("click", function() {
             margin-left: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .token-gating-solutions-text34 {
+          .token-gating-solutions-text36 {
             font-size: 30px;
             text-align: left;
             margin-bottom: 0px;
@@ -991,18 +1053,18 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .token-gating-solutions-text35 {
+          .token-gating-solutions-text37 {
             color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 24px;
             margin-bottom: 0px;
           }
-          .token-gating-solutions-text40 {
+          .token-gating-solutions-text42 {
             color: #000000;
             font-size: 18px;
             line-height: 24px;
           }
-          .token-gating-solutions-text44 {
+          .token-gating-solutions-text46 {
             font-size: 30px;
             text-align: left;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1021,7 +1083,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-solutions-link05 {
+          .token-gating-solutions-link08 {
             display: contents;
           }
           .token-gating-solutions-component {
@@ -1033,7 +1095,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .token-gating-solutions-link06 {
+          .token-gating-solutions-link09 {
             display: contents;
           }
           .token-gating-solutions-component1 {
@@ -1044,7 +1106,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             justify-content: space-between;
           }
-          .token-gating-solutions-link07 {
+          .token-gating-solutions-link10 {
             display: contents;
           }
           .token-gating-solutions-component2 {
@@ -1076,33 +1138,33 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-solutions-text45 {
+          .token-gating-solutions-text47 {
             color: var(--dl-color-gray-black);
             font-size: 18px;
             font-style: normal;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-solutions-text46 {
+          .token-gating-solutions-text48 {
             color: var(--dl-color-gray-black);
             font-size: 14px;
             font-style: italic;
             font-weight: 400;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .token-gating-solutions-link08 {
+          .token-gating-solutions-link11 {
             text-decoration: underline;
           }
-          .token-gating-solutions-link09 {
+          .token-gating-solutions-link12 {
             text-decoration: underline;
           }
-          .token-gating-solutions-text49 {
+          .token-gating-solutions-text51 {
             color: rgb(104, 104, 104);
             font-size: 12px;
             align-self: center;
             line-height: 30px;
           }
-          .token-gating-solutions-link10 {
+          .token-gating-solutions-link13 {
             text-decoration: underline;
           }
           @media (max-width: 1200px) {
@@ -1120,7 +1182,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-solutions-centered {
+            .token-gating-solutions-centered-desktop {
               height: 60px;
               padding-left: 10px;
               padding-right: 10px;
@@ -1128,8 +1190,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-left {
               margin-left: var(--dl-space-space-halfunit);
             }
-            .token-gating-solutions-links {
-              display: none;
+            .token-gating-solutions-centered-mobile {
+              height: 60px;
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+            .token-gating-solutions-left1 {
+              margin-left: var(--dl-space-space-halfunit);
             }
             .token-gating-solutions-header {
               width: 100%;
@@ -1142,11 +1209,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .token-gating-solutions-text09 {
+            .token-gating-solutions-text11 {
               font-size: 36px;
               line-height: 40px;
             }
-            .token-gating-solutions-text13 {
+            .token-gating-solutions-text15 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -1154,19 +1221,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .token-gating-solutions-text17 {
-              line-height: 21px;
-            }
             .token-gating-solutions-text19 {
               line-height: 21px;
             }
             .token-gating-solutions-text21 {
               line-height: 21px;
             }
-            .token-gating-solutions-text22 {
+            .token-gating-solutions-text23 {
+              line-height: 21px;
+            }
+            .token-gating-solutions-text24 {
               font-size: 24px;
             }
-            .token-gating-solutions-text23 {
+            .token-gating-solutions-text25 {
               line-height: 21px;
             }
             .token-gating-solutions-content {
@@ -1202,11 +1269,11 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-image3 {
               height: 350px;
             }
-            .token-gating-solutions-text34 {
+            .token-gating-solutions-text36 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-solutions-text44 {
+            .token-gating-solutions-text46 {
               line-height: 1.25em;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
@@ -1227,7 +1294,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-top {
               flex-direction: column;
             }
-            .token-gating-solutions-text49 {
+            .token-gating-solutions-text51 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -1243,12 +1310,15 @@ closeButton.addEventListener("click", function() {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .token-gating-solutions-centered {
+            .token-gating-solutions-centered-desktop {
               padding-left: 0px;
               padding-right: 0px;
             }
             .token-gating-solutions-left {
               margin-left: var(--dl-space-space-unit);
+            }
+            .token-gating-solutions-links {
+              display: none;
             }
             .token-gating-solutions-right {
               margin-right: var(--dl-space-space-unit);
@@ -1259,19 +1329,28 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-get-started {
               display: flex;
             }
+            .token-gating-solutions-centered-mobile {
+              display: flex;
+              padding-left: 0px;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .token-gating-solutions-left1 {
+              margin-left: var(--dl-space-space-unit);
+            }
             .token-gating-solutions-header {
               height: 100%;
               margin-top: var(--dl-space-space-fourunits);
               justify-content: center;
             }
-            .token-gating-solutions-text07 {
+            .token-gating-solutions-text09 {
               color: rgb(255, 255, 255);
               font-size: 32px;
               font-style: normal;
               font-weight: 700;
               line-height: 36px;
             }
-            .token-gating-solutions-text08 {
+            .token-gating-solutions-text10 {
               color: rgb(238, 233, 254);
               font-size: 16px;
               margin-top: var(--dl-space-space-unit);
@@ -1282,7 +1361,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-solutions-text09 {
+            .token-gating-solutions-text11 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -1293,19 +1372,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .token-gating-solutions-text16 {
+            .token-gating-solutions-text18 {
               font-size: 24px;
             }
-            .token-gating-solutions-text17 {
+            .token-gating-solutions-text19 {
               font-size: 14px;
             }
             .token-gating-solutions-publish {
               margin-left: 0px;
             }
-            .token-gating-solutions-text18 {
+            .token-gating-solutions-text20 {
               font-size: 24px;
             }
-            .token-gating-solutions-text19 {
+            .token-gating-solutions-text21 {
               font-size: 14px;
             }
             .token-gating-solutions-container02 {
@@ -1315,13 +1394,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-analyze {
               margin-right: 0px;
             }
-            .token-gating-solutions-text20 {
+            .token-gating-solutions-text22 {
               font-size: 24px;
             }
-            .token-gating-solutions-text21 {
+            .token-gating-solutions-text23 {
               font-size: 14px;
             }
-            .token-gating-solutions-text23 {
+            .token-gating-solutions-text25 {
               font-size: 14px;
             }
             .token-gating-solutions-content {
@@ -1343,20 +1422,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-right2 {
               margin-left: 0px;
             }
-            .token-gating-solutions-text34 {
+            .token-gating-solutions-text36 {
               font-size: 28px;
               align-self: center;
               text-align: left;
               line-height: 26px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-solutions-text35 {
+            .token-gating-solutions-text37 {
               align-self: center;
               text-align: center;
               line-height: 24px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .token-gating-solutions-text44 {
+            .token-gating-solutions-text46 {
               font-size: 28px;
               align-self: center;
               text-align: left;
@@ -1380,7 +1459,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-hero {
               height: auto;
             }
-            .token-gating-solutions-centered {
+            .token-gating-solutions-centered-desktop {
               justify-content: center;
             }
             .token-gating-solutions-logo {
@@ -1395,7 +1474,20 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-icon {
               display: none;
             }
-            .token-gating-solutions-text08 {
+            .token-gating-solutions-centered-mobile {
+              justify-content: center;
+            }
+            .token-gating-solutions-left1 {
+              margin-left: 0px;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .token-gating-solutions-link07 {
+              color: var(--dl-color-gray-white);
+              font-size: 18px;
+              text-decoration: none;
+            }
+            .token-gating-solutions-text10 {
               color: #eee9fe;
             }
             .token-gating-solutions-features {
@@ -1416,6 +1508,9 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-analyze {
               margin-bottom: 0px;
             }
+            .token-gating-solutions-content {
+              padding-top: var(--dl-space-space-threeunits);
+            }
             .token-gating-solutions-right1 {
               margin-top: var(--dl-space-space-twounits);
             }
@@ -1428,11 +1523,11 @@ closeButton.addEventListener("click", function() {
             .token-gating-solutions-right2 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .token-gating-solutions-text34 {
+            .token-gating-solutions-text36 {
               align-self: center;
               text-align: center;
             }
-            .token-gating-solutions-text44 {
+            .token-gating-solutions-text46 {
               align-self: center;
               text-align: center;
             }
@@ -1446,7 +1541,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .token-gating-solutions-text45 {
+            .token-gating-solutions-text47 {
               text-align: center;
             }
           }
