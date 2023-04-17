@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /demo
+Disallow: /zombies
+
+Sitemap: https://gateful.io/sitemap.xml
