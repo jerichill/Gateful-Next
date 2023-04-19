@@ -8,24 +8,27 @@ import Frameworks from '../components/frameworks'
 import YouTube from '../components/you-tube'
 import Testimonial from '../components/testimonial'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
+import Footer from '../components/footer'
 
 const Home = (props) => {
   return (
     <>
       <div className="home-container">
         <Head>
-          <title>Gateful | Token Gate Your Website or Web Application</title>
+          <title>
+            Gateful Token Gating Platform | Web3 Blockchain Access Management
+          </title>
           <meta
             name="description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Add Web3 Token Gating to your website or web application. Transform your project into a powerful Web3-connected community."
           />
           <meta
             property="og:title"
-            content="Gateful | Token Gate Your Website or Web Application"
+            content="Gateful Token Gating Platform | Web3 Blockchain Access Management"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application."
+            content="Add Web3 Token Gating to your website or web application. Transform your project into a powerful Web3-connected community."
           />
           <meta
             property="og:image"
@@ -48,13 +51,13 @@ const Home = (props) => {
                   </Link>
                   <div className="home-links">
                     <Link href="/token-gating-platform">
-                      <a className="home-link01 Link">Platform</a>
+                      <a className="home-link1 Link">Platform</a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link02 Link">Solutions</a>
+                      <a className="home-link2 Link">Solutions</a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link03 Link">
+                      <a className="home-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -72,7 +75,7 @@ const Home = (props) => {
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="home-link04">
+                    <a className="home-link4">
                       <div className="home-get-started">
                         <svg viewBox="0 0 1024 1024" className="home-icon">
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
@@ -90,13 +93,13 @@ const Home = (props) => {
                 <div className="home-left1">
                   <div className="home-links1">
                     <Link href="/token-gating-platform">
-                      <a className="home-link05 Link">Platform</a>
+                      <a className="home-link5 Link">Platform</a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="home-link06 Link">Solutions</a>
+                      <a className="home-link6 Link">Solutions</a>
                     </Link>
                     <Link href="/blog">
-                      <a className="home-link07 Link">
+                      <a className="home-link7 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -142,7 +145,7 @@ closeButton.addEventListener("click", function() {
               powerful Web3-connected community without writing any code.
             </p>
             <Link href="/book-a-demo">
-              <a className="home-link08">
+              <a className="home-link8">
                 <div className="home-get-started1">
                   <span className="home-text011">Book a Demo</span>
                 </div>
@@ -936,66 +939,7 @@ Here's what the above is doing:
             ></DangerousHTML>
           </div>
         </section>
-        <footer className="home-footer">
-          <div className="home-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="home-image3"
-            />
-            <span className="home-text117">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="home-text118">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link09"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link10"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="home-text121">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link11"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`
@@ -1071,17 +1015,17 @@ Here's what the above is doing:
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link01 {
+          .home-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link02 {
+          .home-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link03 {
+          .home-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1100,7 +1044,7 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .home-link04 {
+          .home-link4 {
             display: contents;
           }
           .home-get-started {
@@ -1158,17 +1102,17 @@ Here's what the above is doing:
             margin-left: 33px;
             flex-direction: row;
           }
-          .home-link05 {
+          .home-link5 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link06 {
+          .home-link6 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .home-link07 {
+          .home-link7 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1198,7 +1142,7 @@ Here's what the above is doing:
             text-align: center;
             line-height: 30px;
           }
-          .home-link08 {
+          .home-link8 {
             display: contents;
           }
           .home-get-started1 {
@@ -2440,56 +2384,6 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .home-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-          }
-          .home-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-image3 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text117 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .home-text118 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-link09 {
-            text-decoration: underline;
-          }
-          .home-link10 {
-            text-decoration: underline;
-          }
-          .home-text121 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .home-link11 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .home-hero {
               height: 788px;
@@ -2689,17 +2583,6 @@ Here's what the above is doing:
             .home-accordion {
               width: 100%;
               max-width: 1200px;
-            }
-            .home-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .home-top {
-              flex-direction: column;
-            }
-            .home-text121 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -3016,14 +2899,6 @@ Here's what the above is doing:
               max-width: 600p;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .home-image3 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .home-hero {
@@ -3053,7 +2928,7 @@ Here's what the above is doing:
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .home-link07 {
+            .home-link7 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               text-decoration: none;
@@ -3138,13 +3013,6 @@ Here's what the above is doing:
             .home-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .home-text117 {
-              text-align: center;
             }
           }
         `}

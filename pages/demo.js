@@ -6,6 +6,7 @@ import DangerousHTML from 'dangerous-html/react'
 
 import YouTube from '../components/you-tube'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
+import Footer from '../components/footer'
 
 const Demo = (props) => {
   return (
@@ -74,13 +75,13 @@ closeButton.addEventListener("click", function() {
                   </Link>
                   <div className="demo-links">
                     <Link href="/token-gating-platform">
-                      <a className="demo-link01 Link">Platform</a>
+                      <a className="demo-link1 Link">Platform</a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="demo-link02 Link">Solutions</a>
+                      <a className="demo-link2 Link">Solutions</a>
                     </Link>
                     <Link href="/blog">
-                      <a className="demo-link03 Link">
+                      <a className="demo-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -98,7 +99,7 @@ closeButton.addEventListener("click", function() {
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="demo-link04">
+                    <a className="demo-link4">
                       <div className="demo-get-started">
                         <svg viewBox="0 0 1024 1024" className="demo-icon">
                           <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
@@ -116,13 +117,13 @@ closeButton.addEventListener("click", function() {
                 <div className="demo-left1">
                   <div className="demo-links1">
                     <Link href="/token-gating-platform">
-                      <a className="demo-link05 Link">Platform</a>
+                      <a className="demo-link5 Link">Platform</a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="demo-link06 Link">Solutions</a>
+                      <a className="demo-link6 Link">Solutions</a>
                     </Link>
                     <Link href="/blog">
-                      <a className="demo-link07 Link">
+                      <a className="demo-link7 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -875,66 +876,7 @@ Here's what the above is doing:
             ></DangerousHTML>
           </div>
         </section>
-        <footer className="demo-footer">
-          <div className="demo-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="demo-image1"
-            />
-            <span className="demo-text113">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="demo-text114">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="demo-link08"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="demo-link09"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="demo-text117">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="demo-link10"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer rootClassName="footer-root-class-name5"></Footer>
       </div>
       <style jsx>
         {`
@@ -1010,17 +952,17 @@ Here's what the above is doing:
             margin-left: 33px;
             flex-direction: row;
           }
-          .demo-link01 {
+          .demo-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .demo-link02 {
+          .demo-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .demo-link03 {
+          .demo-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1039,7 +981,7 @@ Here's what the above is doing:
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .demo-link04 {
+          .demo-link4 {
             display: contents;
           }
           .demo-get-started {
@@ -1097,17 +1039,17 @@ Here's what the above is doing:
             margin-left: 33px;
             flex-direction: row;
           }
-          .demo-link05 {
+          .demo-link5 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .demo-link06 {
+          .demo-link6 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .demo-link07 {
+          .demo-link7 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -2311,61 +2253,6 @@ Here's what the above is doing:
             max-width: 760px;
             line-height: 24px;
           }
-          .demo-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .demo-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .demo-image1 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .demo-text113 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .demo-text114 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .demo-link08 {
-            text-decoration: underline;
-          }
-          .demo-link09 {
-            text-decoration: underline;
-          }
-          .demo-text117 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .demo-link10 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .demo-hero {
               height: auto;
@@ -2556,17 +2443,6 @@ Here's what the above is doing:
             .demo-accordion {
               width: 100%;
               max-width: 1200px;
-            }
-            .demo-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .demo-top {
-              flex-direction: column;
-            }
-            .demo-text117 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -2871,14 +2747,6 @@ Here's what the above is doing:
               max-width: 600p;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .demo-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .demo-image1 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .demo-hero {
@@ -2907,7 +2775,7 @@ Here's what the above is doing:
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .demo-link07 {
+            .demo-link7 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               text-decoration: none;
@@ -2969,13 +2837,6 @@ Here's what the above is doing:
             .demo-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .demo-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .demo-text113 {
-              text-align: center;
             }
           }
         `}

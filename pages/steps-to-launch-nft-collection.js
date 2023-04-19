@@ -6,6 +6,7 @@ import DangerousHTML from 'dangerous-html/react'
 
 import YouTube from '../components/you-tube'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
+import Footer from '../components/footer'
 
 const StepsToLaunchNFTCollection = (props) => {
   return (
@@ -77,17 +78,17 @@ closeButton.addEventListener("click", function() {
                   </Link>
                   <div className="steps-to-launch-nf-collection-links">
                     <Link href="/token-gating-platform">
-                      <a className="steps-to-launch-nf-collection-link01 Link">
+                      <a className="steps-to-launch-nf-collection-link1 Link">
                         Platform
                       </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="steps-to-launch-nf-collection-link02 Link">
+                      <a className="steps-to-launch-nf-collection-link2 Link">
                         Solutions
                       </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="steps-to-launch-nf-collection-link03 Link">
+                      <a className="steps-to-launch-nf-collection-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -105,7 +106,7 @@ closeButton.addEventListener("click", function() {
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="steps-to-launch-nf-collection-link04">
+                    <a className="steps-to-launch-nf-collection-link4">
                       <div className="steps-to-launch-nf-collection-get-started">
                         <svg
                           viewBox="0 0 1024 1024"
@@ -126,17 +127,17 @@ closeButton.addEventListener("click", function() {
                 <div className="steps-to-launch-nf-collection-left1">
                   <div className="steps-to-launch-nf-collection-links1">
                     <Link href="/token-gating-platform">
-                      <a className="steps-to-launch-nf-collection-link05 Link">
+                      <a className="steps-to-launch-nf-collection-link5 Link">
                         Platform
                       </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="steps-to-launch-nf-collection-link06 Link">
+                      <a className="steps-to-launch-nf-collection-link6 Link">
                         Solutions
                       </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="steps-to-launch-nf-collection-link07 Link">
+                      <a className="steps-to-launch-nf-collection-link7 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -375,7 +376,7 @@ closeButton.addEventListener("click", function() {
               contact our Web3 implementation team for a demo.
             </span>
             <Link href="/book-a-demo">
-              <a className="steps-to-launch-nf-collection-link08">
+              <a className="steps-to-launch-nf-collection-link8">
                 <div className="steps-to-launch-nf-collection-get-started1">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -789,66 +790,7 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <footer className="steps-to-launch-nf-collection-footer">
-          <div className="steps-to-launch-nf-collection-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="steps-to-launch-nf-collection-image2"
-            />
-            <span className="steps-to-launch-nf-collection-text115">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="steps-to-launch-nf-collection-text116">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="steps-to-launch-nf-collection-link09"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="steps-to-launch-nf-collection-link10"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="steps-to-launch-nf-collection-text119">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="steps-to-launch-nf-collection-link11"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer rootClassName="footer-root-class-name6"></Footer>
       </div>
       <style jsx>
         {`
@@ -924,17 +866,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .steps-to-launch-nf-collection-link01 {
+          .steps-to-launch-nf-collection-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .steps-to-launch-nf-collection-link02 {
+          .steps-to-launch-nf-collection-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .steps-to-launch-nf-collection-link03 {
+          .steps-to-launch-nf-collection-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -953,7 +895,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .steps-to-launch-nf-collection-link04 {
+          .steps-to-launch-nf-collection-link4 {
             display: contents;
           }
           .steps-to-launch-nf-collection-get-started {
@@ -1011,17 +953,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .steps-to-launch-nf-collection-link05 {
+          .steps-to-launch-nf-collection-link5 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .steps-to-launch-nf-collection-link06 {
+          .steps-to-launch-nf-collection-link6 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .steps-to-launch-nf-collection-link07 {
+          .steps-to-launch-nf-collection-link7 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1317,7 +1259,7 @@ closeButton.addEventListener("click", function() {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .steps-to-launch-nf-collection-link08 {
+          .steps-to-launch-nf-collection-link8 {
             display: contents;
           }
           .steps-to-launch-nf-collection-get-started1 {
@@ -2086,61 +2028,6 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             user-select: none;
           }
-          .steps-to-launch-nf-collection-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .steps-to-launch-nf-collection-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .steps-to-launch-nf-collection-image2 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .steps-to-launch-nf-collection-text115 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .steps-to-launch-nf-collection-text116 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .steps-to-launch-nf-collection-link09 {
-            text-decoration: underline;
-          }
-          .steps-to-launch-nf-collection-link10 {
-            text-decoration: underline;
-          }
-          .steps-to-launch-nf-collection-text119 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .steps-to-launch-nf-collection-link11 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .steps-to-launch-nf-collection-hero {
               height: auto;
@@ -2305,17 +2192,6 @@ closeButton.addEventListener("click", function() {
             .steps-to-launch-nf-collection-text107 {
               font-size: 36px;
               line-height: 36px;
-            }
-            .steps-to-launch-nf-collection-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .steps-to-launch-nf-collection-top {
-              flex-direction: column;
-            }
-            .steps-to-launch-nf-collection-text119 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -2545,14 +2421,6 @@ closeButton.addEventListener("click", function() {
             .steps-to-launch-nf-collection-image1 {
               width: 100%;
             }
-            .steps-to-launch-nf-collection-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .steps-to-launch-nf-collection-image2 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .steps-to-launch-nf-collection-hero {
@@ -2581,7 +2449,7 @@ closeButton.addEventListener("click", function() {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .steps-to-launch-nf-collection-link07 {
+            .steps-to-launch-nf-collection-link7 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               text-decoration: none;
@@ -2642,13 +2510,6 @@ closeButton.addEventListener("click", function() {
             .steps-to-launch-nf-collection-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .steps-to-launch-nf-collection-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .steps-to-launch-nf-collection-text115 {
-              text-align: center;
             }
           }
         `}

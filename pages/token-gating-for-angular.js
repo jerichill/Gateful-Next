@@ -6,6 +6,7 @@ import DangerousHTML from 'dangerous-html/react'
 
 import BlogPostCardFinal from '../components/blog-post-card-final'
 import Testimonial from '../components/testimonial'
+import Footer from '../components/footer'
 
 const TokenGatingForAngular = (props) => {
   return (
@@ -370,66 +371,7 @@ closeButton.addEventListener("click", function() {
           </section>
         </section>
         <Testimonial rootClassName="testimonial-root-class-name1"></Testimonial>
-        <footer className="token-gating-for-angular-footer">
-          <div className="token-gating-for-angular-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="token-gating-for-angular-image1"
-            />
-            <span className="token-gating-for-angular-text37">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="token-gating-for-angular-text38">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="token-gating-for-angular-link11"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="token-gating-for-angular-link12"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="token-gating-for-angular-text41">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="token-gating-for-angular-link13"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer rootClassName="footer-root-class-name7"></Footer>
       </div>
       <style jsx>
         {`
@@ -937,61 +879,6 @@ closeButton.addEventListener("click", function() {
           .token-gating-for-angular-component2 {
             text-decoration: none;
           }
-          .token-gating-for-angular-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .token-gating-for-angular-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .token-gating-for-angular-image1 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .token-gating-for-angular-text37 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .token-gating-for-angular-text38 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .token-gating-for-angular-link11 {
-            text-decoration: underline;
-          }
-          .token-gating-for-angular-link12 {
-            text-decoration: underline;
-          }
-          .token-gating-for-angular-text41 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .token-gating-for-angular-link13 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .token-gating-for-angular-hero {
               height: auto;
@@ -1093,17 +980,6 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-angular-container4 {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .token-gating-for-angular-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .token-gating-for-angular-top {
-              flex-direction: column;
-            }
-            .token-gating-for-angular-text41 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -1283,14 +1159,6 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .token-gating-for-angular-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .token-gating-for-angular-image1 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .token-gating-for-angular-hero {
@@ -1384,13 +1252,6 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
-            }
-            .token-gating-for-angular-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .token-gating-for-angular-text37 {
-              text-align: center;
             }
           }
         `}

@@ -7,6 +7,7 @@ import DangerousHTML from 'dangerous-html/react'
 import BlogPostCard2 from '../components/blog-post-card2'
 import YouTube from '../components/you-tube'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
+import Footer from '../components/footer'
 
 const Blog = (props) => {
   return (
@@ -676,66 +677,7 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <footer className="blog-footer">
-          <div className="blog-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="blog-image1"
-            />
-            <span className="blog-text86">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="blog-text87">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="blog-link14"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="blog-link15"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="blog-text90">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="blog-link16"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer rootClassName="footer-root-class-name3"></Footer>
       </div>
       <style jsx>
         {`
@@ -1882,61 +1824,6 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             user-select: none;
           }
-          .blog-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .blog-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .blog-image1 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .blog-text86 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .blog-text87 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .blog-link14 {
-            text-decoration: underline;
-          }
-          .blog-link15 {
-            text-decoration: underline;
-          }
-          .blog-text90 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .blog-link16 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .blog-hero {
               height: auto;
@@ -2101,17 +1988,6 @@ closeButton.addEventListener("click", function() {
             .blog-text78 {
               font-size: 36px;
               line-height: 36px;
-            }
-            .blog-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .blog-top {
-              flex-direction: column;
-            }
-            .blog-text90 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -2334,14 +2210,6 @@ closeButton.addEventListener("click", function() {
             .blog-image {
               width: 100%;
             }
-            .blog-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .blog-image1 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .blog-hero {
@@ -2423,13 +2291,6 @@ closeButton.addEventListener("click", function() {
             .blog-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .blog-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .blog-text86 {
-              text-align: center;
             }
           }
         `}

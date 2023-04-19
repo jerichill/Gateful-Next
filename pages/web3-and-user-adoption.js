@@ -6,6 +6,7 @@ import DangerousHTML from 'dangerous-html/react'
 
 import YouTube from '../components/you-tube'
 import TestimonalBLurb from '../components/testimonal-b-lurb'
+import Footer from '../components/footer'
 
 const Web3AndUserAdoption = (props) => {
   return (
@@ -77,17 +78,17 @@ closeButton.addEventListener("click", function() {
                   </Link>
                   <div className="web-and-user-adoption-links">
                     <Link href="/token-gating-platform">
-                      <a className="web-and-user-adoption-link01 Link">
+                      <a className="web-and-user-adoption-link1 Link">
                         Platform
                       </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="web-and-user-adoption-link02 Link">
+                      <a className="web-and-user-adoption-link2 Link">
                         Solutions
                       </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="web-and-user-adoption-link03 Link">
+                      <a className="web-and-user-adoption-link3 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -105,7 +106,7 @@ closeButton.addEventListener("click", function() {
                     <br></br>
                   </a>
                   <Link href="/book-a-demo">
-                    <a className="web-and-user-adoption-link04">
+                    <a className="web-and-user-adoption-link4">
                       <div className="web-and-user-adoption-get-started">
                         <svg
                           viewBox="0 0 1024 1024"
@@ -126,17 +127,17 @@ closeButton.addEventListener("click", function() {
                 <div className="web-and-user-adoption-left1">
                   <div className="web-and-user-adoption-links1">
                     <Link href="/token-gating-platform">
-                      <a className="web-and-user-adoption-link05 Link">
+                      <a className="web-and-user-adoption-link5 Link">
                         Platform
                       </a>
                     </Link>
                     <Link href="/token-gating-solutions">
-                      <a className="web-and-user-adoption-link06 Link">
+                      <a className="web-and-user-adoption-link6 Link">
                         Solutions
                       </a>
                     </Link>
                     <Link href="/blog">
-                      <a className="web-and-user-adoption-link07 Link">
+                      <a className="web-and-user-adoption-link7 Link">
                         <span>Blog</span>
                         <br></br>
                       </a>
@@ -436,7 +437,7 @@ closeButton.addEventListener("click", function() {
               contact our Web3 implementation team for a demo.
             </span>
             <Link href="/book-a-demo">
-              <a className="web-and-user-adoption-link08">
+              <a className="web-and-user-adoption-link8">
                 <div className="web-and-user-adoption-get-started1">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -838,66 +839,7 @@ closeButton.addEventListener("click", function() {
             </div>
           </div>
         </section>
-        <footer className="web-and-user-adoption-footer">
-          <div className="web-and-user-adoption-top">
-            <img
-              alt="image"
-              src="/playground_assets/gateful-logo-blk-200h.png"
-              className="web-and-user-adoption-image2"
-            />
-            <span className="web-and-user-adoption-text145">
-              Gateful is the easiest way to create token gated experiences.
-            </span>
-            <span className="web-and-user-adoption-text146">
-              <span>
-                Built by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.openmedium.biz"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="web-and-user-adoption-link09"
-              >
-                OpenMedium, Inc
-              </a>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.teksun.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="web-and-user-adoption-link10"
-              >
-                TekSun, Inc.
-              </a>
-            </span>
-            <span className="web-and-user-adoption-text149">
-              <span>
-                Copyright © 2023 OpenMedium, Inc. All rights reserved.   |   
-              </span>
-              <a
-                href="https://www.openmedium.biz/legal/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="web-and-user-adoption-link11"
-              >
-                Legal
-              </a>
-            </span>
-          </div>
-        </footer>
+        <Footer rootClassName="footer-root-class-name16"></Footer>
       </div>
       <style jsx>
         {`
@@ -973,17 +915,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .web-and-user-adoption-link01 {
+          .web-and-user-adoption-link1 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link02 {
+          .web-and-user-adoption-link2 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link03 {
+          .web-and-user-adoption-link3 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1002,7 +944,7 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .web-and-user-adoption-link04 {
+          .web-and-user-adoption-link4 {
             display: contents;
           }
           .web-and-user-adoption-get-started {
@@ -1060,17 +1002,17 @@ closeButton.addEventListener("click", function() {
             margin-left: 33px;
             flex-direction: row;
           }
-          .web-and-user-adoption-link05 {
+          .web-and-user-adoption-link5 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link06 {
+          .web-and-user-adoption-link6 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
           }
-          .web-and-user-adoption-link07 {
+          .web-and-user-adoption-link7 {
             color: var(--dl-color-gray-white);
             font-size: 18px;
             text-decoration: none;
@@ -1396,7 +1338,7 @@ closeButton.addEventListener("click", function() {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .web-and-user-adoption-link08 {
+          .web-and-user-adoption-link8 {
             display: contents;
           }
           .web-and-user-adoption-get-started1 {
@@ -2165,61 +2107,6 @@ closeButton.addEventListener("click", function() {
             object-fit: cover;
             user-select: none;
           }
-          .web-and-user-adoption-footer {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-white);
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .web-and-user-adoption-top {
-            width: 100%;
-            display: flex;
-            max-width: 1280px;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .web-and-user-adoption-image2 {
-            width: 240px;
-            object-fit: cover;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .web-and-user-adoption-text145 {
-            color: var(--dl-color-gray-black);
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .web-and-user-adoption-text146 {
-            color: var(--dl-color-gray-black);
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .web-and-user-adoption-link09 {
-            text-decoration: underline;
-          }
-          .web-and-user-adoption-link10 {
-            text-decoration: underline;
-          }
-          .web-and-user-adoption-text149 {
-            color: rgb(104, 104, 104);
-            font-size: 12px;
-            align-self: center;
-            line-height: 30px;
-          }
-          .web-and-user-adoption-link11 {
-            text-decoration: underline;
-          }
           @media (max-width: 1200px) {
             .web-and-user-adoption-hero {
               height: auto;
@@ -2384,17 +2271,6 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-text137 {
               font-size: 36px;
               line-height: 36px;
-            }
-            .web-and-user-adoption-footer {
-              padding: var(--dl-space-space-sixunits);
-            }
-            .web-and-user-adoption-top {
-              flex-direction: column;
-            }
-            .web-and-user-adoption-text149 {
-              font-size: 12px;
-              line-height: 25px;
-              margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -2624,14 +2500,6 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-image1 {
               width: 100%;
             }
-            .web-and-user-adoption-footer {
-              padding-top: var(--dl-space-space-fourunits);
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .web-and-user-adoption-image2 {
-              width: 200px;
-            }
           }
           @media (max-width: 479px) {
             .web-and-user-adoption-hero {
@@ -2660,7 +2528,7 @@ closeButton.addEventListener("click", function() {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .web-and-user-adoption-link07 {
+            .web-and-user-adoption-link7 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               text-decoration: none;
@@ -2721,13 +2589,6 @@ closeButton.addEventListener("click", function() {
             .web-and-user-adoption-action-bar {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .web-and-user-adoption-footer {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .web-and-user-adoption-text145 {
-              text-align: center;
             }
           }
         `}
