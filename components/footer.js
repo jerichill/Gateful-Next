@@ -1,6 +1,5 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => {
@@ -62,11 +61,6 @@ const Footer = (props) => {
               Legal
             </a>
           </span>
-          <div>
-            <DangerousHTML
-              html={`<a href="//www.dmca.com/Protection/Status.aspx?ID=8f67b3b8-d9ea-4bbc-82b3-585687add94f" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=8f67b3b8-d9ea-4bbc-82b3-585687add94f"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>`}
-            ></DangerousHTML>
-          </div>
         </div>
       </footer>
       <style jsx>
@@ -167,16 +161,16 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  image_src: '/playground_assets/gateful-logo-blk-200h.png',
   image_alt: 'image',
   text: 'Gateful is the easiest way to create token gated experiences.',
+  image_src: '/playground_assets/gateful-logo-blk-200h.png',
   rootClassName: '',
 }
 
 Footer.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
   text: PropTypes.string,
+  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
