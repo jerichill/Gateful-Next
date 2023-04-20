@@ -13,20 +13,18 @@ const StepsToLaunchNFTCollection = (props) => {
     <>
       <div className="steps-to-launch-nf-collection-container">
         <Head>
-          <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
-          </title>
+          <title>Basic Steps to Launch Your New NFT Collection</title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="Launching an NFT collection can be overwhelming. Here are the basic steps to help you plan your collection launch."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="Basic Steps to Launch Your New NFT Collection"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="Launching an NFT collection can be overwhelming. Here are the basic steps to help you plan your collection launch."
           />
           <meta
             property="og:image"

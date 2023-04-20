@@ -14,19 +14,19 @@ const Web3AndUserAdoption = (props) => {
       <div className="web-and-user-adoption-container">
         <Head>
           <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+            Realization of the Web3 Vision: A Look at Web3 and User Adoption
           </title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="Understanding the concept of Web3, a decentralized and user-centric vision of the internet, and how users are adopting this new technology."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="Realization of the Web3 Vision: A Look at Web3 and User Adoption"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="Understanding the concept of Web3, a decentralized and user-centric vision of the internet, and how users are adopting this new technology."
           />
           <meta
             property="og:image"

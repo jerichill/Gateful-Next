@@ -13,20 +13,18 @@ const UnlockTokenGateSignatureRequest = (props) => {
     <>
       <div className="unlock-token-gate-signature-request-container">
         <Head>
-          <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
-          </title>
+          <title>Unlocking a Token Gate: The Signature Request Explained</title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="Unlocking a Token Gate: The Signature Request Explained"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process."
           />
           <meta
             property="og:image"

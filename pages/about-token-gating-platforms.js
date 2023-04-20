@@ -14,19 +14,19 @@ const AboutTokenGatingPlatforms = (props) => {
       <div className="about-token-gating-platforms-container">
         <Head>
           <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+            About Token Gating Platforms: Revolutionizing Web3 Content
           </title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="Token Gating Platforms have emerged as a groundbreaking technology for content monetization and access control solutions."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="About Token Gating Platforms: Revolutionizing Web3 Content"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="Token Gating Platforms have emerged as a groundbreaking technology for content monetization and access control solutions."
           />
           <meta
             property="og:image"

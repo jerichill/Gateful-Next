@@ -14,19 +14,19 @@ const TokenGatingForDigitalMarketing = (props) => {
       <div className="token-gating-for-digital-marketing-container">
         <Head>
           <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+            Integrate Token Gating Into Your Digital Marketing Campaigns
           </title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="Launching a marketing campaign targeting cryptocurrency holders using token gating involves a series of strategic steps explained in this article."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="Integrate Token Gating Into Your Digital Marketing Campaigns"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="Launching a marketing campaign targeting cryptocurrency holders using token gating involves a series of strategic steps explained in this article."
           />
           <meta
             property="og:image"

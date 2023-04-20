@@ -14,19 +14,19 @@ const AnIntroductionToNFTTokenGating = (props) => {
       <div className="an-introduction-to-nf-token-gating-container">
         <Head>
           <title>
-            Token Gating Platforms: Revolutionizing Web3 Content Monetization
+            Embracing the Future of Web3: An Introduction to NFT Token Gating
           </title>
           <meta
             name="description"
-            content="The easiest way to create token gated digital experiences. Token gate your website or web application. Gateful simplifies Blockchain access management."
+            content="As the NFT market expands, innovative applications and strategies have emerged to maximize the potential of these digital assets."
           />
           <meta
             property="og:title"
-            content="Token Gating Platforms: Revolutionizing Web3 Content Monetization"
+            content="Embracing the Future of Web3: An Introduction to NFT Token Gating"
           />
           <meta
             property="og:description"
-            content="Gateful makes it easy to add Web3 Token Gating functionality to your website or web application. Transform your project into a powerful Web3-connected community without writing any code."
+            content="As the NFT market expands, innovative applications and strategies have emerged to maximize the potential of these digital assets."
           />
           <meta
             property="og:image"
