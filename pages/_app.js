@@ -17,11 +17,11 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
-    const cdnCheckAuthFunc = window?.checkAuth3;
-    const result3 = await cdnCheckAuthFunc();
-   console.log(result3,"result3.........ooooo");
+    // const cdnCheckAuthFunc = window?.checkAuth3;
+    // const result3 = await cdnCheckAuthFunc();
+  //  console.log(result3,"result3.........ooooo");
 
-    if (result || result2 || result3) {
+    if (result || result2) {
       setDisplayPages(true);
     }
   };
