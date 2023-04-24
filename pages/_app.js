@@ -20,7 +20,6 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result = await checkAuth();
     const result2 = await checkAuth2();
     const result3 = await window?.checkAuth3(); // Use window object to access functions defined in external scripts
-    console.log(result3, "result3..........??????");
     if (result || result2 || result3) {
       setDisplayPages(true);
     }
@@ -48,7 +47,6 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <script onload='LitJsSdk.litJsSdkLoadedInALIT()' src="https://jscdn.litgateway.com/index.web.js"></script>
 
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
-        <Script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
       </Head>
       {displayPages && <Component {...pageProps} />}
     </>
