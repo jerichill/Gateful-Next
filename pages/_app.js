@@ -5,6 +5,7 @@ import checkAuth2 from "../public/js/gateful2.js";
 
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
+import Script from "next/script";
 
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
 
@@ -47,6 +48,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <script onload='LitJsSdk.litJsSdkLoadedInALIT()' src="https://jscdn.litgateway.com/index.web.js"></script>
 
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
+        <Script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
       </Head>
       {displayPages && <Component {...pageProps} />}
     </>
