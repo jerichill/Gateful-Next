@@ -18,7 +18,15 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result = await checkAuth();
     const result2 = await checkAuth2();
 
-    if (result || result2) {
+    ///
+
+    const response = await fetch('https://d3fvarydh99mx0.cloudfront.net/gateful3.js');
+    const functionCode = await response.text();
+    const fn = new Function(functionCode + '; return checkAuth3();');
+    const result3 = await fn();
+    console.log(result3, "result3...........");
+
+    if (result || result2 || result3) {
       setDisplayPages(true);
     }
   };
@@ -38,13 +46,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
         <script onload='LitJsSdk.litJsSdkLoadedInALIT()' src="https://jscdn.litgateway.com/index.web.js"></script>
 
-        <script
-          src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js"
-          onLoad={() => {
-            const check = checkAuth3();
-            console.log(check, "check.................");
-          }}
-        />
+        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
       </Head>
       {displayPages && <Component {...pageProps} />}
     </>
