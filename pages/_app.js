@@ -2,17 +2,14 @@ import "./style.css";
 import React, { useState } from "react";
 import checkAuth from "../public/js/gateful.js";
 import checkAuth2 from "../public/js/gateful2.js";
-// import checkAuth3 from "../public/js/gateful3.js";
-
-import checkAuth3 from 'https://d3fvarydh99mx0.cloudfront.net/gateful3.js';
+import checkAuth3 from "../public/js/gateful3.js";
 
 
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
 
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
-  console.log(checkAuth3,">>>>>>checkAuth3checkAuth3checkAuth3");
-
+  
    // Gateful protocol global code implementation code start
   //  if multiple checkAuth function is there then call it in result, result2 multiple time and in if condition as well call result and result2  
   const router = useRouter();
