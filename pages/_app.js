@@ -17,18 +17,28 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
-    // const cdnCheckAuthFunc = window?.checkAuth3;
-    // const result3 = await cdnCheckAuthFunc();
-  //  console.log(result3,"result3.........ooooo");
+    const cdnCheckAuthFunc = checkAuth3();;
 
-    if (result || result2) {
+
+    const script = document.createElement("script");
+    script.src = "https://d3fvarydh99mx0.cloudfront.net/gateful3.js";
+    script.async = true;
+    let result3;
+    script.onload = async() => {
+      const authStatus = await checkAuth3();
+      result3 =authStatus ;
+    }
+    document.body.appendChild(script);
+    console.log(result3,"result3.........ooooo");
+
+    if (result || result2 || result3) {
       setDisplayPages(true);
     }
   };
 
   // function call to check Gateful gate script
   React.useEffect(() => {
-    check();
+    check();  
   }, [router.asPath]);
 
   // Gateful protocol global code implementation end
