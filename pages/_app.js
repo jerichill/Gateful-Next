@@ -10,29 +10,64 @@ import Script from "next/script";
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
 
   const cdnRef = useRef();
+  const [loadedCount, setLoadedCount] = useState(0);
+
 
   // Gateful protocol global code implementation code start
   //  if multiple checkAuth function is there then call it in result, result2 multiple time and in if condition as well call result and result2  
   const router = useRouter();
   const [displayPages, setDisplayPages] = useState(false);
 
+  const cdnUrls = [
+    'https://d3fvarydh99mx0.cloudfront.net/gateful.js',
+    'https://d3fvarydh99mx0.cloudfront.net/gateful2.js',
+    'https://d3fvarydh99mx0.cloudfront.net/gateful3.js',
+    'https://d3fvarydh99mx0.cloudfront.net/gateful7.js'
+  ];
+
   const check = async () => {
-    const result = await checkAuth();
-    const result2 = await checkAuth2();
-    const result3 = await window?.checkAuth3(); // Use window object to access functions defined in external scripts
-    if (result || result2 || result3) {
+    // const result = await checkAuth();
+    // const result2 = await checkAuth2();
+    const result = await window?.checkAuth();
+    const result2 = await window?.checkAuth2();
+    const result3 = await window?.checkAuth3();
+    const result7 = await window?.checkAuth7(); // Use window object to access functions defined in external scripts
+
+    console.log(result, "result", result2, "result2", result3, "result3", result7, "result7");
+    if (result || result2 || result3 || result7) {
       setDisplayPages(true);
     }
   };
 
-  React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://d3fvarydh99mx0.cloudfront.net/gateful3.js';
-    script.onload = () => {
-      check();
-    };
-    document.body.appendChild(script);
+  useEffect(() => {
+    cdnUrls.forEach((url) => {
+      const script = document.createElement('script');
+      script.src = url;
+      script.onload = () => {
+        console.log(`${url} loaded.....`);
+        setLoadedCount((prevCount) => prevCount + 1);
+      };
+      document.body.appendChild(script);
+    });
   }, [router.asPath]);
+
+  useEffect(() => {
+    if (loadedCount === cdnUrls.length) {
+      console.log('All scripts loaded');
+      check(); // Call your function here
+      setLoadedCount(0);
+    }
+  }, [loadedCount]);
+
+
+  // React.useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://d3fvarydh99mx0.cloudfront.net/gateful3.js';
+  //   script.onload = () => {
+  //     check();
+  //   };
+  //   document.body.appendChild(script);
+  // }, [router.asPath]);
 
 
 
@@ -46,7 +81,11 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
         <script onload='LitJsSdk.litJsSdkLoadedInALIT()' src="https://jscdn.litgateway.com/index.web.js"></script>
 
+        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful.js" />
+        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful2.js" />
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
+        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful7.js" />
+
       </Head>
       {displayPages && <Component {...pageProps} />}
     </>
