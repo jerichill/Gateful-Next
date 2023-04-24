@@ -1,5 +1,5 @@
 import "./style.css";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import checkAuth from "../public/js/gateful.js";
 import checkAuth2 from "../public/js/gateful2.js";
 
@@ -17,7 +17,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
-    const cdnCheckAuthFunc = cdnRef?.current?.checkAuth3;
+    const cdnCheckAuthFunc = window?.checkAuth3;
     const result3 = await cdnCheckAuthFunc();
    console.log(result3,"result3.........ooooo");
 
@@ -35,6 +35,15 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
 
 React.useEffect(() => import("@lottiefiles/lottie-player"));
 
+useEffect(() => {
+  const script = document.createElement('script');
+  script.src = '/cdn-script.js';
+  script.async = true;
+  document.body.appendChild(script);
+  return () => {
+    document.body.removeChild(script);
+  };
+}, []);
 return (
     <>
  <Head>
