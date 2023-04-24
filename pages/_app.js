@@ -15,8 +15,9 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
+    const result3 = await checkAuth3();
 
-    if (result,result2) {
+    if (result,result2,result3) {
       setDisplayPages(true);
     }
   };
