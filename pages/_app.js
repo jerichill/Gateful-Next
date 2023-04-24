@@ -1,5 +1,5 @@
 import "./style.css";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import checkAuth from "../public/js/gateful.js";
 import checkAuth2 from "../public/js/gateful2.js";
 
@@ -8,6 +8,8 @@ import Head from "next/head";
 
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
   
+  const cdnRef = useRef();
+
    // Gateful protocol global code implementation code start
   //  if multiple checkAuth function is there then call it in result, result2 multiple time and in if condition as well call result and result2  
   const router = useRouter();
@@ -15,7 +17,9 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
-    const result3 = await checkAuth3();
+    const cdnCheckAuthFunc = cdnRef?.current?.checkAuth3;
+    const result3 = await cdnCheckAuthFunc();
+   console.log(result3,"result3.........ooooo");
 
     if (result,result2,result3) {
       setDisplayPages(true);
