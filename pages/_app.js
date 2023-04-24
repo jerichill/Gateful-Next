@@ -1,7 +1,7 @@
 import "./style.css";
 import React, { useState, useRef, useEffect } from "react";
-import checkAuth from "../public/js/gateful.js";
-import checkAuth2 from "../public/js/gateful2.js";
+// import checkAuth from "../public/js/gateful.js";
+// import checkAuth2 from "../public/js/gateful2.js";
 
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
