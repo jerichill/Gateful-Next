@@ -20,7 +20,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result2 = await checkAuth2();
     // const result3 = await checkAuth3();
 
-    if (result,result2,result3) {
+    if (result,result2) {
       setDisplayPages(true);
     }
   };
