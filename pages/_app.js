@@ -21,7 +21,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result3 = await cdnCheckAuthFunc();
    console.log(result3,"result3.........ooooo");
 
-    if (result,result2,result3) {
+    if (result || result2 || result3) {
       setDisplayPages(true);
     }
   };
