@@ -11,6 +11,7 @@ import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
 
 export default function MyApp({ Component: Component, pageProps: pageProps }) {
+  console.log(checkAuth3,">>>>>>checkAuth3checkAuth3checkAuth3");
 
    // Gateful protocol global code implementation code start
   //  if multiple checkAuth function is there then call it in result, result2 multiple time and in if condition as well call result and result2  
