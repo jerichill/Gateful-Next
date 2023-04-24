@@ -17,8 +17,6 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
   const check = async () => {
     const result = await checkAuth();
     const result2 = await checkAuth2();
-    const cdnCheckAuthFunc = checkAuth3();;
-
 
     const script = document.createElement("script");
     script.src = "https://d3fvarydh99mx0.cloudfront.net/gateful3.js";
