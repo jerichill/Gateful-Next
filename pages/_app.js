@@ -22,7 +22,6 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     'https://d3fvarydh99mx0.cloudfront.net/gateful.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful2.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful3.js',
-    'https://d3fvarydh99mx0.cloudfront.net/gateful7.js'
   ];
 
   const check = async () => {
@@ -31,9 +30,8 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result = await window?.checkAuth();
     const result2 = await window?.checkAuth2();
     const result3 = await window?.checkAuth3();
-    const result7 = await window?.checkAuth7(); // Use window object to access functions defined in external scripts
 
-    console.log(result, "result", result2, "result2", result3, "result3", result7, "result7");
+    console.log(result, "result", result2, "result2", result3, "result3");
     if (result || result2 || result3 || result7) {
       setDisplayPages(true);
     }
