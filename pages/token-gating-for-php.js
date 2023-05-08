@@ -12,7 +12,7 @@ const TokenGatingForPHP = (props) => {
     <>
       <div className="token-gating-for-php-container">
         <Head>
-          <title>Token Gating for Vue.js | Gateful Token Gating Platform</title>
+          <title>Token Gating for PHP | Gateful Token Gating Platform</title>
           <meta
             name="description"
             content="Gateful is the easiest way to token gate your Vue.js website or web application. Transform your Vue.js project into a Web3-connected community."
