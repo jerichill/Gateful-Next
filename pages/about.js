@@ -251,7 +251,7 @@ closeButton.addEventListener("click", function() {
             <div className="about-centered-container1">
               <div className="about-right2">
                 <h2 className="about-text034 title">
-                  <span>Management Team</span>
+                  <span>Leadership</span>
                   <br></br>
                 </h2>
                 <span className="about-text037">
@@ -1000,7 +1000,7 @@ Here's what the above is doing:
             flex-direction: column;
           }
           .about-text007 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;

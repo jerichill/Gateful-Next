@@ -843,7 +843,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .book--demo-text09 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;

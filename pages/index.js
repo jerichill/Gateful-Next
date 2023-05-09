@@ -940,7 +940,7 @@ Here's what the above is doing:
           </div>
         </section>
         <Footer></Footer>
-        <div className="home-code-embed">
+        <div>
           <DangerousHTML
             html={`<script src="cdn-link"></script>
 <script>
@@ -973,8 +973,8 @@ Here's what the above is doing:
             background-size: cover;
             background-image: linear-gradient(
                 135deg,
-                rgba(16, 138, 130, 0.75) 0%,
-                rgba(18, 16, 74, 0.8) 50%,
+                rgba(16, 138, 130, 0.85) 0%,
+                rgba(18, 16, 74, 0.9) 49%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
               url('/playground_assets/fractal%20image%209-1500w.png');
@@ -1137,7 +1137,7 @@ Here's what the above is doing:
             flex-direction: column;
           }
           .home-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -2393,9 +2393,6 @@ Here's what the above is doing:
             width: 100%;
             max-width: 760px;
             line-height: 24px;
-          }
-          .home-code-embed {
-            display: none;
           }
           @media (max-width: 1200px) {
             .home-hero {

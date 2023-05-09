@@ -157,23 +157,11 @@ closeButton.addEventListener("click", function() {
             <p className="token-gating-for-digital-marketing-text010">
               How To Engage With Cryptocurrency Holders
             </p>
-            <div className="token-gating-for-digital-marketing-profile">
-              <img
-                alt="profile"
-                src="/playground_assets/headshot2022bpng-200w.png"
-                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                className="token-gating-for-digital-marketing-image"
-              />
-              <span className="token-gating-for-digital-marketing-text011">
-                <span>J. Eric Hill</span>
-                <br></br>
-              </span>
-            </div>
           </header>
         </section>
         <section className="token-gating-for-digital-marketing-features">
           <div className="token-gating-for-digital-marketing-title">
-            <span className="token-gating-for-digital-marketing-text014">
+            <span className="token-gating-for-digital-marketing-text011">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -185,7 +173,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="token-gating-for-digital-marketing-text018">
+            <span className="token-gating-for-digital-marketing-text015">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -205,10 +193,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="token-gating-for-digital-marketing-icon02"
                 />
-                <span className="token-gating-for-digital-marketing-text021">
+                <span className="token-gating-for-digital-marketing-text018">
                   Schedule
                 </span>
-                <span className="token-gating-for-digital-marketing-text022">
+                <span className="token-gating-for-digital-marketing-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -219,10 +207,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="token-gating-for-digital-marketing-icon03"
                 />
-                <span className="token-gating-for-digital-marketing-text023">
+                <span className="token-gating-for-digital-marketing-text020">
                   Publish
                 </span>
-                <span className="token-gating-for-digital-marketing-text024">
+                <span className="token-gating-for-digital-marketing-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -234,10 +222,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="token-gating-for-digital-marketing-icon04"
                 />
-                <span className="token-gating-for-digital-marketing-text025">
+                <span className="token-gating-for-digital-marketing-text022">
                   Analyze
                 </span>
-                <span className="token-gating-for-digital-marketing-text026">
+                <span className="token-gating-for-digital-marketing-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -248,10 +236,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="token-gating-for-digital-marketing-icon05"
                 />
-                <span className="token-gating-for-digital-marketing-text027">
+                <span className="token-gating-for-digital-marketing-text024">
                   Get leads
                 </span>
-                <span className="token-gating-for-digital-marketing-text028">
+                <span className="token-gating-for-digital-marketing-text025">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -261,7 +249,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="token-gating-for-digital-marketing-banners">
           <div className="token-gating-for-digital-marketing-blog">
-            <h2 className="token-gating-for-digital-marketing-text029">
+            <h2 className="token-gating-for-digital-marketing-text026">
               Launching a marketing campaign targeting cryptocurrency holders
               using token gating involves a series of strategic steps.
               <span
@@ -270,7 +258,7 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text030">
+            <span className="token-gating-for-digital-marketing-text027">
               <span>
                 Token gating is a technique that grants access to exclusive
                 content or experiences only to individuals who hold a certain
@@ -280,18 +268,18 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="token-gating-for-digital-marketing-text033">
+            <h2 className="token-gating-for-digital-marketing-text030">
               Define your target audience:
             </h2>
-            <span className="token-gating-for-digital-marketing-text034">
+            <span className="token-gating-for-digital-marketing-text031">
               Identify the cryptocurrency holders you want to target. This could
               be based on the tokens they hold or their interests within the
               crypto space.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text035">
+            <h2 className="token-gating-for-digital-marketing-text032">
               Develop the campaign concept:
             </h2>
-            <span className="token-gating-for-digital-marketing-text036">
+            <span className="token-gating-for-digital-marketing-text033">
               <span>
                 Create a unique and compelling campaign idea that resonates with
                 your target audience. This might include exclusive content,
@@ -299,25 +287,25 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="token-gating-for-digital-marketing-text039">
+            <h2 className="token-gating-for-digital-marketing-text036">
               Choose the right platform:
             </h2>
-            <span className="token-gating-for-digital-marketing-text040">
+            <span className="token-gating-for-digital-marketing-text037">
               Research and select a platform or technology that supports token
               gating. Some popular options include Gated, Unlock Protocol, or
               creating your own custom solution using smart contracts on the
               Ethereum network.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text041">
+            <h2 className="token-gating-for-digital-marketing-text038">
               Set token gating requirements:
             </h2>
-            <span className="token-gating-for-digital-marketing-text042">
+            <span className="token-gating-for-digital-marketing-text039">
               Determine the specific criteria for accessing the gated content.
               This could be holding a certain number of tokens, possessing a
               particular Non-Fungible Token (NFT), or having a specific token in
               their wallet.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text043">
+            <h2 className="token-gating-for-digital-marketing-text040">
               Create the gated content or experience:
               <span
                 dangerouslySetInnerHTML={{
@@ -325,12 +313,12 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text044">
+            <span className="token-gating-for-digital-marketing-text041">
               Develop the exclusive content, event, or experience that will be
               made available only to those who meet the token gating
               requirements.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text045">
+            <h2 className="token-gating-for-digital-marketing-text042">
               Develop promotional materials:
               <span
                 dangerouslySetInnerHTML={{
@@ -338,13 +326,13 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text046">
+            <span className="token-gating-for-digital-marketing-text043">
               Create engaging ads, social media posts, and email campaigns that
               highlight the benefits and exclusivity of the gated content.
               Emphasize the value of holding the required tokens and the unique
               experience they will unlock.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text047">
+            <h2 className="token-gating-for-digital-marketing-text044">
               Target crypto communities:
               <span
                 dangerouslySetInnerHTML={{
@@ -352,12 +340,12 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text048">
+            <span className="token-gating-for-digital-marketing-text045">
               Promote the campaign in online communities where your target
               audience is likely to be found. This could include cryptocurrency
               forums, Discord servers, Telegram groups, and Reddit communities.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text049">
+            <h2 className="token-gating-for-digital-marketing-text046">
               Leverage influencer partnerships:
               <span
                 dangerouslySetInnerHTML={{
@@ -365,12 +353,12 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text050">
+            <span className="token-gating-for-digital-marketing-text047">
               Collaborate with influencers and partners within the crypto space
               to promote your campaign. This will help increase your
               campaign&apos;s reach and credibility.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text051">
+            <h2 className="token-gating-for-digital-marketing-text048">
               Monitor and optimize:
               <span
                 dangerouslySetInnerHTML={{
@@ -378,13 +366,13 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text052">
+            <span className="token-gating-for-digital-marketing-text049">
               Track the performance of your marketing campaign using analytics
               tools. Analyze the data to identify areas for optimization and
               improvement. Adjust your campaign accordingly to maximize its
               effectiveness.
             </span>
-            <h2 className="token-gating-for-digital-marketing-text053">
+            <h2 className="token-gating-for-digital-marketing-text050">
               Evaluate and learn:
               <span
                 dangerouslySetInnerHTML={{
@@ -392,13 +380,13 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="token-gating-for-digital-marketing-text054">
+            <span className="token-gating-for-digital-marketing-text051">
               After the campaign concludes, assess its overall success and
               gather insights to inform future marketing efforts. Identify what
               worked well and what could be improved in future token gating
               campaigns.
             </span>
-            <span className="token-gating-for-digital-marketing-text055">
+            <span className="token-gating-for-digital-marketing-text052">
               By following these steps, you can create a targeted marketing
               campaign that effectively engages cryptocurrency holders using
               token gating. This approach can help drive interest in your
@@ -407,11 +395,11 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="token-gating-for-digital-marketing-blog1">
-            <h2 className="token-gating-for-digital-marketing-text056">
+            <h2 className="token-gating-for-digital-marketing-text053">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="token-gating-for-digital-marketing-text057">
+            <span className="token-gating-for-digital-marketing-text054">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
@@ -425,7 +413,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="token-gating-for-digital-marketing-text058">
+                  <span className="token-gating-for-digital-marketing-text055">
                     Book a Demo
                   </span>
                 </div>
@@ -440,7 +428,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="token-gating-for-digital-marketing-text061">
+              <span className="token-gating-for-digital-marketing-text058">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -466,16 +454,16 @@ closeButton.addEventListener("click", function() {
         <section className="token-gating-for-digital-marketing-how-it-works">
           <div className="token-gating-for-digital-marketing-centered-container1">
             <div className="token-gating-for-digital-marketing-heading1">
-              <span className="token-gating-for-digital-marketing-text062">
+              <span className="token-gating-for-digital-marketing-text059">
                 How it works
               </span>
-              <span className="token-gating-for-digital-marketing-text063 title">
+              <span className="token-gating-for-digital-marketing-text060 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="token-gating-for-digital-marketing-category">
               <div className="token-gating-for-digital-marketing-headng">
-                <span className="token-gating-for-digital-marketing-text064">
+                <span className="token-gating-for-digital-marketing-text061">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -483,13 +471,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="token-gating-for-digital-marketing-text065">
+                <span className="token-gating-for-digital-marketing-text062">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="token-gating-for-digital-marketing-get-started2 template-button">
-                  <span className="token-gating-for-digital-marketing-text066">
+                  <span className="token-gating-for-digital-marketing-text063">
                     Get started
                   </span>
                 </div>
@@ -505,10 +493,10 @@ closeButton.addEventListener("click", function() {
             <div className="token-gating-for-digital-marketing-row">
               <div className="token-gating-for-digital-marketing-category1">
                 <div className="token-gating-for-digital-marketing-headng1">
-                  <span className="token-gating-for-digital-marketing-text067">
+                  <span className="token-gating-for-digital-marketing-text064">
                     2 — Act
                   </span>
-                  <span className="token-gating-for-digital-marketing-text068">
+                  <span className="token-gating-for-digital-marketing-text065">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -522,10 +510,10 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="token-gating-for-digital-marketing-category2">
                 <div className="token-gating-for-digital-marketing-headng2">
-                  <span className="token-gating-for-digital-marketing-text069">
+                  <span className="token-gating-for-digital-marketing-text066">
                     2 — Act
                   </span>
-                  <span className="token-gating-for-digital-marketing-text070">
+                  <span className="token-gating-for-digital-marketing-text067">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -543,37 +531,37 @@ closeButton.addEventListener("click", function() {
         <section className="token-gating-for-digital-marketing-pricing">
           <div className="token-gating-for-digital-marketing-centered-container2">
             <div className="token-gating-for-digital-marketing-heading2">
-              <span className="token-gating-for-digital-marketing-text071 title">
+              <span className="token-gating-for-digital-marketing-text068 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="token-gating-for-digital-marketing-text072">
+              <span className="token-gating-for-digital-marketing-text069">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="token-gating-for-digital-marketing-selection">
-                <span className="token-gating-for-digital-marketing-text073">
+                <span className="token-gating-for-digital-marketing-text070">
                   Monthly
                 </span>
-                <span className="token-gating-for-digital-marketing-text074">
+                <span className="token-gating-for-digital-marketing-text071">
                   Yearly
                 </span>
               </div>
             </div>
             <div className="token-gating-for-digital-marketing-cards1">
               <div className="token-gating-for-digital-marketing-card">
-                <span className="token-gating-for-digital-marketing-text075">
+                <span className="token-gating-for-digital-marketing-text072">
                   Free
                 </span>
-                <span className="token-gating-for-digital-marketing-text076">
+                <span className="token-gating-for-digital-marketing-text073">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="token-gating-for-digital-marketing-get-started3 template-button">
-                  <span className="token-gating-for-digital-marketing-text077">
+                  <span className="token-gating-for-digital-marketing-text074">
                     Start for free
                   </span>
                 </div>
-                <span className="token-gating-for-digital-marketing-text078">
+                <span className="token-gating-for-digital-marketing-text075">
                   What&apos;s included
                 </span>
                 <div className="token-gating-for-digital-marketing-bullet-points">
@@ -584,7 +572,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text079">
+                    <span className="token-gating-for-digital-marketing-text076">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -595,17 +583,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text080">
+                    <span className="token-gating-for-digital-marketing-text077">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="token-gating-for-digital-marketing-card1">
-                <span className="token-gating-for-digital-marketing-text081">
+                <span className="token-gating-for-digital-marketing-text078">
                   Pay as you go
                 </span>
-                <span className="token-gating-for-digital-marketing-text082">
+                <span className="token-gating-for-digital-marketing-text079">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -613,12 +601,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="token-gating-for-digital-marketing-get-started4 template-button">
-                  <span className="token-gating-for-digital-marketing-text086">
+                  <span className="token-gating-for-digital-marketing-text083">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="token-gating-for-digital-marketing-text089">
+                <span className="token-gating-for-digital-marketing-text086">
                   What&apos;s included
                 </span>
                 <div className="token-gating-for-digital-marketing-bullet-points1">
@@ -629,7 +617,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text090">
+                    <span className="token-gating-for-digital-marketing-text087">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -640,7 +628,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text091">
+                    <span className="token-gating-for-digital-marketing-text088">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -651,7 +639,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text092">
+                    <span className="token-gating-for-digital-marketing-text089">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -662,17 +650,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text093">
+                    <span className="token-gating-for-digital-marketing-text090">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="token-gating-for-digital-marketing-card2">
-                <span className="token-gating-for-digital-marketing-text094">
+                <span className="token-gating-for-digital-marketing-text091">
                   Enterprise
                 </span>
-                <span className="token-gating-for-digital-marketing-text095">
+                <span className="token-gating-for-digital-marketing-text092">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -680,12 +668,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="token-gating-for-digital-marketing-get-started5 template-button">
-                  <span className="token-gating-for-digital-marketing-text098">
+                  <span className="token-gating-for-digital-marketing-text095">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="token-gating-for-digital-marketing-text101">
+                <span className="token-gating-for-digital-marketing-text098">
                   What&apos;s included
                 </span>
                 <div className="token-gating-for-digital-marketing-bullet-points2">
@@ -696,7 +684,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text102">
+                    <span className="token-gating-for-digital-marketing-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -707,7 +695,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text103">
+                    <span className="token-gating-for-digital-marketing-text100">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -718,7 +706,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text104">
+                    <span className="token-gating-for-digital-marketing-text101">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -729,7 +717,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="token-gating-for-digital-marketing-text105">
+                    <span className="token-gating-for-digital-marketing-text102">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -740,10 +728,10 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="token-gating-for-digital-marketing-testimonals">
           <div className="token-gating-for-digital-marketing-left2">
-            <span className="token-gating-for-digital-marketing-text106">
+            <span className="token-gating-for-digital-marketing-text103">
               Testimonals
             </span>
-            <span className="token-gating-for-digital-marketing-text107 title">
+            <span className="token-gating-for-digital-marketing-text104 title">
               What people say about Active
             </span>
           </div>
@@ -799,7 +787,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="token-gating-for-digital-marketing-text108">
+          <span className="token-gating-for-digital-marketing-text105">
             <span>Show more</span>
             <br></br>
           </span>
@@ -807,16 +795,16 @@ closeButton.addEventListener("click", function() {
         <section className="token-gating-for-digital-marketing-action-bar">
           <div className="token-gating-for-digital-marketing-action">
             <div className="token-gating-for-digital-marketing-heading3">
-              <span className="token-gating-for-digital-marketing-text111 title">
+              <span className="token-gating-for-digital-marketing-text108 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="token-gating-for-digital-marketing-text115">
+              <span className="token-gating-for-digital-marketing-text112">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="token-gating-for-digital-marketing-get-started6 template-button">
-                <span className="token-gating-for-digital-marketing-text116">
+                <span className="token-gating-for-digital-marketing-text113">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -826,7 +814,7 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="token-gating-for-digital-marketing-image1"
+                className="token-gating-for-digital-marketing-image"
               />
             </div>
           </div>
@@ -1019,7 +1007,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .token-gating-for-digital-marketing-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -1033,25 +1021,6 @@ closeButton.addEventListener("click", function() {
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
-          }
-          .token-gating-for-digital-marketing-profile {
-            display: flex;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .token-gating-for-digital-marketing-image {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-round);
-          }
-          .token-gating-for-digital-marketing-text011 {
-            color: var(--dl-color-gray-white);
-            font-size: 20px;
-            font-weight: 300;
-            margin-left: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-features {
             width: 100%;
@@ -1070,14 +1039,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text014 {
+          .token-gating-for-digital-marketing-text011 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .token-gating-for-digital-marketing-text018 {
+          .token-gating-for-digital-marketing-text015 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1104,14 +1073,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text021 {
+          .token-gating-for-digital-marketing-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-digital-marketing-text022 {
+          .token-gating-for-digital-marketing-text019 {
             line-height: 24px;
           }
           .token-gating-for-digital-marketing-publish {
@@ -1122,14 +1091,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text023 {
+          .token-gating-for-digital-marketing-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-digital-marketing-text024 {
+          .token-gating-for-digital-marketing-text021 {
             line-height: 24px;
           }
           .token-gating-for-digital-marketing-container2 {
@@ -1145,14 +1114,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text025 {
+          .token-gating-for-digital-marketing-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .token-gating-for-digital-marketing-text026 {
+          .token-gating-for-digital-marketing-text023 {
             line-height: 24px;
           }
           .token-gating-for-digital-marketing-icon05 {
@@ -1160,14 +1129,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text027 {
+          .token-gating-for-digital-marketing-text024 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-digital-marketing-text028 {
+          .token-gating-for-digital-marketing-text025 {
             line-height: 24px;
           }
           .token-gating-for-digital-marketing-banners {
@@ -1186,95 +1155,95 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .token-gating-for-digital-marketing-text029 {
+          .token-gating-for-digital-marketing-text026 {
             margin-bottom: var(--dl-space-space-unit);
+          }
+          .token-gating-for-digital-marketing-text027 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text030 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .token-gating-for-digital-marketing-text031 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .token-gating-for-digital-marketing-text032 {
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text033 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .token-gating-for-digital-marketing-text034 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .token-gating-for-digital-marketing-text035 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text036 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .token-gating-for-digital-marketing-text037 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .token-gating-for-digital-marketing-text038 {
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text039 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text040 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text041 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text042 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text043 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text044 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text045 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text046 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text047 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text048 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text049 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text050 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .token-gating-for-digital-marketing-text051 {
-            margin-bottom: var(--dl-space-space-unit);
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .token-gating-for-digital-marketing-text052 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .token-gating-for-digital-marketing-text053 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .token-gating-for-digital-marketing-text054 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .token-gating-for-digital-marketing-text055 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1294,11 +1263,11 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .token-gating-for-digital-marketing-text056 {
+          .token-gating-for-digital-marketing-text053 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .token-gating-for-digital-marketing-text057 {
+          .token-gating-for-digital-marketing-text054 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
@@ -1334,7 +1303,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .token-gating-for-digital-marketing-text058 {
+          .token-gating-for-digital-marketing-text055 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1362,7 +1331,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text061 {
+          .token-gating-for-digital-marketing-text058 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1424,13 +1393,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text062 {
+          .token-gating-for-digital-marketing-text059 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .token-gating-for-digital-marketing-text063 {
+          .token-gating-for-digital-marketing-text060 {
             color: var(--dl-color-gray-white);
           }
           .token-gating-for-digital-marketing-category {
@@ -1454,13 +1423,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .token-gating-for-digital-marketing-text064 {
+          .token-gating-for-digital-marketing-text061 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .token-gating-for-digital-marketing-text065 {
+          .token-gating-for-digital-marketing-text062 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1472,7 +1441,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .token-gating-for-digital-marketing-text066 {
+          .token-gating-for-digital-marketing-text063 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1518,14 +1487,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .token-gating-for-digital-marketing-text067 {
+          .token-gating-for-digital-marketing-text064 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .token-gating-for-digital-marketing-text068 {
+          .token-gating-for-digital-marketing-text065 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1554,14 +1523,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .token-gating-for-digital-marketing-text069 {
+          .token-gating-for-digital-marketing-text066 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .token-gating-for-digital-marketing-text070 {
+          .token-gating-for-digital-marketing-text067 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1595,11 +1564,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text071 {
+          .token-gating-for-digital-marketing-text068 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .token-gating-for-digital-marketing-text072 {
+          .token-gating-for-digital-marketing-text069 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1612,7 +1581,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .token-gating-for-digital-marketing-text073 {
+          .token-gating-for-digital-marketing-text070 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1623,7 +1592,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .token-gating-for-digital-marketing-text074 {
+          .token-gating-for-digital-marketing-text071 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1658,13 +1627,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .token-gating-for-digital-marketing-text075 {
+          .token-gating-for-digital-marketing-text072 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text076 {
+          .token-gating-for-digital-marketing-text073 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1676,13 +1645,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .token-gating-for-digital-marketing-text077 {
+          .token-gating-for-digital-marketing-text074 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .token-gating-for-digital-marketing-text078 {
+          .token-gating-for-digital-marketing-text075 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1705,7 +1674,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text079 {
+          .token-gating-for-digital-marketing-text076 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1722,7 +1691,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text080 {
+          .token-gating-for-digital-marketing-text077 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1743,13 +1712,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .token-gating-for-digital-marketing-text081 {
+          .token-gating-for-digital-marketing-text078 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text082 {
+          .token-gating-for-digital-marketing-text079 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1761,13 +1730,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .token-gating-for-digital-marketing-text086 {
+          .token-gating-for-digital-marketing-text083 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .token-gating-for-digital-marketing-text089 {
+          .token-gating-for-digital-marketing-text086 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1790,7 +1759,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text090 {
+          .token-gating-for-digital-marketing-text087 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1807,7 +1776,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text091 {
+          .token-gating-for-digital-marketing-text088 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1824,7 +1793,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text092 {
+          .token-gating-for-digital-marketing-text089 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1841,7 +1810,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text093 {
+          .token-gating-for-digital-marketing-text090 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1861,14 +1830,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .token-gating-for-digital-marketing-text094 {
+          .token-gating-for-digital-marketing-text091 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .token-gating-for-digital-marketing-text095 {
+          .token-gating-for-digital-marketing-text092 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1882,12 +1851,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .token-gating-for-digital-marketing-text098 {
+          .token-gating-for-digital-marketing-text095 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .token-gating-for-digital-marketing-text101 {
+          .token-gating-for-digital-marketing-text098 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1911,7 +1880,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text102 {
+          .token-gating-for-digital-marketing-text099 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1929,7 +1898,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text103 {
+          .token-gating-for-digital-marketing-text100 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1947,7 +1916,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text104 {
+          .token-gating-for-digital-marketing-text101 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1965,7 +1934,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .token-gating-for-digital-marketing-text105 {
+          .token-gating-for-digital-marketing-text102 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1990,13 +1959,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text106 {
+          .token-gating-for-digital-marketing-text103 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .token-gating-for-digital-marketing-text107 {
+          .token-gating-for-digital-marketing-text104 {
             text-align: left;
           }
           .token-gating-for-digital-marketing-right1 {
@@ -2014,7 +1983,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .token-gating-for-digital-marketing-text108 {
+          .token-gating-for-digital-marketing-text105 {
             cursor: pointer;
             display: none;
           }
@@ -2045,11 +2014,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .token-gating-for-digital-marketing-text111 {
+          .token-gating-for-digital-marketing-text108 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .token-gating-for-digital-marketing-text115 {
+          .token-gating-for-digital-marketing-text112 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2057,7 +2026,7 @@ closeButton.addEventListener("click", function() {
           .token-gating-for-digital-marketing-get-started6 {
             margin-bottom: 0px;
           }
-          .token-gating-for-digital-marketing-text116 {
+          .token-gating-for-digital-marketing-text113 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2068,7 +2037,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .token-gating-for-digital-marketing-image1 {
+          .token-gating-for-digital-marketing-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
@@ -2115,11 +2084,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .token-gating-for-digital-marketing-text014 {
+            .token-gating-for-digital-marketing-text011 {
               font-size: 36px;
               line-height: 40px;
             }
-            .token-gating-for-digital-marketing-text018 {
+            .token-gating-for-digital-marketing-text015 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2127,19 +2096,19 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .token-gating-for-digital-marketing-text022 {
+            .token-gating-for-digital-marketing-text019 {
+              line-height: 21px;
+            }
+            .token-gating-for-digital-marketing-text021 {
+              line-height: 21px;
+            }
+            .token-gating-for-digital-marketing-text023 {
               line-height: 21px;
             }
             .token-gating-for-digital-marketing-text024 {
-              line-height: 21px;
-            }
-            .token-gating-for-digital-marketing-text026 {
-              line-height: 21px;
-            }
-            .token-gating-for-digital-marketing-text027 {
               font-size: 24px;
             }
-            .token-gating-for-digital-marketing-text028 {
+            .token-gating-for-digital-marketing-text025 {
               line-height: 21px;
             }
             .token-gating-for-digital-marketing-container4 {
@@ -2169,7 +2138,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .token-gating-for-digital-marketing-text072 {
+            .token-gating-for-digital-marketing-text069 {
               width: 100%;
               max-width: 600px;
             }
@@ -2185,11 +2154,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .token-gating-for-digital-marketing-text076 {
+            .token-gating-for-digital-marketing-text073 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-for-digital-marketing-text078 {
+            .token-gating-for-digital-marketing-text075 {
               font-size: 16px;
             }
             .token-gating-for-digital-marketing-card1 {
@@ -2209,7 +2178,7 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .token-gating-for-digital-marketing-text107 {
+            .token-gating-for-digital-marketing-text104 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2234,7 +2203,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-digital-marketing-text111 {
+            .token-gating-for-digital-marketing-text108 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2300,7 +2269,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-digital-marketing-text014 {
+            .token-gating-for-digital-marketing-text011 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2311,19 +2280,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .token-gating-for-digital-marketing-text021 {
+            .token-gating-for-digital-marketing-text018 {
               font-size: 24px;
             }
-            .token-gating-for-digital-marketing-text022 {
+            .token-gating-for-digital-marketing-text019 {
               font-size: 14px;
             }
             .token-gating-for-digital-marketing-publish {
               margin-left: 0px;
             }
-            .token-gating-for-digital-marketing-text023 {
+            .token-gating-for-digital-marketing-text020 {
               font-size: 24px;
             }
-            .token-gating-for-digital-marketing-text024 {
+            .token-gating-for-digital-marketing-text021 {
               font-size: 14px;
             }
             .token-gating-for-digital-marketing-container2 {
@@ -2333,13 +2302,13 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-analyze {
               margin-right: 0px;
             }
-            .token-gating-for-digital-marketing-text025 {
+            .token-gating-for-digital-marketing-text022 {
               font-size: 24px;
             }
-            .token-gating-for-digital-marketing-text026 {
+            .token-gating-for-digital-marketing-text023 {
               font-size: 14px;
             }
-            .token-gating-for-digital-marketing-text028 {
+            .token-gating-for-digital-marketing-text025 {
               font-size: 14px;
             }
             .token-gating-for-digital-marketing-blog {
@@ -2359,7 +2328,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .token-gating-for-digital-marketing-text061 {
+            .token-gating-for-digital-marketing-text058 {
               line-height: 24px;
             }
             .token-gating-for-digital-marketing-pills {
@@ -2374,7 +2343,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .token-gating-for-digital-marketing-text063 {
+            .token-gating-for-digital-marketing-text060 {
               margin-bottom: 0px;
             }
             .token-gating-for-digital-marketing-headng {
@@ -2398,7 +2367,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .token-gating-for-digital-marketing-text075 {
+            .token-gating-for-digital-marketing-text072 {
               font-size: 28px;
             }
             .token-gating-for-digital-marketing-card1 {
@@ -2407,7 +2376,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .token-gating-for-digital-marketing-text081 {
+            .token-gating-for-digital-marketing-text078 {
               font-size: 28px;
             }
             .token-gating-for-digital-marketing-card2 {
@@ -2415,7 +2384,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .token-gating-for-digital-marketing-text094 {
+            .token-gating-for-digital-marketing-text091 {
               font-size: 28px;
             }
             .token-gating-for-digital-marketing-testimonals {
@@ -2430,7 +2399,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-column1 {
               display: none;
             }
-            .token-gating-for-digital-marketing-text108 {
+            .token-gating-for-digital-marketing-text105 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2450,11 +2419,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .token-gating-for-digital-marketing-text111 {
+            .token-gating-for-digital-marketing-text108 {
               font-size: 28px;
               text-align: left;
             }
-            .token-gating-for-digital-marketing-text116 {
+            .token-gating-for-digital-marketing-text113 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2463,7 +2432,7 @@ closeButton.addEventListener("click", function() {
             .token-gating-for-digital-marketing-images {
               justify-content: center;
             }
-            .token-gating-for-digital-marketing-image1 {
+            .token-gating-for-digital-marketing-image {
               width: 100%;
             }
           }

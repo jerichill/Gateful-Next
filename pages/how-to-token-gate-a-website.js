@@ -154,23 +154,11 @@ closeButton.addEventListener("click", function() {
             <p className="how-to-token-gate--website-text010">
               Learn how to token gate your website using Gateful.
             </p>
-            <div className="how-to-token-gate--website-profile">
-              <img
-                alt="profile"
-                src="/playground_assets/headshot2022bpng-200w.png"
-                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                className="how-to-token-gate--website-image"
-              />
-              <span className="how-to-token-gate--website-text011">
-                <span>J. Eric Hill</span>
-                <br></br>
-              </span>
-            </div>
           </header>
         </section>
         <section className="how-to-token-gate--website-features">
           <div className="how-to-token-gate--website-title">
-            <span className="how-to-token-gate--website-text014">
+            <span className="how-to-token-gate--website-text011">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -182,7 +170,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="how-to-token-gate--website-text018">
+            <span className="how-to-token-gate--website-text015">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -202,10 +190,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="how-to-token-gate--website-icon02"
                 />
-                <span className="how-to-token-gate--website-text021">
+                <span className="how-to-token-gate--website-text018">
                   Schedule
                 </span>
-                <span className="how-to-token-gate--website-text022">
+                <span className="how-to-token-gate--website-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -216,10 +204,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="how-to-token-gate--website-icon03"
                 />
-                <span className="how-to-token-gate--website-text023">
+                <span className="how-to-token-gate--website-text020">
                   Publish
                 </span>
-                <span className="how-to-token-gate--website-text024">
+                <span className="how-to-token-gate--website-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -231,10 +219,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="how-to-token-gate--website-icon04"
                 />
-                <span className="how-to-token-gate--website-text025">
+                <span className="how-to-token-gate--website-text022">
                   Analyze
                 </span>
-                <span className="how-to-token-gate--website-text026">
+                <span className="how-to-token-gate--website-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -245,10 +233,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="how-to-token-gate--website-icon05"
                 />
-                <span className="how-to-token-gate--website-text027">
+                <span className="how-to-token-gate--website-text024">
                   Get leads
                 </span>
-                <span className="how-to-token-gate--website-text028">
+                <span className="how-to-token-gate--website-text025">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,7 +246,7 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="how-to-token-gate--website-banners">
           <div className="how-to-token-gate--website-blog">
-            <h2 className="how-to-token-gate--website-text029">
+            <h2 className="how-to-token-gate--website-text026">
               As the world of online communities and digital content continues
               to grow, creators and platforms are seeking new ways to protect
               access, validate users, and promote exclusivity.
@@ -268,7 +256,7 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </h2>
-            <span className="how-to-token-gate--website-text030">
+            <span className="how-to-token-gate--website-text027">
               <span>
                 Token gating is a novel approach to ensuring only qualified
                 individuals gain entry to specific online spaces. In this
@@ -277,10 +265,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="how-to-token-gate--website-text033">
+            <h2 className="how-to-token-gate--website-text030">
               What is Token Gating?
             </h2>
-            <span className="how-to-token-gate--website-text034">
+            <span className="how-to-token-gate--website-text031">
               <span>
                 Token gating is a method of access control that requires users
                 to hold a specific token in order to access certain content or
@@ -305,10 +293,10 @@ closeButton.addEventListener("click", function() {
                 including React, Angular, Next.js, Vue.js, and PHP/HTML5.
               </span>
             </span>
-            <h2 className="how-to-token-gate--website-text039">
+            <h2 className="how-to-token-gate--website-text036">
               How to Token Gate a Website with Gateful
             </h2>
-            <span className="how-to-token-gate--website-text040">
+            <span className="how-to-token-gate--website-text037">
               <span>
                 1. Sign up for a Gateful account and log in to the dashboard.
               </span>
@@ -362,11 +350,11 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="how-to-token-gate--website-blog1">
-            <h2 className="how-to-token-gate--website-text060">
+            <h2 className="how-to-token-gate--website-text057">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="how-to-token-gate--website-text061">
+            <span className="how-to-token-gate--website-text058">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
@@ -380,7 +368,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="how-to-token-gate--website-text062">
+                  <span className="how-to-token-gate--website-text059">
                     Book a Demo
                   </span>
                 </div>
@@ -395,7 +383,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="how-to-token-gate--website-text065">
+              <span className="how-to-token-gate--website-text062">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -421,16 +409,16 @@ closeButton.addEventListener("click", function() {
         <section className="how-to-token-gate--website-how-it-works">
           <div className="how-to-token-gate--website-centered-container1">
             <div className="how-to-token-gate--website-heading1">
-              <span className="how-to-token-gate--website-text066">
+              <span className="how-to-token-gate--website-text063">
                 How it works
               </span>
-              <span className="how-to-token-gate--website-text067 title">
+              <span className="how-to-token-gate--website-text064 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="how-to-token-gate--website-category">
               <div className="how-to-token-gate--website-headng">
-                <span className="how-to-token-gate--website-text068">
+                <span className="how-to-token-gate--website-text065">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -438,13 +426,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="how-to-token-gate--website-text069">
+                <span className="how-to-token-gate--website-text066">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="how-to-token-gate--website-get-started2 template-button">
-                  <span className="how-to-token-gate--website-text070">
+                  <span className="how-to-token-gate--website-text067">
                     Get started
                   </span>
                 </div>
@@ -460,10 +448,10 @@ closeButton.addEventListener("click", function() {
             <div className="how-to-token-gate--website-row">
               <div className="how-to-token-gate--website-category1">
                 <div className="how-to-token-gate--website-headng1">
-                  <span className="how-to-token-gate--website-text071">
+                  <span className="how-to-token-gate--website-text068">
                     2 — Act
                   </span>
-                  <span className="how-to-token-gate--website-text072">
+                  <span className="how-to-token-gate--website-text069">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -477,10 +465,10 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="how-to-token-gate--website-category2">
                 <div className="how-to-token-gate--website-headng2">
-                  <span className="how-to-token-gate--website-text073">
+                  <span className="how-to-token-gate--website-text070">
                     2 — Act
                   </span>
-                  <span className="how-to-token-gate--website-text074">
+                  <span className="how-to-token-gate--website-text071">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -498,35 +486,35 @@ closeButton.addEventListener("click", function() {
         <section className="how-to-token-gate--website-pricing">
           <div className="how-to-token-gate--website-centered-container2">
             <div className="how-to-token-gate--website-heading2">
-              <span className="how-to-token-gate--website-text075 title">
+              <span className="how-to-token-gate--website-text072 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="how-to-token-gate--website-text076">
+              <span className="how-to-token-gate--website-text073">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="how-to-token-gate--website-selection">
-                <span className="how-to-token-gate--website-text077">
+                <span className="how-to-token-gate--website-text074">
                   Monthly
                 </span>
-                <span className="how-to-token-gate--website-text078">
+                <span className="how-to-token-gate--website-text075">
                   Yearly
                 </span>
               </div>
             </div>
             <div className="how-to-token-gate--website-cards1">
               <div className="how-to-token-gate--website-card">
-                <span className="how-to-token-gate--website-text079">Free</span>
-                <span className="how-to-token-gate--website-text080">
+                <span className="how-to-token-gate--website-text076">Free</span>
+                <span className="how-to-token-gate--website-text077">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="how-to-token-gate--website-get-started3 template-button">
-                  <span className="how-to-token-gate--website-text081">
+                  <span className="how-to-token-gate--website-text078">
                     Start for free
                   </span>
                 </div>
-                <span className="how-to-token-gate--website-text082">
+                <span className="how-to-token-gate--website-text079">
                   What&apos;s included
                 </span>
                 <div className="how-to-token-gate--website-bullet-points">
@@ -537,7 +525,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text083">
+                    <span className="how-to-token-gate--website-text080">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -548,17 +536,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text084">
+                    <span className="how-to-token-gate--website-text081">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="how-to-token-gate--website-card1">
-                <span className="how-to-token-gate--website-text085">
+                <span className="how-to-token-gate--website-text082">
                   Pay as you go
                 </span>
-                <span className="how-to-token-gate--website-text086">
+                <span className="how-to-token-gate--website-text083">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -566,12 +554,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="how-to-token-gate--website-get-started4 template-button">
-                  <span className="how-to-token-gate--website-text090">
+                  <span className="how-to-token-gate--website-text087">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="how-to-token-gate--website-text093">
+                <span className="how-to-token-gate--website-text090">
                   What&apos;s included
                 </span>
                 <div className="how-to-token-gate--website-bullet-points1">
@@ -582,7 +570,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text094">
+                    <span className="how-to-token-gate--website-text091">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -593,7 +581,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text095">
+                    <span className="how-to-token-gate--website-text092">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -604,7 +592,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text096">
+                    <span className="how-to-token-gate--website-text093">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -615,17 +603,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text097">
+                    <span className="how-to-token-gate--website-text094">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="how-to-token-gate--website-card2">
-                <span className="how-to-token-gate--website-text098">
+                <span className="how-to-token-gate--website-text095">
                   Enterprise
                 </span>
-                <span className="how-to-token-gate--website-text099">
+                <span className="how-to-token-gate--website-text096">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -633,12 +621,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="how-to-token-gate--website-get-started5 template-button">
-                  <span className="how-to-token-gate--website-text102">
+                  <span className="how-to-token-gate--website-text099">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="how-to-token-gate--website-text105">
+                <span className="how-to-token-gate--website-text102">
                   What&apos;s included
                 </span>
                 <div className="how-to-token-gate--website-bullet-points2">
@@ -649,7 +637,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text106">
+                    <span className="how-to-token-gate--website-text103">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -660,7 +648,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text107">
+                    <span className="how-to-token-gate--website-text104">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -671,7 +659,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text108">
+                    <span className="how-to-token-gate--website-text105">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -682,7 +670,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="how-to-token-gate--website-text109">
+                    <span className="how-to-token-gate--website-text106">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -693,10 +681,10 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="how-to-token-gate--website-testimonals">
           <div className="how-to-token-gate--website-left2">
-            <span className="how-to-token-gate--website-text110">
+            <span className="how-to-token-gate--website-text107">
               Testimonals
             </span>
-            <span className="how-to-token-gate--website-text111 title">
+            <span className="how-to-token-gate--website-text108 title">
               What people say about Active
             </span>
           </div>
@@ -752,7 +740,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="how-to-token-gate--website-text112">
+          <span className="how-to-token-gate--website-text109">
             <span>Show more</span>
             <br></br>
           </span>
@@ -760,16 +748,16 @@ closeButton.addEventListener("click", function() {
         <section className="how-to-token-gate--website-action-bar">
           <div className="how-to-token-gate--website-action">
             <div className="how-to-token-gate--website-heading3">
-              <span className="how-to-token-gate--website-text115 title">
+              <span className="how-to-token-gate--website-text112 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="how-to-token-gate--website-text119">
+              <span className="how-to-token-gate--website-text116">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="how-to-token-gate--website-get-started6 template-button">
-                <span className="how-to-token-gate--website-text120">
+                <span className="how-to-token-gate--website-text117">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -779,7 +767,7 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="how-to-token-gate--website-image1"
+                className="how-to-token-gate--website-image"
               />
             </div>
           </div>
@@ -808,11 +796,11 @@ closeButton.addEventListener("click", function() {
             background-size: cover;
             background-image: linear-gradient(
                 135deg,
-                rgba(16, 138, 130, 0.75) 0%,
+                rgba(16, 138, 130, 0.9) 1%,
                 rgba(18, 16, 74, 0.85) 50%,
                 rgba(119, 18, 57, 0.8) 100%
               ),
-              url('https://images.unsplash.com/photo-1639475377520-b256a5d204b1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI1fHxjcnlwdG98ZW58MHx8fHwxNjgxNTkxNzg3&ixlib=rb-4.0.3&w=1500');
+              url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHdlYnNpdGV8ZW58MHx8fHwxNjgzNjU3MDg1&ixlib=rb-4.0.3&w=1500');
             background-position: top left, center;
           }
           .how-to-token-gate--website-menu {
@@ -972,7 +960,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .how-to-token-gate--website-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -986,25 +974,6 @@ closeButton.addEventListener("click", function() {
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
-          }
-          .how-to-token-gate--website-profile {
-            display: flex;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .how-to-token-gate--website-image {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-round);
-          }
-          .how-to-token-gate--website-text011 {
-            color: var(--dl-color-gray-white);
-            font-size: 20px;
-            font-weight: 300;
-            margin-left: var(--dl-space-space-unit);
           }
           .how-to-token-gate--website-features {
             width: 100%;
@@ -1023,14 +992,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .how-to-token-gate--website-text014 {
+          .how-to-token-gate--website-text011 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .how-to-token-gate--website-text018 {
+          .how-to-token-gate--website-text015 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1057,14 +1026,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text021 {
+          .how-to-token-gate--website-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .how-to-token-gate--website-text022 {
+          .how-to-token-gate--website-text019 {
             line-height: 24px;
           }
           .how-to-token-gate--website-publish {
@@ -1075,14 +1044,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text023 {
+          .how-to-token-gate--website-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .how-to-token-gate--website-text024 {
+          .how-to-token-gate--website-text021 {
             line-height: 24px;
           }
           .how-to-token-gate--website-container2 {
@@ -1098,14 +1067,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text025 {
+          .how-to-token-gate--website-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .how-to-token-gate--website-text026 {
+          .how-to-token-gate--website-text023 {
             line-height: 24px;
           }
           .how-to-token-gate--website-icon05 {
@@ -1113,14 +1082,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text027 {
+          .how-to-token-gate--website-text024 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .how-to-token-gate--website-text028 {
+          .how-to-token-gate--website-text025 {
             line-height: 24px;
           }
           .how-to-token-gate--website-banners {
@@ -1139,26 +1108,26 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .how-to-token-gate--website-text029 {
+          .how-to-token-gate--website-text026 {
             margin-bottom: var(--dl-space-space-unit);
+          }
+          .how-to-token-gate--website-text027 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .how-to-token-gate--website-text030 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .how-to-token-gate--website-text031 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text033 {
+          .how-to-token-gate--website-text036 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .how-to-token-gate--website-text034 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .how-to-token-gate--website-text039 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .how-to-token-gate--website-text040 {
+          .how-to-token-gate--website-text037 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1178,11 +1147,11 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .how-to-token-gate--website-text060 {
+          .how-to-token-gate--website-text057 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .how-to-token-gate--website-text061 {
+          .how-to-token-gate--website-text058 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
@@ -1218,7 +1187,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .how-to-token-gate--website-text062 {
+          .how-to-token-gate--website-text059 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1246,7 +1215,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .how-to-token-gate--website-text065 {
+          .how-to-token-gate--website-text062 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1308,13 +1277,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .how-to-token-gate--website-text066 {
+          .how-to-token-gate--website-text063 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .how-to-token-gate--website-text067 {
+          .how-to-token-gate--website-text064 {
             color: var(--dl-color-gray-white);
           }
           .how-to-token-gate--website-category {
@@ -1338,13 +1307,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .how-to-token-gate--website-text068 {
+          .how-to-token-gate--website-text065 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .how-to-token-gate--website-text069 {
+          .how-to-token-gate--website-text066 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1356,7 +1325,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .how-to-token-gate--website-text070 {
+          .how-to-token-gate--website-text067 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1402,14 +1371,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .how-to-token-gate--website-text071 {
+          .how-to-token-gate--website-text068 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .how-to-token-gate--website-text072 {
+          .how-to-token-gate--website-text069 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1438,14 +1407,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .how-to-token-gate--website-text073 {
+          .how-to-token-gate--website-text070 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .how-to-token-gate--website-text074 {
+          .how-to-token-gate--website-text071 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1479,11 +1448,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .how-to-token-gate--website-text075 {
+          .how-to-token-gate--website-text072 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .how-to-token-gate--website-text076 {
+          .how-to-token-gate--website-text073 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1496,7 +1465,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .how-to-token-gate--website-text077 {
+          .how-to-token-gate--website-text074 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1507,7 +1476,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .how-to-token-gate--website-text078 {
+          .how-to-token-gate--website-text075 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1542,13 +1511,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .how-to-token-gate--website-text079 {
+          .how-to-token-gate--website-text076 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text080 {
+          .how-to-token-gate--website-text077 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1560,13 +1529,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .how-to-token-gate--website-text081 {
+          .how-to-token-gate--website-text078 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .how-to-token-gate--website-text082 {
+          .how-to-token-gate--website-text079 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1589,7 +1558,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text083 {
+          .how-to-token-gate--website-text080 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1606,7 +1575,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text084 {
+          .how-to-token-gate--website-text081 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1627,13 +1596,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .how-to-token-gate--website-text085 {
+          .how-to-token-gate--website-text082 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text086 {
+          .how-to-token-gate--website-text083 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1645,13 +1614,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .how-to-token-gate--website-text090 {
+          .how-to-token-gate--website-text087 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .how-to-token-gate--website-text093 {
+          .how-to-token-gate--website-text090 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1674,7 +1643,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text094 {
+          .how-to-token-gate--website-text091 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1691,7 +1660,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text095 {
+          .how-to-token-gate--website-text092 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1708,7 +1677,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text096 {
+          .how-to-token-gate--website-text093 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1725,7 +1694,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text097 {
+          .how-to-token-gate--website-text094 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1745,14 +1714,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .how-to-token-gate--website-text098 {
+          .how-to-token-gate--website-text095 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .how-to-token-gate--website-text099 {
+          .how-to-token-gate--website-text096 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1766,12 +1735,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .how-to-token-gate--website-text102 {
+          .how-to-token-gate--website-text099 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .how-to-token-gate--website-text105 {
+          .how-to-token-gate--website-text102 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1795,7 +1764,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text106 {
+          .how-to-token-gate--website-text103 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1813,7 +1782,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text107 {
+          .how-to-token-gate--website-text104 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1831,7 +1800,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text108 {
+          .how-to-token-gate--website-text105 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1849,7 +1818,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .how-to-token-gate--website-text109 {
+          .how-to-token-gate--website-text106 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1874,13 +1843,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .how-to-token-gate--website-text110 {
+          .how-to-token-gate--website-text107 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .how-to-token-gate--website-text111 {
+          .how-to-token-gate--website-text108 {
             text-align: left;
           }
           .how-to-token-gate--website-right1 {
@@ -1898,7 +1867,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .how-to-token-gate--website-text112 {
+          .how-to-token-gate--website-text109 {
             cursor: pointer;
             display: none;
           }
@@ -1929,11 +1898,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .how-to-token-gate--website-text115 {
+          .how-to-token-gate--website-text112 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .how-to-token-gate--website-text119 {
+          .how-to-token-gate--website-text116 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -1941,7 +1910,7 @@ closeButton.addEventListener("click", function() {
           .how-to-token-gate--website-get-started6 {
             margin-bottom: 0px;
           }
-          .how-to-token-gate--website-text120 {
+          .how-to-token-gate--website-text117 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1952,7 +1921,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .how-to-token-gate--website-image1 {
+          .how-to-token-gate--website-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
@@ -1999,11 +1968,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .how-to-token-gate--website-text014 {
+            .how-to-token-gate--website-text011 {
               font-size: 36px;
               line-height: 40px;
             }
-            .how-to-token-gate--website-text018 {
+            .how-to-token-gate--website-text015 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2011,19 +1980,19 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .how-to-token-gate--website-text022 {
+            .how-to-token-gate--website-text019 {
+              line-height: 21px;
+            }
+            .how-to-token-gate--website-text021 {
+              line-height: 21px;
+            }
+            .how-to-token-gate--website-text023 {
               line-height: 21px;
             }
             .how-to-token-gate--website-text024 {
-              line-height: 21px;
-            }
-            .how-to-token-gate--website-text026 {
-              line-height: 21px;
-            }
-            .how-to-token-gate--website-text027 {
               font-size: 24px;
             }
-            .how-to-token-gate--website-text028 {
+            .how-to-token-gate--website-text025 {
               line-height: 21px;
             }
             .how-to-token-gate--website-container4 {
@@ -2053,7 +2022,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .how-to-token-gate--website-text076 {
+            .how-to-token-gate--website-text073 {
               width: 100%;
               max-width: 600px;
             }
@@ -2069,11 +2038,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .how-to-token-gate--website-text080 {
+            .how-to-token-gate--website-text077 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .how-to-token-gate--website-text082 {
+            .how-to-token-gate--website-text079 {
               font-size: 16px;
             }
             .how-to-token-gate--website-card1 {
@@ -2093,7 +2062,7 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .how-to-token-gate--website-text111 {
+            .how-to-token-gate--website-text108 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2118,7 +2087,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .how-to-token-gate--website-text115 {
+            .how-to-token-gate--website-text112 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2184,7 +2153,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .how-to-token-gate--website-text014 {
+            .how-to-token-gate--website-text011 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2195,19 +2164,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .how-to-token-gate--website-text021 {
+            .how-to-token-gate--website-text018 {
               font-size: 24px;
             }
-            .how-to-token-gate--website-text022 {
+            .how-to-token-gate--website-text019 {
               font-size: 14px;
             }
             .how-to-token-gate--website-publish {
               margin-left: 0px;
             }
-            .how-to-token-gate--website-text023 {
+            .how-to-token-gate--website-text020 {
               font-size: 24px;
             }
-            .how-to-token-gate--website-text024 {
+            .how-to-token-gate--website-text021 {
               font-size: 14px;
             }
             .how-to-token-gate--website-container2 {
@@ -2217,13 +2186,13 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-analyze {
               margin-right: 0px;
             }
-            .how-to-token-gate--website-text025 {
+            .how-to-token-gate--website-text022 {
               font-size: 24px;
             }
-            .how-to-token-gate--website-text026 {
+            .how-to-token-gate--website-text023 {
               font-size: 14px;
             }
-            .how-to-token-gate--website-text028 {
+            .how-to-token-gate--website-text025 {
               font-size: 14px;
             }
             .how-to-token-gate--website-blog {
@@ -2243,7 +2212,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .how-to-token-gate--website-text065 {
+            .how-to-token-gate--website-text062 {
               line-height: 24px;
             }
             .how-to-token-gate--website-pills {
@@ -2258,7 +2227,7 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .how-to-token-gate--website-text067 {
+            .how-to-token-gate--website-text064 {
               margin-bottom: 0px;
             }
             .how-to-token-gate--website-headng {
@@ -2282,7 +2251,7 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .how-to-token-gate--website-text079 {
+            .how-to-token-gate--website-text076 {
               font-size: 28px;
             }
             .how-to-token-gate--website-card1 {
@@ -2291,7 +2260,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .how-to-token-gate--website-text085 {
+            .how-to-token-gate--website-text082 {
               font-size: 28px;
             }
             .how-to-token-gate--website-card2 {
@@ -2299,7 +2268,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .how-to-token-gate--website-text098 {
+            .how-to-token-gate--website-text095 {
               font-size: 28px;
             }
             .how-to-token-gate--website-testimonals {
@@ -2314,7 +2283,7 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-column1 {
               display: none;
             }
-            .how-to-token-gate--website-text112 {
+            .how-to-token-gate--website-text109 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2334,11 +2303,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .how-to-token-gate--website-text115 {
+            .how-to-token-gate--website-text112 {
               font-size: 28px;
               text-align: left;
             }
-            .how-to-token-gate--website-text120 {
+            .how-to-token-gate--website-text117 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2347,7 +2316,7 @@ closeButton.addEventListener("click", function() {
             .how-to-token-gate--website-images {
               justify-content: center;
             }
-            .how-to-token-gate--website-image1 {
+            .how-to-token-gate--website-image {
               width: 100%;
             }
           }

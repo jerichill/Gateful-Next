@@ -158,23 +158,11 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </p>
-            <div className="unlock-token-gate-signature-request-profile">
-              <img
-                alt="profile"
-                src="/playground_assets/headshot2022bpng-200w.png"
-                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                className="unlock-token-gate-signature-request-image"
-              />
-              <span className="unlock-token-gate-signature-request-text013">
-                <span>J. Eric Hill</span>
-                <br></br>
-              </span>
-            </div>
           </header>
         </section>
         <section className="unlock-token-gate-signature-request-features">
           <div className="unlock-token-gate-signature-request-title">
-            <span className="unlock-token-gate-signature-request-text016">
+            <span className="unlock-token-gate-signature-request-text013">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -186,7 +174,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="unlock-token-gate-signature-request-text020">
+            <span className="unlock-token-gate-signature-request-text017">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -206,10 +194,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="unlock-token-gate-signature-request-icon02"
                 />
-                <span className="unlock-token-gate-signature-request-text023">
+                <span className="unlock-token-gate-signature-request-text020">
                   Schedule
                 </span>
-                <span className="unlock-token-gate-signature-request-text024">
+                <span className="unlock-token-gate-signature-request-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -220,10 +208,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="unlock-token-gate-signature-request-icon03"
                 />
-                <span className="unlock-token-gate-signature-request-text025">
+                <span className="unlock-token-gate-signature-request-text022">
                   Publish
                 </span>
-                <span className="unlock-token-gate-signature-request-text026">
+                <span className="unlock-token-gate-signature-request-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -235,10 +223,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="unlock-token-gate-signature-request-icon04"
                 />
-                <span className="unlock-token-gate-signature-request-text027">
+                <span className="unlock-token-gate-signature-request-text024">
                   Analyze
                 </span>
-                <span className="unlock-token-gate-signature-request-text028">
+                <span className="unlock-token-gate-signature-request-text025">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -249,10 +237,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="unlock-token-gate-signature-request-icon05"
                 />
-                <span className="unlock-token-gate-signature-request-text029">
+                <span className="unlock-token-gate-signature-request-text026">
                   Get leads
                 </span>
-                <span className="unlock-token-gate-signature-request-text030">
+                <span className="unlock-token-gate-signature-request-text027">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -262,12 +250,12 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="unlock-token-gate-signature-request-banners">
           <div className="unlock-token-gate-signature-request-blog">
-            <h2 className="unlock-token-gate-signature-request-text031">
+            <h2 className="unlock-token-gate-signature-request-text028">
               As the world of online communities and digital content continues
               to grow, creators and platforms are seeking new ways to protect
               access, validate users, and promote exclusivity.
             </h2>
-            <span className="unlock-token-gate-signature-request-text032">
+            <span className="unlock-token-gate-signature-request-text029">
               <span>
                 Enter token gating, a novel approach to ensuring only qualified
                 individuals gain entry to specific online spaces. In this
@@ -278,10 +266,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="unlock-token-gate-signature-request-text035">
+            <h2 className="unlock-token-gate-signature-request-text032">
               Token Gating: An Overview
             </h2>
-            <span className="unlock-token-gate-signature-request-text036">
+            <span className="unlock-token-gate-signature-request-text033">
               Token gating is a method used by creators and platforms to limit
               access to content or communities by requiring users to possess a
               specific digital token. These tokens, often built on blockchain
@@ -290,10 +278,10 @@ closeButton.addEventListener("click", function() {
               specific criteria before they can access the restricted content or
               community.
             </span>
-            <h2 className="unlock-token-gate-signature-request-text037">
+            <h2 className="unlock-token-gate-signature-request-text034">
               The Signature Request: A Key Component
             </h2>
-            <span className="unlock-token-gate-signature-request-text038">
+            <span className="unlock-token-gate-signature-request-text035">
               <span>
                 A signature request is a crucial step in the token gating
                 process, acting as a verification tool for both the user and the
@@ -303,43 +291,43 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h3 className="unlock-token-gate-signature-request-text041">
+            <h3 className="unlock-token-gate-signature-request-text038">
               The process typically unfolds as follows:
             </h3>
             <ul className="list">
               <li className="list-item">
-                <span className="unlock-token-gate-signature-request-text042">
+                <span className="unlock-token-gate-signature-request-text039">
                   A user attempts to access token-gated content or a community.
                 </span>
               </li>
               <li className="list-item">
-                <span className="unlock-token-gate-signature-request-text043">
+                <span className="unlock-token-gate-signature-request-text040">
                   The platform requests a signature from the user&apos;s digital
                   wallet to verify their token ownership.
                 </span>
               </li>
               <li className="list-item">
-                <span className="unlock-token-gate-signature-request-text044">
+                <span className="unlock-token-gate-signature-request-text041">
                   The user&apos;s wallet generates a unique, one-time-use
                   signature that proves their ownership of the required token.
                 </span>
               </li>
               <li className="list-item">
-                <span className="unlock-token-gate-signature-request-text045">
+                <span className="unlock-token-gate-signature-request-text042">
                   The platform verifies the signature, granting access to the
                   user if the criteria are met.
                 </span>
               </li>
             </ul>
-            <h2 className="unlock-token-gate-signature-request-text046">
+            <h2 className="unlock-token-gate-signature-request-text043">
               Importance of Signature Requests in Token Gating
             </h2>
-            <h3 className="unlock-token-gate-signature-request-text047">
+            <h3 className="unlock-token-gate-signature-request-text044">
               Signature requests play a vital role in token gating for several
               reasons:
             </h3>
-            <span className="unlock-token-gate-signature-request-text048">
-              <span className="unlock-token-gate-signature-request-text049">
+            <span className="unlock-token-gate-signature-request-text045">
+              <span className="unlock-token-gate-signature-request-text046">
                 Security:
               </span>
               <span>
@@ -351,7 +339,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="unlock-token-gate-signature-request-text053">
+              <span className="unlock-token-gate-signature-request-text050">
                 Decentralization:
                 <span
                   dangerouslySetInnerHTML={{
@@ -367,7 +355,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="unlock-token-gate-signature-request-text057">
+              <span className="unlock-token-gate-signature-request-text054">
                 Privacy:
               </span>
               <span>
@@ -380,7 +368,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
               <br></br>
-              <span className="unlock-token-gate-signature-request-text061">
+              <span className="unlock-token-gate-signature-request-text058">
                 Flexibility:
               </span>
               <span>
@@ -393,7 +381,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <span className="unlock-token-gate-signature-request-text064">
+            <span className="unlock-token-gate-signature-request-text061">
               Token gating is an innovative method to protect exclusive content
               and communities in the digital age. The signature request serves
               as a secure, decentralized, and privacy-friendly way of verifying
@@ -405,11 +393,11 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="unlock-token-gate-signature-request-blog1">
-            <h2 className="unlock-token-gate-signature-request-text065">
+            <h2 className="unlock-token-gate-signature-request-text062">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="unlock-token-gate-signature-request-text066">
+            <span className="unlock-token-gate-signature-request-text063">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
@@ -423,7 +411,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="unlock-token-gate-signature-request-text067">
+                  <span className="unlock-token-gate-signature-request-text064">
                     Book a Demo
                   </span>
                 </div>
@@ -438,7 +426,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="unlock-token-gate-signature-request-text070">
+              <span className="unlock-token-gate-signature-request-text067">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -464,16 +452,16 @@ closeButton.addEventListener("click", function() {
         <section className="unlock-token-gate-signature-request-how-it-works">
           <div className="unlock-token-gate-signature-request-centered-container1">
             <div className="unlock-token-gate-signature-request-heading1">
-              <span className="unlock-token-gate-signature-request-text071">
+              <span className="unlock-token-gate-signature-request-text068">
                 How it works
               </span>
-              <span className="unlock-token-gate-signature-request-text072 title">
+              <span className="unlock-token-gate-signature-request-text069 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="unlock-token-gate-signature-request-category">
               <div className="unlock-token-gate-signature-request-headng">
-                <span className="unlock-token-gate-signature-request-text073">
+                <span className="unlock-token-gate-signature-request-text070">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -481,13 +469,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="unlock-token-gate-signature-request-text074">
+                <span className="unlock-token-gate-signature-request-text071">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="unlock-token-gate-signature-request-get-started2 template-button">
-                  <span className="unlock-token-gate-signature-request-text075">
+                  <span className="unlock-token-gate-signature-request-text072">
                     Get started
                   </span>
                 </div>
@@ -503,10 +491,10 @@ closeButton.addEventListener("click", function() {
             <div className="unlock-token-gate-signature-request-row">
               <div className="unlock-token-gate-signature-request-category1">
                 <div className="unlock-token-gate-signature-request-headng1">
-                  <span className="unlock-token-gate-signature-request-text076">
+                  <span className="unlock-token-gate-signature-request-text073">
                     2 — Act
                   </span>
-                  <span className="unlock-token-gate-signature-request-text077">
+                  <span className="unlock-token-gate-signature-request-text074">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -520,10 +508,10 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="unlock-token-gate-signature-request-category2">
                 <div className="unlock-token-gate-signature-request-headng2">
-                  <span className="unlock-token-gate-signature-request-text078">
+                  <span className="unlock-token-gate-signature-request-text075">
                     2 — Act
                   </span>
-                  <span className="unlock-token-gate-signature-request-text079">
+                  <span className="unlock-token-gate-signature-request-text076">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -541,37 +529,37 @@ closeButton.addEventListener("click", function() {
         <section className="unlock-token-gate-signature-request-pricing">
           <div className="unlock-token-gate-signature-request-centered-container2">
             <div className="unlock-token-gate-signature-request-heading2">
-              <span className="unlock-token-gate-signature-request-text080 title">
+              <span className="unlock-token-gate-signature-request-text077 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="unlock-token-gate-signature-request-text081">
+              <span className="unlock-token-gate-signature-request-text078">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="unlock-token-gate-signature-request-selection">
-                <span className="unlock-token-gate-signature-request-text082">
+                <span className="unlock-token-gate-signature-request-text079">
                   Monthly
                 </span>
-                <span className="unlock-token-gate-signature-request-text083">
+                <span className="unlock-token-gate-signature-request-text080">
                   Yearly
                 </span>
               </div>
             </div>
             <div className="unlock-token-gate-signature-request-cards1">
               <div className="unlock-token-gate-signature-request-card">
-                <span className="unlock-token-gate-signature-request-text084">
+                <span className="unlock-token-gate-signature-request-text081">
                   Free
                 </span>
-                <span className="unlock-token-gate-signature-request-text085">
+                <span className="unlock-token-gate-signature-request-text082">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="unlock-token-gate-signature-request-get-started3 template-button">
-                  <span className="unlock-token-gate-signature-request-text086">
+                  <span className="unlock-token-gate-signature-request-text083">
                     Start for free
                   </span>
                 </div>
-                <span className="unlock-token-gate-signature-request-text087">
+                <span className="unlock-token-gate-signature-request-text084">
                   What&apos;s included
                 </span>
                 <div className="unlock-token-gate-signature-request-bullet-points">
@@ -582,7 +570,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text088">
+                    <span className="unlock-token-gate-signature-request-text085">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -593,17 +581,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text089">
+                    <span className="unlock-token-gate-signature-request-text086">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="unlock-token-gate-signature-request-card1">
-                <span className="unlock-token-gate-signature-request-text090">
+                <span className="unlock-token-gate-signature-request-text087">
                   Pay as you go
                 </span>
-                <span className="unlock-token-gate-signature-request-text091">
+                <span className="unlock-token-gate-signature-request-text088">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -611,12 +599,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="unlock-token-gate-signature-request-get-started4 template-button">
-                  <span className="unlock-token-gate-signature-request-text095">
+                  <span className="unlock-token-gate-signature-request-text092">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="unlock-token-gate-signature-request-text098">
+                <span className="unlock-token-gate-signature-request-text095">
                   What&apos;s included
                 </span>
                 <div className="unlock-token-gate-signature-request-bullet-points1">
@@ -627,7 +615,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text099">
+                    <span className="unlock-token-gate-signature-request-text096">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -638,7 +626,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text100">
+                    <span className="unlock-token-gate-signature-request-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -649,7 +637,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text101">
+                    <span className="unlock-token-gate-signature-request-text098">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -660,17 +648,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text102">
+                    <span className="unlock-token-gate-signature-request-text099">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="unlock-token-gate-signature-request-card2">
-                <span className="unlock-token-gate-signature-request-text103">
+                <span className="unlock-token-gate-signature-request-text100">
                   Enterprise
                 </span>
-                <span className="unlock-token-gate-signature-request-text104">
+                <span className="unlock-token-gate-signature-request-text101">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -678,12 +666,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="unlock-token-gate-signature-request-get-started5 template-button">
-                  <span className="unlock-token-gate-signature-request-text107">
+                  <span className="unlock-token-gate-signature-request-text104">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="unlock-token-gate-signature-request-text110">
+                <span className="unlock-token-gate-signature-request-text107">
                   What&apos;s included
                 </span>
                 <div className="unlock-token-gate-signature-request-bullet-points2">
@@ -694,7 +682,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text111">
+                    <span className="unlock-token-gate-signature-request-text108">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -705,7 +693,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text112">
+                    <span className="unlock-token-gate-signature-request-text109">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -716,7 +704,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text113">
+                    <span className="unlock-token-gate-signature-request-text110">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -727,7 +715,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="unlock-token-gate-signature-request-text114">
+                    <span className="unlock-token-gate-signature-request-text111">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -738,10 +726,10 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="unlock-token-gate-signature-request-testimonals">
           <div className="unlock-token-gate-signature-request-left2">
-            <span className="unlock-token-gate-signature-request-text115">
+            <span className="unlock-token-gate-signature-request-text112">
               Testimonals
             </span>
-            <span className="unlock-token-gate-signature-request-text116 title">
+            <span className="unlock-token-gate-signature-request-text113 title">
               What people say about Active
             </span>
           </div>
@@ -797,7 +785,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="unlock-token-gate-signature-request-text117">
+          <span className="unlock-token-gate-signature-request-text114">
             <span>Show more</span>
             <br></br>
           </span>
@@ -805,16 +793,16 @@ closeButton.addEventListener("click", function() {
         <section className="unlock-token-gate-signature-request-action-bar">
           <div className="unlock-token-gate-signature-request-action">
             <div className="unlock-token-gate-signature-request-heading3">
-              <span className="unlock-token-gate-signature-request-text120 title">
+              <span className="unlock-token-gate-signature-request-text117 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="unlock-token-gate-signature-request-text124">
+              <span className="unlock-token-gate-signature-request-text121">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="unlock-token-gate-signature-request-get-started6 template-button">
-                <span className="unlock-token-gate-signature-request-text125">
+                <span className="unlock-token-gate-signature-request-text122">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -824,7 +812,7 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="unlock-token-gate-signature-request-image1"
+                className="unlock-token-gate-signature-request-image"
               />
             </div>
           </div>
@@ -1017,7 +1005,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .unlock-token-gate-signature-request-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -1031,25 +1019,6 @@ closeButton.addEventListener("click", function() {
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
-          }
-          .unlock-token-gate-signature-request-profile {
-            display: flex;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .unlock-token-gate-signature-request-image {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-round);
-          }
-          .unlock-token-gate-signature-request-text013 {
-            color: var(--dl-color-gray-white);
-            font-size: 20px;
-            font-weight: 300;
-            margin-left: var(--dl-space-space-unit);
           }
           .unlock-token-gate-signature-request-features {
             width: 100%;
@@ -1068,14 +1037,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text016 {
+          .unlock-token-gate-signature-request-text013 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .unlock-token-gate-signature-request-text020 {
+          .unlock-token-gate-signature-request-text017 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1102,14 +1071,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text023 {
+          .unlock-token-gate-signature-request-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .unlock-token-gate-signature-request-text024 {
+          .unlock-token-gate-signature-request-text021 {
             line-height: 24px;
           }
           .unlock-token-gate-signature-request-publish {
@@ -1120,14 +1089,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text025 {
+          .unlock-token-gate-signature-request-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .unlock-token-gate-signature-request-text026 {
+          .unlock-token-gate-signature-request-text023 {
             line-height: 24px;
           }
           .unlock-token-gate-signature-request-container2 {
@@ -1143,14 +1112,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text027 {
+          .unlock-token-gate-signature-request-text024 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .unlock-token-gate-signature-request-text028 {
+          .unlock-token-gate-signature-request-text025 {
             line-height: 24px;
           }
           .unlock-token-gate-signature-request-icon05 {
@@ -1158,14 +1127,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text029 {
+          .unlock-token-gate-signature-request-text026 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .unlock-token-gate-signature-request-text030 {
+          .unlock-token-gate-signature-request-text027 {
             line-height: 24px;
           }
           .unlock-token-gate-signature-request-banners {
@@ -1184,75 +1153,75 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .unlock-token-gate-signature-request-text031 {
+          .unlock-token-gate-signature-request-text028 {
             margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text029 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .unlock-token-gate-signature-request-text032 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text033 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .unlock-token-gate-signature-request-text034 {
+            margin-bottom: var(--dl-space-space-unit);
           }
           .unlock-token-gate-signature-request-text035 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .unlock-token-gate-signature-request-text036 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .unlock-token-gate-signature-request-text037 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .unlock-token-gate-signature-request-text038 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .unlock-token-gate-signature-request-text041 {
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+          }
+          .unlock-token-gate-signature-request-text039 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text040 {
+            font-size: 18px;
+          }
+          .unlock-token-gate-signature-request-text041 {
+            font-size: 18px;
           }
           .unlock-token-gate-signature-request-text042 {
             font-size: 18px;
           }
           .unlock-token-gate-signature-request-text043 {
-            font-size: 18px;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .unlock-token-gate-signature-request-text044 {
-            font-size: 18px;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .unlock-token-gate-signature-request-text045 {
-            font-size: 18px;
-          }
-          .unlock-token-gate-signature-request-text046 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .unlock-token-gate-signature-request-text047 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .unlock-token-gate-signature-request-text048 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text049 {
+          .unlock-token-gate-signature-request-text046 {
             font-style: normal;
             font-weight: 700;
           }
-          .unlock-token-gate-signature-request-text053 {
+          .unlock-token-gate-signature-request-text050 {
             font-style: normal;
             font-weight: 700;
           }
-          .unlock-token-gate-signature-request-text057 {
+          .unlock-token-gate-signature-request-text054 {
+            font-style: normal;
+            font-weight: 700;
+          }
+          .unlock-token-gate-signature-request-text058 {
             font-style: normal;
             font-weight: 700;
           }
           .unlock-token-gate-signature-request-text061 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .unlock-token-gate-signature-request-text064 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1272,11 +1241,11 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .unlock-token-gate-signature-request-text065 {
+          .unlock-token-gate-signature-request-text062 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .unlock-token-gate-signature-request-text066 {
+          .unlock-token-gate-signature-request-text063 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
@@ -1312,7 +1281,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .unlock-token-gate-signature-request-text067 {
+          .unlock-token-gate-signature-request-text064 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1340,7 +1309,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text070 {
+          .unlock-token-gate-signature-request-text067 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1402,13 +1371,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text071 {
+          .unlock-token-gate-signature-request-text068 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .unlock-token-gate-signature-request-text072 {
+          .unlock-token-gate-signature-request-text069 {
             color: var(--dl-color-gray-white);
           }
           .unlock-token-gate-signature-request-category {
@@ -1432,13 +1401,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .unlock-token-gate-signature-request-text073 {
+          .unlock-token-gate-signature-request-text070 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .unlock-token-gate-signature-request-text074 {
+          .unlock-token-gate-signature-request-text071 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1450,7 +1419,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .unlock-token-gate-signature-request-text075 {
+          .unlock-token-gate-signature-request-text072 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1496,14 +1465,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .unlock-token-gate-signature-request-text076 {
+          .unlock-token-gate-signature-request-text073 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .unlock-token-gate-signature-request-text077 {
+          .unlock-token-gate-signature-request-text074 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1532,14 +1501,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .unlock-token-gate-signature-request-text078 {
+          .unlock-token-gate-signature-request-text075 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .unlock-token-gate-signature-request-text079 {
+          .unlock-token-gate-signature-request-text076 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1573,11 +1542,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text080 {
+          .unlock-token-gate-signature-request-text077 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .unlock-token-gate-signature-request-text081 {
+          .unlock-token-gate-signature-request-text078 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1590,7 +1559,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .unlock-token-gate-signature-request-text082 {
+          .unlock-token-gate-signature-request-text079 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1601,7 +1570,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .unlock-token-gate-signature-request-text083 {
+          .unlock-token-gate-signature-request-text080 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1636,13 +1605,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .unlock-token-gate-signature-request-text084 {
+          .unlock-token-gate-signature-request-text081 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text085 {
+          .unlock-token-gate-signature-request-text082 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1654,13 +1623,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .unlock-token-gate-signature-request-text086 {
+          .unlock-token-gate-signature-request-text083 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .unlock-token-gate-signature-request-text087 {
+          .unlock-token-gate-signature-request-text084 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1683,7 +1652,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text088 {
+          .unlock-token-gate-signature-request-text085 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1700,7 +1669,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text089 {
+          .unlock-token-gate-signature-request-text086 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1721,13 +1690,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .unlock-token-gate-signature-request-text090 {
+          .unlock-token-gate-signature-request-text087 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text091 {
+          .unlock-token-gate-signature-request-text088 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1739,13 +1708,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .unlock-token-gate-signature-request-text095 {
+          .unlock-token-gate-signature-request-text092 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .unlock-token-gate-signature-request-text098 {
+          .unlock-token-gate-signature-request-text095 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1768,7 +1737,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text099 {
+          .unlock-token-gate-signature-request-text096 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1785,7 +1754,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text100 {
+          .unlock-token-gate-signature-request-text097 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1802,7 +1771,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text101 {
+          .unlock-token-gate-signature-request-text098 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1819,7 +1788,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text102 {
+          .unlock-token-gate-signature-request-text099 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1839,14 +1808,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .unlock-token-gate-signature-request-text103 {
+          .unlock-token-gate-signature-request-text100 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .unlock-token-gate-signature-request-text104 {
+          .unlock-token-gate-signature-request-text101 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1860,12 +1829,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .unlock-token-gate-signature-request-text107 {
+          .unlock-token-gate-signature-request-text104 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .unlock-token-gate-signature-request-text110 {
+          .unlock-token-gate-signature-request-text107 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1889,7 +1858,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text111 {
+          .unlock-token-gate-signature-request-text108 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1907,7 +1876,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text112 {
+          .unlock-token-gate-signature-request-text109 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1925,7 +1894,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text113 {
+          .unlock-token-gate-signature-request-text110 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1943,7 +1912,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .unlock-token-gate-signature-request-text114 {
+          .unlock-token-gate-signature-request-text111 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1968,13 +1937,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text115 {
+          .unlock-token-gate-signature-request-text112 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .unlock-token-gate-signature-request-text116 {
+          .unlock-token-gate-signature-request-text113 {
             text-align: left;
           }
           .unlock-token-gate-signature-request-right1 {
@@ -1992,7 +1961,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .unlock-token-gate-signature-request-text117 {
+          .unlock-token-gate-signature-request-text114 {
             cursor: pointer;
             display: none;
           }
@@ -2023,11 +1992,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .unlock-token-gate-signature-request-text120 {
+          .unlock-token-gate-signature-request-text117 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .unlock-token-gate-signature-request-text124 {
+          .unlock-token-gate-signature-request-text121 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2035,7 +2004,7 @@ closeButton.addEventListener("click", function() {
           .unlock-token-gate-signature-request-get-started6 {
             margin-bottom: 0px;
           }
-          .unlock-token-gate-signature-request-text125 {
+          .unlock-token-gate-signature-request-text122 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2046,7 +2015,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .unlock-token-gate-signature-request-image1 {
+          .unlock-token-gate-signature-request-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
@@ -2093,11 +2062,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .unlock-token-gate-signature-request-text016 {
+            .unlock-token-gate-signature-request-text013 {
               font-size: 36px;
               line-height: 40px;
             }
-            .unlock-token-gate-signature-request-text020 {
+            .unlock-token-gate-signature-request-text017 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2105,19 +2074,19 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .unlock-token-gate-signature-request-text024 {
+            .unlock-token-gate-signature-request-text021 {
+              line-height: 21px;
+            }
+            .unlock-token-gate-signature-request-text023 {
+              line-height: 21px;
+            }
+            .unlock-token-gate-signature-request-text025 {
               line-height: 21px;
             }
             .unlock-token-gate-signature-request-text026 {
-              line-height: 21px;
-            }
-            .unlock-token-gate-signature-request-text028 {
-              line-height: 21px;
-            }
-            .unlock-token-gate-signature-request-text029 {
               font-size: 24px;
             }
-            .unlock-token-gate-signature-request-text030 {
+            .unlock-token-gate-signature-request-text027 {
               line-height: 21px;
             }
             .unlock-token-gate-signature-request-container4 {
@@ -2147,7 +2116,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .unlock-token-gate-signature-request-text081 {
+            .unlock-token-gate-signature-request-text078 {
               width: 100%;
               max-width: 600px;
             }
@@ -2163,11 +2132,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .unlock-token-gate-signature-request-text085 {
+            .unlock-token-gate-signature-request-text082 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .unlock-token-gate-signature-request-text087 {
+            .unlock-token-gate-signature-request-text084 {
               font-size: 16px;
             }
             .unlock-token-gate-signature-request-card1 {
@@ -2187,7 +2156,7 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .unlock-token-gate-signature-request-text116 {
+            .unlock-token-gate-signature-request-text113 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2212,7 +2181,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .unlock-token-gate-signature-request-text120 {
+            .unlock-token-gate-signature-request-text117 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2284,7 +2253,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .unlock-token-gate-signature-request-text016 {
+            .unlock-token-gate-signature-request-text013 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2295,19 +2264,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .unlock-token-gate-signature-request-text023 {
+            .unlock-token-gate-signature-request-text020 {
               font-size: 24px;
             }
-            .unlock-token-gate-signature-request-text024 {
+            .unlock-token-gate-signature-request-text021 {
               font-size: 14px;
             }
             .unlock-token-gate-signature-request-publish {
               margin-left: 0px;
             }
-            .unlock-token-gate-signature-request-text025 {
+            .unlock-token-gate-signature-request-text022 {
               font-size: 24px;
             }
-            .unlock-token-gate-signature-request-text026 {
+            .unlock-token-gate-signature-request-text023 {
               font-size: 14px;
             }
             .unlock-token-gate-signature-request-container2 {
@@ -2317,13 +2286,13 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-analyze {
               margin-right: 0px;
             }
-            .unlock-token-gate-signature-request-text027 {
+            .unlock-token-gate-signature-request-text024 {
               font-size: 24px;
             }
-            .unlock-token-gate-signature-request-text028 {
+            .unlock-token-gate-signature-request-text025 {
               font-size: 14px;
             }
-            .unlock-token-gate-signature-request-text030 {
+            .unlock-token-gate-signature-request-text027 {
               font-size: 14px;
             }
             .unlock-token-gate-signature-request-blog {
@@ -2343,7 +2312,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .unlock-token-gate-signature-request-text070 {
+            .unlock-token-gate-signature-request-text067 {
               line-height: 24px;
             }
             .unlock-token-gate-signature-request-pills {
@@ -2358,7 +2327,7 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .unlock-token-gate-signature-request-text072 {
+            .unlock-token-gate-signature-request-text069 {
               margin-bottom: 0px;
             }
             .unlock-token-gate-signature-request-headng {
@@ -2382,7 +2351,7 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .unlock-token-gate-signature-request-text084 {
+            .unlock-token-gate-signature-request-text081 {
               font-size: 28px;
             }
             .unlock-token-gate-signature-request-card1 {
@@ -2391,7 +2360,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .unlock-token-gate-signature-request-text090 {
+            .unlock-token-gate-signature-request-text087 {
               font-size: 28px;
             }
             .unlock-token-gate-signature-request-card2 {
@@ -2399,7 +2368,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .unlock-token-gate-signature-request-text103 {
+            .unlock-token-gate-signature-request-text100 {
               font-size: 28px;
             }
             .unlock-token-gate-signature-request-testimonals {
@@ -2414,7 +2383,7 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-column1 {
               display: none;
             }
-            .unlock-token-gate-signature-request-text117 {
+            .unlock-token-gate-signature-request-text114 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2434,11 +2403,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .unlock-token-gate-signature-request-text120 {
+            .unlock-token-gate-signature-request-text117 {
               font-size: 28px;
               text-align: left;
             }
-            .unlock-token-gate-signature-request-text125 {
+            .unlock-token-gate-signature-request-text122 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2447,7 +2416,7 @@ closeButton.addEventListener("click", function() {
             .unlock-token-gate-signature-request-images {
               justify-content: center;
             }
-            .unlock-token-gate-signature-request-image1 {
+            .unlock-token-gate-signature-request-image {
               width: 100%;
             }
           }

@@ -236,12 +236,12 @@ closeButton.addEventListener("click", function() {
               </Link>
             </div>
             <div className="blog-container04">
-              <Link href="/an-introduction-to-nft-token-gating">
+              <Link href="/how-to-token-gate-a-website">
                 <a className="blog-link09">
                   <BlogPostCard2
-                    title="Embracing the Future of Web3: An Introduction to NFT Token Gating"
-                    image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNTkxNTQy&amp;ixlib=rb-4.0.3&amp;w=1500"
-                    description='The world of digital assets and blockchain technology is evolving at a rapid pace. With the advent of non-fungible tokens (NFTs) and their increasing popularity, a new concept known as "token gating" has emerged. This white paper aims to introduce the concept of NFT token gating, its benefits, and potential use case examples that can revolutionize various industries.'
+                    title="How to Token Gate a Website"
+                    image_src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHdlYnNpdGV8ZW58MHx8fHwxNjgzNjU3MDg1&amp;ixlib=rb-4.0.3&amp;w=1500"
+                    description="Token gating is a novel approach to ensuring only qualified individuals gain entry to specific online spaces. In this article, we will dive into the concept of token gating and how to implement it on  your website using Gateful's Token Gating Platform."
                     profile_src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                     rootClassName="rootClassName"
                     className="blog-component01"
@@ -250,6 +250,16 @@ closeButton.addEventListener("click", function() {
               </Link>
             </div>
             <div className="blog-container05">
+              <BlogPostCard2
+                title="Embracing the Future of Web3: An Introduction to NFT Token Gating"
+                image_src="https://images.unsplash.com/photo-1664022617645-cf71791942e4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUzfHxuZnR8ZW58MHx8fHwxNjgxNTkxNTQy&amp;ixlib=rb-4.0.3&amp;w=1500"
+                description='The world of digital assets and blockchain technology is evolving at a rapid pace. With the advent of non-fungible tokens (NFTs) and their increasing popularity, a new concept known as "token gating" has emerged. This white paper aims to introduce the concept of NFT token gating, its benefits, and potential use case examples that can revolutionize various industries.'
+                profile_src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                rootClassName="rootClassName11"
+                className="blog-component02"
+              ></BlogPostCard2>
+            </div>
+            <div className="blog-container06">
               <Link href="/token-gating-for-digital-marketing">
                 <a className="blog-link10">
                   <BlogPostCard2
@@ -258,12 +268,12 @@ closeButton.addEventListener("click", function() {
                     description="Launching a marketing campaign targeting cryptocurrency holders using token gating involves a series of strategic steps. Token gating is a technique that grants access to exclusive content or experiences only to individuals who hold a certain number of tokens or a specific type of token. This approach can be highly effective in reaching the desired audience and driving engagement."
                     profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                     rootClassName="rootClassName2"
-                    className="blog-component02"
+                    className="blog-component03"
                   ></BlogPostCard2>
                 </a>
               </Link>
             </div>
-            <div className="blog-container06">
+            <div className="blog-container07">
               <Link href="/web3-and-user-adoption">
                 <a className="blog-link11">
                   <BlogPostCard2
@@ -272,12 +282,12 @@ closeButton.addEventListener("click", function() {
                     description="This article explores the concept of Web3, a decentralized and user-centric vision of the internet, and examines how users are adopting this new technology. By understanding the fundamentals of Web3 and the strategies being employed to promote its adoption, businesses and individuals can better navigate and capitalize on the opportunities presented by this innovative shift in the digital landscape."
                     profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                     rootClassName="rootClassName6"
-                    className="blog-component03"
+                    className="blog-component04"
                   ></BlogPostCard2>
                 </a>
               </Link>
             </div>
-            <div className="blog-container07">
+            <div className="blog-container08">
               <Link href="/unlock-token-gate-signature-request">
                 <a className="blog-link12">
                   <BlogPostCard2
@@ -286,12 +296,12 @@ closeButton.addEventListener("click", function() {
                     description="As the world of online communities and digital content continues to grow, creators and platforms are seeking new ways to protect access, validate users, and promote exclusivity. Enter token gating, a novel approach to ensuring only qualified individuals gain entry to specific online spaces. In this article, we will dive into the concept of token gating and, more specifically, demystify the signature request – a crucial component of the process. Let's start by understanding what token gating is and how it works."
                     profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                     rootClassName="rootClassName9"
-                    className="blog-component04"
+                    className="blog-component05"
                   ></BlogPostCard2>
                 </a>
               </Link>
             </div>
-            <div className="blog-container08">
+            <div className="blog-container09">
               <Link href="/steps-to-launch-nft-collection">
                 <a className="blog-link13">
                   <BlogPostCard2
@@ -300,7 +310,7 @@ closeButton.addEventListener("click", function() {
                     description="Launching an NFT collection can be a complex process that involves several steps, from conceptualizing your collection to marketing it to potential buyers and collectors. It requires a deep understanding of blockchain technology, smart contracts, and digital assets, as well as a strong sense of creativity and innovation to stand out in a crowded market. This article outlines the high-level steps to take to launch your NFT collection."
                     profile_src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                     rootClassName="rootClassName10"
-                    className="blog-component05"
+                    className="blog-component06"
                   ></BlogPostCard2>
                 </a>
               </Link>
@@ -321,13 +331,13 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="blog-pills-container">
               <div className="blog-pills">
-                <div className="blog-container09">
+                <div className="blog-container10">
                   <YouTube></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201012-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/layer1-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group-200h.png"></YouTube>
                 </div>
-                <div className="blog-container10">
+                <div className="blog-container11">
                   <YouTube pastedImage_src="/playground_assets/pinterest%20logo-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201014-200h.png"></YouTube>
                   <YouTube pastedImage_src="/playground_assets/group%201015-200h.png"></YouTube>
@@ -364,7 +374,7 @@ closeButton.addEventListener("click", function() {
                   <span className="blog-text33">Get started</span>
                 </div>
               </div>
-              <div className="blog-container11">
+              <div className="blog-container12">
                 <img
                   alt="pastedImage"
                   src="/playground_assets/pastedimage-k5xi%201-1200w.png"
@@ -865,7 +875,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .blog-text09 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -1046,9 +1056,6 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link10 {
-            display: contents;
-          }
           .blog-component02 {
             text-decoration: none;
           }
@@ -1059,7 +1066,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link11 {
+          .blog-link10 {
             display: contents;
           }
           .blog-component03 {
@@ -1072,7 +1079,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link12 {
+          .blog-link11 {
             display: contents;
           }
           .blog-component04 {
@@ -1085,10 +1092,23 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .blog-link13 {
+          .blog-link12 {
             display: contents;
           }
           .blog-component05 {
+            text-decoration: none;
+          }
+          .blog-container09 {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .blog-link13 {
+            display: contents;
+          }
+          .blog-component06 {
             text-decoration: none;
           }
           .blog-integrations {
@@ -1134,14 +1154,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .blog-container09 {
+          .blog-container10 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
           }
-          .blog-container10 {
+          .blog-container11 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             flex-wrap: wrap;
@@ -1228,7 +1248,7 @@ closeButton.addEventListener("click", function() {
             font-style: normal;
             font-weight: 600;
           }
-          .blog-container11 {
+          .blog-container12 {
             flex: 1;
             height: 100%;
             display: flex;
@@ -1893,7 +1913,7 @@ closeButton.addEventListener("click", function() {
             .blog-text25 {
               line-height: 21px;
             }
-            .blog-container10 {
+            .blog-container11 {
               margin-left: 0px;
             }
             .blog-category {
@@ -1904,7 +1924,7 @@ closeButton.addEventListener("click", function() {
             .blog-headng {
               margin-left: var(--dl-space-space-fourunits);
             }
-            .blog-container11 {
+            .blog-container12 {
               width: 100%;
             }
             .blog-pasted-image {
@@ -2127,7 +2147,7 @@ closeButton.addEventListener("click", function() {
             .blog-get-started1 {
               display: none;
             }
-            .blog-container11 {
+            .blog-container12 {
               width: 100%;
             }
             .blog-row {

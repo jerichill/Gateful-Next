@@ -154,23 +154,11 @@ closeButton.addEventListener("click", function() {
             <p className="about-token-gating-platforms-text010">
               Revolutionizing Web3 Content Monetization and Access Control
             </p>
-            <div className="about-token-gating-platforms-profile">
-              <img
-                alt="profile"
-                src="/playground_assets/headshot2022bpng-200w.png"
-                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                className="about-token-gating-platforms-image"
-              />
-              <span className="about-token-gating-platforms-text011">
-                <span>J. Eric Hill</span>
-                <br></br>
-              </span>
-            </div>
           </header>
         </section>
         <section className="about-token-gating-platforms-features">
           <div className="about-token-gating-platforms-title">
-            <span className="about-token-gating-platforms-text014">
+            <span className="about-token-gating-platforms-text011">
               <span>
                 Let&apos;s grow your social media
                 <span
@@ -182,7 +170,7 @@ closeButton.addEventListener("click", function() {
               <br></br>
               <span>presence</span>
             </span>
-            <span className="about-token-gating-platforms-text018">
+            <span className="about-token-gating-platforms-text015">
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 <span
@@ -202,10 +190,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-fii6m-200h.png"
                   className="about-token-gating-platforms-icon02"
                 />
-                <span className="about-token-gating-platforms-text021">
+                <span className="about-token-gating-platforms-text018">
                   Schedule
                 </span>
-                <span className="about-token-gating-platforms-text022">
+                <span className="about-token-gating-platforms-text019">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -216,10 +204,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-mimg-200h.png"
                   className="about-token-gating-platforms-icon03"
                 />
-                <span className="about-token-gating-platforms-text023">
+                <span className="about-token-gating-platforms-text020">
                   Publish
                 </span>
-                <span className="about-token-gating-platforms-text024">
+                <span className="about-token-gating-platforms-text021">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr
                 </span>
               </div>
@@ -231,10 +219,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-l6p-200h.png"
                   className="about-token-gating-platforms-icon04"
                 />
-                <span className="about-token-gating-platforms-text025">
+                <span className="about-token-gating-platforms-text022">
                   Analyze
                 </span>
-                <span className="about-token-gating-platforms-text026">
+                <span className="about-token-gating-platforms-text023">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -245,10 +233,10 @@ closeButton.addEventListener("click", function() {
                   src="/playground_assets/pastedimage-vyi5-200h.png"
                   className="about-token-gating-platforms-icon05"
                 />
-                <span className="about-token-gating-platforms-text027">
+                <span className="about-token-gating-platforms-text024">
                   Get leads
                 </span>
-                <span className="about-token-gating-platforms-text028">
+                <span className="about-token-gating-platforms-text025">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </span>
@@ -258,11 +246,11 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="about-token-gating-platforms-banners">
           <div className="about-token-gating-platforms-blog">
-            <h2 className="about-token-gating-platforms-text029">
+            <h2 className="about-token-gating-platforms-text026">
               Token Gating Platforms have emerged as a groundbreaking technology
               for content monetization and access control solutions.
             </h2>
-            <span className="about-token-gating-platforms-text030">
+            <span className="about-token-gating-platforms-text027">
               <span>
                 These platforms are becoming increasingly popular among
                 creators, developers, and brands alike, as they offer a new and
@@ -270,10 +258,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h2 className="about-token-gating-platforms-text033">
+            <h2 className="about-token-gating-platforms-text030">
               What is a Token Gating Platform?
             </h2>
-            <span className="about-token-gating-platforms-text034">
+            <span className="about-token-gating-platforms-text031">
               A Token Gating Platform is a technology that allows content
               creators to restrict access to their content based on a specific
               on-chain criteria, such as holding a certain amount of tokens or
@@ -282,13 +270,13 @@ closeButton.addEventListener("click", function() {
               way of gating content while rewarding users who meet the required
               on-chain conditions.
             </span>
-            <h2 className="about-token-gating-platforms-text035">
+            <h2 className="about-token-gating-platforms-text032">
               Benefits of Token Gating Platforms
             </h2>
-            <h3 className="about-token-gating-platforms-text036">
+            <h3 className="about-token-gating-platforms-text033">
               Enhanced Monetization Options
             </h3>
-            <span className="about-token-gating-platforms-text037">
+            <span className="about-token-gating-platforms-text034">
               <span>
                 Token gating platforms offer a unique monetization model for
                 creators, allowing them to charge users for access to premium
@@ -298,10 +286,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h3 className="about-token-gating-platforms-text040">
+            <h3 className="about-token-gating-platforms-text037">
               Improved Audience Engagement
             </h3>
-            <span className="about-token-gating-platforms-text041">
+            <span className="about-token-gating-platforms-text038">
               <span>
                 Token gating incentives users to engage more with the content,
                 as they need to acquire and hold tokens to access gated content.
@@ -311,10 +299,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h3 className="about-token-gating-platforms-text044">
+            <h3 className="about-token-gating-platforms-text041">
               Greater Control Over Content Distribution
             </h3>
-            <span className="about-token-gating-platforms-text045">
+            <span className="about-token-gating-platforms-text042">
               <span>
                 Token gating platforms enable creators to have more control over
                 their content and its distribution. By setting specific criteria
@@ -324,10 +312,10 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h3 className="about-token-gating-platforms-text048">
+            <h3 className="about-token-gating-platforms-text045">
               Decentralization and Transparency
             </h3>
-            <span className="about-token-gating-platforms-text049">
+            <span className="about-token-gating-platforms-text046">
               <span>
                 Token gating platforms are built on blockchain technology, which
                 ensures decentralization, transparency, and security. This
@@ -337,48 +325,48 @@ closeButton.addEventListener("click", function() {
               </span>
               <br></br>
             </span>
-            <h3 className="about-token-gating-platforms-text052">
+            <h3 className="about-token-gating-platforms-text049">
               Scalability and Interoperability
             </h3>
-            <span className="about-token-gating-platforms-text053">
+            <span className="about-token-gating-platforms-text050">
               Token gating platforms are designed to be scalable and
               interoperable with other blockchain networks and services. This
               allows for seamless integration with various decentralized
               applications, such as decentralized finance (DeFi) platforms,
               non-fungible token (NFT) marketplaces, and more.
             </span>
-            <h2 className="about-token-gating-platforms-text054">
+            <h2 className="about-token-gating-platforms-text051">
               Three Examples of Token Gating Platforms
             </h2>
-            <h3 className="about-token-gating-platforms-text055">Gateful</h3>
-            <span className="about-token-gating-platforms-text056">
+            <h3 className="about-token-gating-platforms-text052">Gateful</h3>
+            <span className="about-token-gating-platforms-text053">
               Gateful is a platform that provides an easy way to add Web3 Token
               Gating functionality to your website or web application. With
               Gateful, you can transform your project into a powerful
               Web3-connected community without writing any code.
             </span>
-            <h3 className="about-token-gating-platforms-text057">
+            <h3 className="about-token-gating-platforms-text054">
               Unlock Protocol
             </h3>
-            <span className="about-token-gating-platforms-text058">
+            <span className="about-token-gating-platforms-text055">
               Unlock Protocol is a decentralized access control protocol that
               enables creators to monetize their content by selling memberships
               as NFTs. Users can purchase these NFTs to unlock access to
               exclusive content, events, or services.
             </span>
-            <h3 className="about-token-gating-platforms-text059">RabbitHole</h3>
-            <span className="about-token-gating-platforms-text060">
+            <h3 className="about-token-gating-platforms-text056">RabbitHole</h3>
+            <span className="about-token-gating-platforms-text057">
               RabbitHole is a token gating platform that rewards users for
               completing tasks and engaging with decentralized applications.
               Users earn tokens by participating in various actions, such as
               voting on governance proposals, providing liquidity to DeFi
               platforms, or minting NFTs.
             </span>
-            <h2 className="about-token-gating-platforms-text061">
+            <h2 className="about-token-gating-platforms-text058">
               Token Gating Platforms are revolutionizing the way content
               creators monetize their work and engage with their audience.
             </h2>
-            <span className="about-token-gating-platforms-text062">
+            <span className="about-token-gating-platforms-text059">
               By leveraging blockchain technology and token-based access
               control, these platforms offer a more transparent, decentralized,
               and scalable solution for content distribution and monetization.
@@ -388,11 +376,11 @@ closeButton.addEventListener("click", function() {
             </span>
           </div>
           <div className="about-token-gating-platforms-blog1">
-            <h2 className="about-token-gating-platforms-text063">
+            <h2 className="about-token-gating-platforms-text060">
               Gateful is the easiest way to token gate any website or web
               application.
             </h2>
-            <span className="about-token-gating-platforms-text064">
+            <span className="about-token-gating-platforms-text061">
               If you&apos;re looking to add Web3 Token Gating functionality to
               your website or web application and do not know where to start,
               contact our Web3 implementation team for a demo.
@@ -406,7 +394,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M768 768v-42q0-58-88-95t-168-37-168 37-88 95v42h512zM512 256q-52 0-90 38t-38 90 38 90 90 38 90-38 38-90-38-90-90-38zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h42v-86h86v86h340v-86h86v86h42z"></path>
                   </svg>
-                  <span className="about-token-gating-platforms-text065">
+                  <span className="about-token-gating-platforms-text062">
                     Book a Demo
                   </span>
                 </div>
@@ -421,7 +409,7 @@ closeButton.addEventListener("click", function() {
               <span className="title">
                 Integrated with the tools you know and love
               </span>
-              <span className="about-token-gating-platforms-text068">
+              <span className="about-token-gating-platforms-text065">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
@@ -447,16 +435,16 @@ closeButton.addEventListener("click", function() {
         <section className="about-token-gating-platforms-how-it-works">
           <div className="about-token-gating-platforms-centered-container1">
             <div className="about-token-gating-platforms-heading1">
-              <span className="about-token-gating-platforms-text069">
+              <span className="about-token-gating-platforms-text066">
                 How it works
               </span>
-              <span className="about-token-gating-platforms-text070 title">
+              <span className="about-token-gating-platforms-text067 title">
                 Being social and getting leads has never been easier
               </span>
             </div>
             <div className="about-token-gating-platforms-category">
               <div className="about-token-gating-platforms-headng">
-                <span className="about-token-gating-platforms-text071">
+                <span className="about-token-gating-platforms-text068">
                   1 — Sign up
                   <span
                     dangerouslySetInnerHTML={{
@@ -464,13 +452,13 @@ closeButton.addEventListener("click", function() {
                     }}
                   />
                 </span>
-                <span className="about-token-gating-platforms-text072">
+                <span className="about-token-gating-platforms-text069">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   vv
                 </span>
                 <div className="about-token-gating-platforms-get-started2 template-button">
-                  <span className="about-token-gating-platforms-text073">
+                  <span className="about-token-gating-platforms-text070">
                     Get started
                   </span>
                 </div>
@@ -486,10 +474,10 @@ closeButton.addEventListener("click", function() {
             <div className="about-token-gating-platforms-row">
               <div className="about-token-gating-platforms-category1">
                 <div className="about-token-gating-platforms-headng1">
-                  <span className="about-token-gating-platforms-text074">
+                  <span className="about-token-gating-platforms-text071">
                     2 — Act
                   </span>
-                  <span className="about-token-gating-platforms-text075">
+                  <span className="about-token-gating-platforms-text072">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -503,10 +491,10 @@ closeButton.addEventListener("click", function() {
               </div>
               <div className="about-token-gating-platforms-category2">
                 <div className="about-token-gating-platforms-headng2">
-                  <span className="about-token-gating-platforms-text076">
+                  <span className="about-token-gating-platforms-text073">
                     2 — Act
                   </span>
-                  <span className="about-token-gating-platforms-text077">
+                  <span className="about-token-gating-platforms-text074">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. vv
@@ -524,37 +512,37 @@ closeButton.addEventListener("click", function() {
         <section className="about-token-gating-platforms-pricing">
           <div className="about-token-gating-platforms-centered-container2">
             <div className="about-token-gating-platforms-heading2">
-              <span className="about-token-gating-platforms-text078 title">
+              <span className="about-token-gating-platforms-text075 title">
                 Pricing for all kind of businesses
               </span>
-              <span className="about-token-gating-platforms-text079">
+              <span className="about-token-gating-platforms-text076">
                 Create next-generation solutions for small business customers
                 with pricing options that accommodate everyone.
               </span>
               <div className="about-token-gating-platforms-selection">
-                <span className="about-token-gating-platforms-text080">
+                <span className="about-token-gating-platforms-text077">
                   Monthly
                 </span>
-                <span className="about-token-gating-platforms-text081">
+                <span className="about-token-gating-platforms-text078">
                   Yearly
                 </span>
               </div>
             </div>
             <div className="about-token-gating-platforms-cards1">
               <div className="about-token-gating-platforms-card">
-                <span className="about-token-gating-platforms-text082">
+                <span className="about-token-gating-platforms-text079">
                   Free
                 </span>
-                <span className="about-token-gating-platforms-text083">
+                <span className="about-token-gating-platforms-text080">
                   Unlimited lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed doliqua.
                 </span>
                 <div className="about-token-gating-platforms-get-started3 template-button">
-                  <span className="about-token-gating-platforms-text084">
+                  <span className="about-token-gating-platforms-text081">
                     Start for free
                   </span>
                 </div>
-                <span className="about-token-gating-platforms-text085">
+                <span className="about-token-gating-platforms-text082">
                   What&apos;s included
                 </span>
                 <div className="about-token-gating-platforms-bullet-points">
@@ -565,7 +553,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text086">
+                    <span className="about-token-gating-platforms-text083">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -576,17 +564,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text087">
+                    <span className="about-token-gating-platforms-text084">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="about-token-gating-platforms-card1">
-                <span className="about-token-gating-platforms-text088">
+                <span className="about-token-gating-platforms-text085">
                   Pay as you go
                 </span>
-                <span className="about-token-gating-platforms-text089">
+                <span className="about-token-gating-platforms-text086">
                   <span>Launch your lorem for $49/mo</span>
                   <br></br>
                   <span>
@@ -594,12 +582,12 @@ closeButton.addEventListener("click", function() {
                   </span>
                 </span>
                 <div className="about-token-gating-platforms-get-started4 template-button">
-                  <span className="about-token-gating-platforms-text093">
+                  <span className="about-token-gating-platforms-text090">
                     <span>Upgrade now</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="about-token-gating-platforms-text096">
+                <span className="about-token-gating-platforms-text093">
                   What&apos;s included
                 </span>
                 <div className="about-token-gating-platforms-bullet-points1">
@@ -610,7 +598,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text097">
+                    <span className="about-token-gating-platforms-text094">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -621,7 +609,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text098">
+                    <span className="about-token-gating-platforms-text095">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -632,7 +620,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text099">
+                    <span className="about-token-gating-platforms-text096">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -643,17 +631,17 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text100">
+                    <span className="about-token-gating-platforms-text097">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
                 </div>
               </div>
               <div className="about-token-gating-platforms-card2">
-                <span className="about-token-gating-platforms-text101">
+                <span className="about-token-gating-platforms-text098">
                   Enterprise
                 </span>
-                <span className="about-token-gating-platforms-text102">
+                <span className="about-token-gating-platforms-text099">
                   <span>
                     Custom-built lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed doliqua.
@@ -661,12 +649,12 @@ closeButton.addEventListener("click", function() {
                   <br></br>
                 </span>
                 <div className="about-token-gating-platforms-get-started5 template-button">
-                  <span className="about-token-gating-platforms-text105">
+                  <span className="about-token-gating-platforms-text102">
                     <span>Contact us</span>
                     <br></br>
                   </span>
                 </div>
-                <span className="about-token-gating-platforms-text108">
+                <span className="about-token-gating-platforms-text105">
                   What&apos;s included
                 </span>
                 <div className="about-token-gating-platforms-bullet-points2">
@@ -677,7 +665,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text109">
+                    <span className="about-token-gating-platforms-text106">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -688,7 +676,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text110">
+                    <span className="about-token-gating-platforms-text107">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -699,7 +687,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text111">
+                    <span className="about-token-gating-platforms-text108">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -710,7 +698,7 @@ closeButton.addEventListener("click", function() {
                     >
                       <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="about-token-gating-platforms-text112">
+                    <span className="about-token-gating-platforms-text109">
                       Sed ut pespiciatis unde omnis
                     </span>
                   </div>
@@ -721,10 +709,10 @@ closeButton.addEventListener("click", function() {
         </section>
         <section className="about-token-gating-platforms-testimonals">
           <div className="about-token-gating-platforms-left2">
-            <span className="about-token-gating-platforms-text113">
+            <span className="about-token-gating-platforms-text110">
               Testimonals
             </span>
-            <span className="about-token-gating-platforms-text114 title">
+            <span className="about-token-gating-platforms-text111 title">
               What people say about Active
             </span>
           </div>
@@ -780,7 +768,7 @@ closeButton.addEventListener("click", function() {
               ></TestimonalBLurb>
             </div>
           </div>
-          <span className="about-token-gating-platforms-text115">
+          <span className="about-token-gating-platforms-text112">
             <span>Show more</span>
             <br></br>
           </span>
@@ -788,16 +776,16 @@ closeButton.addEventListener("click", function() {
         <section className="about-token-gating-platforms-action-bar">
           <div className="about-token-gating-platforms-action">
             <div className="about-token-gating-platforms-heading3">
-              <span className="about-token-gating-platforms-text118 title">
+              <span className="about-token-gating-platforms-text115 title">
                 <span>Get leads now </span>
                 <br></br>
                 <span>with Active!</span>
               </span>
-              <span className="about-token-gating-platforms-text122">
+              <span className="about-token-gating-platforms-text119">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </span>
               <div className="about-token-gating-platforms-get-started6 template-button">
-                <span className="about-token-gating-platforms-text123">
+                <span className="about-token-gating-platforms-text120">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -807,7 +795,7 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="image"
                 src="/playground_assets/e564eaa3c4fab71792794d666a281742-1200w.png"
-                className="about-token-gating-platforms-image1"
+                className="about-token-gating-platforms-image"
               />
             </div>
           </div>
@@ -1000,7 +988,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
           }
           .about-token-gating-platforms-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
@@ -1014,25 +1002,6 @@ closeButton.addEventListener("click", function() {
             margin-top: 16px;
             text-align: center;
             line-height: 30px;
-          }
-          .about-token-gating-platforms-profile {
-            display: flex;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .about-token-gating-platforms-image {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-round);
-          }
-          .about-token-gating-platforms-text011 {
-            color: var(--dl-color-gray-white);
-            font-size: 20px;
-            font-weight: 300;
-            margin-left: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-features {
             width: 100%;
@@ -1051,14 +1020,14 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .about-token-gating-platforms-text014 {
+          .about-token-gating-platforms-text011 {
             font-size: 56px;
             font-style: normal;
             text-align: center;
             font-weight: 700;
             line-height: 72px;
           }
-          .about-token-gating-platforms-text018 {
+          .about-token-gating-platforms-text015 {
             font-size: 20px;
             margin-top: 16px;
             text-align: center;
@@ -1085,14 +1054,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text021 {
+          .about-token-gating-platforms-text018 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text022 {
+          .about-token-gating-platforms-text019 {
             line-height: 24px;
           }
           .about-token-gating-platforms-publish {
@@ -1103,14 +1072,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text023 {
+          .about-token-gating-platforms-text020 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text024 {
+          .about-token-gating-platforms-text021 {
             line-height: 24px;
           }
           .about-token-gating-platforms-container2 {
@@ -1126,14 +1095,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text025 {
+          .about-token-gating-platforms-text022 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: 16px;
           }
-          .about-token-gating-platforms-text026 {
+          .about-token-gating-platforms-text023 {
             line-height: 24px;
           }
           .about-token-gating-platforms-icon05 {
@@ -1141,14 +1110,14 @@ closeButton.addEventListener("click", function() {
             height: 30px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text027 {
+          .about-token-gating-platforms-text024 {
             font-size: 28px;
             font-style: normal;
             font-weight: 700;
             line-height: 33px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text028 {
+          .about-token-gating-platforms-text025 {
             line-height: 24px;
           }
           .about-token-gating-platforms-banners {
@@ -1167,13 +1136,24 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-token-gating-platforms-text029 {
+          .about-token-gating-platforms-text026 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text030 {
+          .about-token-gating-platforms-text027 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .about-token-gating-platforms-text030 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-token-gating-platforms-text031 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .about-token-gating-platforms-text032 {
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text033 {
             margin-bottom: var(--dl-space-space-unit);
@@ -1183,86 +1163,75 @@ closeButton.addEventListener("click", function() {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text035 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-token-gating-platforms-text036 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
           .about-token-gating-platforms-text037 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-token-gating-platforms-text038 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-token-gating-platforms-text040 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text041 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-token-gating-platforms-text042 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-token-gating-platforms-text044 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text045 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-token-gating-platforms-text048 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text049 {
+          .about-token-gating-platforms-text046 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
+          .about-token-gating-platforms-text049 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-token-gating-platforms-text050 {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .about-token-gating-platforms-text051 {
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .about-token-gating-platforms-text052 {
+            margin-left: var(--dl-space-space-oneandhalfunits);
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text053 {
             font-size: 19px;
             line-height: 1.5;
+            margin-left: var(--dl-space-space-oneandhalfunits);
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .about-token-gating-platforms-text054 {
+            margin-left: var(--dl-space-space-oneandhalfunits);
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text055 {
+            font-size: 19px;
+            line-height: 1.5;
             margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .about-token-gating-platforms-text056 {
-            font-size: 19px;
-            line-height: 1.5;
             margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text057 {
+            font-size: 19px;
+            line-height: 1.5;
             margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .about-token-gating-platforms-text058 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-token-gating-platforms-text059 {
-            margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-token-gating-platforms-text060 {
-            font-size: 19px;
-            line-height: 1.5;
-            margin-left: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-token-gating-platforms-text061 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-token-gating-platforms-text062 {
             font-size: 19px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1282,11 +1251,11 @@ closeButton.addEventListener("click", function() {
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
-          .about-token-gating-platforms-text063 {
+          .about-token-gating-platforms-text060 {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-token-gating-platforms-text064 {
+          .about-token-gating-platforms-text061 {
             font-size: 19px;
             text-align: center;
             line-height: 1.5;
@@ -1322,7 +1291,7 @@ closeButton.addEventListener("click", function() {
             height: 20px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .about-token-gating-platforms-text065 {
+          .about-token-gating-platforms-text062 {
             color: var(--dl-color-primary-100);
             font-size: 18px;
             font-style: normal;
@@ -1350,7 +1319,7 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .about-token-gating-platforms-text068 {
+          .about-token-gating-platforms-text065 {
             color: rgb(0, 0, 0);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1412,13 +1381,13 @@ closeButton.addEventListener("click", function() {
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .about-token-gating-platforms-text069 {
+          .about-token-gating-platforms-text066 {
             color: rgb(220, 212, 253);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .about-token-gating-platforms-text070 {
+          .about-token-gating-platforms-text067 {
             color: var(--dl-color-gray-white);
           }
           .about-token-gating-platforms-category {
@@ -1442,13 +1411,13 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .about-token-gating-platforms-text071 {
+          .about-token-gating-platforms-text068 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-token-gating-platforms-text072 {
+          .about-token-gating-platforms-text069 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: 40px;
@@ -1460,7 +1429,7 @@ closeButton.addEventListener("click", function() {
             color: black;
             background-color: #ffffff;
           }
-          .about-token-gating-platforms-text073 {
+          .about-token-gating-platforms-text070 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -1506,14 +1475,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .about-token-gating-platforms-text074 {
+          .about-token-gating-platforms-text071 {
             color: rgb(0, 0, 0);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-token-gating-platforms-text075 {
+          .about-token-gating-platforms-text072 {
             color: #1e1e1e;
             line-height: 24px;
           }
@@ -1542,14 +1511,14 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: 0px;
           }
-          .about-token-gating-platforms-text076 {
+          .about-token-gating-platforms-text073 {
             color: #ffffff;
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: 16px;
           }
-          .about-token-gating-platforms-text077 {
+          .about-token-gating-platforms-text074 {
             color: rgb(238, 233, 254);
             line-height: 24px;
           }
@@ -1583,11 +1552,11 @@ closeButton.addEventListener("click", function() {
             align-items: center;
             flex-direction: column;
           }
-          .about-token-gating-platforms-text078 {
+          .about-token-gating-platforms-text075 {
             color: var(--dl-color-gray-white);
             text-align: center;
           }
-          .about-token-gating-platforms-text079 {
+          .about-token-gating-platforms-text076 {
             color: #eee9fe;
             width: 600px;
             text-align: center;
@@ -1600,7 +1569,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: center;
           }
-          .about-token-gating-platforms-text080 {
+          .about-token-gating-platforms-text077 {
             color: #eee9fe;
             width: 128px;
             font-style: normal;
@@ -1611,7 +1580,7 @@ closeButton.addEventListener("click", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             border-bottom-width: 2px;
           }
-          .about-token-gating-platforms-text081 {
+          .about-token-gating-platforms-text078 {
             color: #ffffff;
             width: 128px;
             font-style: normal;
@@ -1646,13 +1615,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .about-token-gating-platforms-text082 {
+          .about-token-gating-platforms-text079 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text083 {
+          .about-token-gating-platforms-text080 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1664,13 +1633,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-token-gating-platforms-text084 {
+          .about-token-gating-platforms-text081 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .about-token-gating-platforms-text085 {
+          .about-token-gating-platforms-text082 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1693,7 +1662,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text086 {
+          .about-token-gating-platforms-text083 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1710,7 +1679,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text087 {
+          .about-token-gating-platforms-text084 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1731,13 +1700,13 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .about-token-gating-platforms-text088 {
+          .about-token-gating-platforms-text085 {
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text089 {
+          .about-token-gating-platforms-text086 {
             color: rgb(0, 0, 0);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1749,13 +1718,13 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-token-gating-platforms-text093 {
+          .about-token-gating-platforms-text090 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
             font-weight: 600;
           }
-          .about-token-gating-platforms-text096 {
+          .about-token-gating-platforms-text093 {
             font-size: 15px;
             font-style: normal;
             font-weight: 600;
@@ -1778,7 +1747,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text097 {
+          .about-token-gating-platforms-text094 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1795,7 +1764,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text098 {
+          .about-token-gating-platforms-text095 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1812,7 +1781,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text099 {
+          .about-token-gating-platforms-text096 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1829,7 +1798,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text100 {
+          .about-token-gating-platforms-text097 {
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -1849,14 +1818,14 @@ closeButton.addEventListener("click", function() {
             justify-content: flex-start;
             background-color: #000000;
           }
-          .about-token-gating-platforms-text101 {
+          .about-token-gating-platforms-text098 {
             color: rgb(255, 255, 255);
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-token-gating-platforms-text102 {
+          .about-token-gating-platforms-text099 {
             color: rgb(255, 255, 255);
             line-height: 24px;
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1870,12 +1839,12 @@ closeButton.addEventListener("click", function() {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-template-blue-bg);
           }
-          .about-token-gating-platforms-text105 {
+          .about-token-gating-platforms-text102 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
           }
-          .about-token-gating-platforms-text108 {
+          .about-token-gating-platforms-text105 {
             color: #ffffff;
             font-size: 15px;
             font-style: normal;
@@ -1899,7 +1868,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text109 {
+          .about-token-gating-platforms-text106 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1917,7 +1886,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text110 {
+          .about-token-gating-platforms-text107 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1935,7 +1904,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text111 {
+          .about-token-gating-platforms-text108 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1953,7 +1922,7 @@ closeButton.addEventListener("click", function() {
             width: 8px;
             height: 8px;
           }
-          .about-token-gating-platforms-text112 {
+          .about-token-gating-platforms-text109 {
             color: #ffffff;
             font-size: 14px;
             font-style: normal;
@@ -1978,13 +1947,13 @@ closeButton.addEventListener("click", function() {
             margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .about-token-gating-platforms-text113 {
+          .about-token-gating-platforms-text110 {
             color: rgb(82, 40, 245);
             font-style: normal;
             font-weight: 600;
             margin-bottom: 24px;
           }
-          .about-token-gating-platforms-text114 {
+          .about-token-gating-platforms-text111 {
             text-align: left;
           }
           .about-token-gating-platforms-right1 {
@@ -2002,7 +1971,7 @@ closeButton.addEventListener("click", function() {
             display: flex;
             flex-direction: column;
           }
-          .about-token-gating-platforms-text115 {
+          .about-token-gating-platforms-text112 {
             cursor: pointer;
             display: none;
           }
@@ -2033,11 +2002,11 @@ closeButton.addEventListener("click", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sevenunits);
           }
-          .about-token-gating-platforms-text118 {
+          .about-token-gating-platforms-text115 {
             color: var(--dl-color-gray-white);
             text-align: left;
           }
-          .about-token-gating-platforms-text122 {
+          .about-token-gating-platforms-text119 {
             color: #eee9fe;
             line-height: 24px;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -2045,7 +2014,7 @@ closeButton.addEventListener("click", function() {
           .about-token-gating-platforms-get-started6 {
             margin-bottom: 0px;
           }
-          .about-token-gating-platforms-text123 {
+          .about-token-gating-platforms-text120 {
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -2056,7 +2025,7 @@ closeButton.addEventListener("click", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-token-gating-platforms-image1 {
+          .about-token-gating-platforms-image {
             width: 100%;
             object-fit: cover;
             user-select: none;
@@ -2103,11 +2072,11 @@ closeButton.addEventListener("click", function() {
               width: 100%;
               max-width: 1200px;
             }
-            .about-token-gating-platforms-text014 {
+            .about-token-gating-platforms-text011 {
               font-size: 36px;
               line-height: 40px;
             }
-            .about-token-gating-platforms-text018 {
+            .about-token-gating-platforms-text015 {
               font-size: 20px;
               margin-top: var(--dl-space-space-unit);
               line-height: 30px;
@@ -2115,19 +2084,19 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-cards {
               margin-top: var(--dl-space-space-fiveunits);
             }
-            .about-token-gating-platforms-text022 {
+            .about-token-gating-platforms-text019 {
+              line-height: 21px;
+            }
+            .about-token-gating-platforms-text021 {
+              line-height: 21px;
+            }
+            .about-token-gating-platforms-text023 {
               line-height: 21px;
             }
             .about-token-gating-platforms-text024 {
-              line-height: 21px;
-            }
-            .about-token-gating-platforms-text026 {
-              line-height: 21px;
-            }
-            .about-token-gating-platforms-text027 {
               font-size: 24px;
             }
-            .about-token-gating-platforms-text028 {
+            .about-token-gating-platforms-text025 {
               line-height: 21px;
             }
             .about-token-gating-platforms-container4 {
@@ -2157,7 +2126,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .about-token-gating-platforms-text079 {
+            .about-token-gating-platforms-text076 {
               width: 100%;
               max-width: 600px;
             }
@@ -2173,11 +2142,11 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .about-token-gating-platforms-text083 {
+            .about-token-gating-platforms-text080 {
               font-size: 16px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .about-token-gating-platforms-text085 {
+            .about-token-gating-platforms-text082 {
               font-size: 16px;
             }
             .about-token-gating-platforms-card1 {
@@ -2197,7 +2166,7 @@ closeButton.addEventListener("click", function() {
               align-items: center;
               margin-bottom: ThreeUnits;
             }
-            .about-token-gating-platforms-text114 {
+            .about-token-gating-platforms-text111 {
               font-size: 36px;
               text-align: center;
               line-height: 40px;
@@ -2222,7 +2191,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .about-token-gating-platforms-text118 {
+            .about-token-gating-platforms-text115 {
               font-size: 36px;
               line-height: 36px;
             }
@@ -2288,7 +2257,7 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .about-token-gating-platforms-text014 {
+            .about-token-gating-platforms-text011 {
               font-size: 36px;
               font-style: normal;
               font-weight: 700;
@@ -2299,19 +2268,19 @@ closeButton.addEventListener("click", function() {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
               flex-direction: column;
             }
-            .about-token-gating-platforms-text021 {
+            .about-token-gating-platforms-text018 {
               font-size: 24px;
             }
-            .about-token-gating-platforms-text022 {
+            .about-token-gating-platforms-text019 {
               font-size: 14px;
             }
             .about-token-gating-platforms-publish {
               margin-left: 0px;
             }
-            .about-token-gating-platforms-text023 {
+            .about-token-gating-platforms-text020 {
               font-size: 24px;
             }
-            .about-token-gating-platforms-text024 {
+            .about-token-gating-platforms-text021 {
               font-size: 14px;
             }
             .about-token-gating-platforms-container2 {
@@ -2321,13 +2290,13 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-analyze {
               margin-right: 0px;
             }
-            .about-token-gating-platforms-text025 {
+            .about-token-gating-platforms-text022 {
               font-size: 24px;
             }
-            .about-token-gating-platforms-text026 {
+            .about-token-gating-platforms-text023 {
               font-size: 14px;
             }
-            .about-token-gating-platforms-text028 {
+            .about-token-gating-platforms-text025 {
               font-size: 14px;
             }
             .about-token-gating-platforms-blog {
@@ -2347,7 +2316,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .about-token-gating-platforms-text068 {
+            .about-token-gating-platforms-text065 {
               line-height: 24px;
             }
             .about-token-gating-platforms-pills {
@@ -2362,7 +2331,7 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-heading1 {
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .about-token-gating-platforms-text070 {
+            .about-token-gating-platforms-text067 {
               margin-bottom: 0px;
             }
             .about-token-gating-platforms-headng {
@@ -2386,7 +2355,7 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-card {
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .about-token-gating-platforms-text082 {
+            .about-token-gating-platforms-text079 {
               font-size: 28px;
             }
             .about-token-gating-platforms-card1 {
@@ -2395,7 +2364,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .about-token-gating-platforms-text088 {
+            .about-token-gating-platforms-text085 {
               font-size: 28px;
             }
             .about-token-gating-platforms-card2 {
@@ -2403,7 +2372,7 @@ closeButton.addEventListener("click", function() {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .about-token-gating-platforms-text101 {
+            .about-token-gating-platforms-text098 {
               font-size: 28px;
             }
             .about-token-gating-platforms-testimonals {
@@ -2418,7 +2387,7 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-column1 {
               display: none;
             }
-            .about-token-gating-platforms-text115 {
+            .about-token-gating-platforms-text112 {
               display: flex;
               font-style: normal;
               margin-top: var(--dl-space-space-oneandhalfunits);
@@ -2438,11 +2407,11 @@ closeButton.addEventListener("click", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .about-token-gating-platforms-text118 {
+            .about-token-gating-platforms-text115 {
               font-size: 28px;
               text-align: left;
             }
-            .about-token-gating-platforms-text123 {
+            .about-token-gating-platforms-text120 {
               color: var(--dl-color-gray-white);
               font-size: 18px;
               font-style: normal;
@@ -2451,7 +2420,7 @@ closeButton.addEventListener("click", function() {
             .about-token-gating-platforms-images {
               justify-content: center;
             }
-            .about-token-gating-platforms-image1 {
+            .about-token-gating-platforms-image {
               width: 100%;
             }
           }

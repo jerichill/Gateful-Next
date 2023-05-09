@@ -1064,7 +1064,7 @@ Here's what the above is doing:
             flex-direction: column;
           }
           .demo-text009 {
-            color: var(--dl-color-primary-700);
+            color: var(--dl-color-gray-white);
             font-size: 60px;
             font-style: normal;
             text-align: center;
