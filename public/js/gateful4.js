@@ -120,7 +120,7 @@ const router = useRouter();
   
         const gatefulMainHeader = document.createElement("p");
         gatefulMainHeader.innerHTML =
-          "This is an example of a token-gated page requiring the user to hold a fraction of ETH to unlock the content.";
+          "This is an example of a token-gated page requiring the user to hold 1 Paperbag x REI NFT to unlock the content.";
   
         const gatefulSubMainHeader = document.createElement("p");
         gatefulSubMainHeader.innerHTML = "";
