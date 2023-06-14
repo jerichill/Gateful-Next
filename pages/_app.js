@@ -22,6 +22,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     'https://d3fvarydh99mx0.cloudfront.net/gateful.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful2.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful3.js',
+    'https://d3fvarydh99mx0.cloudfront.net/gateful4.js',
   ];
 
   const check = async () => {
@@ -30,9 +31,10 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     const result = await window?.checkAuth();
     const result2 = await window?.checkAuth2();
     const result3 = await window?.checkAuth3();
+    const result4 = await window?.checkAuth4();
 
-    console.log(result, "result", result2, "result2", result3, "result3");
-    if (result || result2 || result3 || result7) {
+    console.log(result, "result", result2, "result2", result3, "result3", result4, "result4");
+    if (result || result2 || result3 || result4) {
       setDisplayPages(true);
     }
   };
@@ -82,7 +84,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful.js" />
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful2.js" />
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
-        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful7.js" />
+        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful4.js" />
 
       </Head>
       {displayPages && <Component {...pageProps} />}
