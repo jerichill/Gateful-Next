@@ -22,7 +22,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
     'https://d3fvarydh99mx0.cloudfront.net/gateful.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful2.js',
     'https://d3fvarydh99mx0.cloudfront.net/gateful3.js',
-    'https://d3fvarydh99mx0.cloudfront.net/gateful4.js',
+    'https://gateful.io/js/gateful4.js',
   ];
 
   const check = async () => {
