@@ -84,7 +84,7 @@ export default function MyApp({ Component: Component, pageProps: pageProps }) {
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful.js" />
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful2.js" />
         <script src="https://d3fvarydh99mx0.cloudfront.net/gateful3.js" />
-        <script src="https://d3fvarydh99mx0.cloudfront.net/gateful4.js" />
+        <script src="https://gateful.io/js/gateful4.js" />
 
       </Head>
       {displayPages && <Component {...pageProps} />}
