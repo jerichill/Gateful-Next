@@ -2845,4 +2845,4 @@ Here's what the above is doing:
   )
 }
 
-export default Demo
+export default Paperbag
