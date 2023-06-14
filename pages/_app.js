@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import checkAuth from "../public/js/gateful.js";
 import checkAuth2 from "../public/js/gateful2.js";
 import checkAuth3 from "../public/js/gateful3.js";
-import checkAuth3 from "../public/js/gateful4.js";
+import checkAuth4 from "../public/js/gateful4.js";
 
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
