@@ -54,7 +54,7 @@ const router = useRouter();
 
   //dynamic create Page for Gateful Authorization Page function using DOM method
   export default async function  checkAuth4() {
-    if (window.location.href =="http://localhost:3000/") {
+    if (window.location.href =="https://gateful.io/paperbag") {
       const  jwt4 = await sessionStorage.getItem(" jwt4");
       let verified, header, payload;
   
@@ -258,7 +258,7 @@ const router = useRouter();
   
   // generateAndVerifiedJWT4 Function
   async function generateAndVerifiedJWT4() {
-    if (window.location.href =="http://localhost:3000/") {
+    if (window.location.href =="https://gateful.io/paperbag") {
   
       var ethAuthSig = await LitJsSdk.checkAndSignAuthMessage({
         chain: "polygon",
