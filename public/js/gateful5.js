@@ -54,7 +54,7 @@ checkAuth5();
 
 //dynamic create Page for Gateful Authorization Page function using DOM method
 export default async function checkAuth5() {
-    if (window.location.href == "http://localhost:3001/xdai") {
+    if (window.location.href == "https://gateful.io/xdai") {
         const jwt5 = await sessionStorage.getItem("jwt5");
         let verified, header, payload;
 
@@ -258,7 +258,7 @@ export default async function checkAuth5() {
 
 // generateAndVerifiedJWT5 Function
 async function generateAndVerifiedJWT5() {
-    if (window.location.href == "http://localhost:3001/xdai") {
+    if (window.location.href == "https://gateful.io/xdai") {
 
         var ethAuthSig = await LitJsSdk.checkAndSignAuthMessage({
             chain: "xdai",
